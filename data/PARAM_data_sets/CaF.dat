@@ -1,0 +1,9 @@
+*
+*  Optimize a single element
+*
+params=PM7.txt    cycles=50 PM7      ref=../soli
+alpb_Ca F
+Xfac_Ca F
+end  
+fluorite (CaF2)
+fluorite (CaF2) r

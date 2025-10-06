@@ -1,0 +1,125 @@
+*
+*  Optimize a single element
+*
+cycles=50 params=PM7.txt PM7 ref=../norm;../erra;../leve 
+(Tc)(all) 
+end  
+core-core_Tc - F near
+core-core_Tc - F far
+core-core_Tc - S near
+core-core_Tc - S far
+core-core_Tc - P near
+core-core_Tc - P far
+core-core_Tc - Cl near
+core-core_Tc - Cl far
+core-core_Tc - Tc near
+core-core_Tc - Tc near slope
+* Tc4
+* TcCl3 (+-)
+Technetium hexafluoride (Oh)
+Technetium hexafluoride (D3h)
+TcF6 2T2g
+TcF6 2A1g
+TcF6 2T1u
+tc(cp)(c6h6)r
+tc(cp)2c (vixrav) r
+tc(ii)(nh3)6r
+tc(vii)n6(+) (wacsau) r
+tc(v)n4o(-) (wacrun) r
+tc(iii)n4o2(-) (bewrie) r
+tc(v)n4o2(+) (niprin) r
+methyl technetium(vii) trioxider
+tc(cp)(co)3r
+tc(cp)(co)3 (kitdas) r
+tc(vii)o4(-) (amogis) r
+tco4r
+tc(co)5r
+tc(ii)(h2o)6r
+tc(co)6r
+tc(iii)o6 (kabmij) r
+tc(iv)o6 (vofhaz) r
+tcfr
+tcofr
+tc(co)5fr
+tcf3r
+tc(v)c4no(2-) (pafhaf) r
+tc(v)n2s2o2(+) (soxmib) r
+tc(v)s2o3(-) (asmete) r
+tc(vi)s3n3 (bumcer) r
+tc(v)s4o(-) (patxtc) r
+tc(v)s4o(-) (batmtc) r
+tcclr
+tc(cp)2cl (viclic) r
+tc(v)n2o3cl (dagsot) r
+tc(co)5clr
+tc(v)s3ocl (amomoe) r
+tc(iii)n4cl2(+) (yomrun) r
+tc(ii)n4cl2 (zopwac) r
+tc(iii)p4cl2(+) (bajdof10) r
+tccl3r
+tc(iii)n3cl3 (jevmay) r
+tc(v)cl4o(-) (vavvap01) r
+tc(iv)cl4p2 (lalgua) r
+tc(iv)s2cl4 (wajfod) r
+tc(iv)cl6(2-) (cimfej) r
+tcbrr
+tcobrr
+tc(co)5brr
+tcbr3r
+tc(vi)nbr4(-) (dannip) r
+tcir
+tcoir
+tc(co)5ir
+tci3r
+technetium, 6dg 4d(6)5s(1)
+technetium, 6sg 4d(5)5s(2)
+* technetium, 8pu
+technetium, atom
+tc(cp)(c6h6)
+tc(cp)2c (vixrav)
+tc(ii)(nh3)6
+tc(vii)n6(+) (wacsau)
+tc(v)n4o(-) (wacrun)
+tc(iii)n4o2(-) (bewrie)
+tc(v)n4o2(+) (niprin)
+tc(cp)(co)3
+tc(cp)(co)3 (kitdas)
+pertechnetate anion
+tc(vii)o4(-) (amogis)
+technetium pentacarbonyl, anion
+tc(ii)(h2o)6 6ag
+tc(ii)(h2o)6
+technetium hexacarbonyl, cation
+tc(iii)o6 (kabmij)
+tc(iv)o6 (vofhaz)
+technetium(iii) oxide fluoride
+tc(co)5f
+technetium(iii) trifluoride
+tc(v)c4no(2-) (pafhaf)
+tc(v)n2s2o2(+) (soxmib)
+tc(v)s2o3(-) (asmete)
+tc(vi)s3n3 (bumcer)
+tc(v)s4o(-) (patxtc)
+tc(v)s4o(-) (batmtc)
+technetium(i) chloride
+tc(cp)2cl (viclic)
+tc(v)n2o3cl (dagsot)
+tc(co)5cl
+tc(v)s3ocl (amomoe)
+tc(iii)n4cl2(+) (yomrun)
+tc(ii)n4cl2 (zopwac)
+technetium(iii) trichloride
+tc(iii)n3cl3 (jevmay)
+technetium(ii) tetrachloride 6a1
+tc(v)cl4o(-) (vavvap01)
+tc(iv)s2cl4 (wajfod)
+tc(iv)cl6(2-) (cimfej)
+technetium(i) bromide
+technetium(iii) oxide bromide
+tc(co)5br
+technetium(iii) tribromide
+tc(vi)nbr4(-) (dannip)
+technetium(i) iodide
+technetium(iii) oxide iodide
+tc(co)5i
+technetium(iii) triiodide

@@ -1,0 +1,221 @@
+*
+* Optimize a single element
+*
+cycles=50 params=../PM7.txt      PM7      ref=../norm;../erra;../leve 
+(Cu)(all) 
+end 
+core-core_Cu - H near
+core-core_Cu - H far
+core-core_Cu - C near
+core-core_Cu - C far
+core-core_Cu - N near
+core-core_Cu - N far
+core-core_Cu - O near
+core-core_Cu - O far
+core-core_Cu - F near
+core-core_Cu - F far
+core-core_Na - Cu near
+core-core_Na - Cu far
+core-core_Al - Cu near
+core-core_Al - Cu far
+core-core_Cu - P near
+core-core_Cu - P far
+core-core_Cu - S near
+core-core_Cu - S far
+core-core_Cu - Cl near
+core-core_Cu - Cl far
+core-core_Cu - Cu near
+core-core_Cu - Cu far
+core-core_Cu - Br near
+core-core_Cu - Br far
+core-core_Cu - I near
+core-core_Cu - I far
+core-core_Cu - W near
+core-core_Cu - W far
+core_Cu_0_0_9
+core_Cu_1_1_10
+core_Cu_2_6_10
+Cu4S8 (good)
+Cu4S8 (bad)
+cu(ii)2n2o2cl2s2 (bictai)
+CuS2I2 (good)
+CuS2I2 (Bad)
+* CuCl3 (+-)
+* CuCl2O2 (good)
+* CuCl2O2 (bad)
+CuBr3N (good).mop
+CuBr3N (bad).mop
+* CuBr3N (good 2).mop
+* CuBr3N (bad 2).mop
+* CuCl3N (good 2).mop
+* CuCl3N (bad 2).mop
+CuCl3N (good).mop
+CuCl3N (bad).mop
+* Cu(II)O2Cl2 (CETDCU10) (good).mop
+* Cu(II)O2Cl2 (CETDCU10) (bad).mop
+* Cu4Cl4N4 (good)
+* Cu4Cl4N4 (bad)
+* Cu4Br4N4 (good)
+* Cu4Br4N4 (bad)
+* CuS3I (good)
+* CuS3I (bad)
+* Cu-SO4 (good)
+* CuO-SO3 (bad)
+* CuBr6(4-) (good)
+* CuBr6(4-) (bad)
+Cu(CCH)2 (+-)
+* Cu(ii)F2 (Ref)
+* Cu(i)F2 (ani)
+* Cu(iii)F2 (cat)
+* CuF4(3-) Td 1A1
+* CuF4(3-) Td 3E
+* CuF6(3-) 9T1g.mop
+* CuF6(3-) 9A1u.mop
+* CuF6(3-) 9T2u.mop
+Cu4Cl4(NMe3)4 r.mop
+CuO2Cl2 r
+CuSCl r
+Cu(ii)F2(H2O)2r.mop
+Cu(ii)F2(H2O)2 a r.mop
+cuh_catr
+cuhr
+cuch3r
+cu_cat_nh3r
+cu_cat_ch2nhr
+cu_cat_ch3nh2r
+cu(ii)(nh3)4r
+cu(ii)n4(2+) (abucup) r
+cu(ii)(nh3)6r
+cu(ii)(en)3r
+cu-pcr
+cuor
+cuh2or
+cu_cat_h2or
+cu_cat_ch2or
+cu_cat_ch3ohr
+cu_(oh)2(h2o)r
+cu(i)(h2o)4r
+cu(ii)o4 (acaccu) r
+copper cis-diglycine r
+cu(ii)o4n2 (cuamac) r
+copper - 3n plus 2o r
+cu(ii)n4(2+) (bukpom) r
+cu(iii)n4(-) (bipluh) r
+cu(ii)(h2o)6r
+cu(ii)(no3)2r
+cu(ii)o4n2 (abcopd) r
+cu(ii)o4n2 (aznicu) r
+cu(ii)n4o2 (copden) r
+cu(ii)o4(2-) (caclib) r
+cufr
+* cuofr
+cu(ii)f3r
+cuf4(2-)r
+cu(ii)f4(h2o)2r
+cusr
+copper hydrogen sulfide r
+cu_cat_h2sr
+cu_cat_ch3shr
+cu(sh)2r
+Cu3Cl3(Me3P=S)3 r
+cuclr
+* cuoclr
+methyl copper(ii) dichlorider
+cu(ii)n2cl2 (aepycc10) r
+cu(ii)n3cl2 (clazcu) r
+cu(ii)cl2(h2o)2r
+cu(ii)o2cl2 (cetdcu10) r
+cu(ii)cl2o2n2 (aqcycu) r
+cu(ii)cl2s2 (bosmif) r
+cu(ii)cl3r
+cu(ii)cl4(2-) (agawio) r
+cucl4(2-)r
+* cu2r
+cu(ii)2o10 (acurcu02) r
+cu(ii)2n2o2cl2s2 (bictai) r
+cu(ii)2cl6(2-) (bpyccu) r
+copper(i) chloride, trimer r
+cubrr
+cuobrr
+cu(ii)s3n2br(+) (brucua) r
+cu(ii)n2br2 (btmecu) r
+cu(ii)n2br2 (baepyc) r
+cu(ii)n3br2 (bazncu) r
+cubr2(me2ncss)r
+cu(ii)br3r
+cu(ii)br4(2-) (ahuvuu) r
+cubr4(2-)r
+cu(i)2br4(2-) (ceywae) r
+cu(ii)2n2br4 (bpyrcu) r
+cu(ii)2n4br4 (bglxcu) r
+cu(ii)4br10(2-) (civnaw10) r
+cuir
+cuoir
+cui4(2-)r
+cu(i)2i4(2-) (biymif) r
+copper (+)
+* copper(+) 1dg 3d(9)4s(1)
+* copper(+) 3dg 3d(9)4s(1)
+* copper(+) 3fg 3d(8)4s(2)
+* copper 2dg 3d(9)4s(2)
+* copper 2sg 3d(10)4s(1)
+copper, atom
+copper hydride
+cu(ii)(nh3)4
+cu(ii)(nh3)6
+cu(ii)(cn)6 2eg
+cu(acac)2
+cu(ii)o4 (acaccu)
+* copper(ii) cis-diglycine
+* copper(ii) cis-diglycine (bad)
+cu(ii)o4n2 (cuamac)
+cu(iii)n4(-) (bipluh)
+cu(ii)(h2o)6
+cu(ii)o4n2 (aznicu)
+cu(ii)n4o2 (copden)
+cu(ii)o4(2-) (caclib)
+copper fluoride
+copper(i) fluoride
+copper(iii) oxide fluoride
+copper difluoride
+copper(ii) trifluoride, anion
+* copper(ii) tetrafluoride, dianion
+* copper(ii) tetrafluoride, dianion (td)
+copper hydrogen sulfide
+cu(sh)2
+copper chloride
+copper(i) chloride
+copper(iii) oxide chloride
+cu(ii)n2cl2 (aepycc10)
+cu(ii)n3cl2 (clazcu)
+cu(ii)o2cl2 (cetdcu10)
+cu(ii)cl2o2n2 (aqcycu)
+cu(ii)cl2s2 (bosmif)
+copper(ii) trichloride, anion
+copper(ii) tetrachloride, dianion
+* cucl4(2-) d4h
+* cucl4(2-) td
+cu(ii)cl6 2eg
+* copper dimer
+cu(ii)2o10 (acurcu02)
+cu(ii)2n2o2cl2s2 (bictai)
+* cu(ii)2cl6(2-) (bpyccu)
+cu3cl3
+copper(i) bromide
+copper(iii) oxide bromide
+cu(ii)s3n2br(+) (brucua)
+cu(ii)n2br2 (btmecu)
+* cu(ii)n2br2 (ref)
+* cu(ii)n2br2 (baepyc) (bad)
+cu(ii)n2br2 (baepyc)
+cu(ii)n3br2 (bazncu)
+copper(ii) tribromide, anion
+copper(ii) tetrabromide, dianion
+cu(ii)br4(2-) (ahuvuu)
+cu(i)2br4(2-) (ceywae)
+cu(ii)2n2br4 (bpyrcu)
+cu(ii)4br10(2-) (civnaw10)
+copper(i) iodide
+copper(iii) oxide iodide
+copper(ii) tetraiodide, dianion
+cu(i)2i4(2-) (biymif)

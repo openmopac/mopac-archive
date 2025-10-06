@@ -1,0 +1,140 @@
+*
+*  Optimize a single element
+*
+ cycles=50 params=PM7.txt          PM7  ref=../norm;../erra;../leve 
+ (Nb)(all) 
+end  
+niobium hexafluoride (Oh)
+niobium hexafluoride (D3h)
+core-core_Nb - C near
+core-core_Nb - C far
+core-core_Nb - O near
+core-core_Nb - O far
+core-core_Nb - F near
+core-core_Nb - F far
+core-core_Nb - Cl near
+core-core_Nb - Cl far
+core-core_K - Nb near
+core-core_K - Nb far
+core-core_Nb - Br near
+core-core_Nb - Br far
+core-core_Nb - Nb near
+core-core_Nb - Nb near slope
+core-core_Nb - I near
+core-core_Nb - I far
+core_Nb_1_3_4
+* Nb2C10I4(+) (good)
+* Nb2C10I4(+) (bad)
+* Nb4F20 (good)
+* Nb4F20 (bad)
+* Nb4F20 (bad 2)
+NbF6(=) 2A1g
+NbF6(=) 2T1u
+nb(cp)2r
+nb(ii)(nh3)6r
+nb(cn)6r
+nbor
+methyl niobium(v) oxide dihydroxide r
+nb(oet)3or
+nb(cp)(co)4 (cpnbco01) r
+nb(ii)(h2o)6r
+nb(co)6r
+nb(v)o7(-) (csoxnb) r
+nbfr bad
+nb(ch3)2fr
+niofr
+nbf3r
+nbof3r
+nb(v)f6(-) (jiybuo) r
+nbf6r
+nbsr
+nb(cp)2cs (cpnbcs) r
+nb(iv)(cp)2s2 (hunseo) r
+nb(v)s4(3-) (jumnag) r
+nb(ch3)2clr
+nboclr
+nb(cp)2s2cl (bapkuy) r
+nb(cp)cl2n (jiymaf10) r
+nbcl3r
+nbocl3r
+nb(v)cl3n2o (acynnb10) r
+nb(iv)cl4n2 (cyanba) r
+nb(v)cl4o2 (wigkig) r
+nb(iv)cl4p2 (cuhvik) r
+nbcl5r
+nb(v)cl5n (cfntnb) r
+nb(v)cl6(-) (siwlal) r
+nb(v)cl5n (nuydam) r
+nb(ch3)2brr
+nbobr3r
+nbs3br3 (canbey) r
+nbbr3r
+nbbr5r
+nb(v)br6r
+nb6cl12, dication r
+nb6br12, dication r
+nbir
+nb(ch3)2ir
+nbi3r
+nboi3r
+nbi4r
+nbi6r
+niobium(+), 5d(g) 4d(4)
+niobium(+), 5f(g) 4d(3)5s(1)
+niobium, cation
+niobium, 2d(g) 4d(3)5s(2)
+niobium, 4d(g) 4d(4)5s(1)
+niobium, 4f(g) 4d(3)5s(2)
+niobium, 4f(g) 4d(4)5s(1)
+niobium, 4f(g)
+niobium, 4p(g) 4d(3)5s(2)
+niobium, 6d(g) 4d(4)5s(1)
+niobium, atom
+dicyclopentadienyl niobium(ii)
+nb(ii)(nh3)6
+niobium hexanitrile, anion
+niobium(ii) oxide
+niobium(v) tri-ethoxide oxide
+nb(cp)(co)4 (cpnbco01)
+nb(ii)(h2o)6
+niobium hexacarbonyl, anion
+dimethyl niobium fluoride
+niobium(iii) oxide fluoride
+niobium(iii) trifluoride
+niobium(v) oxide trifluoride
+nb(v)f6(-) (jiybuo)
+niobium(v) hexafluoride, anion
+niobium(ii) sulfide
+nb(cp)2cs (cpnbcs)
+nb(iv)(cp)2s2 (hunseo)
+nb(v)s4(3-) (jumnag)
+dimethyl niobium chloride
+niobium(iii) oxide chloride
+nb(cp)2s2cl (bapkuy)
+nb(cp)cl2n (jiymaf10)
+niobium(iii) trichloride
+niobium(v) oxide trichloride
+nb(v)cl3n2o (acynnb10)
+niobium(v) tetrachloride, cation
+nb(iv)cl4n2 (cyanba)
+nb(v)cl4o2 (wigkig)
+niobium(v) pentachloride
+nb(v)cl5n (cfntnb)
+niobium(v) hexachloride
+nb(v)cl5n (nuydam)
+dimethyl niobium bromide
+niobium(iii) tribromide
+niobium(v) oxide tribromide
+nbs3br3 (canbey)
+niobium(v) tetrabromide, cation
+niobium(v) pentabromide
+niobium(v) hexabromide, anion
+nb(iv)br6 2t2g
+nb6cl12, dication
+nb6br12, dication
+niobium(i) iodide
+dimethyl niobium iodide
+niobium(iii) triiodide
+niobium(v) oxide triiodide
+niobium(v) tetraiodide, cation
+niobium(v) hexaiodide

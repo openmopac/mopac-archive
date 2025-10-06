@@ -1,0 +1,124 @@
+cycles=40 params=pm7.txt PM7 ref=../norm;../erra;../leve;../soli
+(W)(all)
+end
+core-core_W - O near
+core-core_W - O far
+core-core_W - F near
+core-core_W - F far
+core-core_Na - W near
+core-core_Na - W far
+core-core_Mg - W near
+core-core_Mg - W far
+core-core_W - Cl near
+core-core_W - Cl far
+core-core_K - W near
+core-core_K - W far
+core-core_K - W near
+core-core_Ca - W near
+core-core_Ca - W far
+core-core_Fe - W near
+core-core_Fe - W far
+core-core_Zn - W near
+core-core_Zn - W far 
+core-core_W - Br near
+core-core_W - Br far
+core-core_Zr - W near
+core-core_Zr - W far 
+core-core_Cs - W near
+core-core_Cs - W far
+core-core_Ba - W near
+core-core_Ba - W far
+core-core_W - W near
+core-core_W - W far
+core-core_Pb - W near
+core-core_Pb - W far
+core_W_1_2_3
+W(IV)2Cl4O6 (BAKFAU) (good).mop
+W(IV)2Cl4O6 (BAKFAU) (bad)
+* W6Br18 (good)
+* W6Br18 (bad)
+WCl6(-) (Oh) 2T1u.mop
+WF6(-) (Oh) 2T2g
+WF6(-) (Oh) 2A1g
+WF6(-) (Oh) 2T1u
+* WO4(2-) (Td) (Good)
+* WO4(2-) (bad)
+* WBr4N2 (good).mop
+* WBr4N2 (bad).mop
+* W(CO5)Cl(-) (good).mop
+* W(CO5)Cl(-) (bad).mop
+* W (NANQEY) (Good)
+* W (NANQEY) (bad)
+* tungsten hexafluoride (Oh).mop
+* tungsten hexafluoride (D3h)
+WC5Cl_(CPECOW) r.mop
+w(c6h6)2r
+bicyclopentadienyl ethylene tungsten r
+w(cp)2c (batkiq) r
+w(ii)(nh3)6r
+dimethyl tungsten(vi) dioxider
+w(ii)(h2o)6r
+w(co)6r
+wfr
+wo2f2r
+wf5r
+wf6r
+wc5p (befbod) r
+wsf3r
+wf4sn (cagber) r
+w(cp)c3cl (bacfam) r
+w(cp)2cl2(+) (jutpet)
+wo2cl2r
+wocl4r
+wcl6r
+wbrr
+wc6 (bmcbcw) r
+wo2br2r
+wir
+wo2i2r
+wc3i2p (bogbii) r
+wi6r
+w2(co)10 dianion r
+w(iv)2cl4o6 (bakfau) r
+tungsten, cation
+tungsten 5dg 5d(4)6s(2)
+tungsten 7s(g) 6s(1)5d(5)
+tungsten, atom
+bicyclopentadienyl tungsten dihydride
+dibenzene tungsten
+w(cp)2c (batkiq)
+w(ii)(nh3)6
+tungsten trioxide
+1,3,5-trimethylbenzene tungsten tricarbonyl
+tungstic acid (wo2(oh)2)
+pyridine tungsten(vi) pentacarbonyl
+piperidine tungsten(vi) pentacarbonyl
+w(ii)(h2o)6
+tungsten hexacarbonyl
+tungsten(i) fluoride
+tungsten(vi) difluoride dioxide
+tungsten(vi) dioxide difluoride
+tungsten(vi) oxide tetrafluoride
+tungsten(v) pentafluoride
+tungsten hexafluoride
+tungsten(vi) sulfide trifluoride
+wf4sn (cagber)
+tungsten(i) chloride
+w(cp)c3cl (bacfam)
+bicyclopentadienyl tungsten dichloride
+tungsten(vi) dichloride dioxide
+tungsten(vi) dioxide dichloride
+tungsten(vi) oxide tetrachloride
+tungsten hexachloride
+tungsten(i) bromide
+wc6 (bmcbcw)
+bicyclopentadienyl tungsten dibromide
+tungsten(vi) dibromide dioxide
+tungsten(vi) dioxide dibromide
+tungsten(vi) hexabromide
+tungsten(i) iodide
+bicyclopentadienyl tungsten iodide hydride
+bicyclopentadienyl tungsten diiodide
+tungsten(vi) diiodide dioxide
+w2(co)10 dianion
+w(iv)2cl4o6 (bakfau)

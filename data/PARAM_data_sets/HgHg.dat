@@ -1,0 +1,9 @@
+*
+*  Optimize a single element
+*
+ cycles=10 params=../PM7.txt PM7 ref=../norm;../erra;../leve;../soli
+xfac_Hg Hg
+alpb_Hg Hg
+end  
+Mercury (Hg) r
+Mercury (Hg)

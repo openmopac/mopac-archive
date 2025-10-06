@@ -1,0 +1,193 @@
+*
+*  Optimize a single element
+*
+cycles=50 PM7      ref=../norm;../erra;../leve params=../PM7.txt 
+(Ge)(all) 
+end  
+core_Ge_0_5
+core-core_Ge - C near
+core-core_Ge - C far 
+core-core_Ge - N near
+core-core_Ge - N far
+core-core_Ge - O near
+core-core_Ge - O far
+core-core_Ge - F near
+core-core_Ge - F far 
+core-core_Ge - Cl near
+core-core_Ge - Cl far 
+core-core_Ge - Ge near
+core-core_Ge - Ge near slope
+core-core_Ge - Se near
+core-core_Ge - Se far 
+core-core_Ge - Br near
+core-core_Ge - Br far
+core-core_Ge - Te near
+core-core_Ge - Te far
+core-core_Ge - I near
+core-core_Ge - I far
+germanium, 3p(g) 4s(2)4p(2)
+germanium, 2 3p(g) 4s(1)4p(3)
+* Ge6(Me)12 (good)
+* Ge6(Me)12 (bad)
+Germanocene (good)
+Germanocene (bad)
+geh4r
+geh3ch3r
+geeth3r
+geme2h2r
+geme3hr
+geme4r
+geh3cnr
+geh3n3r
+geor
+geh3ncor
+geo6(+) (acacge) r
+gefr
+geh3fr
+ch3geh2fr
+geno3f (gaqmeq) r
+gen4f(-) (beglii) r
+gef2r
+geme2f2r
+gec2o2f2 (libzax) r
+gemef3r
+gef4n2 (humcoh) r
+gef6(2-) (iwoqoa) r
+gec3f2(-) (fexfuj) r
+geh3sih3r
+gef3-sif3r
+gesr
+geh3ncsr
+geh3spf2r
+gec2s2 (asowag) r
+geh3clr
+geclme3r
+geo4cl(-) (cldxge) r
+gef3clr
+ges2o2cl(-) (cutkor) r
+gecl2 (dioxgc) r
+gecl2r
+geme2cl2r
+gecl2s2 (cttger) r
+gecl3(-) (fassuo) r
+gehcl3r
+gemecl3r
+geccl3 (bosbiu01) r
+gecl4r
+mn(co)5ge (busvoa) r
+ge2h6r
+(geme3)2r
+ge2me6or
+f2p2ge2h6r
+ge2c4cl4 (cgechd10) r
+pge3h9r
+ge3c3cl6 (fitgof) r
+geh3brr
+geme3brr
+geo3br (buwcur) r
+geo4br(-) (cutlae) r
+gec2s2br (kadkop) r
+gebr2r
+gemebr3r
+gebr4r
+gen2br4 (bomqoj) r
+ge2br6c (cojloc) r
+geh3-snh3r
+geh3ir
+geo2i (iacger) r
+gec2s2i (kadkuv) r
+geci3 (cudkiv) r
+geci3 (bafnig) r
+gei4 (jedxev) r
+gei4r
+ge2c4i4 (igechd10) r
+germanium, 1d(g) 4s(2)4p(2)
+germanium, 1s(g) 4s(2)4p(2)
+germanium, 3p(g) 4s(2)4p(2)
+germanium, 5s(u) 4s(1)4p(3)
+germanium, atom
+germane
+* germanium carbide
+methylgermane
+germylacetylene
+dimethylgermane
+trimethylgermanium, cation
+trimethylgermanium
+trimethylgermane
+tetramethylgermanium
+t-butyltrimethylgermane
+tetraethylgermanium
+tetrapropylgermanium
+tetraphenylgermanium
+triphenyl phenylethynyl germanium
+tetrabenzyl germanium
+cyanogermane
+dimethylaminetrimethylgermane
+germylazide
+germanium oxide
+methoxytrimethylgermane
+ethoxytrimethylgermane
+dimethoxydimethylgermane
+trimethoxymethylgermane
+tetramethoxygermanium
+tetraethoxygermanium
+geo6(+) (acacge)
+germanium fluoride
+fluorogermane
+geno3f (gaqmeq)
+gen4f(-) (beglii)
+germanium difluoride
+gec2o2f2 (libzax)
+methyltrifluorogermane
+germanium tetrafluoride
+gef4n2 (humcoh)
+gef6(2-) (iwoqoa)
+gec3f2(-) (fexfuj)
+germanium sulfide
+gec2s2 (asowag)
+germanium chloride
+chlorogermane
+trimethylchlorogermane
+geo4cl(-) (cldxge)
+ges2o2cl(-) (cutkor)
+gecl2 (dioxgc)
+germanium dichloride
+dimethylgermanium dichloride
+gecl2s2 (cttger)
+gecl3(-) (fassuo)
+trichloromethylgermane
+geccl3 (bosbiu01)
+germanium tetrachloride, cation
+germanium tetrachloride
+* germanium, dimer
+digermane
+hexamethyl digermane
+hexaethyl digermane
+hexaphenyldigermane
+bis(trimethylgermanium) oxide
+(c6h5)3ge-o-ge(c6h5)3
+ge2c4cl4 (cgechd10)
+trigermane
+trigermylamine
+ge3c3cl6 (fitgof)
+germanium bromide
+bromogermane
+trimethylbromogermane
+geo3br (buwcur)
+geo4br(-) (cutlae)
+gec2s2br (kadkop)
+germanium dibromide
+tribromovinylgermane
+germanium tetrabromide
+gen2br4 (bomqoj)
+ge2br6c (cojloc)
+geme3-snme3
+iodogermane
+geo2i (iacger)
+gec2s2i (kadkuv)
+germanium diiodide
+geci3 (cudkiv)
+geci3 (bafnig)
+gei4 (jedxev)
+germanium tetraiodide
+ge2c4i4 (igechd10)

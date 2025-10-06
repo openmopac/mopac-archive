@@ -1,0 +1,10 @@
+*
+*  Optimize core-core terms for a solid
+*
+PM7 1scf large ref=../soli 
+alpb_Na Br
+xfac_Na Br
+end  
+NaBr(s) r
+NaBr(s)
+

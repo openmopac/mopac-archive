@@ -1,0 +1,141 @@
+cycles=50 params=../PM7.txt PM7 ref=../norm;../erra;../leve 
+(Ru)(all)
+end
+core-core_Ru - O near
+core-core_Ru - O far
+core-core_Ru - F near
+core-core_Ru - F far
+core-core_Ru - Cl near
+core-core_Ru - Cl far
+core-core_Ru - Br near
+core-core_Ru - Br far
+core-core_Ru - Ru near
+core-core_Ru - Ru far
+core-core_Ru - Sb near
+core-core_Ru - Sb far
+core_Ru_2_0_10
+core_Ru_2_6_10
+RuO4
+* Ru(CO)5 (D3h) (Ref)
+* Ru(CO)5 (C4v) (Bad)
+RuF6(+) 2T1u
+ru(cp)2 (cycpru07) r
+ru(cp)2r
+ruc10 (jodlix) r
+ruc10 (cejlos) r
+ruc10 (bepjip) r
+ru(ii)(nh3)6r
+ru(iii)n6(3+) (nefyay) r
+ru(ii)n6(2+) (viymiz) r
+[ru(nh3)5h2o]++ r
+methyl ruthenium(iii) dihydroxider
+ru(ii)(c6h6)(h2o)3(2+) (gawted) r
+ru(iii)o3n3(2+) (gokbir) r
+ru(cn)3(co)3(-) (xihweq) r
+ru(co)4c2h4r
+ru(co)5r
+ru(ii)(h2o)6(2+) (bonpez) r
+ru(ii)(h2o)6r
+ru(co)3(h2o)3(2+) (gozyoj01) r
+ru(acac)2_2h2or
+ru(iii)o6 (acacru) r
+ru(no2)4(co)(h2o)(2+) (ilevok) r
+ru(iii)(ox)3(3-) (duknom) r
+rufr
+ruof2r
+ruf3r
+ru(cp)(co)cp (cimxax) r
+ru(co)4(pet3)r
+ru(0)p5 (dowfie) r
+ruclr
+[ru(nh3)5cl]++ r
+run4scl(+) (lunxoh) r
+ru(iv)s6cl (etccru) r
+ruocl2r
+ru(co)3cl2(h2o) (oluwun) r
+ru(co)3cl2o (zuhbej) r
+rucl3r
+ru(iii)n3cl3 (pidmuk) r
+ru(co)3cl3 (deyjog) r
+ru(co)3cl3(-) (jeduui) r
+rucl4n2 (mawfar) r
+ru(iii)cl4n2(-) (jaysor) r
+ru(iii)n2cl4(-) (fumwit) r
+ru(iv)cl6(2-) (yarrep) r
+ru(iii)cl6(3-) (yojbuu01) r
+rubrr
+ru(cp)(co)2br (bupnop) r
+ruobr2r
+run2(co)2br2 (tawvoc) r
+ru(iii)n3br3 (pidnar) r
+ru2r
+ru2(c8h8)(co)6r
+ru2(co)8 dianion r
+ruir
+ruc9i (bepjel) r
+ru(cp)2i(+) (rutcit10) r
+ru(co)3(c3h6)ir
+run2(co)2i2 (tawvui) r
+ru(co)4i2 (fojbip) r
+ru(co)4i2r
+ru(iii)n3i3 (pidnev) r
+ruthenium, 5d(g) 4d(6)5s(2)
+ruthenium, 5f(g) 4d(7)5s(1)
+ruthenium, 5p(g) 4d(7)5s(1)
+ruthenium, atom
+ru(cp)2 (cycpru07)
+ruthenocene
+ruc10 (jodlix)
+ruc10 (cejlos)
+ruc10 (bepjip)
+ru(ii)(nh3)6
+ru(iii)n6(3+) (nefyay)
+ru(iii)(cn)6 2t2g
+ru(ii)n6(2+) (viymiz)
+ru(ii)(c6h6)(h2o)3(2+) (gawted)
+ru(iii)o3n3(2+) (gokbir)
+ru(cn)3(co)3(-) (xihweq)
+ethylene ruthenium tetracarbonyl
+ruthenium pentacarbonyl
+ru(ii)(h2o)6(2+) (bonpez)
+ru(ii)(h2o)6
+ru(co)3(h2o)3(2+) (gozyoj01)
+ru(acac)2_2h2o
+ru(iii)o6 (acacru)
+ru(c4h4n2coo)2(h2o)2
+ru(iii)(ox)3(3-) (duknom)
+ruthenium(i) fluoride
+ruthenium(iv) oxide difluoride
+ruthenium(iii) trifluoride
+ru(iii)f6 2t2g
+ru(co)4(pet3)
+ruthenium(i) chloride
+run4scl(+) (lunxoh)
+ru(iv)s6cl (etccru)
+ruthenium(iv) oxide dichloride
+ru(co)3cl2(h2o) (oluwun)
+ru(co)3cl2o (zuhbej)
+ruthenium(iii) trichloride
+ru(iii)n3cl3 (pidmuk)
+ru(co)3cl3 (deyjog)
+rucl4n2 (mawfar)
+ru(iii)cl4n2(-) (jaysor)
+ru(iii)n2cl4(-) (fumwit)
+ru(iv)cl6(2-) (yarrep)
+ru(iii)cl6(3-) (yojbuu01)
+ruthenium(i) bromide
+ru(cp)(co)2br (bupnop)
+ruthenium(iv) oxide dibromide
+run2(co)2br2 (tawvoc)
+ru(iii)n3br3 (pidnar)
+ruthenium, dimer
+ru2(co)8 dianion
+ruthenium(i) iodide
+ruc9i (bepjel)
+ru(cp)2i(+) (rutcit10)
+ru(co)3(c3h6)i
+ruthenium(iv) oxide diiodide
+run2(co)2i2 (tawvui)
+ru(co)4i2 (fojbip)
+ru(co)4i2
+ru(iii)n3i3 (pidnev)

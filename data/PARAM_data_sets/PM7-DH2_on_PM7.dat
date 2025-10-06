@@ -1,0 +1,116 @@
+ parab=2 all pm7-DH2 ref=../erra fine   params=tests.rp 
+ fn11 Bk   0 20
+ fn12 Bk   0 20
+ fn13 Bk   0 20
+ fn21 Bk   0 20
+ fn22 Bk   0 20
+ fn23 Bk   0 20
+end
+08_ch4_dimer_r
+16_ethylene_acetylene_r
+09_ethylene_dimer_r
+10_benzene_methane_r
+11_benzene_dimer_stack_r
+20_benzene_dimer_t_r
+18_benzene_nh3_r
+01_nh3_dimer r
+17_benzene_h2o_r
+06_pyridoxine_aminopyridine r
+02_water_dimer r
+24_methanol_formaldehyde_r
+23_methanol_dimer_r
+22_phenol_dimer r
+04_formamide_dimer r
+07_adenine_thymine_wc r
+07_adenine_thymine_wc_r
+15_adenine_thymine_stack_r
+a0_guanine-cytosine_wc_r
+a1_guanine-cytosine_stacked_r
+03_formic_acid_dimer r
+05_uracil_hb r
+13_uracil_dimer_stack_r
+adenine-4-thiouracil_r
+6-thioguanine_cytosine_r
+6-thioguanine-guanine_r
+2-thiouracil_2-thiouracil_r
+08_ch4_dimer_well_separated
+08_ch4_dimer
+08_ch4_dimer_well_separated
+16_ethylene_acetylene_well_separated
+16_ethylene_acetylene
+16_ethylene_acetylene_well_separated
+09_ethylene_dimer_well_separated
+09_ethylene_dimer
+09_ethylene_dimer_well_separated
+10_benzene_methane_well_separated
+10_benzene_methane
+10_benzene_methane_well_separated
+11_benzene_dimer_stack_well_separated
+11_benzene_dimer_stack
+11_benzene_dimer_stack_well_separated
+20_benzene_dimer_t_well_separated
+20_benzene_dimer_t
+20_benzene_dimer_t_well_separated
+18_benzene_nh3_well_separated
+18_benzene_nh3
+18_benzene_nh3_well_separated
+19_benzene_hcn_well_separated
+19_benzene_hcn
+19_benzene_hcn_well_separated
+14_indole_benzene_stack_well_separated
+14_indole_benzene_stack
+14_indole_benzene_stack_well_separated
+21_indole_benzene_t_well_separated
+21_indole_benzene_t
+21_indole_benzene_t_well_separated
+01_nh3_dimer separated
+01_nh3_dimer
+12_pyrazine_dimer_well_separated
+12_pyrazine_dimer
+12_pyrazine_dimer_well_separated
+17_benzene_h2o_well_separated
+17_benzene_h2o
+17_benzene_h2o_well_separated
+06_pyridoxine_aminopyridine separated
+06_pyridoxine_aminopyridine
+02_water_dimer separated
+02_water_dimer
+24_methanol_formaldehyde_well_separated
+24_methanol_formaldehyde
+24_methanol_formaldehyde_well_separated
+23_methanol_dimer_well_separated
+23_methanol_dimer
+23_methanol_dimer_well_separated
+22_phenol_dimer separated
+22_phenol_dimer
+04_formamide_dimer separated
+04_formamide_dimer
+07_adenine_thymine_wc separated
+07_adenine_thymine_wc
+15_adenine_thymine_stack separated
+15_adenine_thymine_stack
+a0_guanine-cytosine_wc_well_separated
+a0_guanine-cytosine_wc
+a0_guanine-cytosine_wc_well_separated
+a1_guanine-cytosine_stacked_well_separated
+a1_guanine-cytosine_stacked
+a1_guanine-cytosine_stacked_well_separated
+03_formic_acid_dimer separated
+03_formic_acid_dimer
+05_uracil_hb separated
+05_uracil_hb
+13_uracil_dimer_stack_well_separated
+13_uracil_dimer_stack
+13_uracil_dimer_stack_well_separated
+adenine-4-thiouracil_separated
+adenine-4-thiouracil
+adenine-4-thiouracil_separated
+6-thioguanine_cytosine_separated
+6-thioguanine_cytosine
+6-thioguanine_cytosine_separated
+6-thioguanine-guanine_separated
+6-thioguanine-guanine
+6-thioguanine-guanine_separated
+2-thiouracil_2-thiouracil_separated
+2-thiouracil_2-thiouracil
+2-thiouracil_2-thiouracil_separated

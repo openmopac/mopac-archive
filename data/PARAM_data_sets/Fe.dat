@@ -1,0 +1,180 @@
+  cycles=40  params=../PM7.txt PM7 ref=../norm;../erra;../leve;../soli
+alpb_Fe Fe 1 4
+(Fe)(all)
+end
+Fe(CO)5 (D3h)
+Fe(CO)5 (C4v)
+core-core_Fe - H near
+core-core_Fe - H far
+core-core_Fe - C near
+core-core_Fe - C far
+core-core_Fe - O near
+core-core_Fe - O far
+core-core_Fe - F near
+core-core_Fe - F far
+core-core_Fe - Si near
+core-core_Fe - Si far
+core-core_Fe - S near
+core-core_Fe - S far
+core-core_Fe - P near
+core-core_Fe - P far
+core-core_Fe - Cl near
+core-core_Fe - Cl far
+core-core_K - Fe near
+core-core_K - Fe far
+core-core_Fe - Ti near
+core-core_Fe - Ti far
+core-core_Fe - Cr near
+core-core_Fe - Cr far
+core-core_Fe - Fe near
+core-core_Fe - Fe far
+core-core_Fe - Br near
+core-core_Fe - Br far
+core-core_Fe - Mo near
+core-core_Fe - Mo far
+core-core_Fe - I near
+core-core_Fe - I far
+core-core_Fe - W near
+core-core_Fe - W far
+Fe(III)F6 6E(g)
+Fe(III)F6 6T2(u)
+Fe(III)F6 6A1(g)
+Diaqua-bis(a-pyridinecarboxylato)-iron(ii)_(TUBWES) r
+bis(Pyridine)-tetra-aqua-iron(ii)_(NEJBOT01) r
+bis(beta-dimethylcysteinyl)-iron_(LERJIB) r
+Aqua-(ethylenediaminetriacetatoacetic_acid-N,N',O,O',O'')-iron(iii)_(EDTAFE10) r
+Aqua-chloro-bis(a-picolinato-N,O)-iron(iii)_(ACPICF) r
+Dichloro-(N-(2-salicylidene-ethyl)ethanolaminato)-iron(iii)_(WIQMOY) r
+Fe(III)O2N2Cl2_(WIQMOY) r
+tris(N-Methylformothiohydroxamato)-iron(iii) (TFORHI10) r
+tris(2-Mercaptopyridine N-oxide)-iron(iii) (PEDKEO) r
+Aqua-(1,10-phenanthroline-N,N')-trichloro-iron(iii)
+Trichloro-(1,4,7-trithiacyclononane)-iron(iii) r
+Trichloro-(N,N',N''-trimethyl-triazacyclohexane-N,N',N'')-iron(iii) r
+Trichloro-bis(trimethylamine)-iron r
+cis-Dicyanotetra(methylisocyanide) iron(ii) (CNMCFE) r
+feh_catr
+fehr
+fe(iii)cp2(+) (ferric) r
+fe(c5h5)2r
+fe_tol_bipyr
+fe(ii)(nh3)6r
+fe(ii)(en)3r
+ferrous tris(ortho phenantholine)r
+feor
+feohr
+fec9 (1,3-c4h6)  (budfec01) r
+feco(1,3-c4h6)2r
+methyl iron(iii) dihydroxider
+fecp(co)2(cn) (acodur) r
+fecp(co)2(mecn)(+) (cpacfe) r
+cyclobutadiene iron tricarbonyl r
+fe(co)4(2-) (fuzhud) r
+fe(co)4h2r
+fe(co)4(c2h4)r
+fe(co)2(no)2r
+fen3o2r
+fe(co)5 (fojbov) r
+fecp(co)2(no3) (cnofea) r
+fe(ii)(h2o)4(oh)2r
+fe(ii)(h2o)5.ohr
+fe(iii)(h2o)6r
+fe(ii)(h2o)6_r
+fe(co)3c2 (fcpeno) r
+fe_2acacr
+fe_2h2o_py_car
+iron(iii) edta r
+fe(iii)(ox)3r
+h3fe(iii)(ox)3r
+fefr
+fe(ii)(h2o)5.fr
+fef2r
+fe(iii)f6 d5_r
+fecps(co)2 (ceytfe) r
+fe_dic_thior
+fep4s2 (jiyfay) r
+fe_dim_car
+fes4c2 (cibgav10) r
+fe_2isothior
+feclr
+fe(ii)(h2o)5.clr
+fecl2r
+fe(iii)cl3n2 (finjiv) r
+fe(iii)cl4(-) r
+fe(ii)cl4(2-) (goxlua) r
+fe(iii)cl6 (dallil) r
+febrr
+fec6br (alcfea) r
+fe(ii)(h2o)5.brr
+fe_2h2o_br_oxyr
+febr2r
+fe(ii)br2.4(h2o) r
+fe(iii)br4(-) (epymbf) r
+feir
+fec6i (alcofe10) r
+fe(iii)I4(-) r
+fe_dicat_7sg
+iron, cation
+iron, atom
+fe-ch3
+fe(iii)cp2(+)
+fe(c5h5)2 d5d
+fe(ii)(nh3)6
+fe(ii)(en)3
+ferrous tris(ortho phenantholine)
+feo(+)
+feo
+feoh
+fec9 (1,3-c4h6) (budfec01)
+feco(1,3-c4h6)2, complex
+feco(1,3-c4h6)2
+feo2 5b2
+fe(oh)2
+fecp(co)2(cn) (acodur)
+fecp(co)2(mecn)(+) (cpacfe)
+fe(co)3(c4h6)
+fe(co)4(2-)
+fe(co)4h2
+fe(co)4(c2h4)
+fe(co)4(acetonitrile)
+fe(co)2(no)2
+fen3o2
+fe(co)5 (good)
+fe(co)5 (fojbov)
+fecp(co)2(no3) (cnofea)
+fe(iii)(h2o)6 4ag
+fe(iii)(h2o)6 4tg
+fe(iii)(h2o)6 4tg2
+fe(iii)(water)6
+fe(ii)(h2o)6 5e(g)
+fe(ii)(h2o)6 5t(g)
+fe(co)3c2 (fcpeno)
+fe(acac)3 anion
+iron(iii) edta
+fe(iii)(ox)3
+h3fe(iii)(ox)3
+fef
+iron(i) fluoride
+fe(ii)(h2o)5.f
+fef2
+iron(vi) difluoride dioxide
+fef3
+fe(co)4(pet3)
+fes
+fecps(co)2 (ceytfe)
+fes4c2 (cibgav10)
+iron(i) chloride
+fe(ii)(h2o)5.cl
+fecl2
+iron(vi) dichloride dioxide
+fecl3
+iron(i) bromide
+fec6br (alcfea)
+fe(ii)(h2o)5.br
+iron(vi) dibromide dioxide
+fe(ii)br2.4(h2o)
+fe(iii)br4(-)
+iron(i) iodide
+fe(co)3(c3h6)i
+fec6i (alcofe10)
+fe(co)4i2

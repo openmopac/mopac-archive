@@ -1,0 +1,9 @@
+*
+*  Optimize a single element
+*
+params=../PM7.txt PM7 ref=../norm;../erra;../leve;../soli
+Alpb_Ag I
+Xfac_Ag I
+end  
+Silver(i) iodide (AgI) r.mop
+Silver(i) iodide (AgI) 

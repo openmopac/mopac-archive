@@ -1,0 +1,150 @@
+cycles=50 params=../PM7.txt PM7 ref=../norm;../erra;../leve 
+*  upp Re 40 80
+(Re)(all)
+end
+* Re3Br9
+Core-core_Re - C near 
+Core-core_Re - C far
+Core-core_Re - N near 
+Core-core_Re - N far
+Core-core_Re - O near
+Core-core_Re - O far
+Core-core_Re - F near 
+Core-core_Re - F far
+Core-core_Re - Cl near 
+Core-core_Re - Cl far
+Core-core_Re - Br near
+Core-core_Re - Br far 
+Core-core_Re - I near 
+Core-core_Re - I far
+Core-core_Re - Re near
+Core-core_Re - Re far
+Rhenium hexafluoride (Oh)
+Rhenium hexafluoride (D3h)
+* core_Re_2_6_10
+ReF6 2T2g
+ReF6 2A1g
+* ReF6 2T1u
+Re(iv)Cl4I2(2-) r
+reh3r
+re(iii)(cp)2(+) (daxjiv) r
+re(c5h5)(c6h6)r
+re(ii)(nh3)6r
+re(vi)(me)4o (motvia) r
+re(vi)c2o2 (fohyeg) r
+re(v)n4o2(+) (dxenrd) r
+ren4(co)2(+) (casmak) r
+methyl rhenium(vii) trioxider
+re(c5h5)(co)3r
+re(cp)(co)3 (cocpre) r
+rec6(co)3(+) (ciznuu) r
+re(vii)o4(-) (amogoy) r
+re(co)5r
+re(v)o5(-) (hefyas) r
+re(iv)(h2o)6 d3_r
+re(ii)(h2o)6 d5_r
+re(ii)(h2o)6r
+re(co)6(+) (fuzjoz) r
+re(co)6r
+refr
+re(ch3)2fr
+re(co)5fr
+re(iv)f6 d3_r
+re(vi)s3n3 (kekmao) r
+re(vii)s3o3(+) (jemmet) r
+reclr
+re(ch3)2clr
+re(iii)(cp)2cl (jipvaf) r
+re(vii)n2o3cl (fojnex) r
+re(co)5cl (fohcag) r
+re(iii)p4cl2(+) (dakjii) r
+recl3r
+re(v)o2cl4(-) (foamds10) r
+re(iv)o2cl4 (joxlen) r
+re(iv)cl5c(-) (bacmir) r
+re(iv)ncl5(-) (akinud) r
+re(iv)cl6(2-) (ayoluv) r
+rebrr
+re(ch3)2brr
+reobrr
+re(i)(co)3)n2br (batyaw) r
+re(co)5br (fowtoa) r
+re(co)5brr
+re(v)(cp)2br2(+) (cpbrre) r
+rebr3r
+re(v)br3n2o (bawsau) r
+re(iv)br4n2 (bawsey) r
+re(v)br6(-) (cojyab) r
+re(iv)br6(2-) (ayomac) r
+reir
+re(ch3)2ir
+reoir
+rec4oi (cirpau) r
+re(co)5ir
+re(iii)(ch3)p4ic(+) (bukmup) r
+rei3r
+* re2r
+re(v)2f11(-) (fuzjoz) r
+re2cl6r
+rhenium, cation
+rhenium 6d(g) 6s(1)5d(6)
+rhenium 6s(g) 6s(1)5d(6)
+* rhenium 8p(u) 6s(1)5d(5)6p(1)
+rhenium, atom
+rhenium_6dg
+* rhenium_8pu
+reh3
+re(iii)(cp)2(+) (daxjiv)
+re(c5h5)(c6h6)
+re(ii)(nh3)6
+re(vi)(me)4o (motvia)
+re(vi)c2o2 (fohyeg)
+re(v)n4o2(+) (dxenrd)
+ren4(co)2(+) (casmak)
+re(c5h5)(co)3
+re(cp)(co)3 (cocpre)
+rec6(co)3(+) (ciznuu)
+re(vii)o4(-) (amogoy)
+rhenium pentacarbonyl, anion
+re(v)o5(-) (hefyas)
+re(ii)(h2o)6 ground state
+* re(ii)(h2o)6
+re(co)6(+) (fuzjoz)
+rhenium hexacarbonyl, cation
+* rhenium(i) fluoride
+dimethyl rhenium fluoride
+re(co)5f
+re(vi)s3n3 (kekmao)
+re(vii)s3o3(+) (jemmet)
+rhenium(i) chloride
+dimethyl rhenium chloride
+re(iii)(cp)2cl (jipvaf)
+re(vii)n2o3cl (fojnex)
+re(co)5cl (fohcag)
+rhenium(iii) trichloride
+re(v)o2cl4(-) (foamds10)
+re(iv)o2cl4 (joxlen)
+re(iv)cl5c(-) (bacmir)
+re(iv)ncl5(-) (akinud)
+re(iv)cl6(2-) (ayoluv)
+rhenium(i) bromide
+dimethyl rhenium bromide
+rhenium(iii) oxide bromide
+re(i)(co)3)n2br (batyaw)
+re(co)5br (fowtoa)
+re(co)5br
+re(v)(cp)2br2(+) (cpbrre)
+rhenium(iii) tribromide
+re(v)br3n2o (bawsau)
+re(iv)br4n2 (bawsey)
+re(v)br6(-) (cojyab)
+re(iv)br6(2-) (ayomac)
+rhenium(i) iodide
+dimethyl rhenium iodide
+rhenium(iii) oxide iodide
+rec4oi (cirpau)
+re(co)5i
+* rhenium(iii) triiodide
+*  rhenium, dimer
+re(v)2f11(-) (fuzjoz)
+re2cl6

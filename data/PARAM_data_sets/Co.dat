@@ -1,0 +1,174 @@
+*
+*  Optimize a single element
+*
+cycles=50  params=PM7.txt PM7 ref=../norm;../erra;../leve;../soli
+*   upp Co 20 40
+(Co)(all) 
+end  
+core-core_Co - H near    
+core-core_Co - H far 
+core-core_Li - Co far 
+core-core_Co - C near
+core-core_Co - C far
+core-core_Co - N near
+core-core_Co - N far
+core-core_Co - O near
+core-core_Co - O far
+core-core_Co - F near    
+core-core_Co - F far
+core-core_Na - Co near 
+core-core_Na - Co far  
+core-core_Co - S near 
+core-core_Co - S far  
+core-core_Co - Cl near 
+core-core_Co - Cl far  
+core-core_K - Co near 
+core-core_K - Co far  
+core-core_Cr - Co near 
+core-core_Cr - Co far  
+core-core_Co - Co near 
+core-core_Co - Co far
+core-core_Co - As near 
+core-core_Co - As far  
+core-core_Co - Br near 
+core-core_Co - Br far  
+core-core_Co - I near 
+core-core_Co - I far  
+core_Co_0p9_0p5_7p7
+* CoI2 (bad)
+* Co4 UHF
+* Co4 RHF
+* Co5
+* Co(ii)Cp2 (good)
+* Co(ii)Cp2 (bad)
+CoF6(3-) (Oh) 3T2g
+CoF6(3-) (Oh) 7T1u
+CoF6(3-) (Oh) 1A1g
+* Co(III)IS2Cp (GECVEP) (good).mop
+* Co(III)IS2Cp (bad).mop
+CoN4I2(-) (good)
+CoN4I2(-) (bad)
+* Cobalt (Co) r
+* Cobalt (Co) 
+* Co(+2) - (+) heat
+* Co(+2) - (+) slope
+* Co-N (good)
+* Co-N (Bad)
+* Co - Co 6p6
+* Co - Co 7p0
+* Co(Cp)3 heat
+* Co(Cp)3 slope
+* Co(CO)5 cation D3h (Ref)
+* Co(CO)5 cation C4v (Bad)
+* Co(CO)5 cation D3h (bad-2)
+* Co(CO)4 (-) (+-)
+Co(CO)4 (-) (Td)
+Co(CO)4 (-) (D4h)
+Co(CO)4 (-) (C4v)
+* Co(CO)4 (-) (D2d)
+Co(CO)4(-) (good)
+Co(CO)4(-) (bad)
+co(iii)is2cp (gecvep) r
+co(iii)is2cp (gecvep) 
+co(ii)cp2 (dcypco) r
+co(v)(cn)4r
+co(iii)(cn)6r
+co(iii)(en)3r
+co(iii)n6(3+) (cotenc01) r
+co(ii)n6(2+) (qicsok) r
+co(iii)c3n3 (fefrud) r
+co(iii)n6(2+) (famyex) r
+co(co)4(-) (fubyoq) r
+co(co)3nor
+co(iii)o2n4(+) (oxenco) r
+co(iii)n4o2(+) (aetxco) r
+co(iii)n6(+) (nixgeg) r
+co(co)5 cation_r
+co(iii)n4co (amgxco01) r
+co(ii)(h2o)6(2+) (nazvoz) r
+co(ii)(h2o)6r
+co(ii)(acac)3(-) (ikeyay)
+co(iii)n4o2(+) (nitnco) r
+co(iii)(ox)3r
+cofr
+coofr
+cof3r
+co(co)4si (fuzmao) r
+co(ii)s4 (tacaco10) r
+co(iii)s6 (medtco10) r
+co(iii)s6 (tdtcco) r
+coclr
+co(iii)n5cl(2+) (adetco) r
+cooclr
+methyl cobalt(iii) chloride hydroxider
+co(iii)(nh3)2(h2o)2clfr
+co(i)p3cl (butdez) r
+co(ii)s2n2 (cotucl11) r
+co(iii)n3cl3 (amprco) r
+co(iii)sn2cl3 (catbaa) r
+co(ii)cl4(2-) (dmdpco) r
+* co2(co)8r
+cobrr
+coobrr
+co(iii)n4bro (bukpig) r
+co(ii)br4(2-) (bpyrbc10) r
+co(ii)br4r
+coir
+cooir
+comeclir
+co(iii)n4i2(-) (fircoy01) r
+coi3r
+co(iii)i6 d6_r
+cobalt, cation
+cobalt, 2dg 3d(8)4s(1)
+cobalt, 2fg 3d(8)4s(1)
+cobalt, 2gg 3d(7)4s(2)
+cobalt, 2hg 3d(7)4s(2)
+cobalt, 2pg 3d(7)4s(2)
+cobalt, 2pg 3d(8)4s(1)
+cobalt, 4fg 3d(7)4s(2)
+cobalt, 4fg 3d(8)4s(1)
+cobalt, 4pg 3d(7)4s(2)
+cobalt, 4pg 3d(8)4s(1)
+cobalt, atom
+cobalt, second 4f(g)
+bicyclopentadienyl cobalt
+co(ii)cp2 (dcypco)
+co(iii)n6(3+) (cotenc01)
+co(ii)n6(2+) (qicsok)
+co(iii)c3n3 (fefrud)
+co(iii)n6(2+) (famyex)
+co(co)4
+co(iii)n4o2(+) (aetxco)
+co(iii)o2n4(+) (oxenco)
+co(iii)n6(+) (nixgeg)
+co(co)5 cation
+co(iii)n4co (amgxco01)
+co(ii)(h2o)6
+co(iii)n4o2(+) (nitnco)
+co(iii)(ox)3
+cobalt(iii) oxide fluoride
+cof2
+cobalt trifluoride
+co(ii)s4 (tacaco10)
+co(iii)s6 (medtco10)
+co(iii)s6 (tdtcco)
+cobalt(i) chloride
+co(iii)n5cl(2+) (adetco)
+cobalt(iii) oxide chloride
+co(iii)(nh3)2(h2o)2clf
+cocl2
+co(ii)s2n2 (cotucl11)
+cocl3
+co(iii)n3cl3 (amprco)
+co(iii)sn2cl3 (catbaa)
+co2(co)8
+cobalt dichloride, dimer
+cobalt(i) bromide
+cobalt(iii) oxide bromide
+co(iii)n4bro (bukpig)
+cobalt(i) iodide
+cobalt(iii) oxide iodide
+co(iii)is2cp (gecvep)
+co(iii)n4i2(-) (fircoy01)
+cobalt triiodide

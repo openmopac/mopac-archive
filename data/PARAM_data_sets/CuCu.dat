@@ -1,0 +1,9 @@
+*
+*  Optimize a single element
+*
+params=../PM7.txt PM7 ref=../norm;../erra;../leve;../soli
+Alpb_Cu Cu
+Xfac_Cu Cu
+end  
+Copper (Cu) (ICSD 627113) r.mop
+Copper (Cu) (ICSD 627113) 

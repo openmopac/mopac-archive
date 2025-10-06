@@ -1,0 +1,12 @@
+ cycles=50 params=../PM7.txt PM7 ref=../soli 
+alpb_os Os
+xfac_os Os
+alpb_os F 
+xfac_os F 
+alpb_os Cl
+xfac_os Cl
+end
+Catena-di-mu-chloro-dichloroosmium(IV) (OsCl4).mop
+Catena-di-mu-chloro-dichloroosmium(IV) (OsCl4) r.mop
+Osmium(vi) hexafluoride (OsF6) r.mop
+Osmium(vi) hexafluoride (OsF6)

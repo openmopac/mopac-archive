@@ -1,0 +1,41 @@
+*
+*
+*  Same as PM6
+*
+*           case (1)             
+*              select case (i)
+*              case (1)
+*!
+*! Test a:  PM7 specific corrections are commented out
+*!
+*             !   if (method_pm7) scale = scale + guess1(99,3)*exp(-(par6*(r + par8))**2) ! To correct H-H single bond HoF 
+*              case (6:7)
+*                scale = 1.0d0 + 2.d0 * fff * Exp (-abond*r**2) 
+*              case (8)
+*!
+*! Slow O-H
+*!
+*                scale = 1.0d0 + 2.d0 * fff * Exp (-abond*r**2)  - par3*exp(-par4*r*2)
+*              end select 
+*            case (6)
+*              select case (i)
+*              case (6)
+*                scale = scale + guess1(99,1)*exp(-par2*r) ! To correct C-C triple bond HoF 
+*              end select 
+*            case (7) 
+*              select case (i)
+*              case (7)
+*          !      if (method_pm7) scale = scale + par4*exp(-(par9*(r + par8))**2) ! To correct N-N triple bond HoF 
+*              end select 
+*            case (8)
+*             select case (i)
+*             case (14)
+*!
+*
+*  test optimization of PM6 organics  
+*
+params=../PM7.txt         pm7   set=./Main_Group_A.usd  ref=../norm;../erra;../leve 
+ (H O)(All)
+ fn31 xx  -10 10
+ fn12 xx  -10 10
+end  

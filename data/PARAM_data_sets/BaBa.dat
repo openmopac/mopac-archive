@@ -1,0 +1,13 @@
+*
+*  Optimize a single element
+*
+ params=BaBa.rp PM7 ref=../norm;../erra;../leve;../soli
+ XFAC_Ba Ba
+ Alpb_Ba Ba
+ alpb_Ba O
+ xfac_Ba O
+end  
+Alforsite (Ba2PO4Cl) r.mop
+Ba(OH)2_3(H2O) r.mop
+Barium oxide (BaO) r.mop
+Barite_(BaSO4) r.mop

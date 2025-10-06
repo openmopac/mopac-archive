@@ -1,0 +1,9 @@
+*
+*  Optimize a single element
+*
+params=../PM7.txt PM7 ref=../norm;../erra;../leve;../soli
+Alpb_Zn I
+Xfac_Zn I
+end  
+Zinc iodide (ZnI2).mop
+Zinc iodide (ZnI2) r

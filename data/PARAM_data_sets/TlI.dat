@@ -1,0 +1,9 @@
+*
+*  Optimize a single element
+*
+params=../PM7.txt PM7 ref=../norm;../erra;../leve;../soli
+Alpb_Tl I
+Xfac_Tl I
+end  
+Thallium(i) iodide (TlI) (ICSD 61520).mop
+Thallium(i) iodide (TlI) (ICSD 61520) r

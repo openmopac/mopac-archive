@@ -1,0 +1,11 @@
+*
+*  Optimize a single element
+*
+params=../PM7.txt PM7 ref=../norm;../erra;../leve;../soli
+Alpb_Cu Cl
+Xfac_Cu Cl
+end  
+* Copper(ii) dichloride (CuCl2).mop
+* Copper(ii) dichloride (CuCl2) r
+Copper(i) chloride (CuCl).mop
+Copper(i) chloride (CuCl) r

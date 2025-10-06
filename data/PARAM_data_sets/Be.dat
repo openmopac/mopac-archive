@@ -1,0 +1,107 @@
+*
+*  Optimize a single element
+*
+cycles=50 PM7 ref=../norm;../erra;../leve params=PM7.txt
+(Be)(all) 
+end  
+core-core_Be - H near
+core-core_Be - H far
+core-core_Li - Be near
+core-core_Li - Be far
+core-core_Be - Be near
+core-core_Be - Be near slope
+core-core_Be - O near
+core-core_Be - O far
+core-core_Be - F near
+core-core_Be - F far
+core-core_Be - Al near
+core-core_Be - Al far
+core-core_Be - P near
+core-core_Be - P far
+core-core_Be - Si near
+core-core_Be - Si far
+core-core_Be - S near
+core-core_Be - S far
+core-core_Be - Cl near
+core-core_Be - Cl far
+core-core_Be - Br near
+core-core_Be - Br far
+core-core_Be - I near
+core-core_Be - I far
+Be(Cp)Cl (good)
+Be(Cp)Cl (bad)
+beh_cat_r
+behr
+libehr
+beme2r
+(be(me)2)2r
+be(ii)3n6 (dmabet10) r
+beor
+be(ii)n2o2 (xefseg) r
+be(ii)o4 (acacbe02) r
+be(ii)o4(2-) (yambod) r
+be(ii)o4(2-) (malbek) r
+beryllium (edta) r
+befr
+bef2r
+be(ii)f4(2-) (kippee) r
+besr
+be(ii)(cp)cl (jefkio) r
+c5h5beclr
+be(ii)n3cl(+) (valhew) r
+becl2r
+be(ii)cl2n2 (mecybc) r
+be(ii)cl2n2 (valhas) r
+be(ii)cl2 (etbecl) r
+be(ii)cl2o2 (etbecl01) r
+be(ii)cl3n(-) (fasqum) r
+be(ii)2cl6(2-) (equnuz) r
+bebr2r
+be(ii)o2br2 (qqqdpy01) r
+beir
+bei2r
+beryllium, 1p(u) 2s(1)2p(1)
+beryllium, 1s(g) 2s(2)2p(0)
+beryllium, 3p(g) 2s(0)2p(2)
+beryllium, 3p(u) 2s(1)2p(1)
+beryllium, atom
+beryllium hydride, cation
+beryllium hydride
+beryllium dihydride
+lithium beryllium hydride
+beryllium, dimer
+dimethyl beryllium, complex
+dimethylberyllium
+diethylberyllium
+(be(me)2)2, complex
+cyclopentadienylberyllium hydride
+beh-nh2, separated
+beryllium hydroxide
+beryllium oxide
+beryllium di-hydroxide
+be3o3
+be(ii)o4 (acacbe02)
+be(ii)o4(2-) (yambod)
+be(ii)o4(2-) (malbek)
+beryllium (edta)
+beryllium fluoride
+beryllium difluoride
+be(of)2
+lithium trifluoroberyllate
+be(ii)f4(2-) (kippee)
+beryllium chloride
+be(ii)(cp)cl (jefkio)
+beryllium chloride fluoride
+beryllium dichloride
+be(ii)cl2n2 (mecybc)
+be(ii)cl2n2 (valhas)
+be(ii)cl2 (etbecl)
+be(ii)cl2o2 (etbecl01)
+be(ii)cl3n(-) (fasqum)
+be(ii)2cl6(2-) (equnuz)
+potassium trifluoroberyllate
+beryllium bromide
+beryllium dibromide
+be(ii)o2br2 (qqqdpy01)
+beryllium iodide
+beryllium diiodide

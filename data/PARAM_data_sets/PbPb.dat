@@ -1,0 +1,9 @@
+*
+*  Optimize a single element
+*
+cycles=50 params=../PM7.txt PM7 ref=../norm;../erra;../leve;../soli 
+ ALPB_Pb Pb
+ XFAC_Pb Pb
+end
+Lead (Pb) (ICSD 77863) r.mop
+Lead (Pb) (ICSD 77863) 

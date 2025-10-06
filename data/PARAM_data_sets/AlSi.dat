@@ -1,0 +1,88 @@
+*
+*  Optimize a single element
+*
+params=../PM7.txt  PM7  ref=../norm;../erra;../leve;../soli
+alpb_Al O 
+xfac_Al O 
+alpb_Al Al
+xfac_Al Al
+alpb_Al Si
+xfac_Al Si
+alpb_Si O 
+xfac_Si O 
+alpb_Si Si
+xfac_Si Si
+end
+Topaz (Al2SiO4F2) r
+Topaz (Al2SiO4F2)
+Topaz (Al2SiO4F2) (bad)
+ Corundum (Al2O3)
+ Corundum (Al2O3) r
+ Sillimanite (Al2SiO5) r
+ Sillimanite (Al2SiO5) 
+ Sillimanite (Al2SiO5) (bad)
+ Diaspore (AlO(OH)) r
+ Gibbsite (Al(OH)3) r
+Alpha quartz (SiO2) r
+Alpha quartz (SiO2) 
+Kyanite_(Al2SiO5) r
+Andalusite_(Al2SiO5)_r
+alor
+al(iii)c3o(-) (aacmal) r
+al(iii)(h2o)4(oh)2r
+al(iii)(h2o)5.ohr
+al(iii)(h2o)6r
+aluminum (iii) edta r
+aluminum trisoxalate r
+aluminum trisoxalato h1r
+aluminum trisoxalato h2r
+aluminum trisoxalato h3r
+al2or
+al2o2_2(oh)r
+mn(co)4cbr (al) (cmncxa10) r
+baalo2(oh).2(h2o)r
+aluminum oxide, cation
+alo
+aluminum oxide, anion
+aluminum hydroxide, cation
+aluminum hydroxide
+h-al=o
+aluminum hydroxide, anion
+aluminum dioxide
+aluminum dioxide, anion
+aluminum oxide hydroxide
+al(iii)c3o(-) (aacmal)
+al(iii)(h2o)4(oh)2
+al(iii)(h2o)5.oh
+al(iii)(h2o)6
+aluminum (iii) edta
+aluminum trisoxalate
+aluminum trisoxalato h1
+aluminum trisoxalato h2
+aluminum trisoxalato h3
+aluminum oxide fluoride
+aluminum difluoride oxide, anion
+dialuminum oxide, cation
+dialuminum oxide
+al2o2, cation
+aluminum oxide, dimer
+aluminum chloride oxide
+sih3o (bahtaf) r
+sio4n (bojler) r
+sif3c (bazguf) r
+sic3s(-) (itiboc) r
+sio2s2n (ebupia) r
+mn(co)4si2 (kiryuf) r
+co(co)4si (fuzmao) r
+ba2sio4r
+trimethylsilicon hydroxide
+silicon dioxide
+sih3o (bahtaf)
+si(oh)4
+sio4n (bojler)
+siof2
+sif3c (bazguf)
+hexamethyldisiloxane
+h6si2o7
+sic3s(-) (itiboc)
+sio2s2n (ebupia)

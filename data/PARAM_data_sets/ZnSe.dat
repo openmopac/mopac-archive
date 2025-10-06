@@ -1,0 +1,9 @@
+*
+*  Optimize a single element
+*
+cycles=20 params=../PM7.txt NOSCALE PM7 ref=../norm;../erra;../leve;../soli
+alpb_Zn Se
+xfac_Zn Se
+end  
+Stilleite (ZnSe) r
+Stilleite (ZnSe) 

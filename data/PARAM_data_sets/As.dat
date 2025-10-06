@@ -1,0 +1,158 @@
+*
+*  Optimize a single element
+*
+params=../PM7.txt PM7 cycles=50 ref=../norm;../erra;../leve;../soli  
+(As)(all) 
+end  
+core-core_As - H near
+core-core_As - H far
+core-core_As - O near
+core-core_As - O far
+core-core_As - F near
+core-core_As - F far
+core-core_Na - As near
+core-core_Na - As far
+core-core_Al - As near
+core-core_Al - As far
+core-core_As - S near
+core-core_As - S far
+core-core_As - Cl near
+core-core_As - Cl far
+core-core_K - As near
+core-core_K - As far
+core-core_Co - As near
+core-core_Co - As far
+core-core_As - As near
+core-core_As - As far
+core-core_As - Se near
+core-core_As - Se far
+core-core_Zn - As near
+core-core_Zn - As far
+core-core_Ga - As near
+core-core_Ga - As far
+core-core_As - Br near
+core-core_As - Br far
+core-core_As - I near
+core-core_As - I far
+core-core_Pb - As near
+core-core_Pb - As far
+core_As_2_1_10
+As8
+* AsS (good)
+* AsS (bad)
+As2O3 (good)
+As2O3, dimer
+* As4S4 (good)
+* As4S4 (bad)
+* As4S4, dimer (good)
+* As4S4, dimer (bad)
+As(SH)3 (good)
+As(SH)3 (bad)
+* Arsenic (As) r
+* Arsenic (As) 
+* Me3AsI2 (good).mop
+* Me3AsI2 (Bad).mop
+* AsO4(3-) (good).mop
+* AsO4(3-) (bad).mop
+* Trimethyl arsenite (good)
+* Trimethyl arsenite (bad)
+Me3AsI2 r
+Arsenic oxide, complex
+ash2r
+ash3r
+asme3r
+as(v)c4(+) (masinc10) r
+ash2-nh2r
+as(iii)c3 (cnmars) r
+asc3n3r
+as(v)c3o (asoxca) r
+as(oh)3r
+as(v)o3c (arsacp) r
+as(v)o4(-) (dayqav) r
+as(v)o5 (htoasp) r
+asf3r
+asf5r
+as(v)f6(-) (bonmog) r
+asc3f9r
+assi3h9r
+as(iii)n2cl (lewvis) r
+ascl3r
+as(iii)ncl3 (asctma) r
+ascl5r
+asasc (arsmet) r
+as(iii)2c4 (hirciu) r
+as(v)(iii)c4s2 (dmsars) r
+ti(iv)cp2f2 (vajxej) r
+ti(iv)as2s2cl2 (cirhug) r
+as(iii)s2c (marsta) r
+as(iii)o2c (asoxad) r
+as4o6r
+as(iii)as2c (asmeth) r
+as(iii)c2br (bropar) r
+as(iii)brs2(+) (edtcas) r
+as(v)c2br3 (dmeasb) r
+asbr3r
+as(iii)cbr2 (fafwak) r
+as(iii)br5(2-) (coddee) r
+as(v)ic2as(+) (farrar) r
+as(iii)ci2 (dimars) r
+asc3i (zodjor) r
+asi3r
+arsenic, dication
+arsenic, cation
+arsenic, 2d(g) - 4s(1)4p(4)
+arsenic, 2d(u) - 4s(2)4p(3)
+arsenic, 2p(g) - 4s(1)4p(4)
+arsenic, 2p(u) - 4s(2)4p(3)
+arsenic, 2s(g) - 4s(1)4p(4)
+arsenic, 4p(g) - 4s(1)4p(4)
+arsenic, 4s(u) 4s(2)4p(3)
+arsenic, atom
+arsine
+trimethylarsine
+as(v)c4(+) (masinc10)
+triethylarsine_dft
+triphenylarsine
+arsenic nitride
+ash2-nh2
+as(iii)c3 (cnmars)
+as(v)c3o (asoxca)
+as(oh)3
+trimethyl arsenite
+as(v)o3c (arsacp)
+triethyl arsenite
+tri-n-propyl arsenite
+as(v)o4(-) (dayqav)
+as(v)o5 (htoasp)
+arsenic trifluoride
+arsenic pentafluoride
+as(v)f6(-) (bonmog)
+arsenic sulfide
+dimethylarsenic chloride
+as(iii)n2cl (lewvis)
+methylarsenic dichloride
+arsenic trichloride
+as(iii)ncl3 (asctma)
+arsenic pentachloride
+arsenic, dimer
+asasc (arsmet)
+as(iii)2c4 (hirciu)
+as(v)(iii)c4s2 (dmsars)
+arsenic, trimer
+as(iii)s2c (marsta)
+arsenic, tetramer
+as(iii)o2c (asoxad)
+arsenic trioxide dimer
+as4o6
+as(iii)as2c (asmeth)
+arsenic selenide
+as(iii)c2br (bropar)
+as(iii)brs2(+) (edtcas)
+as(v)c2br3 (dmeasb)
+arsenic tribromide
+as(iii)cbr2 (fafwak)
+as(iii)br5(2-) (coddee)
+arsenic telluride
+as(v)ic2as(+) (farrar)
+as(iii)ci2 (dimars)
+asc3i (zodjor)

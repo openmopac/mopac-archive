@@ -1,0 +1,15 @@
+Cycles=40 params=pm7.txt PM7 ref=../norm;../erra;../leve;../soli
+* upp Ag 40 80
+* (ag)(all)
+end
+Silver 8Du 4d(6)5s(2)5p(3) 
+Silver 8Pg 4d(6)5s(1)5p(4)
+Silver 8Fu 4d(7)5s(1)5p(3)
+Ag(i)O3(++)_(CADXOU) r.mop
+* core-core_Ag - O heat
+* core-core_Ag - Ag heat
+* silver 2Pu 4d(10)5p(1)
+silver 2Dg 4d(9)5s(2)
+silver 2Sg 4d(10)5s(1)
+Ag(I)N2O_(MAYBAQ) r
+Ag(I)N2SCl_(VUHCAC) r

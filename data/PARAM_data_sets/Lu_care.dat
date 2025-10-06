@@ -1,0 +1,97 @@
+*
+*  Optimize a single element
+*
+cycles=50 params=PM7.txt     PM7   ref=../norm;../erra;../leve;../soli
+ betap Lu -10 0
+ zpn Lu 1 2.5
+(Lu)(all) 
+end  
+core-core_Lu - H near    
+core-core_Lu - H far     
+core-core_Lu - C near    
+core-core_Lu - C far     
+core-core_Lu - O near    
+core-core_Lu - O far     
+core-core_Lu - F near    
+core-core_Lu - F far     
+core-core_Lu - P near 
+core-core_Lu - P far
+core-core_Lu - Cl near
+core-core_Lu - Cl far 
+core-core_Lu - P near 
+core-core_Lu - P far  
+core-core_Lu - Cl near 
+core-core_Lu - Cl far  
+core-core_Lu - Br near    
+core-core_Lu - Br far     
+core-core_Lu - I near    
+core-core_Lu - I far     
+core-core_Lu - Lu near    
+core-core_Lu - Lu near slope
+core-core_Lu - Lu far     
+core-core_Lu - Lu heat
+* Lu6 (bad)
+LuF6 (2-) 2A1g
+LuF6 (2-) 2T1u
+LuF6 (2-) 2T2g
+lu(iii)(cp)c3(-) (cutgut) r
+lu(iii)c4(-) (fazdit) r
+lu(cp)(c8) (lawreg) r
+lu(iii)(cp)2cn (pagguz) r
+lu(iii)(cp)2n2(-) (tabcoo) r
+lu(iii)c3n3 (cilcuv) r
+lu(0)n8 (xeplot) r
+lu(cp)2co (bthflu) r
+lu(iii)(cp)3o (deyyov) r
+lu(iii)(cp)2no (jennev) r
+lu(c8)cno (delsiw) r
+lu(iii)o6 (lutmhp) r
+lu(iii)o6 (lutmhp)a r
+lun3o6 (bagbuh) r
+lu(iii)o8(3+) (qakxab) r
+lu(iii)(h2o)9(3+) (buvvuj) r
+lu(iii)o8(-) (ogeyee) r
+lu(iii)n6(3-) (pukrui) r
+lu(cp)2n2cl (bivbir)a r
+lu(iii)(cp)2ocl (fatgiq10) r
+lu(cp)2o2cl (axomuv) r
+lu(cp)2cl2(-) (bisvee) r
+lu(iii)o4cl3 (ewiqik) r
+lu(iii)cl5o(2-) (unetai) r
+lu(iii)(cp)2brn2 (hafwiu) r
+lu(iii)n5oi(+) (esecio) r
+lu(iii)n5i2(+)  (esecou) r
+lu(iii)o4i2(+) (esecek) r
+lutetium(+), 1d(g) 6s(1)5d(1)6p(0)
+lutetium(+), 1s(g) 6s(2)6p(0)
+lutetium(+), 3d(g) 6s(1)5d(1)6p(0)
+lutetium(+), 3f(g) 6s(2)5d(0)6p(0)
+lutetium(+), 3p(g) 6s(2)5d(0)6p(0)
+lutetium, cation
+lutetium, 2d(g) 6s(2)5d(1)6p(0)
+lutetium, 2g(g) 6s(1)5d(2)6p(0)
+lutetium, 4f(g) 6s(1)5d(2)6p(0)
+lutetium, 4p(g) 6s(1)5d(2)6p(0)
+lutetium, atom
+lu(iii)(cp)c3(-) (cutgut)
+lu(iii)c4(-) (fazdit)
+lu(cp)(c8) (lawreg)
+lu(iii)(cp)2cn (pagguz)
+lu(iii)(cp)2n2(-) (tabcoo)
+lu(iii)c3n3 (cilcuv)
+lu(cp)2co (bthflu)
+lu(iii)(cp)3o (deyyov)
+lu(iii)(cp)2no (jennev)
+lu(c8)cno (delsiw)
+lu(iii)o6 (lutmhp)a
+lun3o6 (bagbuh)
+lu(iii)(h2o)9(3+) (buvvuj)
+lu(iii)o8(-) (ogeyee)
+lu(iii)n6(3-) (pukrui)
+lu(cp)2n2cl (bivbir)a
+lu(iii)(cp)2ocl (fatgiq10)
+lu(cp)2o2cl (axomuv)
+lu(iii)o4cl3 (ewiqik)
+lu(iii)(cp)2brn2 (hafwiu)
+lu(iii)n5oi(+) (esecio)
+lu(iii)o4i2(+) (esecek)

@@ -1,0 +1,148 @@
+ NO REFERENCE DATA:N-METHYL ACETAMIDE, TS.
+      ELEMENT  TOT  H.O.F.    I.P.   DIPOLE   GEOMETRY
+   1    H     108    108        0        0        0
+   2    C      96     96        0        0        0
+   3    N      66     66        0        0        0
+   4    O      28     28        0        0        0
+   5    F      26     26        0        0        0
+   6    CL     10     10        0        0        0
+  MAXIMUM NUMBERS OF EACH TYPE OF ELEMENT IN ANY REFERENCE DATA SET
+          H    9          He   0          Li   0          Be   0
+          B    0          C    4          N    3          O    1
+          F    2          Ne   0          Na   0          Mg   0
+          Al   0          Si   0          P    0          S    0
+          Cl   2          Ar   0          K    0          Ca   0
+          Sc   0          Ti   0          V    0          Cr   0
+          Mn   0          Fe   0          Co   0          Ni   0
+          Cu   0          Zn   0          Ga   0          Ge   0
+          As   0          Se   0          Br   0          Kr   0
+          Rb   0          Sr   0          Y    0          Zr   0
+          Nb   0          Mo   0          Tc   0          Ru   0
+          Rh   0          Pd   0          Ag   0          Cd   0
+          In   0          Sn   0          Sb   0          Te   0
+          I    0          Xe   0          Cs   0          Ba   0
+          La   0          Ce   0          Pr   0          Nd   0
+          Pm   0          Sm   0          Eu   0          Gd   0
+          Tb   0          Dy   0          Ho   0          Er   0
+          Tm   0          Yb   0          Lu   0          Hf   0
+          Ta   0          W    0          Re   0          Os   0
+          Ir   0          Pt   0          Au   0          Hg   0
+          Tl   0          Pb   0          Bi   0
+
+   SEQUENCE OF COMPOUNDS IN PERIODIC TABLE ORDER
+
+ Emp. Formula               File name                                                                                                                                                                  H.o.F. Dipole I.P. Elements
+ C2H5                       CH3CH2                                                                                                                                                                     -42.1+             H  C
+ C2H5                       H plus C2H4 - CH3CH2 TS a                                                                                                                                                    0.0+             H  C
+ C2H5                       H plus C2H4 - CH3CH2 TS                                                                                                                                                      2.0+             H  C
+ C2H5                       H plus C2H4                                                                                                                                                                  0.0+             H  C
+ C3H7                       CH3 plus C2H4 - CH3CH2CH2 TS a                                                                                                                                               0.0+             H  C
+ C3H7                       CH3 plus C2H4 - CH3CH2CH2 TS                                                                                                                                                 6.8+             H  C
+ C3H7                       CH3 plus C2H4                                                                                                                                                                0.0+             H  C
+ C3H7                       CH3CH2CH2 (f) TS                                                                                                                                                             6.8+             H  C
+ C3H7                       CH3CH2CH2 (r) TS                                                                                                                                                            33.0+             H  C
+ C3H7                       CH3CH2CH2                                                                                                                                                                  -33.0+             H  C
+ HCN                        HCN - HNC (f) TS                                                                                                                                                            48.2+             H  C  N
+ HCN                        HCN - HNC (r) TS                                                                                                                                                            33.1+             H  C  N
+ HCN                        HCN - HNC TS a                                                                                                                                                               0.0+             H  C  N
+ HCN                        HCN - HNC TS                                                                                                                                                                48.2+             H  C  N
+ HCN                        HCN                                                                                                                                                                          0.0+             H  C  N
+ HCN                        HNC                                                                                                                                                                        -33.1+             H  C  N
+ C4H5N                      6b Formonitrile Ylide plus acetylene Product                                                                                                                               -86.7+             H  C  N
+ C4H5N                      6b Formonitrile Ylide plus acetylene TS                                                                                                                                      7.4+             H  C  N
+ C4H5N                      6b Formonitrile Ylide plus acetylene                                                                                                                                         0.0+             H  C  N
+ C4H7N                      6a Formonitrile Ylide plus ethylene Product                                                                                                                                -68.0+             H  C  N
+ C4H7N                      6a Formonitrile Ylide plus ethylene TS                                                                                                                                       5.9+             H  C  N
+ C4H7N                      6a Formonitrile Ylide plus ethylene                                                                                                                                          0.0+             H  C  N
+ C4H7N                      9b Formoazomethine Ylide plus acetylene Product                                                                                                                            -76.9+             H  C  N
+ C4H7N                      9b Formoazomethine Ylide plus acetylene TS                                                                                                                                   1.5+             H  C  N
+ C4H7N                      9b Formoazomethine Ylide plus acetylene                                                                                                                                      0.0+             H  C  N
+ C4H9N                      9a Formoazomethine Ylide plus ethylene Product                                                                                                                             -62.7+             H  C  N
+ C4H9N                      9a Formoazomethine Ylide plus ethylene TS                                                                                                                                    0.9+             H  C  N
+ C4H9N                      9a Formoazomethine Ylide plus ethylene                                                                                                                                       0.0+             H  C  N
+ HN2                        H plus N2 - HN2 TS a                                                                                                                                                         0.0+             H  N
+ HN2                        H plus N2 - HN2 TS                                                                                                                                                          14.7+             H  N
+ HN2                        H plus N2                                                                                                                                                                    0.0+             H  N
+ HN2                        HN2                                                                                                                                                                        -10.7+             H  N
+ C3H4N2                     3b Diazomethane plus acetylene Product                                                                                                                                     -49.0+             H  C  N
+ C3H4N2                     3b Diazomethane plus acetylene TS                                                                                                                                           15.2+             H  C  N
+ C3H4N2                     3b Diazomethane plus acetylene                                                                                                                                               0.0+             H  C  N
+ C3H4N2                     5b Formonitrile imine plus acetylene Product                                                                                                                              -100.3+             H  C  N
+ C3H4N2                     5b Formonitrile imine plus acetylene TS                                                                                                                                      8.5+             H  C  N
+ C3H4N2                     5b Formonitrile imine plus acetylene                                                                                                                                         0.0+             H  C  N
+ C3H6N2                     3a Diazomethane plus ethylene Product                                                                                                                                      -31.7+             H  C  N
+ C3H6N2                     3a Diazomethane plus ethylene TS                                                                                                                                            14.6+             H  C  N
+ C3H6N2                     3a Diazomethane plus ethylene                                                                                                                                                0.0+             H  C  N
+ C3H6N2                     5a Formonitrile imine plus ethylene Product                                                                                                                                -57.4+             H  C  N
+ C3H6N2                     5a Formonitrile imine plus ethylene TS                                                                                                                                       7.2+             H  C  N
+ C3H6N2                     5a Formonitrile imine plus ethylene                                                                                                                                          0.0+             H  C  N
+ C3H6N2                     8b Formoazomethine imine plus acetylene Product                                                                                                                            -60.8+             H  C  N
+ C3H6N2                     8b Formoazomethine imine plus acetylene TS                                                                                                                                   8.1+             H  C  N
+ C3H6N2                     8b Formoazomethine imine plus acetylene                                                                                                                                      0.0+             H  C  N
+ C3H8N2                     8a Formoazomethine imine plus ethylene Product                                                                                                                             -42.8+             H  C  N
+ C3H8N2                     8a Formoazomethine imine plus ethylene TS                                                                                                                                    6.6+             H  C  N
+ C3H8N2                     8a Formoazomethine imine plus ethylene                                                                                                                                       0.0+             H  C  N
+ C2H3N3                     2b Hydrazoic acid plus acetylene Product                                                                                                                                   -61.5+             H  C  N
+ C2H3N3                     2b Hydrazoic acid plus acetylene TS                                                                                                                                         20.1+             H  C  N
+ C2H3N3                     2b Hydrazoic acid plus acetylene                                                                                                                                             0.0+             H  C  N
+ C2H5N3                     2a Hydrazoic acid plus ethylene Product                                                                                                                                    -19.7+             H  C  N
+ C2H5N3                     2a Hydrazoic acid plus ethylene TS                                                                                                                                          20.3+             H  C  N
+ C2H5N3                     2a Hydrazoic acid plus ethylene                                                                                                                                              0.0+             H  C  N
+ HCO                        H plus CO - HCO TS a                                                                                                                                                         0.0+             H  C  O
+ HCO                        H plus CO - HCO TS                                                                                                                                                           3.2+             H  C  O
+ HCO                        H plus CO                                                                                                                                                                    0.0+             H  C  O
+ HCO                        HCO                                                                                                                                                                        -22.7+             H  C  O
+ C3H3NO                     4b Fulminic acid plus acetylene Product                                                                                                                                    -74.0+             H  C  N  O
+ C3H3NO                     4b Fulminic acid plus acetylene TS                                                                                                                                          14.1+             H  C  N  O
+ C3H3NO                     4b Fulminic acid plus acetylene                                                                                                                                              0.0+             H  C  N  O
+ C3H5NO                     4a Fulminic acid plus ethylene Product                                                                                                                                     -39.3+             H  C  N  O
+ C3H5NO                     4a Fulminic acid plus ethylene TS                                                                                                                                           13.0+             H  C  N  O
+ C3H5NO                     4a Fulminic acid plus ethylene                                                                                                                                               0.0+             H  C  N  O
+ C3H5NO                     7b Methylene nitrone plus acetylene Product                                                                                                                                -43.9+             H  C  N  O
+ C3H5NO                     7b Methylene nitrone plus acetylene TS                                                                                                                                      14.0+             H  C  N  O
+ C3H5NO                     7b Methylene nitrone plus acetylene                                                                                                                                          0.0+             H  C  N  O
+ C3H7NO                     7a Methylene nitrone plus ethylene Product                                                                                                                                 -28.8+             H  C  N  O
+ C3H7NO                     7a Methylene nitrone plus ethylene TS                                                                                                                                       13.8+             H  C  N  O
+ C3H7NO                     7a Methylene nitrone plus ethylene                                                                                                                                           0.0+             H  C  N  O
+ C3H7NO                     N-methyl acetamide, ts (f)                                                                                                                                                  14.0+             H  C  N  O
+ C3H7NO                     N-methyl acetamide, ts (r)                                                                                                                                                  14.0+             H  C  N  O
+ C2H2N2O                    1b Nitrous oxide and acetylene Product                                                                                                                                     -37.1+             H  C  N  O
+ C2H2N2O                    1b Nitrous oxide and acetylene TS                                                                                                                                           27.9@             H  C  N  O
+ C2H2N2O                    1b Nitrous oxide and acetylene                                                                                                                                               0.0+             H  C  N  O
+ C2H4N2O                    1a Nitrous oxide and ethylene product                                                                                                                                       -4.4+             H  C  N  O
+ C2H4N2O                    1a Nitrous oxide and ethylene TS                                                                                                                                            27.9+             H  C  N  O
+ C2H4N2O                    1a Nitrous oxide and ethylene                                                                                                                                                0.0+             H  C  N  O
+ H2F                        H plus HF - HF plus H TS                                                                                                                                                    42.2+             H  F
+ H2F                        H plus HF - HF plus H. TS a                                                                                                                                                  0.0+             H  F
+ H2F                        H plus HF                                                                                                                                                                    0.0+             H  F
+ H2F                        HF plus H                                                                                                                                                                    0.0+             H  F
+ CH4F                       H plus FCH3 - HF plus CH3 TS a                                                                                                                                               0.0+             H  C  F
+ CH4F                       H plus FCH3 - HF plus CH3 TS                                                                                                                                                30.4+             H  C  F
+ CH4F                       H plus FCH3                                                                                                                                                                  0.0+             H  C  F
+ CH4F                       HF plus CH3                                                                                                                                                                -57.0+             H  C  F
+ CH4OF                      HOCH3 plus F(-)                                                                                                                                                            -47.2+             H  C  O  F
+ CH4OF                      OH(-) plus CH3F - HOCH3 plus F(-) TS a                                                                                                                                       0.0+             H  C  O  F
+ CH4OF                      OH(-) plus CH3F - HOCH3 plus F(-) TS                                                                                                                                        11.0+             H  C  O  F
+ CH4OF                      OH(-) plus CH3F                                                                                                                                                              0.0+             H  C  O  F
+ HF2                        H plus F2 - HF plus F TS a                                                                                                                                                   0.0+             H  F
+ HF2                        H plus F2 - HF plus F TS                                                                                                                                                     2.3+             H  F
+ HF2                        H plus F2                                                                                                                                                                    0.0+             H  F
+ HF2                        HF plus F                                                                                                                                                                 -106.2+             H  F
+ CH3F2                      F - CH3 - F(-) transition state                                                                                                                                             -0.4+             H  C  F
+ CH3F2                      F - CH3F(-) complex                                                                                                                                                        -13.7+             H  C  F
+ CH3FCl                     CH3 plus FCl - CH3F plus Cl TS a                                                                                                                                             0.0+             H  C  F  Cl
+ CH3FCl                     CH3 plus FCl - CH3F plus Cl TS                                                                                                                                               7.4+             H  C  F  Cl
+ CH3FCl                     CH3 plus FCl                                                                                                                                                                 0.0+             H  C  F  Cl
+ CH3FCl                     CH3F plus Cl                                                                                                                                                               -60.2+             H  C  F  Cl
+ CH3FCl                     Cl - CH3 - F(-) TS (f)                                                                                                                                                       2.9+             H  C  F  Cl
+ CH3FCl                     Cl - CH3 - F(-) TS (r)                                                                                                                                                      29.6+             H  C  F  Cl
+ CH3FCl                     Cl - CH3F(-) complex                                                                                                                                                      -122.9+             H  C  F  Cl
+ CH3FCl                     F - CH3Cl(-) complex                                                                                                                                                       -82.7+             H  C  F  Cl
+ CH3Cl2                     Cl - CH3 - Cl(-) transition state                                                                                                                                            3.1+             H  C  Cl
+ CH3Cl2                     Cl - CH3Cl(-) complex                                                                                                                                                      -10.5+             H  C  Cl
+ TOTAL NUMBER 
+ OF FILES:              108
+ OF HEATS OF FORMATION: 108,  WITH REFS: 107 = 99.07%   AND SD'S:   0 =  0.00
+ OF DIPOLE MOMENTS:       1,  WITH REFS:   1 =100.00%   AND SD'S:   0 =  0.00
+ OF I.P.s:                1,  WITH REFS:   1 =100.00%   AND SD'S:   0 =  0.00
+ OF GEOMETRY FILES:       1,  WITH REFS:   1 =100.00%

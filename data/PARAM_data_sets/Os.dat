@@ -1,0 +1,103 @@
+ cycles=50 params=../PM7.txt PM7 ref=../norm;../erra;../leve;../soli
+ ZP Os 2 4
+(Os)(all)
+end
+core-core_Os - H near
+core-core_Os - H far
+core-core_Os - C near
+core-core_Os - C far
+core-core_Os - N near
+core-core_Os - N far
+core-core_Os - O near 
+core-core_Os - O far
+core-core_Os - F near
+core-core_Os - F far   
+core-core_Os - Cl near
+core-core_Os - Cl far 
+core-core_Os - K near
+core-core_Os - K far
+core-core_Os - Br near     
+core-core_Os - Br far 
+core-core_Os - I near    
+core-core_Os - I far 
+core-core_Os - Os near
+core-core_Os - Os near slope
+Osmium hexafluoride (Oh).mop
+Osmium hexafluoride (D3h).mop
+* core_Os_2_0_6_(Ref).mop
+* core_Os_1_0_7_(fn).mop
+* OsF6(=) A2g.mop
+* OsC10Cl(+) (good)
+* OsC10Cl(+) (bad)
+* Osmium(vi) hexafluoride (OsF6) r.mop
+* Osmium(vi) hexafluoride (OsF6)
+* Os4F20 (good)
+* Os4F20 (bad)
+* Os4F20 (bad 2)
+* Os4F20 (bad 3)
+* Os4F20 (bad 3)
+* Os4F20 (bad 4)
+* Os(CO)3 (+-)
+OsF6 3Eg
+* OsF6(=) Eg.mop
+* OsF5 (good)
+* OsF5 (bad)
+* OsF5 (bad 2)
+* Os(CO)5 (D3h) (Ref)
+* Os(CO)5 (C4v) (Bad)
+* Os(CO)4 dianion (Td) (Ref)
+* Os(CO)4 dianion (Bad)
+* Core_Os_2_0_6
+OsI4F(NO) r
+OsCl4F2(-) r
+osmocener
+os(ii)(nh3)6r
+os(en)3r
+[os(nh3)5h2o]++ r
+osn5o(2+) (befdas) r
+methyl osmium(iii) dihydroxider
+os(co)4(c2h4)r
+os(co)5r
+os(iii)(h2o)6 d5_r
+os(ii)(h2o)6r
+os(acac)2(h2o)2r
+oso4n2 (babwac) r
+osof2r
+osf3r
+os(iii)f6 d5_r
+os(co)4(pet3)r
+os(cp)np2(2+) (belnov) r
+os(c6h6)cncl (bedyuf) r
+[os(nh3)5cl]++ r
+osocl2r
+os(iii)cl6 d5_r
+osobr2r
+os(co)4f2 (bedkeb) r
+os(co)3(c3h5)ir
+osoi2r
+os(co)4i2r
+os2(c8h8)(co)6r
+osmium, cation
+osmium, 3p(g) 5d(6)6s(2)
+osmium, 5d(g) 5d(6)6s(2)
+osmium, atom
+* osmium, trianion
+osmocene
+os(ii)(nh3)6
+osmium(ii) tris(ethylenediamine)
+[os(nh3)5h2o]++
+os(co)4(c2h4)
+osmium pentacarbonyl
+os(ii)(h2o)6
+osmium di-acetylacetonate dihydrate
+osmium(iv) oxide difluoride
+osmium(iii) trifluoride
+os(co)4(pet3)
+osmium(iv) oxide dichloride
+osmium(iii) trichloride
+osmium(iv) oxide dibromide
+osmium(iii) tribromide
+os(co)3(c3h5)i
+osmium(iv) oxide diiodide
+os(co)4i2
+osmium(iii) triiodide

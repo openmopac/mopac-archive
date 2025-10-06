@@ -1,0 +1,679 @@
+*
+*  Optimize t
+*
+ cycles=50  params=../PM7.txt PM7 ref=../norm;../erra;../leve;../soli    
+FN21 N 0.5 5
+(N)(All)
+end
+1-amino-10-ammonium-naphthalene cation (good)
+1-amino-10-ammonium-naphthalene cation (bad)
+01_NH3_dimer separated
+01_NH3_dimer
+01_NH3_dimer r
+04_formamide_dimer separated
+04_formamide_dimer
+04_formamide_dimer r
+05_uracil_HB separated
+05_uracil_HB
+05_uracil_HB r
+06_pyridoxine_aminopyridine separated
+06_pyridoxine_aminopyridine
+06_pyridoxine_aminopyridine r
+07_adenine_thymine_WC separated
+07_adenine_thymine_WC
+07_adenine_thymine_WC r
+12_pyrazine_dimer_well_separated
+12_pyrazine_dimer
+13_uracil_dimer_stack_well_separated
+13_uracil_dimer_stack
+13_uracil_dimer_stack r
+14_indole_benzene_stack_well_separated
+14_indole_benzene_stack
+15_adenine_thymine_stack separated
+15_adenine_thymine_stack
+15_adenine_thymine_stack r
+18_benzene_NH3_well_separated
+18_benzene_NH3
+18_benzene_NH3 r
+19_benzene_HCN_well_separated
+19_benzene_HCN
+21_indole_benzene_T_well_separated
+21_indole_benzene_T
+a0_Guanine-cytosine_WC_well_separated
+a0_Guanine-cytosine_WC
+a0_Guanine-cytosine_WC r
+a1_Guanine-cytosine_stacked_well_separated
+a1_Guanine-cytosine_stacked
+a1_Guanine-cytosine_stacked r
+Adenine-4-thiouracil_separated
+Adenine-4-thiouracil
+Adenine-4-thiouracil_r
+nh3r
+cnr
+hcnr
+ch3nh2r
+ch3cnr
+ch3ncr
+c2h4nhr
+me2nhr
+chccnr
+ch2chcnr
+me3nr
+c4h4nhr
+c5h5nr
+n2r
+c2n2r
+mennmer
+n3r
+triaziner
+nor
+hncor
+hconh2r
+hconh2rr
+n2or
+ceb r
+1d88_b3p r
+2me_b3p r
+no2r
+hno2r
+hno2transr
+salr
+nh2no2r
+hno3r
+n2o3r
+aa_20_pro-pro r
+aa_03_val-val r
+aa_05_ile-ile r
+naphthoquinone_b3p r
+n2o4r
+meno23r
+petnr
+fcnr
+fnor
+nf2-cnr
+nf3r
+cf3cnr
+po(ocn)3r
+snr
+ch3ncsr
+sf5ncor
+aa_16_cys-cys r
+aa_19_met-met r
+clcnr
+cyanogen chlorider
+noclr
+no2clr
+brcnr
+brnor
+nitrogen, cation
+nitrogen, atom
+amidogen
+ammonia
+ammonia - flat
+ammonium, cation
+cyanide
+hydrogen cyanide
+ch2-nh2, cation
+ch3-nh.
+ch3nh, anion
+ch3nh2
+ch3nh2rot
+methylamine
+acetonitrile
+methyl isocyanide
+ethyleneimine (azirane)
+dimethyl nitrogen, anion
+dimethylamine
+ethylamine
+ch.c.cn
+acrylonitrile
+ethyl cyanide
+cyclopropylamine
+isopropylamine
+n-propylamine
+trimethylamine
+(e)-2-butenenitrile
+(z)-2-butenenitrile
+3-butenenitrile
+pyrrole
+butanenitrile
+isobutane nitrile
+pyrrolidine
+2-butylamine
+2-methyl-1-propylamine
+n-butylamine
+t-butylamine
+pyridine
+n-methyl pyrrole
+1,2,3,6-tetrahydropyridine
+2-cyanobutane
+butyl cyanide
+t-butylnitrile
+cyclopentylamine
+piperidine
+n-methyl-n-butylamine
+1-cyclopentenecarbonitrile
+2-cyclopentenecarbonitrile
+2-methyl pyridine
+3-methyl pyridine
+4-methyl pyridine
+aniline
+2,5-dimethyl-1h-pyrrole
+cyclopentanecarbonitrile
+2-methylpiperidine
+cyclohexamethylenimine
+cyclohexanamine
+n-methyl piperidine (eq), complex
+di-n-propylamine
+diiospropylamine
+triethylamine
+phenyl cyanide
+1-cyclohexenecarbonitrile
+2,6-dimethylpyridine
+2-cyclohexenecarbonitrile
+benzylamine
+m-toluidine
+n-methylaniline
+o-toluidine
+p-toluidine
+cyclohexanecarbonitrile
+hexahydro-1h-pyrrolizine
+n-heptanenitrile
+isopropylbutylamine
+1-norbornylcyanide
+1-norbornylisocyanide
+5-ethyl-2-methyl-pyridine
+n,n-dimethyl aniline
+n-ethyl aniline
+3-azabicyclo[3.2.2]nonane
+n-heptyl cyanide
+n-(2-methylpropylidene)-butylamine
+2-methyl-n-(2-methylpropyl)-1-propanamine
+di-sec-butylamine
+dibutylamine
+n-(2-methylpropyl)-1-butanamine
+n-octylamine
+isoquinoline
+quinoline
+2,6-dimethylbenzonitrile
+(1a,2a,4a)-bicyclo[2.2.2]oct-5-ene-2-carbonitrile
+(1a,2b,4a)-bicyclo[2.2.2]oct-5-ene-2-carbonitrile
+1,2,3,4-tetrahydroquinoline
+5,6,7,8-tetrahydroquinoline
+n,n-dimethyl m-toluidine
+n,n-dimethyl p-toluidine
+n-ethyl m-toluidine
+cis-3,7a-h-cis-5,8-h-3,5-dimethylpyrrolizidine
+decahydro trans-quinoline
+2,2,6,6-tetramethyl piperidine
+2-methyl-quinoline
+4-methyl-quinoline
+6-methyl-quinoline
+8-methyl-quinoline
+2,4,6-trimethyl-benzonitrile
+2,4,6-trimethylphenyl isocyanide
+n,n-diethyl aniline
+n-nonyl cyanide
+2,6-dimethyl quinoline
+2,7-dimethyl quinoline
+1-adamantyl cyanide
+1-adamantyl isocyanide
+2-methyl-6-t-butylaniline
+n-undecanenitrile
+carbazole
+2-biphenylamine
+biphenylamine
+2-n-butyl-2-methylhexanenitrile
+6,7-benzoquinoline
+a-benzoquinoline
+acridine
+benzo[f]quinoline
+phenanthridine
+n-methylcarbazole
+1,2,3,4-tetrahydro-n-methylcarbazole
+9-ethyl-9h-carbazole
+tetradecanenitrile
+dioctylamine
+triphenylamine
+trioctylamine
+nitrogen
+diazene
+hydrazine
+diazomethane
+n=n-ch2-
+methylhydrazine
+cyanogen
+1,1-dimethylhydrazine
+1,2-dimethylhydrazine
+ethylenediamine
+1h-pyrazole
+imidazole
+1,2-propanediamine
+dicyanoacetylene
+fumaronitrile
+1,3-diazine
+pyrazine
+pyridazine
+succinonitrile
+2-methyl-1h-imidazole
+(dimethylamino) acetonitrile
+1,4,5,6-tetrahydropyrimidine
+piperazine
+2-aminopyridine
+3-aminopyridine
+4-aminopyridine
+dimethyl propanedinitrile
+2-ethyl-1h-imidazole
+diethylcyanamide
+butylmethyldiazene
+n,n-dimethyl-1,3-propanediamine
+2-cyanopyridine
+3-cyanopyridine
+4-cyanopyridine
+2,3-dimethyl pyrazine
+hexanedinitrile
+phenylhydrazine
+3(dimethylamino) propanenitrile
+tetramethyldiazetine
+triethylenediamine
+1,2-diisopropyldiazene
+dipropyldiazene
+1h-benzimidazole
+1h-indazole
+1-methyl-1-phenylhydrazine
+t-butylmalononitrile
+trimethyl pyrazine
+1-piperidineacetonitrile
+3,3,5,5-tetramethyl-1-pyrazoline
+m-dicyanobenzene
+o-dicyanobenzene
+p-dicyanobenzene
+phthalazine
+quinazoline
+quinoxaline
+n-pentylmalonodinitrile
+tetramethylbutanedinitrile
+tetramethylpyrazine
+1,4-dimethyl-2,3-diaza-bicyclo[2.2.2]oct-2-ene
+3,4,5,6-tetrahydro-3,3,6,6-tetramethylpyridazine
+di-n-butyldiazene
+di-tert-butyldiazene
+1,2-dibutylhydrazine
+3-quinolinamine
+5-quinolinamine
+6-quinolinamine
+8-quinolinamine
+2-(diethylamino)-pentanenitrile
+2,2-bipyridyl
+2,4-bipyridyl
+4,4'-bipyridine
+2,3-dimethyl quinoxaline
+alpha n,n-dimethylamino phenylacetonitrile
+ethyl(1,1-dimethylpropyl)malonodinitrile
+meso-2,3-diethyl-2,3-dimethylsuccinodinitrile
+methyl(1,1,2-trimethylpropyl)malonodinitrile
+phenazine
+phenazone
+cis-azobenzene
+diphenyl diazene
+4,4'-dimethyl-2,2'-bipyridine
+1,(1-piperidinyl) cyclohexanecarbonitrile
+a-phenyl-1-piperidineacetonitrile
+2,2'-biquinoline
+tetraisobutylsuccinonitrile
+azide
+hydrazoic acid
+methyl azide
+1,3,5-triazine
+ethylenetricarbonitrile
+1,1,1-ethanetricarbonitrile
+1,3,5-tricyanobenzene
+1,1,1-tricyano-2-phenyl ethane
+2,2',6',2'-terpyridine
+1-h tetrazole
+2-h-tetrazole
+tetracyanoethylene
+1,3,5,7-tetraazaadamantane
+melamine
+nitric oxide, cation
+nitric oxide
+nco
+hydrogen isocyanate
+formamide
+acetaldoxime
+acetamide
+isoxazole
+oxalone
+acrylamine
+methoxyacetonitrile
+dimethylformamide
+n-methyl acetamide
+propanamide
+dimethylaminomethanol
+3-methyl isoxazole
+5-methyl isoxazole
+2-pyrrolidinone
+4,5-dihydro-2-methyl oxazole
+methacrylamide
+2-methyl propanamide
+butanamide
+isobutylamide
+n,n-diethyl-hydroxylamine
+2-pyridinol
+3-pyridinol
+4-pyridinol
+pyridine 1 oxide
+3,5-dimethyl isoxazole
+1-methyl-2-pyrrolidinone
+2-ethyl-4,5-dihydro-oxazole
+n,n-dimethylamino-2-propen-3-al
+1-(dimethylamino)-2-propanone
+2,2-dimethyl-propanamide
+n,n-dimethyl propanamide
+2-hydroxy-6-methylpyridine
+3-hydroxy-2-methylpyridine
+3-hydroxy-6-methylpyridine
+4-hydroxy-2-methylpyridine
+6-methyl-2(1h)-pyridinone
+m-amino phenol
+o-amino phenol
+p-amino phenol
+para-aminophenol
+para-aminophenol (90 degrees)
+trimethyl isoxazole
+caprolactam
+cyclohexanone oxime
+n,n-diethyl acetamide
+n,n-dimethylbutyramine
+benzoxazole
+isocyanatobenzene
+benzamide
+n,n-dimethylamino-2,4-pentadiene-5-al
+2-methoxy-3,3-dimethylbutanenitrile
+n,n-diethylaminoacetone
+n,n-dimethyl-tert-butylcarboxamide
+alpha-oxo benzeneacetonitrile
+1,3-dimethyl-2-nitroso-benzene
+n-methyl-n-phenyl formamide
+octanone-1-oxime
+octanone-2-oxime
+octanone-3-oxime
+octanone-4-oxime
+2(1h)-quinolinone
+3-phenyl isoxazole
+4-quinolinol
+5-phenyl isoxazole
+8-quinolinol
+a-cyanoacetophenone
+2,4,6-trimethylnitrosobenzene
+n,n-dimethyl benzamide
+n,n-dimethyamino-2,4,6-heptatriene-7-al
+2,2,6,6-tetramethyl-4-piperidinone
+2-methyl-4-hydroxyquinoline
+2-methyl-8-quinolinol
+3-methyl-5-phenyl isoxazole
+4-methyl-2-hydroxyquinoline
+5-methyl-3-phenyl isoxazole
+beta-cyanopropiophenone
+2,4,6-trimethylbenzonitrile, n-oxide
+2-(dimethylamino)-acetophenone
+n,n,4-trimethyl benzamide
+(e)-3-(methylamino)-1-phenyl-but-2-enone
+1-propanone, 2-(dimethylamino)-1-phenyl-
+2-propanamine, 2-methyl-n-(phenylmethylene)-, n-oxide
+1-adamantanecarboxamide
+n,n-dimethylnonamide
+phenoxazine
+2-(diethylamino)-1-phenylethanone
+9,10-dihydro-9-oxoacridine
+benzenamine, n-(phenylmethylene)-, n-oxide
+1-propanone, 2-(diethylamino)-1-phenyl-
+n,n-dimethyl-1-adamantylcarboxamide
+4-isopropylbenzylidene t-butylamine n-oxide
+nitrous oxide
+urea
+n-methyl urea
+dimethyl furazan
+isopropylurea
+5-amino-3,4-dimethylisoxazole
+(1-methylpropyl) urea
+n,n-diethylurea
+tetramethylurea
+4-amino-2(1h)-pyrimidinone
+nitrogen dioxide, cation
+nitrogen dioxide
+nitrous acid, cis
+nitrous acid, trans
+methyl nitrite
+nitromethane
+ethyl nitrite
+glycine
+methyl carbamate
+nitroethane
+3-amino-2-propenoic acid
+3-amino-2-propenoic acid zwitterion
+alanine
+beta-alanine
+isopropylnitrite
+n-methylglycine
+propyl nitrite
+urethane
+methylamine plus acetic acid
+methyl ammonium acetate zwitterion
+methyl cyanoacetate
+succinimide
+2-nitrobutane
+2-nitroisobutane
+4-aminobutanoic acid
+isobutyl nitrite
+n-butyl nitrite
+sec-butyl nitrite
+t-butyl nitrite
+diethanolamine
+n-methylmaleimide
+glutarimide
+n-methylsuccinimide
+proline
+5-aminovaleric acid
+n,n-dimethylglycine methyl ester
+tert-pentyl nitrite
+valine
+1,1-dimethoxy-trimethylamine
+niacin
+nitrobenzene
+ortho-nitroso-phenol
+ortho-nitroso-phenol (faulty)x
+ethyl 2-cyanopropionate
+ethyl n,n-dimethylglycinate
+hexanoic acid, 6-amino-
+isoleucine
+leucine
+methyl n,n-dimethylalaninate
+n,n-dimethylacetamide dimethyl acetal
+m-aminobenzoic acid
+o-aminobenzoic acid
+p-aminobenzoic acid
+p-nitrotoluene
+phenylnitromethane
+zw m-aminobenzoic acid
+zw para-amino benzoic acid
+methyl n,n-,a,a-tetramethylglycinate
+2,6-dimethylnitrobenzene
+2-amino-2-phenylacetic acid
+2-nitro-m-xylene
+n-phenylglycine
+8-aminocaprylic acid
+2-methyl-1h-isoindole-1,3(2h)-dione
+nitromesitylene
+phenylalanine
+2,2,6,6-tetramethyl-4-oxo-1-piperidinyloxy
+1-hydroxy-2,2,6,6-tetramethyl-4-piperidinone
+4-hydroxy-2,2,6,6-tetramethyl-1-piperidinyloxy
+1-hydroxy-2,2,6,6-tetramethyl-4-piperidinol
+1-nitroso-2-naphthalenol
+1-nitroso-4-naphthalenol
+2-nitroso-1-naphthalenol
+n,n-dimethyl 4-methoxybenzamide
+1-nitroadamantane
+2-nitroadamantane
+phenol, 2-[(phenylimino)methyl]-, n-oxide
+benzenamine, n-[(4-methoxyphenyl)methylene]-, n-oxide
+n-(3-phenoxy-2-hydroxypropyl)aniline
+oxalamide
+n-nitrodimethylamine
+acetyl-urea
+propanediamide
+pyrazine-1,4-dioxide
+uracil
+thymine
+m-nitroaniline
+p-nitroaniline
+lysine
+n,n-dimethyl-m-nitroaniline
+n,n-dimethyl-p-nitroaniline
+tryptophan
+imidodicarbonic diamide
+histidine
+argenine
+07_adenine_thymine_wc separated
+07_adenine_thymine_wc
+nitrate radical
+nitrate anion
+nitric acid
+methyl nitrate
+oxamic acid
+ethyl nitrate
+serine
+2-nitrofuran
+threonine
+m-nitrophenol
+o-nitrophenol
+p-nitrophenol
+tyrosine
+dinitrogen trioxide
+barbituric acid
+asparagine
+gly-gly
+glutamine
+ala-ala
+8-hydroxy-5-nitroquinoline
+pro-pro
+val-val
+ile-ile
+leu-leu
+1,3,5-triazine-2,4,6(1h,3h,5h)-trione
+1,3,5-trimethyl-s-triazine-2,4,6-trione
+2,4,6-trimethoxy-s-triazine
+aspartic acid
+glutamic acid
+4-nitrocatechol
+p-nitrobenzoic acid
+dinitrogen tetroxide
+dinitromethane
+m-dinitrobenzene
+o-dinitrobenzene
+p-dinitrobenzene
+2,4-dinitrotoluene
+dinitrophenylmethane
+n,n'-bis(m-methoxyphenyl) terephthalamide
+n,n'-bis(o-methoxyphenyl) terephthalamide
+n,n'-bis(p-methoxyphenyl) terephthalamide
+methyldinitramine
+05_uracil_hb separated
+05_uracil_hb
+dinitrogen pentoxide
+ser-ser
+thr-thr
+trinitromethane
+1,1,1-trinitroethane
+2,4,6-trinitrotoluene
+2-(diacetoxymethyl)-5-nitrofuran
+asp-asp
+2,4,6-trinitroanisole
+2,4,6-trinitrophenetole
+tetranitromethane
+glycerol trinitrate
+pentaerythritol tetranitrate
+hexanitroethane
+bis(2,2,2-trinitroethyl)-amine
+cyanogen fluoride
+nitrosyl fluoride
+fluorine nitrite
+fluorine nitrate
+fluorodinitromethane
+fluorodinitrophenylmethane
+nf2.
+difluoro nitrogen, anion
+t-butyldifluoroamine
+n,n'-difluorobenzylamine
+cis-difluorodiazene
+trans-difluorodiazene
+nitrogen trifluoride
+trifluoroacetonitrile
+trifluoromethylisocyanide
+f3no
+tetrafluorohydrazine
+n,n,n',n'-tetrafluoro-1,1-cyclohexanediamine
+n,n,n',n'-tetrafluoro-4-methyl-1,2-pentane
+1,1-bis(difluoroamine)heptane
+pentafluoromethylamine
+pentafluoroguanidine
+hexafluorodimethylamine
+heptafluoromethane triamine
+octafluoromethanetetramine
+undecafluoropiperidine
+tetrakis(difluoroamine)-n-1,1-trifluorodimethylamine
+perfluorotriethylamine
+perfluorotributylamine
+phosphorus nitride
+hpn
+pnh
+pnh2 (singlet)
+trans-hpnh
+(ch3)2p=net
+trimethylphosphine-n-ethylimine
+hexamethylphosphorous triamide
+tris(diethylamino)phosphine
+po(ocn)3
+sulfur nitride
+hydrogen isothiocyanate
+methyl isothiocyanate
+methyl thiocyanate
+ethanethioamide
+4-methylthiazole
+benzothiazole
+benzenecarbothioamide
+n,n-(dimethyl)thiobenzamide
+phenothiazine
+thiourea
+tetramethylthiourea
+4,6-bis(isopropylamino)-2-methylmercapto)-s-triazine
+s-o_in_peptide
+s-o_in_peptide_strained
+bis-diethylamine sulfoxide
+cysteine
+methionine
+diisopropyldithiocarbamic acid
+dipropyldithiocarbamic acid
+s2(cn)2
+thiocyanogen
+bis-diethylamino disulfide
+cys-cys
+cyanogen chloride
+3-chloro-4-methylaniline
+nitrosyl chloride
+nitryl chloride
+nclf2
+1,1-dichloro-1-nitro-propane
+1,1',2,2'-tetranitro-1,2-dichloroethane
+1,3-dichloro-1,1,3,3-tetranitropropane
+hexachloro-1,3,5,2,4,6-triazatriphosphorine
+cyanogen bromide
+3-bromo-3-methyldiazirine
+(mecn)7.br(-)
+nitrosyl bromide
+5-chloro-8-bromo-8-hydroxyquinoline
+2,4,6-tribromoaniline
+cyanogen iodide
+nitrosyl iodide
+5,7-diiodo-8-hydroxyquinoline

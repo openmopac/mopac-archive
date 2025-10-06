@@ -1,0 +1,9 @@
+*
+*  Optimize a single element
+*
+cycles=50 params=../PM7.txt PM7 ref=../norm;../erra;../leve;../soli 
+ ALPB_Au Au
+ XFAC_Au Au
+end
+Gold (Au) (ICSD 52249) r
+Gold (Au) (ICSD 52249) 

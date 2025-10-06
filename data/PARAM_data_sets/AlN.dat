@@ -1,0 +1,9 @@
+*
+*  Optimize a single element
+*
+GWT=0.2 cycles=50 params=../PM7.txt PM7 ref=../norm;../erra;../leve;../soli 
+ ALPB_N Al
+ XFAC_N Al
+end
+aluminum nitride (AlN)
+aluminum nitride (AlN) r

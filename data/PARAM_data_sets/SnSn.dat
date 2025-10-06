@@ -1,0 +1,9 @@
+*
+*  Optimize a single element
+*
+cycles=40 params=../PM7.txt NOSCALE PM7 ref=../norm;../erra;../leve;../soli
+alpb_Sn Sn
+xfac_Sn Sn
+end  
+Tin (cubic) (Sn) (ICSD 76040) r.mop
+Tin (cubic) (Sn) (ICSD 76040) 

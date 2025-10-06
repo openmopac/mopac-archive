@@ -1,0 +1,14 @@
+*
+*  Optimize t
+*
+cycles=50  params=../PM7.txt PM7 ref=../norm;../erra;../leve;../soli    
+end
+C6H5Cl-C6H6 complex r
+C6H5Br-C6H6 complex r
+C6H5I-C6H6 complex r
+C6H5Cl-C6H6 separated
+C6H5Br-C6H6 separated
+C6H5I-C6H6 separated
+C6H5Cl-C6H6 complex
+C6H5Br-C6H6 complex
+C6H5I-C6H6 complex

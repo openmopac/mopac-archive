@@ -1,0 +1,2 @@
+1                            : Do you want to calculate a point [0], or draw band-structures [1]
+0 .5                         : Starting and ending points in k-space,  2 numbers, "quit" to quit

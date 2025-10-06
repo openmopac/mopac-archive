@@ -1,0 +1,143 @@
+*
+*  Optimize a single element
+*
+cycles=50 PM7 params=../PM7.txt ref=../norm;../erra;../leve;../soli 
+alpb_Pb Te  1 5
+Xfac_Pb Te  1 500
+(Te)(all) 
+end  
+core-core_Te - H near
+core-core_Te - H far
+core-core_Te - B near
+core-core_Te - B far
+core-core_Te - O near
+core-core_Te - F near
+core-core_Te - F far
+core-core_Te - P near
+core-core_Te - P far
+core-core_Te - S near
+core-core_Te - S far
+core-core_Te - Cl near
+core-core_Te - Cl far
+core-core_Ge - Te near
+core-core_Ge - Te far
+core-core_Te - Br near
+core-core_Te - Br far
+core-core_Te - Sb near
+core-core_Te - Sb far
+core-core_Cd - Te near
+core-core_CD - Te far
+core-core_Te - Te near
+core-core_Te - Te far
+core-core_Te - I near
+core-core_Te - I far
+core-core_Hg - Te near
+core-core_Hg - Te far
+core-core_Pb - Te near
+core-core_Pb - Te far
+* Te2Cl8 (good)
+* Te2Cl8 (bad)
+Te4Br16
+teh2r
+te(iv)c3(+) (huhbiv) r
+te(iv)c4 (pobwos) r
+te(ii)n2 (cessau) r
+teo2r
+te(oh)6r
+te(vi)o6 (binfaf01) r
+tef2r
+te(vi)c2f4 (bijvum) r
+te(iv)f5(-) (jijjob) r
+te(vi)f5o(-) (gekzif) r
+tef5ncobr
+tef6r
+te(vi)f6o(-) (kupbay) r
+te(vi)f7(-) (rolsoa) r
+te(iv)c2f2 (vejwuc) r
+* alter
+* teh-alh2r
+* tef2.pf3r
+* tef3.pf3(+)r
+me-te-s-me r
+-te-s-(ch2)3-r
+tes2r
+te(sh)2r
+te(ii)s2 (racnep) r
+meophtespr
+te(ii)s4 (temxan10) r
+tecl2r
+te(iv)c2cl2 (dmtecl02) r
+te(iv)c2br2 (bibboe) r
+te(iv)o2cl3(-) (porsoe) r
+tecl4r
+te(iv)cl6(2-) (bexsec) r
+et3tebrr
+tebr2r
+te(iv)c2br2 (coqnol) r
+te(iv)s4br2 (bawfio) r
+tebr4r
+te(iv)br6(2-) (cixrik) r
+tebr6(=)r
+te2f10or
+te4cl16r
+te(iv)c2i2 (didmte) r
+te(ii)s2i2 (fobbaz) r
+te(ii)i4(2-) (damfig) r
+te(iv)ci4(-) (ijojas) r
+te(iv)i6(2-) (cemfef10) r
+te(iv)i6(2-) (izowav) r
+tellurium, cation
+tellurium, 1d(g) 5s(2)5p(4)
+tellurium, 1s(g) 5s(2)5p(4)
+tellurium, 3p(g) 5s(2)5p(4)
+tellurium, atom
+hydrogen telluride
+te(iv)c3(+) (huhbiv)
+te(iv)c4 (pobwos)
+te(ii)n2 (cessau)
+tellurium oxide
+te(oh)6 ref
+te(oh)6_wrong
+te(vi)o6 (binfaf01)
+telluric acid (te(oh)6)
+tellurium fluoride
+tellurium difluoride
+te(vi)c2f4 (bijvum)
+te(iv)f5(-) (jijjob)
+te(vi)f5o(-) (gekzif)
+te(vi)f6o(-) (kupbay)
+te(vi)f7(-) (rolsoa)
+te(iv)c2f2 (vejwuc)
+al-te, complex
+aluminum telluride
+me-te-s-me
+-te-s-(ch2)3-
+tes2
+te(sh)2
+te(ii)s2 (racnep)
+te(ii)s4 (temxan10)
+tellurium dichloride
+te(iv)c2cl2 (dmtecl02)
+te(iv)c2br2 (bibboe)
+te(iv)o2cl3(-) (porsoe)
+te(iv)cl6(2-) (bexsec)
+zinc telluride, complex
+zinc telluride, 2.0 angstroms
+zinc telluride, 2.2 angstroms
+zinc telluride
+et3tebr
+te(iv)c2br2 (coqnol)
+te(iv)s4br2 (bawfio)
+te(iv)br6(2-) (cixrik)
+tebr6(=)
+tin telluride
+tellurium, dimer
+tellurium oxide dimer
+te2f10
+te4cl16
+te(iv)c2i2 (didmte)
+te(ii)s2i2 (fobbaz)
+te(ii)i4(2-) (damfig)
+te(iv)ci4(-) (ijojas)
+te(iv)i6(2-) (cemfef10)
+te(iv)i6(2-) (izowav)

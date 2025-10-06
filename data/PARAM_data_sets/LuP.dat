@@ -1,0 +1,9 @@
+*
+*  Optimize a single element
+*
+params=../PM7.txt PM7 ref=../norm;../erra;../leve;../soli
+Alpb_Lu P
+Xfac_Lu P
+end  
+Lutetium phosphate (LuPO4) (ICSD 79761).mop
+Lutetium phosphate (LuPO4) (ICSD 79761) r

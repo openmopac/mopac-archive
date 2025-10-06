@@ -1,0 +1,9 @@
+*
+*  Optimize a single element
+*
+cycles=20 params=../PM7.txt PM7 ref=../norm;../erra;../leve;../soli
+xfac_Al As
+alpb_Al As
+end  
+Aluminum arsenide (AlAs) r
+Aluminum arsenide (AlAs) 

@@ -1,0 +1,9 @@
+*
+*  Optimize a single element
+*
+params=../PM7.txt PM7 ref=../norm;../erra;../leve;../soli
+Alpb_Al F
+Xfac_Al F
+end  
+Aluminum trifluoride (AlF3) r.mop
+Aluminum trifluoride (AlF3) 

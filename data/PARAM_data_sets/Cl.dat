@@ -1,0 +1,245 @@
+cycles=50 params=../PM7.txt pm7 ref=../norm;../erra;../leve 
+ (CL)(All)
+end  
+* core-core_Cl - N far  
+* core-core_Cl - O far  
+* core-core_Cl - Cl far  
+hexachlorobenzene
+hexachlorobenzene (dimer)
+core-core_H - Cl far  
+01 Chloromethane formaldehyde separated
+01 Chloromethane formaldehyde 
+02 Bromomethane formaldehyde separated
+02 Bromomethane formaldehyde 
+03 Iodomethane formaldehyde separated
+03 Iodomethane formaldehyde 
+04 Trifluorochloromethane formaldehyde separated
+04 Trifluorochloromethane formaldehyde 
+05 Trifluorobromomethane formaldehyde separated
+05 Trifluorobromomethane formaldehyde 
+06 Trifluoroiodomethane formaldehyde separated
+06 Trifluoroiodomethane formaldehyde
+07 Chlorobenzene acetone separated
+07 Chlorobenzene acetone 
+08 Bromobenzene acetone separated
+08 Bromobenzene acetone 
+09 Iodobenzene acetone separated
+09 Iodobenzene acetone 
+10 Chlorobenzene trimethylamine separated
+10 Chlorobenzene trimethylamine 
+11 Bromobenzene trimethylamine separated
+11 Bromobenzene trimethylamine 
+12 Iodobenzene trimethylamine separated
+12 Iodobenzene trimethylamine 
+* C6Cl6 (ref)
+* C6Cl6 (bad)
+hclr
+chclr
+ch3clr
+c2hclr
+c2h5clr
+2-chloropropener
+1-chloropropaner
+2-chloropropaner
+2-chloro-2-methylpropaner
+chlorobenzener
+clcnr
+cyanogen chlorider
+clor
+acetyl chlorider
+noclr
+no2clr
+hclo4r
+clfr
+coclfr
+clo3fr
+chclf2r
+clf3r
+clf5r
+ch3sclr
+cl2r
+ch2cl2r
+cis-dichloroethylener
+1,1-dichloroethaner
+trans-1,2-dichloroethaner
+cl2or
+cocl2r
+oxalyl chlorider
+cf2cl2r
+scl2r
+oscl2r
+so2cl2r
+ch3opscl2r
+ch3spocl2r
+s2cl2r
+chcl3r
+ccl3fr
+pcl3r
+pocl3r
+pscl3r
+ccl4r
+c2cl4r
+2,3,5,6-tetrachloro-1,4-benzoquinoner
+pcl5r
+c2cl6r
+c6cl6r
+scl6r
+brclr
+ch2clbrr
+iclr
+c4h4clir
+chlorine, cation 3p(u)  3s(1)3p(5)
+chlorine, cation
+chlorine, 2p(u) 3s(2)3p(5)
+chlorine, atom
+chloride, anion
+hydrogen chloride
+chloromethylidyne
+chloromethylene
+methyl chloride
+ch3clh(+)
+chloroacetylene
+chloroethylene
+chloroethane
+2-chloropropene
+1-chloropropane
+2-chloropropane
+1-chloro-2-methylpropane
+2-chloro-2-methylpropane
+1-chloropentane
+chlorobenzene
+benzyl chloride
+1-chloro-4-ethylbenzene
+1-chloronaphthalene
+2-chloronaphthalene
+cyanogen chloride
+3-chloro-4-methylaniline
+chlorine oxide
+hypochlorous acid
+carbonyl chloride (cocl)
+acetyl chloride
+3-chlorophenol
+4-chlorophenol
+2-chlorobenzaldehyde
+benzoyl chloride
+nitrosyl chloride
+chlorine dioxide
+chloroacetic acid
+2-chlorobenzoic acid
+3-chlorobenzoic acid
+4-chlorobenzoic acid
+nitryl chloride
+o3cl
+o4cl(-)
+hoclo3
+chlorine fluoride
+hydrogen chloride fluoride, anion
+fluorochloromethane
+ofcl
+carbonyl fluoride chloride
+fclo2(-)
+perchloryl fluoride
+clf2
+difluorochloromethane
+nclf2
+chlorine trifluoride
+trifluorochloromethane
+chlorotrifluoroethene
+chlorine pentafluoride
+chloropentafluoroethane
+chloropentafluorobenzene
+1,1,2-trifluoro-2-chloroethyl dodecafluoroheptylether
+phosphorus chloride
+phosphorus monoxide monochloride
+scl
+ch3scl
+c6h5scl
+socl
+hoso2cl
+so2clf
+sf5cl
+chlorine
+hydrogen dichloride, anion
+dichloromethylene
+chcl2(+)
+dichloromethane
+dichloroacetylene
+1,1-dichloroethylene
+cis-dichloroethylene
+trans-1,2-dichloroethylene
+1,1-dichloroethane
+trans-1,2-dichloroethane
+1,2-dichloropropane
+1,2-dichlorobenzene
+1,3-dichlorobenzene
+1,4-dichlorobenzene
+chlorine monoxide
+carbonyl chloride
+cl2o2
+oxalyl chloride
+1,1-dichloro-1-nitro-propane
+chlorine heptoxide
+cl2o7
+1,1',2,2'-tetranitro-1,2-dichloroethane
+1,3-dichloro-1,1,3,3-tetranitropropane
+fluorodichloromethane
+difluorodichloromethane
+1,2-dichloro 1,1,2,2-tetrafluoroethane
+phosphorus dichloride
+pcl2(c2h5)
+opcl2
+methylphosphonodichloride
+ethylphosphonic dichloride
+sulfur dichloride
+thionyl chloride
+sulfuryl chloride
+clsscl
+cl3(-)
+trichloromethyl
+chloroform
+trichloroethylene
+1,1,1-trichloroethane
+1,2,2-trichloroethane
+1,2,3-trichlorobenzene
+1,2,4-trichlorobenzene
+1,3,5-trichlorobenzene
+trichloroacetaldehyde
+fluorotrichloromethane
+1,1',2-trichloro-1,2,2'-trifluoroethane
+phosphorus trichloride (+)
+phosphorus trichloride
+phosphorus oxychloride
+sulfur trichloride
+socl3
+phosphorus thiochloride
+carbon tetrachloride
+tetrachloroethylene
+1,1,2,2-tetrachloroethane
+1,2,2,2-tetrachloroethane
+1,2,3,4-tetrachlorobenzene
+1,2,3,5-tetrachlorobenzene
+1,2,4,5-tetrachlorobenzene
+trichloroacetyl chloride
+2,3,5,6-tetrachloro-1,4-benzoquinone
+phosphorus tetrachloride
+sulfur tetrachloride
+socl4
+pentachloroethane
+pentachlorobenzene
+pentachlorophenol
+phosphorus pentachloride
+sulfur pentachloride
+hexachloroethane
+gamma hexachlorocyclohexane
+hexachloro-1,3,5,2,4,6-triazatriphosphorine
+sulfur hexachloride
+bromine chloride, cation
+bromine chloride
+bromochloromethane
+1-bromo-1-chloroethane
+5-chloro-8-bromo-8-hydroxyquinoline
+trichlorobromomethane
+iodine chloride
+iodine monochloride
+1,2-chloroiodoethane
+1-chloro-4-iodobutadiene

@@ -1,0 +1,117 @@
+*
+*  Get LaP and La-I correct first
+*
+cycles=50 params=../PM7.txt  PM7   ref=../norm;../erra;../leve;../soli
+(La)(all) 
+end  
+* La6 (D3h) (good)
+* La6 (D3h) (Bad)
+core-core_La - H near
+core-core_La - H far
+core-core_La - C near
+core-core_La - C far
+core-core_La - N near
+core-core_La - N far
+core-core_La - O near
+core-core_La - O far 
+core-core_La - F near
+core-core_La - F far 
+core-core_La - P near 
+core-core_La - P far
+core-core_La - S near 
+core-core_La - S far
+core-core_La - Cl near 
+core-core_La - Cl far  
+core-core_La - Br near
+core-core_La - Br far
+core-core_La - I near    
+core-core_La - I far 
+core-core_La - La near
+core-core_La - La far
+* La4 (bad)
+* La(CCH)3 (+-)
+* LaN (bad)
+* LaO6Br2 (+) (good)
+* LaO6Br2 (+) (bad)
+* LaO3Br4 (-) (good)
+* LaO3Br4 (-) (bad)
+LaF6 (4-) 2A1g
+LaF6 (4-) 2T2g
+LaF6 (4-) 2T1u
+* LaF4(=) Td 2E
+* LaF4(=) Td 2A1
+* LaF4(=) Td 2T2
+La(III)(Cp)2F2_(HINKAQ)r
+la(me)3r
+la(ii)(nh3)6r
+la(iii)(cp)3o (pewxuk) r
+la(iii)(h2o)6r
+la(ii)(h2o)6r
+la(iii)o8 (aqacal) r
+la(iii)o9(3-) (pewjik) r
+la(iii)o11 (pohdul) r
+la(iii)o11 (cablas) r
+lafr
+laofr
+laf3r
+la(iii)f4r
+laf6r
+la(iii)s6o2 (tepsow01) r
+laclr
+laoclr
+la(iii)o5n2cl2(+) (tesqox) r
+la(iii)o6cl2(+) (sezfae) r
+lacl3r
+la(iii)o5cl3 (wijgol) r
+la(iii)o5cl3 (yicces) r
+la(iii)cl4r
+lacl6r
+labrr
+labr3r
+la(iii)br4r
+labr6r
+lair
+la(iii)(cp)2o2i (welpae) r
+la(iii)o4i3 (ronmem) r
+la(iii)i4r
+lai6r
+la2cl7r
+lanthanum, cation
+lanthanum 2Dg 5d(1)6s(2)
+lanthanum 4fg 5d(2)6s(1)
+lanthanum 4fg2 5d(3)
+lanthanum 4pg 5d(2)6s(1)
+lanthanum, atom
+trimethyl lanthanum
+tricyclopentadienyl lanthanum(iii)
+* lanthanum(ii) tetracyanide 2e
+* la(ii)(nh3)6
+lanthanum(iii) hexaquo
+la(ii)(h2o)6 2tg
+* la(ii)(h2o)6
+la(iii)o8 (aqacal)
+la(iii)o9(3-) (pewjik)
+la(iii)o11 (pohdul)
+la(iii)o11 (cablas)
+lanthanum(i) fluoride
+lanthanum(iii) oxide fluoride
+lanthanum(iii) trifluoride
+lanthanum(iii) tetrafluoride, anion
+lanthanum(iii) hexafluoride
+lanthanum(i) chloride
+lanthanum(iii) oxide chloride
+la(iii)o5n2cl2(+) (tesqox)
+la(iii)o6cl2(+) (sezfae)
+lanthanum(iii) trichloride
+la(iii)o5cl3 (wijgol)
+la(iii)o5cl3 (yicces)
+lanthanum(iii) tetrachloride, anion
+lanthanum(iii) tetrachloride
+lanthanum(iii) hexachloride
+lanthanum(iii) tribromide
+lanthanum(iii) tetrabromide
+lanthanum(iii) hexabromide
+la(iii)(cp)2o2i (welpae)
+lanthanum(iii) tetraiodide
+lanthanum(iii) hexaiodide
+dilanthanum heptachloride, anion

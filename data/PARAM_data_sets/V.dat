@@ -1,0 +1,200 @@
+*
+*  Optimize a single element
+*
+cycles=50 params=../PM7.txt PM7 ref=../norm;../erra;../leve 
+(V)(All)
+end  
+core-core_V - H near
+core-core_V - H far
+core-core_V - C near
+core-core_V - C far
+core-core_V - O near
+core-core_V - O far
+core-core_V - F near    
+core-core_V - F far 
+core-core_V - P far 
+core-core_V - S near    
+core-core_V - S far 
+core-core_V - Cl nearer
+core-core_V - Cl near    
+core-core_V - Cl far
+core-core_K - V near
+core-core_K - V far
+core-core_V - V near
+core-core_V - V near slope
+core-core_V - Br near 
+core-core_V - Br far
+core-core_V - I near 
+core-core_V - I far
+core-core_V - Pb near
+core-core_V - Pb far
+core-core_Zn - V near
+core-core_Zn - V far
+core_V_2_6_6
+* V-C complex (good)
+* V-C complex (bad)
+* V-S complex (good)
+* V-S complex (bad)
+* V-S complex (bad 2)
+(h5-Cyclopentadienyl)-dichloro-oxo-vanadium(v)_(NIRKUU) r.mop
+v(c5h5)2r
+v(cp)2 (cpndyv) r
+vc12 (cplhlv01) r
+vc10 (cogxol) r
+v(cn)5r
+v(ii)(nh3)6r
+v(ii)n6(2+) (beqqix) r
+v(0)n6 (dpyrdv) r
+vor
+vc11o (beyrig) r
+v(iv)on4 (cakmac10) r
+vo2r
+vc12(+) (ccpzrb) r
+methyl vanadium(v) oxide dihydroxider
+vc10(+) (bobhij) r
+v(v)o4n2(-) (ballij) r
+v(iv)o5 (acacvo) r
+v(iv)o6(2-) (bobwoe) r
+v(iv)o5n (cucwus) r
+v(iv)o3n3 (cagsae) r
+vo(h2o)5r
+v(iii)o6(3+) (colnum) r
+v(ii)(h2o)6r
+v(co)6r
+v(co)6(-) (bobhij) r
+v(ii)o6(2+) (datbuv) r
+v(iv)o6(2-) (bobweu) r
+vanadium(iii) edta r
+v(v)o6(3-) (aoxova) r
+v(iv)o6(2-) (aoxvan10) r
+v(iii)o6(-) (dabkew) r
+v(iv)o5(2-) (ajujeu) r
+vfr
+vo2fr
+vf3r
+vof3r
+vf5r
+v_f6r
+v(ii)cpcp2 (dacfui) r
+vs_cat_r
+v(iv)o3n2 (bawbuw) r
+vc8s (cudniy) r
+v(iv)o2n3 (asavar) r
+v_pnsr
+v(iv)s4o(2-) (cavwax) r
+v(iv)s5 (cuspov) r
+v(v)s6o (biryoo10) r
+vclr
+vcp2cl (dcpvcl) r
+vo2clr
+vc5cl2p2 (ceckie) r
+v(ii)p4cl2 (dajdoh) r
+vcl3r
+vocl3r
+v(iii)on2cl3 (afugaj) r
+vcl4r
+vocl4_ani_r
+vcl5r
+v_cl6r
+v2r
+v2c16 (camxap) r
+v(iv)2o6 (biwdiu) r
+v(v)2o8n4 (cekhuv) r
+v(v)2o10 (bafneb) r
+v(iv)2f6o4(2-) (bahlur) r
+v2c10o8 (cpvfac) r
+v(iii)2s8cl2 (alaciz) r
+v2cl4r
+v2cl6r
+v(iv)2cl9(-) (dotpad) r
+vbrr
+vo2brr
+v(iv)o5n (avidue) r
+vbr3r
+v(v)br4r
+vbr4r
+v(v)br4o(-) (bevxij) r
+v2br4r
+v_br6r
+vir
+vo2ir
+v(v)mebrclfir
+vi3r
+vi5r
+v_i6r
+vanadium, cation
+vanadium 4dg 3d(4)4s(1)
+vanadium 4fg 3d(3)4s(2)
+vanadium 4fg 3d(4)4s(1)
+vanadium 4gg 3d(4)4s(1)
+vanadium 4hg 3d(4)4s(1)
+vanadium 4pg 3d(3)4s(2)
+vanadium 4pg 3d(4)4s(1)
+vanadium 6dg 3d(4)4s(1)
+vanadium 6gu 3d(3)4s(1)4p(1)
+vanadium 6sg 3d(5)
+vanadium, atom
+bicyclopentadienyl vanadium
+dibenzene vanadium
+vc10 (cogxol)
+vanadium nitride
+vanadium(iv) tetracyanide 2e
+vanadium(v) pentacyanide
+v(ii)(nh3)6
+v(iv)(cn)6 2t2g
+v(ii)n6(2+) (beqqix)
+v(0)n6 (dpyrdv)
+vanadium oxide
+vc11o (beyrig)
+vc12(+) (ccpzrb)
+vanadium(v) tri-ethoxide oxide
+vc10(+) (bobhij)
+v(v)o4n2(-) (ballij)
+vanadium(v) diacetylacetonate oxide
+v(iv)o6(2-) (bobwoe)
+v(iv)o3n3 (cagsae)
+v(iii)o6(3+) (colnum)
+v(ii)(h2o)6
+v(co)6(-) (bobhij)
+v(iv)o6(2-) (bobweu)
+vanadium(iii) edta
+v(v)o6(3-) (aoxova)
+v(iv)o6(2-) (aoxvan10)
+v(iii)o6(-) (dabkew)
+v(iv)o5(2-) (ajujeu)
+vanadium(i) fluoride
+vanadium(v) fluoride dioxide
+vanadium(iii) trifluoride
+vanadium(iv) tetrafluoride 2e
+vanadium(v) pentafluoride
+v(iv)f6 2t2g
+v(iv)o3n2 (bawbuw)
+vc8s (cudniy)
+v(iv)s4o(2-) (cavwax)
+v(iv)s5 (cuspov)
+v(v)s6o (biryoo10)
+vanadium(i) chloride
+vcp2cl (dcpvcl)
+vanadium(v) chloride dioxide
+vanadium(iii) trichloride
+v(iii)on2cl3 (afugaj)
+vanadium(iv) chloride
+vanadium(iv) tetrachloride 2e
+v(iii)cl4_3t1
+vanadium(v) pentachloride
+v(v)2o8n4 (cekhuv)
+v2cl4
+v2cl6
+v(iv)2cl9(-) (dotpad)
+vanadium(i) bromide
+vanadium(v) bromide dioxide
+vanadium(iii) tribromide
+vanadium(v) tetrabromide
+vanadium(iv) bromide
+v(v)br4o(-) (bevxij)
+v2br4
+vanadium(i) iodide
+vanadium(v) iodide dioxide
+vanadium(iii) triiodide
+vanadium(iv) iodide
+vanadium(v) pentaiodide

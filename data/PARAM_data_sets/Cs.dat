@@ -1,0 +1,116 @@
+*
+*  Optimize a single element
+*
+ cycles=50 params=PM7.txt PM7 ref=../norm;../erra;../leve;../soli  cycles=30
+(Cs)(all) 
+end  
+core-core_Cs - H near
+core-core_Cs - H far
+core-core_Cs - C near
+core-core_Cs - C far
+core-core_Cs - N near
+core-core_Cs - N far
+core-core_Cs - O near
+core-core_Cs - O far
+core-core_Cs - F near
+core-core_Cs - F far
+core-core_Cs - P near
+core-core_Cs - P far
+core-core_Cs - S near
+core-core_Cs - S far
+core-core_Cs - Cl near
+core-core_Cs - Cl far
+core-core_K - Cs near
+core-core_K - Cs far
+core-core_Cs - V near
+core-core_Cs - V far
+core-core_Cs - Br near
+core-core_Cs - Br far
+core-core_Cs - Y near
+core-core_Cs - Y far
+core-core_Cs - Ag far
+core-core_Cs - In near
+core-core_Cs - In far
+core-core_Cs - I near
+core-core_Cs - I far
+core-core_Cs - Cs near
+core-core_Cs - Cs far
+core-core_Cs - W near
+core-core_Cs - W far
+core_Cs_1_1_0
+* Cs(0)(Acac) (+-)
+Cs(Cp)r
+ch3csr
+csohr
+csobo1r
+cs(i)(c6)2o2(+) (wivrau) r
+csno21r
+csno2r
+csno3r
+cs(+)(h2o)4r
+cs(+)(h2o)6r
+cs(i)o6(+) (csthxd) r
+cs(i)(cp)o6 (qextoc) r
+cs(i)o6n2(+) (cscryp10) r
+* cs(0)o8 (dubcim) r
+csfr
+cs(+)(h2o)3.fr
+cspo3r
+cs(i)o5s2(+) (rilguo) r
+csclr
+cs(+)(h2o)3.clr
+csbrr
+cs(+)(h2o)3.brr
+csir
+cs(+)(h2o)3.ir
+cscsr
+cs2o2 (elokof)a r
+cs2f2r
+cs2so4r
+cs2s4 (jupqiu) r
+cs2cl2r
+cs2br2r
+cs2i2r
+cs(i)o6i2 (xidbuh) r
+cso6i2 (nelmew) r
+cs(i)o3 (qqqaws01) r
+cesium, cation
+cesium, 2p(u) - 6s(0)6p(1)
+cesium, 2s(g) - 6s(1)6p(0)
+cesium, atom
+cesium, anion
+methyl cesium
+cesium oxide (cso)
+cesium hydroxide
+csbo2
+cs(i)(c6)2o2(+) (wivrau)
+cesium nitrate
+cs(+)(h2o)4
+cs(+)(h2o)6
+cs(i)o6(+) (csthxd)
+cs(i)(cp)o6 (qextoc)
+cs(i)o6n2(+) (cscryp10)
+* cs(0)o8 (dubcim)
+cesium fluoride
+cs(+)(h2o)3.f
+cesium tetrafluoroaluminate
+cesium sulfate, anion
+cesium chloride
+cesium chloride, anion
+cs(+)(h2o)3.cl
+cesium bromide
+cesium bromide, anion
+cs(+)(h2o)3.br
+cesium iodide
+cesium iodide, anion
+cs(+)(h2o)3.i
+cesium, dimer
+cesium, dimer, anion
+cesium oxide (cs2o)
+cesium hydroxide dimer
+cs2o2 (elokof)a
+cesium sulfate
+cesium bromide, dimer
+cesium iodide, dimer
+cs2i3 anion
+cs(i)o3 (qqqaws01)

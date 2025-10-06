@@ -1,0 +1,25 @@
+*
+*  Optimize a single element
+*
+cycles=50 params=../PM7.txt PM7 ref=../norm;../erra;../leve;../soli 
+ ALPB_Y O
+ XFAC_Y O
+ ALPB_Y F
+ XFAC_Y F
+ ALPB_Y Cl
+ XFAC_Y Cl
+ ALPB_Y Y
+ XFAC_Y  Y
+ ALPB_Y I
+ XFAC_Y I
+end
+Yttrium (Y) (ICSD 95167) hcp r
+Yttrium(iii) oxide (Y2O3) (ICSD 81861) r
+Yttrium(iii) trichloride (YCl3) (ICSD 15684) r
+Yttrium(iii) trifluoride (YF3) (ICSD 15961) r
+Yttrium(iii) triiodide (YI3) (ICSD 170773) r
+Yttrium (Y) (ICSD 95167) hcp 
+Yttrium(iii) oxide (Y2O3) (ICSD 81861) 
+Yttrium(iii) trichloride (YCl3) (ICSD 15684) 
+Yttrium(iii) trifluoride (YF3) (ICSD 15961) 
+Yttrium(iii) triiodide (YI3) (ICSD 170773) 

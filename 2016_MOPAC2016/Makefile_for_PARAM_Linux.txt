@@ -1,0 +1,20 @@
+##############################################################################
+#
+#   Compile and build PARAM for Linux
+#
+##############################################################################
+MATH_LINK       = -Wl,--start-group  $(MKLROOT)/lib/intel64/libmkl_intel_lp64.a \
+$(MKLROOT)/lib/intel64/libmkl_intel_thread.a $(MKLROOT)/lib/intel64/libmkl_core.a -Wl,--end-group -qopenmp -lpthread -lm
+FORTRAN_LINKER  = ifort
+FORTRAN_COMPILER= ifort -o $@ -c -lpthread -lstdc++ -O3 -fpp -DMKL -I/$(OBJ) -module $(OBJ)
+EXE              = /opt/mopac/PARAM.exe
+OBJ              = ./PARAM_Objects
+PARAM_SRC        = ./PARAM_Source_code
+MOPAC_SRC        = ./MOPAC_Source_code
+O                = o
+##############################################################################
+#
+# Compile and link all the files in PARAM
+#
+##############################################################################
+include PARAM_Makefile_files.txt

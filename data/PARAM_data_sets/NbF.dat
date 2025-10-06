@@ -1,0 +1,10 @@
+*
+*  Optimize a single element
+*
+ params=PM7.txt cycles=50 PM7      ref=../norm;../erra;../leve;../soli
+XFAC_Nb F
+ALPB_Nb F
+end  
+Niobium(v) pentafluoride (NbF5) (ICSD 26647).mop
+Niobium(v) pentafluoride (NbF5) (ICSD 26647) r
+Niobium(iii) trifluoride (NbF3) (ICSD 60246) r.mop

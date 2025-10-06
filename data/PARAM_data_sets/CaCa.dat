@@ -1,0 +1,9 @@
+*
+*  Optimize a single element
+*
+large  params=PM7.txt cycles=50 PM7      ref=../norm;../erra;../leve;../soli
+XFAC_Ca Ca
+ALPB_Ca Ca
+end  
+Calcium (Ca)
+Calcium (Ca) r

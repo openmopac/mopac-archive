@@ -1,0 +1,9 @@
+*
+*  Optimize a single element
+*
+ params=PM7.txt cycles=50 PM7      ref=../norm;../erra;../leve;../soli
+XFAC_Al Br
+ALPB_Al Br
+end  
+Aluminum tribromide (AlBr3) r.mop
+Aluminum tribromide (AlBr3) 

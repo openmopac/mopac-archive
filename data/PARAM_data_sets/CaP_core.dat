@@ -1,0 +1,9 @@
+*
+*  Optimize a single element
+*
+1scf params=../PM7.txt  PM7 ref=../norm;../erra;../leve;../soli
+alpb_P Ca 
+Xfac_P Ca 
+end  
+core-core_Ca - P near
+core-core_Ca - P far

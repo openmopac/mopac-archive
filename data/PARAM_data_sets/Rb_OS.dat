@@ -1,0 +1,26 @@
+*
+*  Optimize a single element
+*
+params=../PM7.txt PM7 ref=../norm;../erra;../leve;../soli
+Alpb_Rb H  
+Xfac_Rb H  
+Alpb_Rb N  
+Xfac_Rb N  
+Alpb_Rb O  
+Xfac_Rb O  
+Alpb_Rb S  
+Xfac_Rb S 
+Alpb_Rb Rb 
+Xfac_Rb Rb 
+end  
+Rubidium sulfate (Rb2SO4) (ICSD 203159) r
+Rubidium sulfate (Rb2SO4) (ICSD 203159) 
+Rubidium (Rb) (ICSD 650018)
+Rubidium (Rb) (ICSD 650018) r
+Rubidium amide (RbNH2) r
+Rubidium amide (RbNH2) 
+Rubidium oxide (Rb2O) r
+Rubidium oxide (Rb2O)
+Rubidium deuteriooxide (RbOD) 
+Rubidium deuteriooxide (RbOD) r
+Rubidium sulfide (Rb2S) r    

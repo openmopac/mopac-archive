@@ -1,0 +1,108 @@
+*
+*  Optimize a single element
+*
+cycles=50 params=../PM7.txt;PbO.rp  PM7 ref=../norm;../erra;../leve;../soli
+Alpb_Pb O 
+Xfac_Pb O 
+Alpb_Pb S 
+Xfac_Pb S 
+Alpb_Pb Pb 
+Xfac_Pb Pb 
+end  
+core-core_pb - O heat
+core-core_pb - O Slope
+core-core_pb - S heat
+core-core_pb - S Slope
+core-core_pb - Pb heat
+core-core_pb - Pb Slope
+pbhr
+pb(iv)c4 (vadrau) r
+pbme4r
+pb(cp)2r
+pb(ii)(cp)2n2 (todhoj01) r
+pbor
+pb(ii)o2(+) (ambopb) r
+pb(ii)o4 (abzopb) r
+pb(ii)o3n2 (lewpim) r
+pb(iv)o6c (nestag) r
+pbfr
+pbf2r
+pbsr
+pb(ch3)3(ch3s)r
+pb(+)f3.h2sr
+pb(ii)s2 (diswil) r
+pb(ii)n2s2 (xussuz) r
+pb(ii)s4 (iptcpb) r
+pb(ii)s4(2-) (kajmud) r
+pb(ii)o2n2 (iclmsx) r
+pbclr
+pbcl2r
+pb(iv)cl2.2(h2s)r
+pbcl4r
+pb(iv)cl5c(2-) (febgoi01) r
+pbser
+pbbrr
+pbbr2r
+pb(ii)br2o2 (brdmsp) r
+pbir
+pbi2r
+pb(ii)o6i2 (tojpir) r
+pb(iv)i6(2-) (follib) r
+pb2me6r
+pb(ii)(cp)f2 (valvot) r
+pb(ii)s3 (gigbih) r
+pb16o16r
+lead, 2d(g) 6s(1)6p(2)
+lead, 2p(g) 6s(1)6p(2)
+lead, 4p(g) 6s(1)6p(2)
+lead, cation
+lead, 1d(g) 6s(2)6p(2)
+lead, 1s(g) 6s(2)6p(2)
+lead, 3p(g) 6s(2)6p(2)
+lead, atom
+lead, anion
+lead hydride
+lead tetrahydride (plumbane)
+lithium plumbide
+trimethyllead, cation
+trimethyllead
+pb(iv)c4 (vadrau)
+tetramethyllead
+t-butyltrimethyllead
+tetraethyllead
+bicyclopentadienyllead (plumbocene)
+pb(ii)(cp)2n2 (todhoj01)
+lead oxide
+lead dioxide
+pb(ii)o2(+) (ambopb)
+pb(ii)o4 (abzopb)
+pb(ii)o3n2 (lewpim)
+pb(iv)o6c (nestag)
+lead fluoride
+lead difluoride
+lead sulfide
+pb(ch3)3(ch3s)
+pb(+)f3.h2s
+pb(ii)s2 (diswil)
+pb(ii)n2s2 (xussuz)
+pb(ii)s4 (iptcpb)
+pb(ii)s4(2-) (kajmud)
+pb(ii)o2n2 (iclmsx)
+lead chloride, cation
+lead chloride
+trimethyllead chloride
+lead dichloride, cation
+lead dichloride
+pb(iv)cl2.2(h2s)
+pb(iv)cl5c(2-) (febgoi01)
+lead selenide
+lead bromide
+lead dibromide
+pb(ii)br2o2 (brdmsp)
+lead telluride
+lead iodide
+lead diiodide
+pb(ii)o6i2 (tojpir)
+pb(iv)i6(2-) (follib)
+hexamethyldiplumbane
+pb(ii)s3 (gigbih)

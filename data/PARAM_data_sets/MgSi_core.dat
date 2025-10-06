@@ -1,0 +1,10 @@
+*
+*  Optimize a single element
+*
+params=../PM7.txt PM7 ref=../norm;../erra;../leve;../soli
+Alpb_Mg Si
+Xfac_Mg Si
+end  
+core-core_Mg - Si near
+core-core_Mg - Si far
+

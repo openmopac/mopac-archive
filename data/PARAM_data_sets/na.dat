@@ -1,0 +1,146 @@
+*
+*  Optimize a single element
+*
+cycles=50 params=../PM7.txt  PM7         ref=../norm;../erra;../leve;../soli
+(Na)(all) 
+end  
+core-core_Na - H near
+core-core_Na - H far
+core-core_Li - Na near
+core-core_Li - Na far
+core-core_Na - B near
+core-core_Na - B far
+core-core_Na - C near
+core-core_Na - C far
+core-core_Na - N near
+core-core_Na - N far
+core-core_Na - O near
+core-core_Na - O far
+core-core_Na - F near
+core-core_Na - F far
+core-core_Na - Na near
+core-core_Na - Na far 
+core-core_Na - Mg near
+core-core_Na - Mg far
+core-core_Na - Al near
+core-core_Na - Al far
+core-core_Na - P near
+core-core_Na - P far
+core-core_Na - S near
+core-core_Na - S far
+core-core_K - Na near
+core-core_K - Na far
+core-core_Ca - Na near
+core-core_Ca - Na far
+core-core_Na - Ti far
+core-core_Na - V near
+core-core_Na - V far
+core-core_Na - Cr near
+core-core_Na - Cr far
+core-core_Na - Co near
+core-core_Na - Co far
+core-core_Na - Cu near
+core-core_Na - Cu far
+core-core_Na - Zn near
+core-core_Na - Zn far
+core-core_Na - As near
+core-core_Na - As far
+core-core_Na - Se near
+core-core_Na - Se far
+core-core_Na - Sb near
+core-core_Na - Sb far
+core-core_Na - Hf near
+core-core_Na - Hf far
+core-core_Na - W near
+core-core_Na - W far
+core-core_Na - Hg near
+core-core_Na - Hg far
+* CH3Na (ref)
+* CH3Na dimer 2p5
+* CH3Na dimer 3p0
+Na(Cp)r
+Nahr
+he-na(+), complex r
+henar
+Na-lir
+Nach3r
+Nacnr
+Naor
+Naohr
+Naoh.h2or
+Na(+)(h2o)2r
+Nabo2r
+Naoh.2h2or
+Na(+)(h2o)3r
+Na(+)(h2o)4r
+Nahco3.2h2or
+Nano3.2h2or
+Na(+)(h2o)6r
+Nafr
+ne-na(+), complex r
+nenar
+* Na2r
+Na2or
+Nahso4.2h2or
+ar-na(+), complex r
+kr-na(+), complex r
+krnar
+xe-na(+), complex r
+xenar
+sodium, cation
+sodium, 2p(u) - 3s(0)3p(1)
+sodium, 2s(g)  3s(1)3p(0)
+sodium, 2s(g) - 3s(1)3p(0)
+sodium, atom
+sodium anion
+sodium hydride
+he-na(+), separated
+he-na(+), 1.5 angstroms
+he-na(+), 2.0 angstroms
+he-na(+), complex
+sodium lithium
+sodium cyanide
+sodium oxide
+sodium hydroxide
+lithium sodium oxide
+Naoh.h2o
+Na(+)(h2o)2
+Nabo2
+Na(+)-(ome2)2
+Na(+)-(ome2)2_(pm6)
+Naoh.2h2o
+Na(+)(h2o)3
+Na(+)(h2o)4
+Nahco3.2h2o
+Na(+)-15-crown-5
+Na(+)-15-crown-5_(pm6)
+Nano3.2h2o
+Na(+)(h2o)6
+sodium fluoride
+ne-na(+), separated
+ne-na(+), 2.0 angstroms
+ne-na(+), 2.5 angstroms
+ne-na(+), complex
+sodium dimer, cation
+* sodium, dimer
+* sodium cyanide, dimer
+disodium oxide
+* sodium hydroxide, dimer
+al-na(+), complex
+sodium sulfate, anion
+sodium sulfate
+ar-na(+), separated
+ar-na(+), 2.0 angstroms
+ar-na(+), 2.5 angstroms
+ar-na(+), complex
+k-na, complex
+Nacro4(-)
+kr-na(+), separated
+kr-na(+), 2.0 angstroms
+kr-na(+), 2.5 angstroms
+kr-na(+), complex
+xe-na(+), separated
+xe-na(+), 2.0 angstroms
+xe-na(+), 2.2 angstroms
+xe-na(+), 2.5 angstroms
+xe-na(+), complex

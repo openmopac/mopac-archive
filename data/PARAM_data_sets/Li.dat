@@ -1,0 +1,239 @@
+*
+*  Optimize a single element
+*
+ cycles=50  params=../PM7.txt PM7 ref=../norm;../erra;../leve;../soli           
+(Li)(All)
+end
+core-core_Li - Li near
+core-core_Li - Li near slope
+core-core_Li - B near
+core-core_Li - B far
+core-core_Li - C near
+core-core_Li - C far
+core-core_Li - N near
+core-core_Li - N far
+core-core_Li - O near
+core-core_Li - O far
+core-core_Li - F near
+core-core_Li - F far
+core-core_Li - Na near
+core-core_Li - Na far
+core-core_Li - Al near
+core-core_Li - Al far
+core-core_Li - Si near
+core-core_Li - Si far
+core-core_Li - P near
+core-core_Li - P far
+core-core_Li - S near
+core-core_Li - S far
+core-core_Li - Cl near
+core-core_Li - Cl far
+core-core_K - Li near
+core-core_K - Li far
+core-core_Li - Ti near
+core-core_Li - Ti far
+core-core_Li - Cr near
+core-core_Li - Cr far
+core-core_Li - Co far
+core-core_Li - Br near
+core-core_Li - Br far
+core-core_Li - Y near
+core-core_Li - Y far
+core-core_Li - I near
+core-core_Li - I far
+core_Li_1_3
+* Lithiophosphate (Li3PO4) r
+Li(Cp)r
+lihr
+he-li(+), complex r
+helir
+li2r
+libehr
+lich3r
+licchr
+lic2h5r
+lic3h7r
+lic4h9r
+n-butyl lithium r
+li(i)4(et)4 (ethyli) r
+linh2r
+lincr
+li(i)(cp)n2 (sijnii) r
+li(i)n2c5 (fagcar) r
+li(i)n3c (dankuy) r
+li(i)n4(+) (pikwah) r
+lior
+liohr
+li2or
+lioch3r
+lionr
+lioh.h2or
+li(+)(h2o)2r
+lioh.2h2or
+li(+)(h2o)3r
+li(+)(h2o)4r
+li(i)(h2o)4(+) (badtuv10) r
+li(i)2(cp)2o4 (danpox) r
+lihco3.2h2or
+lino3.2h2or
+li(+)(h2o)6r
+li(i)o6(+) (colgep) r
+li(i)o6(+) (lolnop01) r
+li(i)o4 (fecwit) r
+lifr
+lif.h2or
+li(+)(h2o)5.fr
+li2f2r
+ne-li(+), complex r
+na-lir
+lialf4r
+li(i)n3p (geddoi) r
+li(i)o4p (cejqaj) r
+li(i)o3n (fobhej) r
+li(i)o4n (barvof) r
+li(i)o4n (barviz) r
+lihso4.2h2or
+li(i)o2s2 (yubvum) r
+liclr
+li(i)n3cl (gajyar) r
+lioclr
+licl.h2or
+li(i)o4cl (cejqir) r
+li(+)(h2o)5.clr
+li(i)o6 (fivtek) r
+li2cl2r
+li3cl3r
+ar-li(+), complex r
+arlir
+librr
+li(i)n3br (jeprol) r
+li(i)n3br (gajyev) r
+li(i)o4br (cesjuf) r
+li(+)(h2o)5.brr
+li2br2r
+li(i)2br2n4 (sajvee01) r
+li(i)2br2o4 (decxeo01) r
+krlir
+liir
+li(i)n3i (jeprur) r
+li(i)o4i (harcei) r
+li(+)(h2o)5.ir
+li2i2r
+li(ii)2i2n4 (sajvaa) r
+xe-li(+), complex r
+xelir
+lithium, cation
+lithium 2s(g)  2s(1)2p(0)
+lithium, 2p(u) 2s(0) 2p(1)
+lithium, atom
+lithium hydride
+he-li(+), separated
+he-li(+), 2.0 angstroms
+he-li(+), complex
+li-li, complex
+lithium dimer
+lithium beryllium hydride
+b-li(+), separated
+methyl lithium, complex
+methyl lithium, 1.8 angstroms
+methyl lithium
+methyl lithium, 1.9 angstroms
+lithium acetylide
+lich=ch2
+ethyl lithium
+isopropyl lithium
+n-butyl lithium
+t-butyl lithium
+phenyl lithium
+li(i)4(et)4 (ethyli)
+linh2
+lithium isocyanide
+li(i)(cp)n2 (sijnii)
+li(i)n2c5 (fagcar)
+li(i)n3c (dankuy)
+li(i)n4(+) (pikwah)
+lithium oxide (lio)
+lithium hydroxide
+lithium oxide (li2o)
+lithium methoxide
+lioh.h2o
+li(+)(h2o)2
+lithium peroxide
+lithium hydroxide dimer
+libo2
+lioh.2h2o
+li(+)(h2o)3
+li(+)(h2o)4
+li(i)2(cp)2o4 (danpox)
+lihco3.2h2o
+lino3.2h2o
+li(+)(h2o)6
+li(i)o6(+) (colgep)
+li(i)o4 (fecwit)
+lithium fluoride
+lithium hypofluorite
+lif.h2o
+li(+)(h2o)5.f
+lithium fluoride, dimer
+lithium fluoride, trimer
+lithium trifluoroberyllate
+ne-li(+), separated
+ne-li(+), 2.0 angstroms
+ne-li(+), 2.5 angstroms
+ne-li(+), complex
+sodium lithium
+lithium sodium oxide
+al-li(+), complex
+lithium tetrafluoroaluminate
+sih3-li, complex
+sih3-li, 2.1 angstroms
+sih3-li, 2.2 angstroms
+ph3-li(+), complex
+ph3-li(+), 2.3 angstroms
+ph3-li(+), 2.5 angstroms
+li(i)o3n (fobhej)
+lithium sulfate anion
+lithium sulfate
+li(i)o4n (barvof)
+li(i)o4n (barviz)
+lihso4.2h2o
+li(i)o2s2 (yubvum)
+lithium chloride
+li(i)n3cl (gajyar)
+lithium hypochlorite
+licl.h2o
+li(i)o4cl (cejqir)
+li(+)(h2o)5.cl
+li(i)o6 (fivtek)
+lithium chloride fluoride
+lithium chloride, dimer
+lithium chloride, trimer
+lialcl4
+ar-li(+), separated
+ar-li(+), 2.0 angstroms
+ar-li(+), 2.5 angstroms
+ar-li(+), complex
+k-li, complex
+lithium bromide
+li(i)n3br (jeprol)
+li(i)n3br (gajyev)
+li(i)o4br (cesjuf)
+li(+)(h2o)5.br
+lithium bromide, dimer
+li(i)2br2n4 (sajvee01)
+li(i)2br2o4 (decxeo01)
+kr-li(+), separated
+kr-li(+), 2.0 angstroms
+kr-li(+), 2.5 angstroms
+lithium iodide
+li(i)n3i (jeprur)
+li(i)o4i (harcei)
+li(+)(h2o)5.i
+lithium iodide, dimer
+li(ii)2i2n4 (sajvaa)
+xe-li(+), separated
+xe-li(+), 2.0 angstroms
+xe-li(+), 2.5 angstroms
+xe-li(+), complex
+lithium plumbide
+lithium bismuthide

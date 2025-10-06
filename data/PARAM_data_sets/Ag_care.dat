@@ -1,0 +1,160 @@
+cycles=40 params=pm7.txt PM7 ref=../norm;../erra;../leve;../soli
+* upp Ag 40 80
+(ag)(all)
+end
+core-core_Ag - H near 
+core-core_Ag - H far 
+core-core_Ag - C near 
+core-core_Ag - C far 
+core-core_Ag - N near 
+core-core_Ag - N far 
+core-core_Ag - O near
+core-core_Ag - O far 
+core-core_Ag - F near 
+core-core_Ag - F far
+core-core_Ag - S near 
+core-core_Ag - S far 
+core-core_Ag - Cl near
+core-core_Ag - Cl far
+core-core_K - Ag near 
+core-core_K - Ag far 
+core-core_Ag - Cr near
+core-core_Ag - Cr far
+core-core_Ag - Br near 
+core-core_Ag - Br far 
+core-core_Ag - Ag near 
+core-core_Ag - Ag near slope
+core-core_Cs - Ag near 
+core-core_Ag - I near 
+core-core_Ag - I far
+core-core_Ag - Pt near 
+core-core_Ag - Pt far
+* core_Ag_0_0_0
+* Ag (Very bad)
+* Ag (Very bad 2)
+* Ag4C6 (bad)
+* Ag4S4 (bad)
+* Ag4S4 (bad 2)
+* Ag4S4 (bad 3)
+AgN2O4 (good)
+AgN2O4 (bad)
+* Ag4Br4P4 (good)
+* Ag4Br4P4 (bad)
+* Ag-s (bad)
+* AgN(2+)
+AgS3Cl (good)
+AgS3Cl (bad)
+* Ag4Br4 (cube)
+* Ag4(SO2)4
+* Ag2Br2 (good)
+* Ag2Br2 (bad)
+* medsul
+AgCN (good)
+AgCN (bad)
+* Ag4Cl4
+* Ag4Cl4 (bad)
+Ag(CCH)2 (+-)
+bis(mu-2-Benzoato-O,O')-di-silver(i) (good).mop
+bis(mu-2-Benzoato-O,O')-di-silver(i) (bad).mop
+bis(mu-2-Benzoato-O,O')-di-silver(i) (bad 2).mop
+bis(mu-2-Benzoato-O,O')-di-silver(i) (bad 3).mop
+* Silver (good)
+* Silver (Bad)
+* Silver dimer (good)
+* Silver dimer (Bad)
+* Silver dimer 2 (Bad)
+* Silver dimer 3 (Bad)
+* Silver dication (2+)
+* Silver (Ag) r
+* Silver (Ag) 
+* (Hexafluoroacetylacetonato)-bis(trimethylphosphine)-silver_(LEFWIC) (good).mop
+* (Hexafluoroacetylacetonato)-bis(trimethylphosphine)-silver_(LEFWIC) (bad).mop
+* Ag2(SO4H)2 (bad)
+* Ag2(SO4H)2 (bad 2)
+* Ag2(SO4H)2 (bad 3)
+* bis(mu-2-Aminomethylnitrosolate)-di-silver(i) (KUXWAB) (good) 
+* bis(mu-2-Aminomethylnitrosolate)-di-silver(i) (KUXWAB) (bad) 
+* bis(mu-2-Aminomethylnitrosolate)-di-silver(i) (KUXWAB) (bad 2) 
+* bis(mu-2-Aminomethylnitrosolate)-di-silver(i) (KUXWAB) (bad 3) 
+* Bis(cyanido)(ethane-1,2-diamine-N,N')silver(ii)_(SILKEE) (good).mop
+* Bis(cyanido)(ethane-1,2-diamine-N,N')silver(ii)_(SILKEE) (bad).mop
+* Bis(cyanido)(ethane-1,2-diamine-N,N')silver(ii)_(SILKEE) (bad 2).mop
+(Hexafluoroacetylacetonato)-bis(trimethylphosphine)-silver_(LEFWIC) r.mop
+bis(mu-2-Aminomethylnitrosolate)-di-silver(i) (KUXWAB) r.mop
+Bis(cyanido)(ethane-1,2-diamine-N,N')silver(ii)_(SILKEE) r.mop
+bis(1,4-oxathian)-silver(i) (CIJBIG) r.mop
+Dinitrato-(2,2'-bipyridyl)_silver(ii)_(NDPYAG) r.mop
+* bis(Cyclo-octadiene)-silver(i) (good).mop
+* bis(Cyclo-octadiene)-silver(i) (bad)
+Ag(I)O2_(AGTFAC01) r
+ag(i)(nh3)4
+Ag(i)-pi-C_(OCDAGB) r.mop
+Ag(i)C6_(AMIXEZ) r.mop
+Silver, anion
+Ag(I)SSO_(CIJBIG) r.mop
+Ag(I)S3Cl_(JAVWIM) r.mop
+Ag(I)CN2_(FILSEZ) r.mop
+Ag(i)O2_(AFIWUI) r.mop
+Ag(ii)N2O2_(AGPYDC10) r.mop
+Ag(i)P2_(MOPCAV) r.mop
+Ag(i)O3(++)_(CADXOU) r.mop
+* core-core_Ag - O heat
+* core-core_Ag - Ag heat
+* silver 2Pu 4d(10)5p(1)
+* silver 2dg 4d(9)5s(2)
+silver 2sg 4d(10)5s(1)
+Ag(I)N2O_(MAYBAQ) r
+Ag(I)N2SCl_(VUHCAC) r
+Ag(I)Br2(-)_(BTCMAN) r
+Ag(I)O2_(RACZIF) r
+Ag(I)N2O4_(PYRCAG) r
+Ag(I)PO2_(LEFWEY) r
+agh_catr
+aghr
+agcnr
+ag(cn)2_ani_r
+ag(i)(cn)2(-) (gokzov) r
+ag(i)n2c (filsez) r
+ag(i)(nh3)4r
+agor
+agohr
+ag(nco)2_ani_r
+ag(i)(h2o)6 d10r
+agfr
+agofr
+ag(i)cn (dujxel) r
+agalr
+* ag_cat_(ph3)2_r
+agsr
+agshr
+ag(i)n2s2(+) (tcbzag) r
+ag(i)s3(+) (zuvviv) r
+agclr
+methyl silver(i) chlorider
+agoclr
+ag(i)n2scl (vuhcac) r
+ag(i)s2o (cijbig) r
+ag(i)s3cl (cmurag) r
+agbrr
+agobrr
+agir
+agoir
+silver, cation
+silver, atom
+silver hydride
+silver cyanide
+silver(i) dicyanide, anion
+ag(ii)(nh3)6
+silver(i) hydroxide
+ag(ii)(h2o)6 2eg
+silver fluoride
+silver(i) fluoride
+silver(iii) oxide fluoride
+silver(i) hydrogen sulfide
+silver chloride
+silver(i) chloride
+silver(iii) oxide chloride
+silver(i) bromide
+silver(iii) oxide bromide
+silver(i) iodide
+silver(iii) oxide iodide

@@ -1,0 +1,72 @@
+params=../PM7.txt pm7 only  s et=../everything.txt  ref=../norm;../erra;../leve 
+end  
+01_NH3_dimer separated
+01_NH3_dimer
+02_water_dimer separated
+02_water_dimer
+03_formic_acid_dimer separated
+03_formic_acid_dimer
+04_formamide_dimer separated
+04_formamide_dimer
+05_uracil_HB separated
+05_uracil_HB
+06_pyridoxine_aminopyridine separated
+06_pyridoxine_aminopyridine
+07_adenine_thymine_WC separated
+07_adenine_thymine_WC
+08_CH4_dimer_r
+08_CH4_dimer_well_separated
+08_CH4_dimer
+09_Ethylene_dimer_r
+09_Ethylene_dimer_well_separated
+09_Ethylene_dimer
+10_benzene_methane_r
+10_benzene_methane_well_separated
+10_benzene_methane
+11_benzene_dimer_stack_r
+11_benzene_dimer_stack_well_separated
+11_benzene_dimer_stack
+12_pyrazine_dimer_well_separated
+12_pyrazine_dimer
+13_uracil_dimer_stack_r
+13_uracil_dimer_stack_well_separated
+13_uracil_dimer_stack
+14_indole_benzene_stack_well_separated
+14_indole_benzene_stack
+15_adenine_thymine_stack_r
+15_adenine_thymine_stack separated
+15_adenine_thymine_stack
+16_Ethylene_acetylene_r
+16_Ethylene_acetylene_well_separated
+16_Ethylene_acetylene
+17_benzene_H2O_r
+17_benzene_H2O_well_separated
+17_benzene_H2O
+18_benzene_NH3_r
+18_benzene_NH3_well_separated
+18_benzene_NH3
+19_benzene_HCN_well_separated
+19_benzene_HCN
+20_benzene_dimer_T_r
+20_benzene_dimer_T_well_separated
+20_benzene_dimer_T
+21_indole_benzene_T_well_separated
+21_indole_benzene_T
+22_phenol_dimer r
+22_phenol_dimer separated
+22_phenol_dimer
+23_Methanol_dimer_r
+23_Methanol_dimer_well_separated
+23_Methanol_dimer
+24_Methanol_formaldehyde_r
+24_Methanol_formaldehyde_well_separated
+24_Methanol_formaldehyde
+a0_Guanine-cytosine_WC_r
+a0_Guanine-cytosine_WC_well_separated
+a0_Guanine-cytosine_WC
+a1_Guanine-cytosine_stacked_r
+a1_Guanine-cytosine_stacked_well_separated
+a1_Guanine-cytosine_stacked
+Adenine-4-thiouracil_r
+Adenine-4-thiouracil_separated
+Adenine-4-thiouracil

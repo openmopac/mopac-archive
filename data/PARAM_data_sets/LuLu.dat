@@ -1,0 +1,9 @@
+*
+*  Optimize a single element
+*
+cycles=50 params=../PM7.txt PM7 ref=../norm;../erra;../leve;../soli 
+ ALPB_Lu Lu
+ XFAC_Lu Lu
+end
+Lutetium (Lu) (ICSD 642414) r.mop
+Lutetium (Lu) (ICSD 642414) 

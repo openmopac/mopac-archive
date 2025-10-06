@@ -1,0 +1,13 @@
+*
+*  Optimize a single element
+*
+params=../PM7.txt PM7 ref=../norm;../erra;../leve;../soli
+Alpb_Ca O  
+Xfac_Ca O  
+alpb_Ca Ca
+xfac_Ca Ca
+end  
+Lime (CaO) r
+Lime (CaO) 
+Portlandite (Ca(OH)2) r.mop
+Portlandite (Ca(OH)2) 

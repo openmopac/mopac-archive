@@ -1,0 +1,168 @@
+*
+*  Optimize a single element
+*
+cycles=50 PM7 ref=../norm;../erra;../leve params=../PM7.txt
+(Sn)(all) 
+end  
+core-core_Sn - C near
+core-core_Sn - C far
+core-core_Sn - O near
+core-core_Sn - O far
+core-core_Sn - F near
+core-core_Sn - F far
+core-core_Al - Sn near
+core-core_Al - Sn far
+core-core_Sn - Cl near
+core-core_Sn - Cl far
+core-core_K - Sn near
+core-core_K - Sn far
+core-core_Sn - Se near     
+core-core_Sn - Se far 
+core-core_Sn - Br near     
+core-core_Sn - Br far 
+core-core_Sn - Sn near    
+core-core_Sn - Sn far
+core-core_Sn - I near
+core-core_Sn - I far
+tetramethyltin
+Sn(iv)Cl4O2_(GIMYEH) r
+snh4r
+snmeh3r
+snme2h2r
+snme3hr
+snme4r
+sn(iv)n4c (wayyok) r
+sn(ii)n4 (vurfuj) r
+sn(iv)(en)3r
+snor
+tin tetramethoxide r
+sn(iv)o4c2 (acdmsn) r
+min_sn(iv)(h2o)3.(oh)3r
+sn(iv)(h2o)3.(oh)3r
+sn(iv)(h2o)4(oh)2r
+sn(iv)(h2o)6r
+sn(iv)o8 (acetsn01) r
+sn(iv)n4cf(+) (rocvag) r
+dimethyltin difluoride r
+snf4r
+sn(iv)f6(2-) (jozxif) r
+snsr
+sn(ch3s)(me3)r
+sn(iv)s2c2 (acelid) r
+snh3clr
+sn(iv)s4cl(-) (bthsna10) r
+sncl2r
+snme2cl2r
+sn(iv)cl2c3(-) (bepfil) r
+sn(iv)n4cl2 (wattiu) r
+sn(iv)c2cl2o (adidum) r
+sn(iv)o2c2cl2 (bcmesn) r
+sn(iv)o4cl2 (acclti) r
+sn(ii)scl2 (capwev) r
+sn(iv)s4cl2 (cihdec) r
+sn(ii)cl3(-) (bitxux) r
+sncl4r
+sn(iv)cl4c2(2-) (arawar) r
+sn(iv)o2cl4 (cimwie) r
+sn(iv)cl6(2-) (amclsn10) r
+geh3-snh3r
+snser
+snh3brr
+snme3brr
+snbr2r
+dimethyltin dibromide r
+sn(iv)s4br2 (carsna) r
+sn(ii)br3(-) (bityae) r
+snbr4r
+sn(iv)br6(2-) (bujpur) r
+* min_sn2o4r
+sn(iv)c3ocl (aceyiq) r
+* snter
+snh3ir
+snme3ir
+sni2r
+dimethyltin diiodide r
+sn(iv)s4i2 (carsnb) r
+tin, cation
+tin, 1d(g) 5s(2)5p(2)
+tin, 1s(g) 5s(2)5p(2)
+tin, 3d(u) 5s(1)5p(3)
+tin, 3p(g) 5s(2)5p(2)
+tin, 3s(u) 5s(1)5p(3)
+tin, 5s(u) 5s(1)5p(3)
+tin, atom
+tin hydride
+tin tetrahydride (stannane)
+dimethylstannane
+trimethyltin hydride
+diethyltin dihydride
+ethyltrimethyltin
+propyltrimethyltin
+t-butyltrimethyltin
+tetraethyltin
+phenyltrimethylstannane
+tetraphenyltin
+triphenyl phenylethynyl tin
+dimethylaminetrimethyltin
+sn(et)3(net2)
+sn(iv)n4c (wayyok)
+sn(ii)n4 (vurfuj)
+sn(iv)(en)3
+tin oxide
+tin tetramethoxide
+sn(iv)o4c2 (acdmsn)
+sn(iv)(h2o)3.(oh)3
+sn(iv)(h2o)4(oh)2
+sn(iv)(h2o)6
+sn(iv)o8 (acetsn01)
+tin fluoride
+sn(iv)n4cf(+) (rocvag)
+tin difluoride
+dimethyltin difluoride
+tin tetrafluoride
+sn(iv)f6(2-) (jozxif)
+tin sulfide
+sn(ch3s)(me3)
+sn(iv)s2c2 (acelid)
+tin chloride
+trimethyltin chloride
+triethyltin chloride
+sn(iv)s4cl(-) (bthsna10)
+tin dichloride
+dimethyltin dichloride
+sn(iv)cl2c3(-) (bepfil)
+sn(iv)n4cl2 (wattiu)
+sn(iv)c2cl2o (adidum)
+sn(iv)o2c2cl2 (bcmesn)
+sn(iv)o4cl2 (acclti)
+sn(ii)scl2 (capwev)
+sn(iv)s4cl2 (cihdec)
+sn(ii)cl3(-) (bitxux)
+methyltin trichloride
+ethyltin trichloride
+tin tetrachloride
+sn(iv)cl4c2(2-) (arawar)
+sn(iv)o2cl4 (cimwie)
+sn(iv)cl6(2-) (amclsn10)
+geme3-snme3
+tin selenide
+tin bromide
+trimethyltin bromide
+tri-n-butyltin bromide
+tin dibromide
+dimethyltin dibromide
+sn(iv)s4br2 (carsna)
+sn(ii)br3(-) (bityae)
+tin tetrabromide
+sn(iv)br6(2-) (bujpur)
+hexamethylditin
+hexaphenyldistannane
+(c6h5)3sn-o-sn(c6h5)3
+* sn2o4
+sn(iv)c3ocl (aceyiq)
+* tin telluride
+tin iodide
+trimethyltin iodide
+tin diiodide
+dimethyltin diiodide
+sn(iv)s4i2 (carsnb)

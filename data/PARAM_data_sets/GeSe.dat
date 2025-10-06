@@ -1,0 +1,9 @@
+*
+*  Optimize a single element
+*
+params=../PM7.txt PM7 ref=../norm;../erra;../leve;../soli
+Alpb_Ge Se
+Xfac_Ge Se
+end  
+Germanium(iv) diselenide (GeSe2) (ICSD 614).mop
+Germanium(iv) diselenide (GeSe2) (ICSD 614) r

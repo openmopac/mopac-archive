@@ -1,0 +1,9 @@
+*
+*  Optimize a single element
+*
+ cycles=50 PM7 noscale ref=../soli  params=../PM7.txt                  
+xfac_Te Ge
+Alpb_Te Ge  1.5 6
+end  
+Germanium telluride (GeTe) (cubic) (ICSD 600823) r.mop
+Germanium telluride (GeTe) (cubic) (ICSD 600823) 

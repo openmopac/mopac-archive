@@ -1,0 +1,9 @@
+*
+*  Optimize a single element
+*
+params=../PM7.txt PM7 ref=../norm;../erra;../leve;../soli
+Alpb_La Cl
+Xfac_La Cl
+end  
+Lanthanum(iii) trichloride (LaCl3).mop
+Lanthanum(iii) trichloride (LaCl3) r

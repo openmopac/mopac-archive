@@ -1,0 +1,144 @@
+*
+*  Optimize a single element
+*
+cycles=50 PM7 fine      ref=../norm;../erra;../leve params=../PM7.txt 
+(Bi)(all) 
+end  
+core-core_Li - Bi near
+core-core_Li - Bi far
+core-core_Bi - O near
+core-core_Bi - O far
+core-core_Bi - F near
+core-core_Bi - F far
+core-core_Na - Bi near
+core-core_Na - Bi far
+core-core_Bi - S near
+core-core_Bi - S far
+core-core_Bi - Cl near
+core-core_Bi - Cl far
+core-core_K - Bi near
+core-core_K - Bi far
+core-core_Bi - Br near
+core-core_Bi - Br far
+core-core_Rb - Bi near
+core-core_Rb - Bi far
+core-core_Bi - I near
+core-core_Bi - I far
+core-core_Cs - Bi near
+core-core_Cs - Bi far
+core-core_Bi - Bi near
+core-core_Bi - Bi far
+BiF6(-) (good)
+BiF6(-) (bad)
+* Bi(iii)Br6(3-) (good).mop
+* Bi(iii)Br6(3-) (bad).mop
+bih3r
+bime3r
+bih2-nh2r
+bi(iii)o6 (jujvuf) r
+bi(iii)o4n4(-) (hadrag) r
+bi(iii)o10(2-) (cavzuu) r
+me2bifr
+bi(v)c4f (ilikap) r
+bif2r
+bi(v)c2f3 (xulfuf) r
+bif3r
+bif4(-)r
+bif6(-)r
+bi(iii)n2s2(+) (femwup) r
+bi(iii)n3s3 (femwoj) r
+bi(iii)s4c (benxun) r
+bi(iii)s6(3+) (clbitu) r
+bi(iii)s6 (fexmaw) r
+me2biclr
+et2biclr
+bi(iii)n2ccl2 (ediged) r
+bi(iii)cl3 (fapyok) r
+bicl3r
+bi(iii)cl4(-) (fercbi10) r
+bicl4(-)r
+bicl6(-)r
+bi(iii)cl6(3-) (acayaf) r
+bi(iii)cn2br2 (bimhua) r
+bibr3r
+bi(iii)s4br3 (kigdin) r
+bi(iii)br6(3-) (dejluz) r
+bi(iii)cl2i2(-) (jajfeg) r
+bii3r
+bi(iii)n3i3 (bimcuv) r
+bi(iii)i4(-) (picibi) r
+bi(iii)i6(3-) (koqcau) r
+bi2f4r
+bi2f6r
+bi2cl4r
+bi2cl6r
+bi(iii)cl5(2-) (kamwok) r
+bi2br4r
+bi2br6r
+bi2i4r
+bi2i6r
+bismuth, dication
+bismuth, cation
+bismuth, 2d(u) - 6s(2)6p(3)
+bismuth, 2p(u) - 6s(2)6p(3)
+bismuth, 4s(u) - 6s(2)6p(1)
+bismuth, atom
+bismuth trihydride
+lithium bismuthide
+trimethylbismuth
+c5h5bi (bismin)
+triethylbismuth
+triphenylbismuth
+bih2-nh2
+bi(iii)o6 (jujvuf)
+bi(iii)o4n4(-) (hadrag)
+bismuth fluoride
+dimethyl bismuth fluoride
+bi(v)c4f (ilikap)
+bismuth difluoride
+bi(v)c2f3 (xulfuf)
+bismuth trifluoride
+bif4(-)
+bif6(-)
+bi(iii)n2s2(+) (femwup)
+bi(iii)n3s3 (femwoj)
+bi(iii)s4c (benxun)
+bi(iii)s6(3+) (clbitu)
+bi(iii)s6 (fexmaw)
+bismuth chloride
+dimethyl bismuth chloride
+diethyl bismuth chloride
+bi(iii)n2ccl2 (ediged)
+bismuth trichloride
+bi(iii)cl4(-) (fercbi10)
+bicl4(-)
+bicl6(-)
+bi(iii)cl6(3-) (acayaf)
+bismuth selenide
+bi(iii)cn2br2 (bimhua)
+bismuth tribromide
+bi(iii)s4br3 (kigdin)
+bi(iii)br6(3-) (dejluz)
+bi(iii)cl2i2(-) (jajfeg)
+bii3, complex
+bii3, 2.7 angstroms
+bii3, 2.8 angstroms
+bismuth triiodide
+bi(iii)n3i3 (bimcuv)
+bi(iii)i4(-) (picibi)
+bi(iii)i6(3-) (koqcau)
+bi-bi, complex
+bi-bi, 2.3 angstroms
+bi-bi, 2.4 angstroms
+bismuth, dimer
+bi2f4
+bi2f6
+bi2cl4
+bi2cl6
+bi(iii)cl5(2-) (kamwok)
+bi2br4, complex
+bi2br4, angstroms
+bi2br4
+bi2br6
+bi2i4
+* bi2i6

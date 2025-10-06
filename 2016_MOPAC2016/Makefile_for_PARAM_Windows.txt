@@ -1,0 +1,18 @@
+##############################################################################
+#
+#   Compile and build PARAM for Windows
+#
+##############################################################################
+FORTRAN_COMPILER = ifort -c -O3 /nologo    /module=$(OBJ)  /fpp /DMKL /Qmkl:parallel -o $@
+FORTRAN_LINKER   = ifort  /F1000000000 /libs:static /threads /Qmkl:parallel -O3
+EXE              = "../Bin and cmd/PARAM.exe" 
+OBJ              = ./PARAM_Objects 
+MOPAC_SRC        = ./MOPAC_source_code
+PARAM_SRC        = ./PARAM_source_code
+O                = obj
+##############################################################################
+#
+# Compile and link all the files in PARAM
+#
+##############################################################################
+include ./PARAM_Makefile_files.txt

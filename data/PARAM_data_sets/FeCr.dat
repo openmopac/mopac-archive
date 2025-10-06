@@ -1,0 +1,9 @@
+*
+*  Optimize a single element
+*
+params=../PM7.txt PM7 ref=../norm;../erra;../leve;../soli
+Alpb_Fe Cr
+Xfac_Fe Cr
+end  
+core-core_Fe - Cr near    
+core-core_Fe - Cr far

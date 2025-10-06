@@ -1,0 +1,10 @@
+*
+*  Optimize a single element
+*
+cycles=50 params=../PM7.txt  PM7         ref=../norm;../erra;../leve;../soli
+alpb_ne Ne  2 6
+xfac_ne Ne  0.1 10
+end  
+ core-core_Ne - Ne heat 2p0
+ core-core_Ne - Ne heat
+ core-core_Ne - Ne slope

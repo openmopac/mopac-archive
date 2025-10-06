@@ -1,0 +1,108 @@
+CH3CH2
+H plus C2H4 - CH3CH2 TS a
+H plus C2H4 - CH3CH2 TS
+H plus C2H4
+CH3 plus C2H4 - CH3CH2CH2 TS a
+CH3 plus C2H4 - CH3CH2CH2 TS
+CH3 plus C2H4
+CH3CH2CH2 (f) TS
+CH3CH2CH2 (r) TS
+CH3CH2CH2
+HCN - HNC (f) TS
+HCN - HNC (r) TS
+HCN - HNC TS a
+HCN - HNC TS
+HCN
+HNC
+6b Formonitrile Ylide plus acetylene Product
+6b Formonitrile Ylide plus acetylene TS
+6b Formonitrile Ylide plus acetylene
+6a Formonitrile Ylide plus ethylene Product
+6a Formonitrile Ylide plus ethylene TS
+6a Formonitrile Ylide plus ethylene
+9b Formoazomethine Ylide plus acetylene Product
+9b Formoazomethine Ylide plus acetylene TS
+9b Formoazomethine Ylide plus acetylene
+9a Formoazomethine Ylide plus ethylene Product
+9a Formoazomethine Ylide plus ethylene TS
+9a Formoazomethine Ylide plus ethylene
+H plus N2 - HN2 TS a
+H plus N2 - HN2 TS
+H plus N2
+HN2
+3b Diazomethane plus acetylene Product
+3b Diazomethane plus acetylene TS
+3b Diazomethane plus acetylene
+5b Formonitrile imine plus acetylene Product
+5b Formonitrile imine plus acetylene TS
+5b Formonitrile imine plus acetylene
+3a Diazomethane plus ethylene Product
+3a Diazomethane plus ethylene TS
+3a Diazomethane plus ethylene
+5a Formonitrile imine plus ethylene Product
+5a Formonitrile imine plus ethylene TS
+5a Formonitrile imine plus ethylene
+8b Formoazomethine imine plus acetylene Product
+8b Formoazomethine imine plus acetylene TS
+8b Formoazomethine imine plus acetylene
+8a Formoazomethine imine plus ethylene Product
+8a Formoazomethine imine plus ethylene TS
+8a Formoazomethine imine plus ethylene
+2b Hydrazoic acid plus acetylene Product
+2b Hydrazoic acid plus acetylene TS
+2b Hydrazoic acid plus acetylene
+2a Hydrazoic acid plus ethylene Product
+2a Hydrazoic acid plus ethylene TS
+2a Hydrazoic acid plus ethylene
+H plus CO - HCO TS a
+H plus CO - HCO TS
+H plus CO
+HCO
+4b Fulminic acid plus acetylene Product
+4b Fulminic acid plus acetylene TS
+4b Fulminic acid plus acetylene
+4a Fulminic acid plus ethylene Product
+4a Fulminic acid plus ethylene TS
+4a Fulminic acid plus ethylene
+7b Methylene nitrone plus acetylene Product
+7b Methylene nitrone plus acetylene TS
+7b Methylene nitrone plus acetylene
+7a Methylene nitrone plus ethylene Product
+7a Methylene nitrone plus ethylene TS
+7a Methylene nitrone plus ethylene
+N-methyl acetamide, ts (f)
+N-methyl acetamide, ts (r)
+1b Nitrous oxide and acetylene Product
+1b Nitrous oxide and acetylene TS
+1b Nitrous oxide and acetylene
+1a Nitrous oxide and ethylene product
+1a Nitrous oxide and ethylene TS
+1a Nitrous oxide and ethylene
+H plus HF - HF plus H TS
+H plus HF - HF plus H. TS a
+H plus HF
+HF plus H
+H plus FCH3 - HF plus CH3 TS a
+H plus FCH3 - HF plus CH3 TS
+H plus FCH3
+HF plus CH3
+HOCH3 plus F(-)
+OH(-) plus CH3F - HOCH3 plus F(-) TS a
+OH(-) plus CH3F - HOCH3 plus F(-) TS
+OH(-) plus CH3F
+H plus F2 - HF plus F TS a
+H plus F2 - HF plus F TS
+H plus F2
+HF plus F
+F - CH3 - F(-) transition state
+F - CH3F(-) complex
+CH3 plus FCl - CH3F plus Cl TS a
+CH3 plus FCl - CH3F plus Cl TS
+CH3 plus FCl
+CH3F plus Cl
+Cl - CH3 - F(-) TS (f)
+Cl - CH3 - F(-) TS (r)
+Cl - CH3F(-) complex
+F - CH3Cl(-) complex
+Cl - CH3 - Cl(-) transition state
+Cl - CH3Cl(-) complex

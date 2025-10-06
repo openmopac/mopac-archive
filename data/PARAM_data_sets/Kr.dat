@@ -1,0 +1,10 @@
+*
+*  Optimize a single element
+*
+ cycles=150 params=../PM7.txt  PM7         ref=../norm;../erra;../leve;../soli
+alpb_Kr Kr  1 6
+xfac_Kr Kr  0.1 10
+end  
+ core-core_Kr - Kr heat 2p0
+ core-core_Kr - Kr heat
+ core-core_Kr - Kr slope

@@ -1,0 +1,160 @@
+*
+*  Optimize a single element
+*
+cycles=20 params=PM7.txt PM7 ref=../norm;../erra;../leve 
+xfac_Sc Sc 1 40
+(Sc)(all) 
+end  
+core-core_Sc - C near
+core-core_Sc - C far
+core-core_Sc - O near
+core-core_Sc - O far
+core-core_Sc - F near
+core-core_Sc - F far
+core-core_Sc - Si near
+core-core_Sc - Si far
+core-core_Sc - P near
+core-core_Sc - P far
+core-core_Sc - Cl near
+core-core_Sc - Cl far
+core-core_Sc - Sc near
+core-core_Sc - Sc near slope
+core-core_Sc - Br near
+core-core_Sc - Br far
+core-core_Sc - I near
+core-core_Sc - I far
+Sc(iii)F6(3-) (good).mop
+Sc(iii)F6(3-) (bad).mop
+[Sc(II)(H2O)6]3+ 2Tg
+[Sc(II)(H2O)6]3+ 2Ag
+sc(me)3r
+sc(cp)3_r
+sc(iii)cp2me (fedsuc) r
+sc(iii)c11 (bebruw) r
+sc(iii)n4c (laxces) r
+sc(iii)n4cp (simfav) r
+sc(ii)(nh3)6r
+sc(iii)(cn)6r
+scor
+sc(iii)(h2o)6r
+sc(ii)(h2o)6r
+sc(iii)(acac)3 (acacsc) r
+sc(iii)o6 (htrops01) r
+sc(iii)o4n4(-) (hyzcsc) r
+sc(iii)o9(3+) (ninmig) r
+sc(iii)o6n3 (ditfob) r
+sc(iii)(edta)(-) (beqneq) r
+sc(iii)o8 (sezfos) r
+sc(iii)o9 (jakvog) r
+sc(iii)o6(+) (yecnez) r
+scfr
+scofr
+scf3r
+sc(iii)f6r
+sc(me)2shr
+sc(iii)n6(3-) (buqmop) r
+scclr
+scoclr
+sc(iii)clo5n(2+) (tuvxox) r
+sc(iii)o5cl2(+) (watjac) r
+sccl3r
+sc(iii)n3cl3 (nezweu) r
+sc(iii)ncl3o2 (corlaw) r
+sc(iii)cl3o3 (tuvyak) r
+sc(iii)o3cl3 (cornig) r
+sc(iii)cl6r
+sc(iii)2cp4c2 (sizniy) r
+sc(iii)2o14 (tuvyeo) r
+sc2f4r
+sc(iii)2cp4cl2 (dccpsc) r
+sc(iii)3cp6f3 (dofgag) r
+scbrr
+scobrr
+sc_fclbrr
+scbr3r
+sc(iii)br6r
+scir
+sc_ncir
+scoir
+sci3r
+sc(iii)i6r
+sc_i6r
+scandium(+), 1d(g) 4s(0)3d(2)
+scandium(+), 1d(u) 4s(0)3d(1)4p(1)
+scandium(+), 3d(g) 4s(1)3d(1)
+scandium, cation
+scandium 2dg 3d(1)4s(2)
+scandium 2dg 3d(3)
+scandium 2fg 3d(2)4s(1)
+scandium 2fg 3d(3)
+scandium 2gg 3d(2)4s(1)
+scandium 2pg 3d(2)4s(1)
+scandium 2sg 3d(2)4s(1)
+scandium 4dg 3d(1)4p(2)
+scandium 4du(1) 3d(2)4p(1)
+scandium 4du(2) 3d(2)4p(1)
+scandium 4du(3) 3d(2)4p(1)
+scandium 4fg 3d(1)4p(2)
+scandium 4fg 3d(2)4s(1)
+scandium 4fg(2) 3d(2)4s(1)
+scandium 4fu 3d(1)4s(1)4p(1)
+scandium 4fu 3d(2)4p(1)
+scandium 4gu 3d(2)4p(1)
+scandium 4pg 3d(1)4p(2)
+scandium 4pg(1) 3d(2)4s(1)
+scandium 4pg(2) 3d(2)4s(1)
+scandium 4pu(1) 3d(2)4p(1)
+scandium 4pu(2) 3d(2)4p(1)
+scandium 4su 3d(2)4p(1)
+scandium, atom
+scandium, anion
+bicyclopentadienyl scandium
+sc(iii)cp2me (fedsuc a)
+sc(iii)c11 (bebruw a)
+tricyclopentadienyl scandium(iii)
+scandium(ii) tetracyanide 2e
+sc(iii)n4c (laxces a)
+sc(ii)(nh3)6
+sc(iii)(cn)6
+sc(ii)(cn)6 2t2g
+scandium monoxide
+sc(ii)(h2o)6
+sc(iii)(acac)3 (acacsc)
+sc(iii)o6 (htrops01)
+sc(iii)o9(3+) (ninmig)
+sc(iii)o6n3 (ditfob)
+sc(iii)o8 (sezfos)
+sc(iii)o9 (jakvog)
+scandium fluoride
+scandium(i) fluoride
+scandium(iii) oxide fluoride
+scandium trifluoride
+scandium(iii) tetrafluoride
+scandium(ii) tetrafluoride 2e
+sc(iii)f6
+scandium(ii) hexafluoride
+sc(iii)n6(3-) (buqmop)
+scandium(i) chloride
+scandium(iii) oxide chloride
+sc(iii)clo5n(2+) (tuvxox)
+sc(iii)o5cl2(+) (watjac)
+scandium trichloride
+sc(iii)n3cl3 (nezweu)
+sc(iii)ncl3o2 (corlaw)
+sc(iii)cl3o3 (tuvyak)
+sc(iii)o3cl3 (cornig)
+scandium(ii) tetrachloride 2e
+sc(ii)cl6 2t2g
+sc(iii)cl6
+scandium, dimer
+sc(iii)2cp4c2 (sizniy_a)
+sc2f4
+sc(iii)3cp6f3 (dofgag)
+scandium(i) bromide
+scandium(iii) oxide bromide
+scandium tribromide
+sc(iii)br6
+scandium(i) iodide
+scandium(iii) oxide iodide
+scandium triiodide
+sc(iii)i6

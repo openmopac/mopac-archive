@@ -1,0 +1,9 @@
+*
+*  Optimize a single element
+*
+params=../PM7.txt cycles=50 PM7 ref=../norm;../erra;../leve;../soli
+xfac_In In
+alpb_In In
+end  
+Indium (In) r
+Indium (In) 

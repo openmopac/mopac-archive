@@ -1,0 +1,124 @@
+  cycles=50 params=PM7.txt PM7 ref=../norm;../erra;../leve 
+(Hf)(all)
+end
+core-core_Hf - H near
+core-core_Hf - H far
+core-core_Hf - B near
+core-core_Hf - B far
+core-core_Hf - C near
+core-core_Hf - C far
+core-core_Hf - O near
+core-core_Hf - O far
+core-core_Hf - F near
+core-core_Hf - F far
+core-core_Na - Hf near
+core-core_Na - Hf far
+core-core_P - Hf near
+core-core_P - Hf far
+core-core_Hf - Cl near
+core-core_Hf - Cl far
+core-core_Hf - I near
+core-core_Hf - I far
+core-core_Hf - Hf nearer
+core-core_Hf - Hf near
+core-core_Hf - Hf far
+core_Hf_1_0_3
+Hf6
+* Hf4 (good)
+* Hf4 (bad)
+* Hf(Cp)2(Me)2 (good)
+* Hf(Cp)2(Me)2 (bad)
+* Hf(BH4)4 (good)
+* Hf(BH4)4 (bad)
+* Hf(BH4)4 (bad 2)
+* Hf(BH4)4 (bad 3)
+* HfC10Cl2(+) (good)
+* HfC10Cl2(+) (bad)
+HfF6(3-) (Oh) 2T2g
+HfF6(3-) (Oh) 2A1g
+HfF6(3-) (Oh) 2T1u
+* Hf(EDTA) (good).mop
+* Hf(EDTA) (bad).mop
+* HfBr4 (good)
+* HfBr4 (Bad)
+* Hf (ICEHED) (Good).mop
+* Hf (ICEHED) (bad).mop
+* core-core_P - Hf heat
+* core-core_P - Hf slope
+* Hafnium hexafluoride (Oh)
+* Hafnium hexafluoride (D3h)
+* [Hf(III)(H2O)6]3+ 2Tg
+* [Hf(III)(H2O)6]3+ 2Ag
+hf(cp)2r
+hf(iv)(cp)2(me)2 (dmcphf) r
+hf(me2n)4r
+hf(net2)4r
+hf(ii)(nh3)6r
+hf(ch3)3ohr
+hf(i-o-c3h7)4r
+hf(iv) (o-s-c4h9)4r
+hf(iv)(h2o)6r
+hf(ii)(h2o)6r
+hf(ch3)3fr
+* hfof2r
+hff4r
+hf(iv)f6(2-) (renpab01) r
+hff6r
+hf(ch3)3clr
+hf(iv)(cp)2cl2 (kokpef) r
+hfcl4r
+hf(iv)o2cl4 (vehzaj) r
+hf(iv)cl6(2-) (barwib) r
+hfcl6r
+hfbrr
+hf(ch3)3brr
+hf(iv)(cp)2br2 (vivmui) r
+hfbr4r
+hfbr6r
+hfir
+hf(ch3)3ir
+hfi6r
+hf2r
+hf2cl6r
+hafnium, cation
+* hafnium, 1d(g) 5d(2)6s(2)
+* hafnium, 1g(g) 5d(2)6s(2)
+* hafnium, 1s(g) 5d(2)6s(2)
+* hafnium, 3f(g) (6s(2)5d(2)) (ground state)
+* hafnium, 3p(g) 5d(2)6s(2)
+* hafnium, 5f(g) (6s(1)5d(3)) (excited state)
+hafnium, atom
+bicyclopentadienyl hafnium, dication
+hf(iv)(cp)2(me)2 (dmcphf)
+hafnium(iv) tetra(dimethylamine)
+hafnium(iv) tetra(diethylamine)
+hf(ii)(nh3)6
+trimethyl hafnium hydroxide
+hafnium(iv) tetra(isopropoxide)
+hafnium(iv) (o-s-c4h9)4
+hafnium(iv) hexaquo
+hf(ii)(h2o)6
+trimethyl hafnium fluoride
+hafnium(iv) oxide difluoride
+hafnium(iv) tetrafluoride
+hafnium(iv) pentafluoride, anion
+hafnium(iv) hexafluoride
+hf(iv)f6(2-) (renpab01)
+trimethyl hafnium chloride
+bicyclopentadienyl hafnium dichloride
+hf(iv)(cp)2cl2 (kokpef)
+hafnium(iv) oxide dichloride
+hafnium(iv) tetrachloride
+hf(iv)o2cl4 (vehzaj)
+hf(iv)cl6(2-) (barwib)
+hafnium(i) bromide
+trimethyl hafnium bromide
+hf(iv)(cp)2br2 (vivmui)
+hafnium(iv) oxide dibromide
+hafnium(iv) tetrabromide
+hafnium(iv) hexabromide
+hafnium(i) iodide
+trimethyl hafnium iodide
+* hafnium(iv) oxide diiodide
+hafnium(iv) hexaiodide, dianion
+hf2cl6

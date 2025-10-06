@@ -1,0 +1,9 @@
+*
+*  Optimize a single element
+*
+cycles=50 params=../PM7.txt PM7 ref=../norm;../erra;../leve;../soli
+xfac_Cd Te
+alpb_Cd Te
+end  
+Cadmium telluride (CdTe) r
+Cadmium telluride (CdTe) 

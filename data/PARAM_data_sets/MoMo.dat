@@ -1,0 +1,9 @@
+*
+*  Optimize a single element
+*
+cycles=50 params=../PM7.txt PM7 ref=../norm;../erra;../leve;../soli 
+ ALPB_Mo Mo
+ XFAC_Mo Mo
+end
+Molybdenum (Mo) (ICSD 643958) bcc.mop
+Molybdenum (Mo) (ICSD 643958) bcc r

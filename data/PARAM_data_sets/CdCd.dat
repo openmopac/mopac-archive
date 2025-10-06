@@ -1,0 +1,9 @@
+*
+*  Optimize a single element
+*
+cycles=20 PM7 ref=../norm;../erra;../leve;../soli
+ XFAC_Cd Cd
+ Alpb_Cd Cd
+end  
+cadmium (Cd) (ICSD 619641) hcp r
+cadmium (Cd) (ICSD 619641) hcp 

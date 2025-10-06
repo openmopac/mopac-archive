@@ -1,0 +1,9 @@
+*
+*  Optimize a single element
+*
+ params=PM7.txt  cycles=20 PM7 ref=../norm;../erra;../leve;../soli
+ XFAC_Ir O
+ Alpb_Ir O
+end  
+Iridium(iv) dioxide (IrO2) (ICSD 81028) r.mop
+Iridium(iv) dioxide (IrO2) (ICSD 81028) 

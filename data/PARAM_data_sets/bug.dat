@@ -1,0 +1,6 @@
+*
+*  Optimize a single element
+*
+large cycles=50 PM7 params=../PM7.txt ref=../norm;../erra;../leve;../soli
+end  
+tellurium, atom

@@ -1,0 +1,181 @@
+cycles=50 params=pm7.txt         PM7 ref=../norm;../erra;../leve 
+(Pt)(all)
+end
+core-core_Pt - H near
+core-core_Pt - H far
+core-core_Pt - C near
+core-core_Pt - C far
+core-core_Pt - O near
+core-core_Pt - O far
+core-core_Pt - F near
+core-core_Pt - F far
+core-core_Pt - S near
+core-core_Pt - S far
+core-core_Pt - Cl near
+core-core_Pt - Cl far
+core-core_K - Pt near
+core-core_K - Pt far
+core-core_Pt - Br near
+core-core_Pt - Br far
+core-core_Pt - I near
+core-core_Pt - I far
+core-core_Pt - Pt near
+core-core_Pt - Pt far
+* PtCl4 (Td)
+* PtCl4 distorted
+* core_Pt_2_0_10
+* core_Pt_2_0_2
+* Pt2S4
+PtF6(-) 6A1g
+PtF6(-) 6T2g
+PtF6(-) 6Eg
+* Pt(CO)3 (+-)
+* Pt6Cl12 (good)
+* Pt6Cl12 (Bad)
+* Pt6Br12 (good)
+* Pt6Br12 (Bad)
+* PtBr2 (good)
+* PtBr2 (Bad)
+* PtCl2 (Bad2)
+pt(iv)(cp)c3 (cpmept01) r
+pt(ii)(nh3)4r
+pt(ii)n4(2+) (aptcpt) r
+pt(ii)(nh3)6r
+pt(ii)n4(2+) (acmptc) r
+pt(co)4r
+pt(nh3)2(mal)r
+pt(ii)n2o2 (cagduj) r
+pt(iv)n2o2c2 (bavhip) r
+pt(ii)(h2o)6r
+pt(iv)o4n2 (bipwig) r
+platinum edta r
+ptch3fr
+pt_f2r
+ptof2r
+pt(pet3)et(benzoyl)r
+pt(ox)(pme3)2r
+pt(pme3)2f2 (cis)r
+pt(ph)2(ch3s)2r
+platinum(cyclooctadiene) maleonitriledithiolato r
+pt(cyc8h)malsr
+pt(iii)s4(-) (beksit) r
+ptch3clr
+pt(ii)n2clo (achglp10) r
+pt(ii)c4cl2 (boftev) r
+pt(ii)cl2nc2 (etdmax) r
+pt(ii)n2cl2 (cukrab) r
+pt(ii)cl2n2 (ccenpt) r
+pt(bipy)cl2r
+pt(cl2)(py)2r
+pt(ii)cl2n2c2 (bhzept) r
+ptocl2r
+pt(ii)n2cl2 (ccapgc10) r
+pt(gly)2cl2r
+pt(ii)cl2n2 (baltir) r
+pt(ii)p2cl2 (cdcppt10) r
+pt(pme3)2cl2 (cis)r
+pt(c2)cl3(-) (xivsok) r
+pt(ii)cl3n(-) (aptcpt) r
+pt(iv)cl3cn2 (cefjay) r
+pt(iv)n3cl3(+) (entapt) r
+pt(cl3)(nh3)2pyr
+pt(ii)cl4(2-) (culzis) r
+pt(ii)n4 (bohwok) r
+pt(iv)cl6(2-) (defvuf) r
+ptch3brr
+pt(ii)n3br(+) (bdetap) r
+pt(pet)3(c3h5)br_r
+pt(ii)br2n2 (achptb) r
+ptobr2r
+pt(ii)br2n2 (bglypt) r
+ptch3ir
+ptbri(phs)2r
+pti2(nh3)2r
+pt(ii)i2n2 (dipypt) r
+pt(iv)n4i2(2+) (bevmaq) r
+ptoi2r
+pt(ii)i2n2 (cupcar) r
+pt(iv)c2i2o2 (bifcoi) r
+pt2(cp)2(co)2r
+pt(ii)2br6(2-) (etabpt) r
+pt4r
+pt6r
+platinum, cation
+platinum, 1d(g) 5d(8)6s(2)
+platinum, 1d(g) 5d(9)6s(1)
+platinum, 1g(g) 5d(8)6s(2)
+platinum, 1s(g) 5d(10)6s(0)
+platinum, 3d(g) 5d(9)6s(1)
+platinum, 3f(g) 5d(8)6s(2)
+platinum, 3p(g) 5d(8)6s(2)
+platinum, atom
+cyclopentadienyl trimethyl platinum
+pt(iv)(cp)c3 (cpmept01)
+pt(ii)n4(2+) (aptcpt)
+pt(ii)(nh3)6
+pt(ii)n4(2+) (acmptc)
+pt(ii)n2o2 (cagduj)
+pt(ch2(coo)2)(nh2c2h4nh2)
+pt((coo)2chet)(nh3)2
+cis-pt(1,1-cbda)(nh3)2
+pt(iv)n2o2c2 (bavhip)
+cis-pt(1,1-cbda)(nh2me)2 (34)
+cis-pt(1,2-cbda)(nh2me)2
+cis-pt(1,1-cbda)(nh2et)2
+cis-pt(1,1-cbda)(nh2-i-pr)2
+pt((coo)2ch(oh))(nh3)2
+pt(ii)(h2o)6
+pt(iv)o4n2 (bipwig)
+platinum edta
+methyl platinum(ii) fluoride
+platinum(iv) oxide difluoride
+cis-pt(pet3)2(ch3)2
+cis-pt(pet3)2(2-tol)2
+platinum(cyclooctadiene) maleonitriledithiolato
+cis-pt(pet3)2(set)2
+pt(iii)s4(-) (beksit)
+methyl platinum(ii) chloride
+pt(ii)n2clo (achglp10)
+cis-pt(pet3)2cl(ch3)
+cis-pt(pet3)2cl(2-tol)
+pt(ii)c4cl2 (boftev)
+pt(cyclooctadiene)cl2
+pt(ii)cl2nc2 (etdmax)
+cis-pt(nh3)2cl2
+pt(ii)n2cl2 (cukrab)
+cis-pt(nh2c2h4nh2)2cl2
+pt(ii)cl2n2 (ccenpt)
+cis-pt(nh2me)2cl2
+cis-pt(nh2-i-pr)2cl2
+cis-pt(nh2bu)2cl2
+cis-ptpy2cl2
+pt(ii)cl2n2c2 (bhzept)
+platinum(iv) oxide dichloride
+pt(ii)n2cl2 (ccapgc10)
+pt(ii)cl2n2 (baltir)
+cis-pt(pet3)2cl2
+trans-pt(pet3)2cl2
+cis-pt(pme2ph)2cl2
+pt(c2)cl3(-) (xivsok)
+pt(ii)cl3n(-) (aptcpt)
+pt(iv)cl3cn2 (cefjay)
+pt(iv)n3cl3(+) (entapt)
+pt(ii)cl4(2-) (culzis)
+pt(ii)n4 (bohwok)
+cis-pt(pet3)2cl4
+pt(iv)cl6(2-) (defvuf)
+methyl platinum(ii) bromide
+pt(ii)n3br(+) (bdetap)
+pt(ii)br2n2 (achptb)
+platinum(iv) oxide dibromide
+pt(ii)br2n2 (bglypt)
+methyl platinum(ii) iodide
+pt(ii)i2n2 (dipypt)
+pt(iv)n4i2(2+) (bevmaq)
+platinum(iv) oxide diiodide
+pt(ii)i2n2 (cupcar)
+pt(iv)c2i2o2 (bifcoi)
+platinum(i) hydride, dimer
+pt(ii)2br6(2-) (etabpt)
+pt4
+pt6

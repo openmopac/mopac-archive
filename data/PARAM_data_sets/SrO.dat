@@ -1,0 +1,9 @@
+*
+*  Optimize a single element
+*
+ relg=5 cycles=50 params=../PM7.txt PM7 ref=../norm;../erra;../leve;../soli 
+ALPB_Sr O  1 6
+XFAC_Sr O 1 600
+end
+Strontium oxide (SrO)(s) r
+Strontium oxide (SrO)(s) 

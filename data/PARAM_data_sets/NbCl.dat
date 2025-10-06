@@ -1,0 +1,9 @@
+*
+*  Optimize a single element
+*
+ params=PM7.txt cycles=50 PM7      ref=../norm;../erra;../leve;../soli
+XFAC_Nb Cl
+ALPB_Nb Cl
+end  
+Niobium(v) pentachloride (NbCl5) (ICSD 300102).mop
+Niobium(v) pentachloride (NbCl5) (ICSD 300102) r

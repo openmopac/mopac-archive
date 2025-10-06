@@ -1,0 +1,9 @@
+*
+*  Optimize a single element
+*
+params=../PM7.txt cycles=30 PM7 ref=../norm;../erra;../leve;../soli
+xfac_Bi I
+alpb_Bi I
+end  
+Bismuth triiodide (BiI3) (ICSD 78791).mop
+Bismuth triiodide (BiI3) (ICSD 78791) r

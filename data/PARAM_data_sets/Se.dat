@@ -1,0 +1,150 @@
+*
+*  Optimize a single element
+*
+cycles=50 PM7      params=../PM7.txt             ref=../norm;../erra;../leve;../soli
+(Se)(all) 
+end  
+core-core_Se - H near 
+core-core_Se - H far  
+core-core_Se - N near 
+core-core_Se - N far  
+core-core_Se - O near 
+core-core_Se - O far  
+core-core_Se - F near
+core-core_Se - F far
+core-core_Na - Se near 
+core-core_Na - Se far  
+core-core_Se - Cl near 
+core-core_Se - Cl far  
+core-core_K - Se near 
+core-core_K - Se far  
+core-core_Zn - Se near 
+core-core_Zn - Se far  
+core-core_Ge - Se near
+core-core_Ge - Se far  
+core-core_As - Se near 
+core-core_As - Se far  
+core-core_Se - Se near
+core-core_Se - Se far
+core-core_Se - Br near 
+core-core_Se - Br far  
+core-core_Cd - Se near 
+core-core_Cd - Se far  
+core-core_Sn - Se near
+core-core_Sn - Se far
+core-core_Se - I near 
+core-core_Se - I far  
+core-core_Hg - Se near 
+core-core_Hg - Se far 
+core-core_Pb - Se near 
+core-core_Pb - Se far 
+* SeF4 (good)
+* SeF4 (bad)
+* Se3N2 (good).mop
+* Se3N2 (bad).mop
+* Se4C10(+) (Good)
+* Se4C10(+) (bad)
+*  znse8 (good)
+*  znse8 (bad)
+* Se2Cl2 (good)
+* Se2Cl2 (bad)
+* Se2Br2 (good)
+* Se2Br2 (bad)
+* Se2Br2 (bad2)
+* Se2Cl2r
+* Se3Br10 (Good)
+* Se3Br10 (Bad)
+h2ser
+secr
+ch3sehr
+seethr
+seme2r
+c4h4ser
+c4h8ser
+seh-nh2r
+secnhr
+seor
+ocsr
+seo2r
+seo3r
+se(oh)6r
+secf2r
+sef2or
+seo2f2r
+sef4r
+sef5ncor
+sef6r
+sef6(=)
+sec2f6r
+sesir
+sesi2h6r
+sepf2hr
+csser
+secl2r
+seocl2r
+secl6(=)r
+znser
+znse(me)2r
+znsecl2r
+geser
+se2me2r
+se2f10or
+mn(co)3clse2 (gontim) r
+me4se2gec3r
+p4se3r
+se4cl16r
+sebr6(=)r
+inser
+in2ser
+snser
+selenium, cation 4p(g) - 4s(1)4p(4)
+selenium, cation
+selenium, 1d(g) 4s(2)4p(4)
+selenium, 1s(g) 4s(2)4p(4)
+selenium, 3p(g) 4s(2)4p(4)
+selenium, atom
+selenyl radical
+hydrogen selenide
+dimethylselenium
+selenophene
+tetrahydroselenophene
+diethylselenium
+seh-nh2
+selenium dioxide
+selenic acid (se(oh)6)
+selenium fluoride
+selenium tetrafluoride
+selenium hexafluoride
+silicon selenide
+seh-sh, complex
+seh-sh, 1.9 angstroms
+seh-sh, 2.0 angstroms
+thiocarbonyl selenide
+selenium dichloride
+secl6(=)
+zinc selenide
+germanium selenide, separated0
+germanium selenide
+arsenic selenide
+carbon diselenide
+(c6h5)-se-se-(c6h5)
+c6h5-ch2-se-se-ch2-c6h5
+clsesecl
+selenium, trimer
+se4cl16
+et3sebr
+selenium dibromide
+sebr6(=)
+indium selenide, complex
+indium selenide, 2.0 angstroms
+indium selenide, 2.2 angstroms
+indium selenide
+tin selenide
+selenium telluride
+h2te-h2se, separated
+h2te-h2se, 2.5 angstroms
+h2te-h2se, 3.0 angstroms
+h2c=se - i-ch3 interaction
+h2c=se - i-ch3 interaction (pm6)
+lead selenide
+bismuth selenide

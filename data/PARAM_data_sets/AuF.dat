@@ -1,0 +1,9 @@
+*
+*  Optimize a single element
+*
+cycles=50 params=../PM7.txt PM7 ref=../norm;../erra;../leve;../soli 
+ ALPB_Au F 
+ XFAC_Au F 
+end
+Gold(iii) fluoride (AuF3) (ICSD 16876) r.mop
+Gold(iii) fluoride (AuF3) (ICSD 16876) 

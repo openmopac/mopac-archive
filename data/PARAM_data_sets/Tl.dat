@@ -1,0 +1,130 @@
+*
+*  Optimize a single element
+*
+cycles=50 params=../PM7.txt PM7 ref=../norm;../erra;../leve 
+xfac_Tl Tl 1 40
+(Tl)(all) 
+end  
+core-core_Tl - B near
+core-core_Tl - B far
+core-core_Tl - C near
+core-core_Tl - C far
+core-core_Tl - N near
+core-core_Tl - N far
+core-core_Tl - O near
+core-core_Tl - O far
+core-core_Tl - F near
+core-core_Tl - F far
+core-core_Al - Tl near
+core-core_Al - Tl far
+core-core_Tl - P near
+core-core_Tl - P far
+core-core_Tl - S near
+core-core_Tl - S far
+core-core_Tl - Cl near
+core-core_Tl - Cl far
+core-core_Tl - Br near
+core-core_Tl - Br far
+core-core_Tl - I near
+core-core_Tl - I far
+core-core_Rb - Tl near
+core-core_Rb - Tl far
+core-core_Tl - Te near
+core-core_Tl - Te far
+core-core_Tl - Tl near
+core-core_Tl - Tl far
+core_Tl_1_3_10
+* TlF4(=) 2T2
+tl(iii)c2(+) (dmtlaz) r
+tl(iii)c3 (tmettl) r
+c5h5tlr
+tl(i)n3(+) (ducdio) r
+tl(iii)n6(3+) (bowkih) r
+tl(iii)n4c2(+) (luwwij) r
+tlbo2r
+tl(iii)c2o2 (mtlaca) r
+thallium tris-8-quinolinol r
+tloh.3(h2o)r
+tl(i)(h2o)4r
+tl(iii)(h2o)6r
+thallium(iii) tris-acetate r
+tl(iii)o8(-) (thacth) r
+thallium(iii)(edta) r
+tlfr
+[tl(iii)f(h2o)5](2+)r
+trans-tl(iii)f2(h2o)4(+)r
+tl(i)o6f3 (emapaj) r
+tl(i)s2 (mdtctl) r
+tl(i)s3(+) (sityav) r
+tl(iii)o3s3 (jivqek) r
+tl(iii)s4(-) (tubmim) r
+tl(iii)s6 (mscthl) r
+tlclr
+[tl(iii)cl(h2o)5](2+)r
+trans-tl(iii)cl2(h2o)4(+)r
+tl(iii)cl4(-) (encotl) r
+tl(iii)cl5(2-) (dakwui) r
+tlbrr
+[tl(iii)br(h2o)5](2+)r
+tl(iii)s4br(2-) (bihhuv) r
+trans-tl(iii)br2(h2o)4(+)r
+tl(iii)n2br3 (cejmot) r
+tl(iii)br4(-) (cafsux) r
+tl(iii)br5(2-) (baqwul) r
+tl(iii)br6(3-) (feqxii) r
+tlir
+[tl(iii)i(h2o)5](2+)r
+trans-tl(iii)i2(h2o)4(+)r
+tl(iii)i4(-) (bokhue) r
+tl2f2r
+thallium (+++)
+thallium, dication
+thallium, cation
+thallium, 2d(g) 6s(1)6p(2)
+thallium, 2p(g) 6s(1)6p(2)
+thallium, 2p(u)  6s(2)6p(1)
+thallium, 4p(g) 6s(1)6p(2)
+thallium, atom
+tl(iii)c2(+) (dmtlaz)
+tl(iii)c3 (tmettl)
+thallium cyclopentadienyl (ref)
+thallium cyclopentadienyl (bad)
+thallium cyclopentadienyl
+tl(i)n3(+) (ducdio)
+* tl(iii)n6(3+) (bowkih)
+tl(iii)n4c2(+) (luwwij)
+tl(iii)c2o2 (mtlaca)
+thallium tris-8-quinolinol
+* tloh.3(h2o)
+* tl(i)(h2o)4
+tl(iii)(h2o)6
+thallium(iii) tris-acetate
+tl(iii)o8(-) (thacth)
+thallium(iii)(edta)
+thallium fluoride
+[tl(iii)f(h2o)5](2+)
+trans-tl(iii)f2(h2o)4(+)
+tl(i)s2 (mdtctl)
+tl(i)s3(+) (sityav)
+tl(iii)o3s3 (jivqek)
+tl(iii)s4(-) (tubmim)
+tl(iii)s6 (mscthl)
+thallium chloride, cation
+thallium chloride
+[tl(iii)cl(h2o)5](2+)
+trans-tl(iii)cl2(h2o)4(+)
+tl(iii)cl4(-) (encotl)
+tl(iii)cl5(2-) (dakwui)
+thallium bromide, cation
+thallium bromide
+[tl(iii)br(h2o)5](2+)
+tl(iii)s4br(2-) (bihhuv)
+trans-tl(iii)br2(h2o)4(+)
+tl(iii)n2br3 (cejmot)
+tl(iii)br4(-) (cafsux)
+tl(iii)br5(2-) (baqwul)
+tl(iii)br6(3-) (feqxii)
+thallium iodide
+* [tl(iii)i(h2o)5](2+)
+tl(iii)i4(-) (bokhue)
+thallium chloride dimer

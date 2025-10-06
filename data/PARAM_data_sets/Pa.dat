@@ -1,0 +1,177 @@
+*
+*  Optimize a single element
+*
+parab=1.d5 cycles=40 params=../PM7.txt PM7 S ET=../everything.txt           ref=../norm;../erra;../leve
+(P)(all) 
+end  
+* core-core_P - H near    
+* core-core_P - H far     
+core-core_Li - P near    
+core-core_Li - P far     
+* core-core_P - C near    
+core-core_Na - P near    
+core-core_Na - P far     
+* core-core_Mg - P near
+core-core_Mg - P far 
+core-core_Al - P near
+core-core_Al - P far 
+* core-core_P - P near
+*
+*   Do not use P - P far: Use P4 tetramer and P4O10, etc.
+*
+* core-core_P - P far 
+* core-core_P - Cl far
+* core-core_Ca - P near
+* core-core_Ca - P far  
+core-core_Sc - P near
+core-core_Sc - P far  
+core-core_Zn - P near
+core-core_Zn - P far  
+core-core_Rb - P near
+core-core_Rb - P far  
+* core-core_P - I near 
+* core-core_P - I far  
+P2Si2H4
+Phosphorus triiodide
+PO4(3-)
+N4PI (SACMUM) r.mop
+N2PI (CORGAS) r.mop
+C3PI(+) (DOQVEK) r.mop
+MePI3(+) (HEDGIG) r.mop
+C2PI (BOCROB) r.mop
+CP2I (GUTJOU) r.mop
+trimethylborane-trimethylphosphine
+ph3r
+* cpr
+pchr
+ch3ph2r
+me3pr
+c5h5pr
+por
+triphenyl phosphine oxide r
+ethylene phosphate anion r
+dimethyl phosphate anion r
+me2hpo4r
+me3po4r
+po(ocn)3r
+ch2pfr
+pf3r
+pof3r
+pf5r
+* p2r
+pyrophosphoric acid r
+p2f4r
+methyl triphosphate r
+p4r
+p4o6r
+p4o10r
+psf3r
+ch3opscl2r
+ch3spocl2r
+pcl3r
+pocl3r
+pscl3r
+pcl5r
+brf2psr
+pbr3r
+pobr3r
+psbr3r
+* phosphorus, cation
+* phosphorus, 2d(g) 3s(1)3p(4)
+* phosphorus, 2d(u) 3s(2)3p(3)
+* phosphorus, 2p(u) 3s(2)3p(3)
+* phosphorus, 2s(g) 3s(1)3p(4)
+* phosphorus, 4p(g) 3s(1)3p(4)
+* phosphorus, 4s(u) 3s(2)3p(3)
+phosphorus, atom
+phosphinidene
+phosphino
+phosphine cation
+phosphine
+ph4(+)
+carbon monophosphide
+methinophosphide
+methylphosphine
+phosphetethene
+dimethylphosphine
+ethylphosphine
+trimethylphosphine
+protonated trimethylphosphine
+diethylphosphine
+triphenylphosphine
+phosphorus nitride
+hpn
+pnh
+pnh2 (singlet)
+trans-hpnh
+(ch3)2p=net
+trimethylphosphine-n-ethylimine
+hexamethylphosphorous triamide
+tris(diethylamino)phosphine
+phosphorus oxide
+hpo
+trimethylphosphine oxide
+triphenyl phosphine oxide
+phosphorus dioxide
+phosphorus trioxide, anion
+* hpo3
+methylphosphonic acid
+ethylphosphonic acid
+trimethyl phosphite
+triethyl phosphite
+di-isopropyl ethylphosphonate
+tri-isopropyl phosphite
+methyl phosphate anion
+methyl phosphate
+ethylene phosphate anion
+(c2h4)po4h
+ethylene phosphate
+dimethyl phosphate anion
+dimethyl hydrogen phosphate
+methyl ethyl phosphate anion
+trimethyl phosphate
+triethyl phosphate
+tri-n-butyl phosphate
+triphenyl phosphate
+po(ocn)3
+(c2h4)(po4h2)-oh
+* (c2h4)(po4h)-ome anion
+phosphorus monofluoride (triplet)
+ch2=p-f
+fpo
+phosphorus difluoride
+opf2
+methylphosphonodifluoride
+phosphorus trifluoride
+phosphorus oxyfluoride
+phosphorus tetrafluoride
+phosphorus tetrafluoride, anion
+phosphorus pentafluoride
+phosphorus hexafluoride, anion
+* phosphorus, dimer
+p2h4
+pyrophosphoric acid
+methyl triphosphate anion
+methyl triphosphate
+phosphorus, tetramer
+phosphorus trioxide
+phosphorus pentoxide
+phosphorus monosulfide
+phosphorus sulfide
+phosphorus chloride
+phosphorus monoxide monochloride
+phosphorus dichloride
+pcl2(c2h5)
+opcl2
+methylphosphonodichloride
+ethylphosphonic dichloride
+phosphorus trichloride (+)
+phosphorus trichloride
+phosphorus oxychloride
+phosphorus thiochloride
+phosphorus tetrachloride
+phosphorus pentachloride
+hexachloro-1,3,5,2,4,6-triazatriphosphorine
+phosphorus bromide
+phosphorus tribromide
+phosphorus oxybromide

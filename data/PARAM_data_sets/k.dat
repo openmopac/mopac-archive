@@ -1,0 +1,186 @@
+*
+*  Optimize a single element
+*
+cycles=50 params=../PM7.txt       PM7   ref=../norm;../erra;../leve;../soli
+(K)(all) 
+end  
+core_K_2_6_0
+core-core_K - H near
+core-core_K - H far
+core-core_K - Li near 
+core-core_K - Li far
+core-core_K - B near 
+core-core_K - B far
+core-core_K - C near
+core-core_K - C far  
+core-core_K - N near 
+core-core_K - N far
+core-core_K - O near
+core-core_K - O far
+core-core_K - F near
+core-core_K - F far  
+core-core_K - Na near
+core-core_K - Na far  
+core-core_K - Al near
+core-core_K - Al far  
+core-core_K - Si near
+core-core_K - Si far
+core-core_K - P near
+core-core_K - P far
+core-core_K - S near
+core-core_K - S far
+core-core_K - Cl near
+core-core_K - Cl far  
+core-core_K - K near     
+core-core_K - K near slope
+core-core_Ca - K near
+core-core_Ca - K far  
+core-core_K - V near
+core-core_K - V far  
+core-core_K - Cr near
+core-core_K - Cr far  
+core-core_K - Mn near 
+core-core_K - Mn far
+core-core_K - Co near 
+core-core_K - Co far 
+core-core_K - Ni near
+core-core_K - Ni far  
+core-core_K - Cu near
+core-core_K - Cu far  
+core-core_K - Ge near 
+core-core_K - Ge far
+core-core_K - As near
+core-core_K - As far  
+core-core_K - Se near 
+core-core_K - Se far 
+core-core_K - Br near
+core-core_K - Br far  
+core-core_K - Y near 
+core-core_K - Y far 
+core-core_K - Mo near  
+core-core_K - Mo far
+core-core_K - Ag near 
+core-core_K - Ag far   
+core-core_K - Cd near
+core-core_K - Cd far  
+core-core_K - Sn near
+core-core_K - Sn far  
+core-core_K - Sb near
+core-core_K - Sb far  
+core-core_K - Te near  
+core-core_K - Te far 
+core-core_K - I near
+core-core_K - I far  
+core-core_K - Cs near 
+core-core_K - W near
+core-core_K - W far  
+core-core_Os - K near
+core-core_Os - K far  
+core-core_K - Pt near
+core-core_K - Pt far  
+core-core_K - Au near
+core-core_K - Au far
+core-core_K - Bi near
+core-core_K - Bi far  
+* KF(s) r
+* KF(s)
+* KCL(s) r
+* KCL(s)
+* KBr(s) r
+* KBr(s)
+* KI(s) r
+* KI(s)
+K(Cp)r
+* K(+)-18-crown-6_ref
+* K(+)-18-crown-6_bad
+core_K_1_1_0
+khr
+hekr
+kch3r
+kohr
+koh.h2or
+koh.h2orr
+k(+)(h2o)2r
+kbo2r
+k(+)(h2o)3r
+k(+)(h2o)4r
+k(+)(h2o)5r
+khco3.2h2or
+kno3.2h2or
+k(+)(h2o)6r
+k(+)-18-crown-6_(kegxid)r
+k(i)o6(+) (aqepiv) r
+k(i)o6n (yakwox) r
+k(i)o6n2(+) (gazgix) r
+k(i)o7 (legxok) r
+kfr
+k(+)(h2o)5.f r
+kbf4r
+nelir
+kalf4r
+k(i)o5n3 (poztck) r
+k(i)o6s (ruxvah) r
+kclr
+k(+)(h2o)5.cl r
+arkr
+k2r
+k2or
+k2f2r
+k2sr
+k2cl2r
+(khco3)4r
+kbrr
+k(+)(h2o)5.br r
+k2br2r
+krkr
+kir
+k(+)(h2o)5.i r
+k(i)o5ni (dughoc) r
+k2i2r
+xekr
+potassium, cation
+potassium 2s(g)  4s(1)4p(0)
+potassium, 2p(u) - 4s(0)4p(1)
+potassium, atom
+potassium hydride
+he-k(+), separated
+potassium cyanide
+potassium hydroxide
+koh.h2o
+k(+)(h2o)2
+kbo2
+k(+)(h2o)3
+k(+)(h2o)4
+k(+)(h2o)5
+khco3.2h2o
+kno3.2h2o
+k(+)(h2o)6
+k(i)(h2o)6(+) (gugnur)
+k(i)o6(+) (aqepiv)
+k(i)o6n (yakwox)
+k(i)o6n2(+) (gazgix)
+k(i)o7 (legxok)
+potassium fluoride
+k(+)(h2o)5.f
+potassium trifluoroberyllate
+khso4
+k(i)o5n3 (poztck)
+k(i)o6s (ruxvah)
+potassium chloride
+k(+)(h2o)5.cl
+potassium, dimer
+k-c
+potassium fluoride, dimer
+potassium sulfide
+potassium sulfate
+potassium chloride, dimer
+(khco3)4
+kcro4(-)
+potassium bromide
+k(+)(h2o)5.br
+potassium bromide, dimer
+potassium iodide
+k(+)(h2o)5.i
+k(i)o5ni (dughoc)
+potassium iodide, dimer
+xe-k(+), separated

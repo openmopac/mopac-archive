@@ -1,0 +1,10 @@
+*
+*  Optimize a single element
+*
+params=../PM7.txt PM7 ref=../norm;../erra;../leve;../soli
+Alpb_Mn Br
+Xfac_Mn Br
+end  
+Manganese(ii) dibromide (MnBr2) r.mop
+Manganese(ii) dibromide (MnBr2) 
+

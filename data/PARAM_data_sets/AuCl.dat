@@ -1,0 +1,11 @@
+*
+*  Optimize a single element
+*
+params=../PM7.txt PM7 ref=../norm;../erra;../leve;../soli
+Alpb_Au Cl
+Xfac_Au Cl
+end  
+Gold(iii) trichloride (AuCl3) (ICSD 22146) r.mop
+Gold(iii) trichloride (AuCl3) (ICSD 22146) 
+Gold(i) chloride (AuCl) (ICSD 6052).mop
+Gold(i) chloride (AuCl) (ICSD 6052) r

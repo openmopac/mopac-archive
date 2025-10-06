@@ -1,0 +1,71 @@
+ pm6  ref=../norm;../erra;../leve 
+end
+* core-core_Os - N heat
+* core-core_Os - N slope
+* core-core_Os - O heat
+* core-core_Os - O slope
+* core-core_Os - K heat
+* core-core_Os - K slope
+* core-core_Os - Os heat
+* core-core_Os - Os slope
+* OsF6(2-) (good).mop
+* OsF6(2-) (bad).mop
+* Os(CO)5 (D3h) (Ref)
+* Os(CO)5 (C4v) (Bad)
+* Os(CO)4 dianion (Td) (Ref)
+* Os(CO)4 dianion (Bad)
+OsI4F(NO) r
+OsCl4F2(-) r
+osmocener
+os(ii)(nh3)6r
+os(en)3r
+[os(nh3)5h2o]++ r
+osn5o(2+) (befdas) r
+methyl osmium(iii) dihydroxider
+os(co)4(c2h4)r
+os(co)5r
+os(iii)(h2o)6 d5_r
+os(ii)(h2o)6r
+os(acac)2(h2o)2r
+oso4n2 (babwac) r
+osof2r
+osf3r
+os(iii)f6 d5_r
+os(co)4(pet3)r
+os(cp)np2(2+) (belnov) r
+os(c6h6)cncl (bedyuf) r
+[os(nh3)5cl]++ r
+osocl2r
+os(iii)cl6 d5_r
+osobr2r
+os(co)4f2 (bedkeb) r
+os(co)3(c3h5)ir
+osoi2r
+os(co)4i2r
+os2(c8h8)(co)6r
+osmium, cation
+osmium, 3f(g) 6s(1)5d(7)
+osmium, 3p(g) 5d(6)6s(2)
+osmium, 5d(g) 5d(6)6s(2)
+osmium, 5f(g) 6s(1)5d(7)
+osmium, atom
+* osmium, trianion
+osmocene
+os(ii)(nh3)6
+osmium(ii) tris(ethylenediamine)
+[os(nh3)5h2o]++
+os(co)4(c2h4)
+osmium pentacarbonyl
+os(ii)(h2o)6
+osmium di-acetylacetonate dihydrate
+osmium(iv) oxide difluoride
+osmium(iii) trifluoride
+os(co)4(pet3)
+osmium(iv) oxide dichloride
+osmium(iii) trichloride
+osmium(iv) oxide dibromide
+osmium(iii) tribromide
+os(co)3(c3h5)i
+osmium(iv) oxide diiodide
+os(co)4i2
+osmium(iii) triiodide

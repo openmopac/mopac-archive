@@ -1,0 +1,84 @@
+*
+*  Optimize a single element
+*
+ cycles=50 params=../PM7.txt PM7 ref=../norm;../erra;../leve;../soli
+ zp Ba 1.0 1.8
+ xfac_Ba Ba 1 70
+(Ba)(All)
+end  
+core-core_Ba - H near
+core-core_Ba - H far
+core-core_Ba - C near 
+core-core_Ba - C far  
+core-core_Ba - N near
+core-core_Ba - N far
+core-core_Ba - O near
+core-core_Ba - O far      
+core-core_Ba - F near
+core-core_Ba - F far
+core-core_Ba - Mg near
+core-core_Ba - Mg far
+core-core_Ba - Al near 
+core-core_Ba - Al far 
+core-core_Ba - Si near 
+core-core_Ba - Si far 
+core-core_Ba - P near    
+core-core_Ba - P far
+core-core_Ba - S near
+core-core_Ba - S far  
+core-core_Ba - Cl near
+core-core_Ba - Cl far   
+core-core_Ba - Ca near
+core-core_Ba - Ca far  
+core-core_Ba - Ti near    
+core-core_Ba - Ti far
+core-core_Ba - Cu near
+core-core_Ba - Cu far
+core-core_Ba - Br near
+core-core_Ba - Br far
+core-core_Ba - I near
+core-core_Ba - I far
+core-core_Ba - Ba near
+core-core_Ba - Ba far
+core-core_Ba - W near
+core-core_Ba - W far
+core_Ba_0_2_0
+Ba2
+BaF4(3-) Td 2T2
+BaCl2_plus_(MeCl)2
+BaCl2(MeCl)2
+* BaSO4, dimer, separated.mop
+* BaSO4, dimer
+* BaCl2 (+-)
+* Ba(CCH)2 (+-)
+* Ba(ii)F2 (Ref)
+* Ba(i)F2 (ani)
+* Ba(iii)F2 (cat)
+* BaF4(3-) Td 2A1
+* BaF4(3-) Td 2T2
+ba(ii)n6(2+) (bindad10) r
+ba(ii)n8(2+) (sarnaa) r
+baor
+ba(ii)o4n4 (zutgaw) r
+ba(ii)(h2o)6 r
+ba(ii)o8(2+) (keffeg) r
+ba(ii)o10(2+) (pxcdba) r
+ba(ii)o11 (jawzow) r
+bafr
+baf2r
+baalo2(oh).2(h2o)r
+basr
+bacl2r
+babr2r
+bai2r
+ba2sio4r
+barium, dication
+* barium(+), 2p(u) 5s(0)5p(1)
+barium, cation
+barium, atom
+barium oxide
+barium sulfide
+barium monochloride
+barium dichloride
+barium dibromide
+barium diiodide

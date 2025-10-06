@@ -1,0 +1,25 @@
+*
+*  Optimize a single element
+*
+cycles=50 params=../PM7.txt PM7 ref=../norm;../erra;../leve;../soli 
+xfac_Ag O
+alpb_Ag O
+ALPB_Ag Cl
+XFAC_Ag Cl
+ALPB_Ag Br
+XFAC_Ag Br
+ALPB_Ag Ag
+XFAC_Ag Ag
+Alpb_Ag I
+Xfac_Ag I
+end
+Silver(i) fluoride (AgF).mop
+Silver(i) fluoride (AgF) r
+Silver(i) chloride (AgCl).mop
+Silver(i) chloride (AgCl) r
+Silver(i) bromide (AgBr) r.mop
+Silver(i) bromide (AgBr) 
+Silver(i) iodide (AgI) r.mop
+Silver(i) iodide (AgI) 
+Silver(i) oxide (Ag2O) (ICSD 281041) r.mop
+Silver(i) oxide (Ag2O) (ICSD 281041) 

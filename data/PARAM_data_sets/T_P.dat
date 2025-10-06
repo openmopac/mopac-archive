@@ -1,0 +1,3 @@
+re lg=0 PM7 survey set=P.usd ref=../norm params=../PM7.txt
+(P)(uss)
+end

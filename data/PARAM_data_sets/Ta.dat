@@ -1,0 +1,108 @@
+ cycles=50 params=PM7.txt  pm7 ref=../norm;../erra;../leve 
+(Ta)(all)
+end
+Core-core_Ta - O near
+Core-core_Ta - O far
+Core-core_Ta - F near    
+Core-core_Ta - F far    
+Core-core_Ta - S near    
+Core-core_Ta - S far    
+Core-core_Ta - Cl near
+Core-core_Ta - Cl far
+Core-core_Ta - Br near
+Core-core_Ta - Br far
+Core-core_Ta - I near    
+Core-core_Ta - I far    
+Core-core_Ta - Ta near    
+Core-core_Ta - Ta far
+core_Ta_1_0_4
+* Tantalum hexafluoride (Oh).mop
+* Tantalum hexafluoride (D3H).mop
+* Ta complex(+) (good)
+* Ta complex(+) (bad)
+* Ta(v)Cl6(-) (good)
+* Ta(v)Cl6(-) (bad)
+* Ta7
+* Ta5 (good)
+* Ta5 (bad)
+* Ta4F20, dimer (good).mop
+* Ta4F20, dimer (bad).mop
+Tantalum, anion
+tah3r
+ta(me)5r
+ta(v)(me)5 (doscix) r
+ta(nme2)5r
+ta(ii)(nh3)6r
+methyl tantalum(v) oxide dihydroxider
+ta(cp)(co)4 (gisfix) r
+ta(oet)4r
+ta(oet)5r
+ta(opr)4r
+ta(opr)5r
+ta(ii)(h2o)6r
+ta(co)4o3 (duswix) r
+tafr
+taf3r
+taof3r
+taf4r
+taf6r
+ta(v)s8 (cokxef10) r
+ta(v)s8(+) (mtctac10) r
+ta(iv)c2cl2n2 (bpycta) r
+ta(cp)c4cl2 (ciwfod10) r
+ta(cp)2cl2 (kokpij) r
+tacl3r
+ta(iii)n3cl3 (nafsao) r
+taocl3r
+ta(v)s3cl3 (cifmaf) r
+tacl4r
+ta(iv)cl4n2 (latvux) r
+tacl5r
+ta(v)cl6(-) (emucoe) r
+tabr3r
+taobr3r
+tabr4r
+tai3r
+taoi3r
+tai4r
+tantalum, cation
+tantalum, 4f(g) 5d(3)6s(2)
+tantalum, 4f(g)
+tantalum, 4p(g) 5d(3)6s(2)
+tantalum, 6d(g)
+tantalum, 6s(g) 5d(5)
+tantalum, atom
+tah3
+pentamethyl tantalum(v)
+ta(v)(me)5 (doscix)
+ta(ii)(nh3)6
+ta(cp)(co)4 (gisfix)
+tantalum(v) (ome)5
+tantalum(v) (oet)5
+tantalum(v) (opr)5
+ta(co)4o3 (duswix)
+tantalum(i) fluoride
+tantalum(iii) trifluoride
+tantalum(v) oxide trifluoride
+tantalum(v) tetrafluoride, cation
+tantalum(v) hexafluoride, anion
+ta(v)s8 (cokxef10)
+ta(v)s8(+) (mtctac10)
+ta(iv)c2cl2n2 (bpycta)
+ta(cp)c4cl2 (ciwfod10)
+ta(cp)2cl2 (kokpij)
+tantalum(iii) trichloride
+tantalum(v) oxide trichloride
+ta(v)s3cl3 (cifmaf)
+tantalum(v) tetrachloride, cation
+ta(iv)cl4n2 (latvux)
+tantalum(v) pentachloride
+ta(v)cl6(-) (emucoe)
+tantalum(iii) tribromide
+tantalum(v) oxide tribromide
+tantalum(v) tetrabromide, cation
+tantalum(iii) triiodide
+tantalum(v) oxide triiodide
+tantalum(v) tetraiodide, cation
+ta6cl12, dication
+ta6br12, dication

@@ -1,0 +1,23 @@
+ cycles=50 params=../pm7.txt  PM7 ref=../norm;../erra;../leve;../soli
+ (Xe)(all)
+end
+core-core_Xe - F near 
+core-core_Xe - F far
+core-core_Xe - Xe near
+core-core_Xe - Xe near slope
+Xenon, cation
+XeO3 (+-)
+* Xenon tetrafluoride (good)
+* Xenon tetrafluoride (bad)
+xelir
+xeo4r
+xefr
+XeF4r
+xenar
+xeclr
+xekr
+xebrr
+xeir
+xenon, atom
+Xenon tetrafluoride
+xeo4

@@ -1,0 +1,123 @@
+*
+*  Optimize a single element
+*
+cycles=50 PM7   PARAMS=../PM7.txt               ref=../norm;../erra;../leve 
+    ALPB_Li     I   
+    XFAC_Li     I 
+    ALPB_Be     I   
+    XFAC_Be     I 
+    ALPB_B      I   
+    XFAC_B      I  
+    ALPB_Al     I  
+    XFAC_Al     I  
+    ALPB_Si     I  
+    XFAC_Si     I  
+    ALPB_P      I  
+    XFAC_P      I  
+    ALPB_Cr     I  
+    XFAC_Cr     I  
+    ALPB_Fe     I  
+    XFAC_Fe     I  
+    ALPB_Co     I  
+    XFAC_Co     I  
+    ALPB_Ni     I  
+    XFAC_Ni     I  
+    ALPB_Cu     I  
+    XFAC_Cu     I     
+    ALPB_Zn     I     
+    XFAC_Zn     I     
+    ALPB_Ge     I     
+    XFAC_Ge     I     
+    ALPB_As     I     
+    XFAC_As     I     
+    ALPB_Sr     I     
+    XFAC_Sr     I     
+    ALPB_Zr     I     
+    XFAC_Zr     I      
+    ALPB_Nb     I     
+    XFAC_Nb     I      
+    ALPB_Mo     I     
+    XFAC_Mo     I      
+    ALPB_Ag     I     
+    XFAC_Ag     I     
+    ALPB_In     I     
+    XFAC_In     I     
+    ALPB_Sn     I     
+    XFAC_Sn     I     
+    ALPB_Sb     I     
+    XFAC_Sb     I     
+    ALPB_I      I     
+    XFAC_I      I     
+    ALPB_Ba     I     
+    XFAC_Ba     I     
+    ALPB_La     I     
+    XFAC_La     I     
+    ALPB_Lu     I     
+    XFAC_Lu     I     
+    ALPB_Re     I     
+    XFAC_Re     I     
+    ALPB_Pt     I     
+    XFAC_Pt     I     
+    ALPB_Au     I     
+    XFAC_Au     I     
+    ALPB_Bi     I     
+    XFAC_Bi     I     
+end  
+core-core_Be - I near
+core-core_Be - I far
+core-core_B - I near
+core-core_B - I far
+core-core_Al - I near
+core-core_Al - I far
+core-core_Si - I near
+core-core_Si - I far
+core-core_P - I near
+core-core_P - I far
+core-core_Cr - I near
+core-core_Cr - I far
+core-core_Fe - I near
+core-core_Fe - I far
+core-core_Co - I near
+core-core_Co - I far
+core-core_Ni - I near
+core-core_Ni - I far
+core-core_Cu - I near
+core-core_Cu - I far
+core-core_Zn - I near
+core-core_Zn - I far
+core-core_Ge - I near
+core-core_Ge - I far
+core-core_As - I near
+core-core_As - I far
+core-core_Sr - I near
+core-core_Sr - I far
+core-core_Zr - I far
+core-core_Zr - I near
+core-core_Nb - I far
+core-core_Nb - I near
+core-core_Mo - I far
+core-core_Mo - I near
+core-core_Ag - I far
+core-core_Ag - I near
+core-core_In - I near
+core-core_In - I far
+core-core_Sn - I near
+core-core_Sn - I far
+core-core_Sb - I near
+core-core_Sb - I far
+core-core_I - I near
+core-core_I - I far
+core-core_Ba - I near
+core-core_Ba - I far
+core-core_La - I near
+core-core_La - I far
+core-core_Lu - I near
+core-core_Lu - I far
+core-core_Re - I near
+core-core_Re - I far
+core-core_Pt - I near
+core-core_Pt - I far
+core-core_Au - I near
+core-core_Au - I far
+core-core_Bi - I near
+core-core_Bi - I far

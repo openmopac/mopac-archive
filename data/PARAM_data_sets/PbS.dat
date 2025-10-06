@@ -1,0 +1,9 @@
+*
+*  Optimize a single element
+*
+ PM7 noscale ref=../soli                  params=../PM7.txt                  
+xfac_Pb S
+Alpb_Pb S  
+end  
+galena (PbS)
+galena (PbS) r

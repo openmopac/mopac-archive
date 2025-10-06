@@ -1,0 +1,9 @@
+*
+*  Optimize a single element
+*
+cycles=15 noscale params=../PM7.txt  PM7 ref=../norm;../erra;../leve;../soli 1scf
+ ALPB_Al Sb
+ XFAC_Al Sb
+end
+Aluminum antimonide (AlSb) r
+Aluminum antimonide (AlSb)

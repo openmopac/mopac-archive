@@ -1,0 +1,9 @@
+*
+*  Optimize a single element
+*
+params=../PM7.txt PM7 ref=../norm;../erra;../leve;../soli
+Alpb_Fe Ti
+Xfac_Fe Ti
+end  
+Iron titanate (FeTiO3) (ICSD 153492) r.mop
+Iron titanate (FeTiO3) (ICSD 153492) 

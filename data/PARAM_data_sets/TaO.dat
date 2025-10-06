@@ -1,0 +1,9 @@
+*
+*  Optimize a single element
+*
+params=../PM7.txt PM7 ref=../norm;../erra;../leve;../soli
+Alpb_Ta O
+Xfac_Ta O
+end  
+Tantalum(v) pentoxide (Ta2O5) (ICSD 95462).mop
+Tantalum(v) pentoxide (Ta2O5) (ICSD 95462) r

@@ -1,0 +1,9 @@
+*
+*  Optimize a single element
+*
+ params=PM7.txt cycles=50 PM7      ref=../norm;../erra;../leve;../soli
+XFAC_Mn Ti
+ALPB_Mn Ti
+end  
+Manganese titanate (MnTiO3) (ICSD 60006).mop
+Manganese titanate (MnTiO3) (ICSD 60006) r

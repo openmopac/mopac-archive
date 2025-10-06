@@ -1,0 +1,9 @@
+*
+*  Optimize a single element
+*
+ params=PM7.txt cycles=50 PM7      ref=../norm;../erra;../leve;../soli
+XFAC_Mn Cl
+ALPB_Mn Cl
+end  
+Manganese(ii) dichloride (MnCl2).mop
+Manganese(ii) dichloride (MnCl2) r 

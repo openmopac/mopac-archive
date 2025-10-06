@@ -1,0 +1,20 @@
+*
+*  Optimize  I - O           
+*
+cycles=500 PM7   PARAMS=../PM7.txt               ref=../norm;../erra;../leve 
+xfac_I O 1 40
+alpb_I O  1 5
+xfac_I N
+alpb_I N
+end  
+03 Iodomethane formaldehyde separated
+03 Iodomethane formaldehyde 
+06 Trifluoroiodomethane formaldehyde separated
+06 Trifluoroiodomethane formaldehyde
+09 Iodobenzene acetone separated
+09 Iodobenzene acetone 
+12 Iodobenzene trimethylamine separated
+12 Iodobenzene trimethylamine 
+IO4(-) (really wild guess)
+iodine oxide
+nitrosyl iodide

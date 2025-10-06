@@ -1,0 +1,115 @@
+  cycles=50 params=../PM7.txt PM7 ref=../norm;../erra;../leve  
+alpb_rh Rh  1 6
+alpb_Rh Cl 1 5
+(Rh)(all)
+end
+*  Rh-Rh (good)
+*  Rh-Rh (bad)
+* core_Rh_0_0_0
+* core_Rh_2_0_10
+  core-core_Rh - C near
+  core-core_Rh - C far
+  core-core_Rh - O near
+  core-core_Rh - O far
+  core-core_Rh - F near
+  core-core_Rh - F far
+  core-core_Rh - S near
+  core-core_Rh - S far
+  core-core_Rh - Cl near
+  core-core_Rh - Cl far
+  core-core_Rh - Br near
+  core-core_Rh - Br far
+  core-core_Rh - I near
+  core-core_Rh - I far
+  core-core_Rh - Rh near
+  core-core_Rh - Rh far
+Rh(iii)Cl6H3
+* Rh2(Cp)2CO2Br (good)
+* Rh2(Cp)2CO2Br (bad)
+*   Rh(Me) for dipole
+  Rh2C12Br2
+* Rhodium tetracarbonyl anion (Ref)
+* Rhodium tetracarbonyl anion (bad)
+* Rhodium pentacarbonyl cation (Ref)
+* Rhodium pentacarbonyl cation (bad)
+* rh(cn)6r
+* RhS4Cl (good).mop
+* RhS4Cl (bad)
+* RhI4(CO)2(-) (good)
+* RhI4(CO)2(-) (bad)
+* RhI4(CO)2(-) (bad2)
+Rh2(Cp)2Cl3 r
+rh(iii)n6(3+) (crhenc) r
+rh(iii)n6(3+) (venyao) r
+rh(iii)n6(3+) (hohkeu) r
+rhor
+rh(iii)n6(3+) (lejcuy) r
+rh(co)4r
+rh(iii)n6 (goyrer) r
+rh(co)5r
+rh(iii)(h2o)6r
+rh(ii)(h2o)6r
+rh(iii)o6(3-) (cazcip) r
+rhfr
+rh(iii)p3c3 (kijseb) r
+rh(iii)p3c3 (toxben) r
+rhsr
+rh(iii)c3n2s (kijsax) r
+rh(iii)n3s3(3+) (scrhcl) r
+rhclr
+rh(i)c8cl (dburhc10) r
+methyl rhodium(iii) chloride hydroxide
+rhc2ncl (cawzuv) r
+rh(iii)n4cl2(+) (deymup) r
+rhocl2r
+rh(i)c2cl2(-) (gabkoj) r
+rh(iii)n4cl2(-) (cdmgrh10) r
+rh(iii)os2cl3 (dmsrhc10) r
+rhcl4r
+rh(iii)o2cl4(-) (tmaarh) r
+rhbrr
+rhobr2r
+rhbr4r
+rh2(co)8r
+rh(iii)2o10(4+)  (qalmev) r
+rh2cl2c4 (fuzbeh01) r
+rh2(cp)2co2br (mldrhb10) r
+rh2c12br2 (rhbral) r
+rhir
+rh(iii)n4ci (hefter) r
+rhi4r
+rhodium, cation
+rhodium, 2dg 4d(9)
+rhodium, 2fg 4d(8)5s(1)
+rhodium, 4fg 4d(8)5s(1)
+rhodium, atom
+rhodium(iii) hexacyanide
+rh(iii)n6(3+) (crhenc)
+rh(iii)n6(3+) (venyao)
+rh(iii)n6(3+) (hohkeu)
+rhodium(ii) oxide
+rhodium tetracarbonyl, anion
+rhodium pentacarbonyl, cation
+rh(ii)(h2o)6
+rhodium(i) fluoride
+rhodium(ii) sulfide
+rh(iii)c3n2s (kijsax)
+rh(iii)n3s3(3+) (scrhcl)
+rhodium(i) chloride
+rh(i)c8cl (dburhc10)
+rhc2ncl (cawzuv)
+rh(iii)n4cl2(+) (deymup)
+rhodium(v) oxide dichloride, cation
+rh(iii)os2cl3 (dmsrhc10)
+rhodium(v) tetrachloride, cation
+rhodium(i) bromide
+rhodium(v) oxide dibromide, cation
+rhodium(v) tetrabromide, cation
+rh2(co)8
+rh(iii)2o10(4+)  (qalmev)
+rh2cl2c4 (fuzbeh01)
+rh2(cp)2co2br (mldrhb10)
+rh2c12br2 (rhbral)
+rhodium(i) iodide
+rh(iii)n4ci (hefter)
+rhodium(v) tetraiodide

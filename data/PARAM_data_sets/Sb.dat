@@ -1,0 +1,211 @@
+*
+*  Optimize a single element
+*
+cycles=50 params=../PM7.txt       PM7 ref=../norm;../erra;../leve;../soli
+xfac_C Sb 0.2 10
+xfac_N Sb 0.2 10
+xfac_O Sb 0.2 10
+xfac_F Sb 0.2 10
+xfac_S Sb 0.2 10
+xfac_Cl Sb 0.2 10
+xfac_Sb Sb 0.2 10
+(Sb)(all) 
+end  
+antimony, 2p(u) 5s(2)5p(3)
+antimony, 2d(u) 5s(2)5p(3)
+antimony, 2p(u) 5s(2)5p(3)
+antimony, atom 5s(2)5p(3)
+antimony, atom
+core-core_Sb - H near
+core-core_Sb - H far
+core-core_Sb - C near
+core-core_Sb - C far
+core-core_Sb - N near
+core-core_Sb - N far
+core-core_Sb - O near
+core-core_Sb - O far
+core-core_Sb - F near    
+core-core_Sb - F far     
+core-core_Na - Sb near
+core-core_Na - Sb far
+core-core_Al - Sb near
+core-core_Al - Sb far
+core-core_Sb - S near
+core-core_Sb - S far
+core-core_Sb - Cl near    
+core-core_Sb - Cl far    
+core-core_K - Sb near
+core-core_K - Sb far
+core-core_Sb - Br near
+core-core_Sb - Br far
+core-core_Ru - Sb near
+core-core_Ru - Sb far
+core-core_Sb - Sb near    
+core-core_Sb - Sb far    
+* core-core_Sb - Sb near slope
+core-core_Te - Sb near    
+core-core_Te - Sb far     
+core-core_Sb - I near
+core-core_Sb - I far  
+core-core_Ba - Sb near    
+core-core_Ba - Sb far 
+core_Sb_2_4_1
+core_Sb_2_0_0
+antimony triiodide    
+* SbS3I3 (good)
+* SbS3I3 (bad)
+SbS3 (PYCTSB) r
+SbS3 (FEXLUP) r
+SbClS2 (CLSSBP10) r
+SbCl3S (BAHZUF) r
+SbOCBr (MBACSB10) r
+SbF5N (TUSBAK) r
+SbO3F3 (OFAFSB01) r
+SbC3Br2 (CEHGAX) r
+SbIS2 (AFOFAD) r
+SbS3I3 (JUYKUJ r
+* Antimony (Sb) r
+* Antimony (Sb) 
+* Sb2Cl10 (good)
+* Sb2Cl10 (bad)
+* SbI3 (good)
+* SbI3 (bad)
+* Antimony hexafluoride (-) (Oh)
+* Antimony hexafluoride (-) (D3h)
+Sb-Sb_(DIYCUJ) r.mop
+Sb-Sb_(ACXHSB) r.mop
+Sb-Sb_(CLMSBC) r.mop
+sbh3r
+sb(ch3)r
+sb(v)c4(+) (bohsia) r
+sb(et)3r
+sb(c6h5)3r
+sb(iii)c3 (afutaw) r
+sb(iii)o3 (fepwus) r
+sb(oh)6(-)r
+sb(me2)fr
+sb(v)c3f2 (trsbdf) r
+sb(iii)f3 (ureaaf) r
+sbf4(+)r
+sb(iii)f4(-) (namteb) r
+sbf5r
+sb(v)f6(-) (coshat) r
+sbf6(-)r
+sbc3f9r
+sbsi3h9r
+sb(iii)s4c (casper) r
+ch3-sb-clr
+et-sb-clr
+sboclr
+sb(iii)s2cl (clssbp10) r
+sb(iii)cl3 (anisbc) r
+sbcl3r
+sb(iii)n2cl3 (bpysbc10) r
+sbcl4(+)r
+sb(v)cl4o2 (dotjeb01) r
+sbcl5r
+sb(iii)cl5(2-) (bpclsb) r
+sb(v)c3cl2 (clvisb) r
+sb(v)ocl5 (acmepo) r
+sb(v)cl5o (curduo) r
+sb(v)cl6(-) (acclsb20) r
+sbcl6(-)r
+mn(co)5sb (bazpex) r
+sb(iii)cbr2 (kutxus) r
+sb(iii)br3 (dejyew) r
+sbbr3r
+sb(v)c2br3 (dpsbtb) r
+sb(iii)cbr4(2-) (bimkir) r
+sb(iii)br5(2-) (clpysb) r
+sb(v)cbr5(-) (jinmic) r
+sb(v)br6(-) (clbrpz) r
+sbbr6(-)r
+insbh4r
+sb2r
+sb2(d-c4h2o6)2(=)r
+sb2f4r
+sb2cl4r
+sb2br4r
+al-sb, complex r
+sb(iii)c2i (doqwel) r
+sb(iii)ic2 (doqwel) r
+sb(iii)c2i2(-) (eleced) r
+sb(iii)s3i3 (juykuj) r
+sb(iii)i4(-) (picoia) r
+sb2i4r
+sbi6(-)r
+os(co)4f2 (bedkeb) r
+antimony, dication
+antimony, cation
+antimony, 2d(u) 5s(2)5p(3)
+antimony, 2p(u) 5s(2)5p(3)
+antimony, atom 5s(2)5p(3)
+antimony, atom
+stibine
+trimethyl stibine
+trimethylstibine
+sb(v)c4(+) (bohsia)
+triethylstibine
+triphenylstibine
+antimony nitride
+sb(iii)c3 (afutaw)
+antimony oxide
+[sb(v)me3.2(h2o)](2+)
+sb(iii)o3 (fepwus)
+sb(oh)6(-)
+antimony fluoride
+dimethyl antimony fluoride
+sb(v)c3f2 (trsbdf)
+antimony trifluoride
+sb(iii)f3 (ureaaf)
+sbf4(+)
+sb(iii)f4(-) (namteb)
+sb(v)f6(-) (coshat)
+sbf6(-)
+alh2-sbh2, complex
+alh2-sbh2, 2.2 angstroms
+alh2-sbh2, 2.4 angstroms
+sb-si, complex
+sb-s, complex
+antimony chloride
+dimethyl antimony chloride
+diethyl antimony chloride
+antimony oxychloride
+sb(iii)s2cl (clssbp10)
+antimony dichloride
+antimony trichloride
+sb(iii)cl3 (anisbc)
+sbcl4(+)
+antimony pentachloride
+sb(iii)cl5(2-) (bpclsb)
+sb(v)cl5o (curduo)
+sb(v)cl6(-) (acclsb20)
+sbcl6(-)
+sb(iii)cbr2 (kutxus)
+antimony tribromide
+sb(iii)br3 (dejyew)
+sb(iii)cbr4(2-) (bimkir)
+sb(iii)br5(2-) (clpysb)
+sb(v)cbr5(-) (jinmic)
+sb(v)br6(-) (clbrpz)
+sbbr6(-)
+indium antimonide
+insbh4, complex
+insbh4, 2.3 angstroms
+insbh4, 2.5 angstroms
+antimony, dimer
+sb2h4, complex
+sb2h4, 2.6 angstroms
+sb2h4, 2.7 angstroms
+sb2(d-c4h2o6)2(=)
+sb2f4
+sb2cl4
+sb2br4
+indium diantimonide
+antimony, tetramer
+al-sb
+sb(iii)c2i (doqwel)
+sb(iii)c2i2(-) (eleced)
+sb(iii)i4(-) (picoia)
+sb2i4
+sbi6(-)

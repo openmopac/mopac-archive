@@ -1,0 +1,9 @@
+*
+*  Optimize a single element
+*
+params=../PM7.txt PM7 ref=../norm;../erra;../leve;../soli
+Alpb_Ag Cr
+Xfac_Ag Cr
+end  
+Silver chromate (Ag2CrO4) (ICSD 160644).mop
+Silver chromate (Ag2CrO4) (ICSD 160644) r

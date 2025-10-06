@@ -1,0 +1,9 @@
+*
+*  Optimize a single element
+*
+cycles=50 params=../PM7.txt PM7 ref=../norm;../erra;../leve;../soli 
+ ALPB_Ta Ta
+ XFAC_Ta Ta
+end
+Tantalum (Ta) (ICSD 652900) bcc r.mop
+Tantalum (Ta) (ICSD 652900) bcc 

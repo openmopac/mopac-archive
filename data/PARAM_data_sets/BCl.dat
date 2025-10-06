@@ -1,0 +1,9 @@
+*
+*  Optimize a single element
+*
+ cycles=100 params=../PM7.txt PM7 ref=../norm;../erra;../leve;../soli
+xfac_B Cl
+alpb_B Cl
+end  
+Boron trichloride (BCl3) (ICSD 27869).mop
+Boron trichloride (BCl3) (ICSD 27869) r

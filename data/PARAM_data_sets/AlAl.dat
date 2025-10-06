@@ -1,0 +1,9 @@
+*
+*  Optimize a single element
+*
+cycles=50 params=../PM7.txt PM7 ref=../norm;../erra;../leve;../soli 
+ ALPB_Al Al
+ XFAC_Al Al
+end
+Aluminum (Al) (ICSD 64700) r.mop
+Aluminum (Al) (ICSD 64700) 

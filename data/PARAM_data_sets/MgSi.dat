@@ -1,0 +1,11 @@
+*
+*  Optimize a single element
+*
+params=../PM7.txt PM7 ref=../norm;../erra;../leve;../soli
+Alpb_Mg Si
+Xfac_Mg Si
+end  
+Enstatite (MgSiO3) r
+Enstatite (MgSiO3) 
+perovskite (MgSiO3) 
+

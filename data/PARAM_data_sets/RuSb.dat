@@ -1,0 +1,9 @@
+*
+*  Optimize a single element
+*
+params=../PM7.txt cycles=10 PM7 ref=../norm;../erra;../leve;../soli
+xfac_Ru Sb
+alpb_Ru Sb
+end  
+core-core_Ru - Sb heat
+core-core_Ru - Sb slope

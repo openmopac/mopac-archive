@@ -1,0 +1,9 @@
+*
+*  Optimize a single element
+*
+cycles=50 params=../PM7.txt PM7 ref=../norm;../erra;../leve;../soli 
+ ALPB_Mn Mn
+ XFAC_Mn Mn
+end
+Manganese (Mn) (ICSD 44932) complex.mop
+Manganese (Mn) (ICSD 44932) complex r

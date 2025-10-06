@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VisualStudioProject ProjectCreator="Intel Fortran" Keyword="Console Application" Version="11.0" ProjectIdGuid="{101FF4C3-32E4-45EA-9A49-BB19DE75936C}">
+	<Platforms>
+		<Platform Name="Win32"/>
+		<Platform Name="x64"/></Platforms>
+	<Configurations>
+		<Configuration Name="Debug|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/libs:qwin" SuppressStartupBanner="true" DebugInformationFormat="debugEnabled" Optimization="optimizeDisabled" WarnInterfaces="true" Traceback="true" BoundsCheck="true" StackFrameCheck="true" RuntimeLibrary="rtMultiThreadedDebug"/>
+				<Tool Name="VFLinkerTool" OutputFile="M:\Utility\Work_on_UTILITIES\BZ (debug).exe" LinkIncremental="linkIncrementalNo" SuppressStartupBanner="true" GenerateManifest="false" GenerateDebugInformation="true" SubSystem="subSystemWindows"/>
+				<Tool Name="VFResourceCompilerTool"/>
+				<Tool Name="VFMidlTool" SuppressStartupBanner="true"/>
+				<Tool Name="VFCustomBuildTool"/>
+				<Tool Name="VFPreLinkEventTool"/>
+				<Tool Name="VFPreBuildEventTool"/>
+				<Tool Name="VFPostBuildEventTool"/>
+				<Tool Name="VFManifestTool" SuppressStartupBanner="true"/></Configuration>
+		<Configuration Name="Release|Win32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/libs:qwin" SuppressStartupBanner="true"/>
+				<Tool Name="VFLinkerTool" OutputFile="M:\utility\BZ.exe" LinkIncremental="linkIncrementalNo" SuppressStartupBanner="true" GenerateManifest="false" SubSystem="subSystemWindows"/>
+				<Tool Name="VFResourceCompilerTool"/>
+				<Tool Name="VFMidlTool" SuppressStartupBanner="true"/>
+				<Tool Name="VFCustomBuildTool"/>
+				<Tool Name="VFPreLinkEventTool"/>
+				<Tool Name="VFPreBuildEventTool"/>
+				<Tool Name="VFPostBuildEventTool"/>
+				<Tool Name="VFManifestTool" SuppressStartupBanner="true"/></Configuration>
+		<Configuration Name="Debug|x64">
+				<Tool Name="VFFortranCompilerTool" SuppressStartupBanner="true" DebugInformationFormat="debugEnabled" Optimization="optimizeDisabled" WarnInterfaces="true" Traceback="true" BoundsCheck="true" StackFrameCheck="true" RuntimeLibrary="rtMultiThreadedDebug"/>
+				<Tool Name="VFLinkerTool" OutputFile="M:/utility/BZ.exe" LinkIncremental="linkIncrementalNo" SuppressStartupBanner="true" GenerateManifest="false" GenerateDebugInformation="true" SubSystem="subSystemConsole"/>
+				<Tool Name="VFResourceCompilerTool"/>
+				<Tool Name="VFMidlTool" SuppressStartupBanner="true" TargetEnvironment="midlTargetAMD64"/>
+				<Tool Name="VFCustomBuildTool"/>
+				<Tool Name="VFPreLinkEventTool"/>
+				<Tool Name="VFPreBuildEventTool"/>
+				<Tool Name="VFPostBuildEventTool"/>
+				<Tool Name="VFManifestTool" SuppressStartupBanner="true"/></Configuration>
+		<Configuration Name="Release|x64">
+				<Tool Name="VFFortranCompilerTool" SuppressStartupBanner="true"/>
+				<Tool Name="VFLinkerTool" OutputFile="M:\utility\BZ.exe" LinkIncremental="linkIncrementalNo" SuppressStartupBanner="true" GenerateManifest="false" SubSystem="subSystemConsole"/>
+				<Tool Name="VFResourceCompilerTool"/>
+				<Tool Name="VFMidlTool" SuppressStartupBanner="true" TargetEnvironment="midlTargetAMD64"/>
+				<Tool Name="VFCustomBuildTool"/>
+				<Tool Name="VFPreLinkEventTool"/>
+				<Tool Name="VFPreBuildEventTool"/>
+				<Tool Name="VFPostBuildEventTool"/>
+				<Tool Name="VFManifestTool" SuppressStartupBanner="true"/></Configuration></Configurations>
+	<Files>
+		<Filter Name="Header Files" Filter="fi;fd"/>
+		<Filter Name="Resource Files" Filter="rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe"/>
+		<Filter Name="Source Files" Filter="f90;for;f;fpp;ftn;def;odl;idl">
+		<File RelativePath=".\src\add_missing_cells.F90"/>
+		<File RelativePath=".\src\blas.F90"/>
+		<File RelativePath=".\src\bz.F90"/>
+		<File RelativePath=".\src\cntour.F90"/>
+		<File RelativePath=".\src\common_common.F90"/>
+		<File RelativePath=".\src\Details_of_cursor_point.F90"/>
+		<File RelativePath=".\src\digit.F90"/>
+		<File RelativePath=".\src\draw.F90"/>
+		<File RelativePath=".\src\euler.F90"/>
+		<File RelativePath=".\src\graphics.F90"/>
+		<File RelativePath=".\src\HEigensystem.F"/>
+		<File RelativePath=".\src\kpoint.F90"/>
+		<File RelativePath=".\src\lower.F90"/>
+		<File RelativePath=".\src\make_line.F90"/>
+		<File RelativePath=".\src\minv.F90"/>
+		<File RelativePath=".\src\orient.F90"/>
+		<File RelativePath=".\src\point.F90"/>
+		<File RelativePath=".\src\reada.F90"/>
+		<File RelativePath=".\src\rot.F90"/>
+		<File RelativePath=".\src\rotcel.F90"/>
+		<File RelativePath=".\src\rotsec.F90"/>
+		<File RelativePath=".\src\rsp.F90"/>
+		<File RelativePath=".\src\setup.F90"/>
+		<File RelativePath=".\src\solir.F90"/>
+		<File RelativePath=".\src\sort.F90"/>
+		<File RelativePath=".\src\surfac.F90"/>
+		<File RelativePath=".\src\symtrz.F90"/>
+		<File RelativePath=".\src\upcase.F90"/>
+		<File RelativePath=".\src\vastkind.F90"/></Filter></Files>
+	<Globals/></VisualStudioProject>

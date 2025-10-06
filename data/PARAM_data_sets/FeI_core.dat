@@ -1,0 +1,9 @@
+*
+*  Optimize a single element
+*
+cycles=50 params=../PM7.txt PM7 ref=../norm;../erra;../leve;../soli 
+ ALPB_Fe I
+ XFAC_Fe I 
+end
+core-core_Fe - I near
+core-core_Fe - I far

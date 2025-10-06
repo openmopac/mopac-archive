@@ -1,0 +1,9 @@
+*
+*  Optimize a single element
+*
+ cycles=50 PM7 noscale ref=../soli  params=../PM7.txt                  
+xfac_Se Pb
+Alpb_Se Pb  1.5 6
+end  
+Lead selenide (PbSe) r
+Lead selenide (PbSe) 

@@ -1,0 +1,181 @@
+*
+*  Optimize a single element
+*
+  params=../PM7.txt  ./Mg.rp cycles=50 PM7 ref=../norm;../erra;../leve;../soli
+(Mg)(all) 
+end  
+* magnesium, 1p(u) 3s(1)3p(1)
+* magnesium, 1s(g) 3s(0)3p(2)
+magnesium, 1s(g) 3s(2)3p(0)
+magnesium, 3p(u) 3s(1)3p(1)
+magnesium, 3p(g) 3s(0)3p(2)
+core_Mg_0_2
+core_Mg_0_3
+core_Mg_1_3
+Mg6
+core-core_Mg - H near
+core-core_Mg - H far
+core-core_Mg - C near
+core-core_Mg - C far
+core-core_Mg - N near
+core-core_Mg - N far
+core-core_Mg - O near
+core-core_Mg - O far
+core-core_Mg - F near
+core-core_Mg - F far
+core-core_Na - Mg near
+core-core_Mg - Mg near
+core-core_Mg - Mg far
+* core-core_Mg - Mg near slope
+core-core_Mg - Al near
+core-core_Mg - Al far
+core-core_Mg - Si near
+core-core_Mg - Si far
+core-core_Mg - P near
+core-core_Mg - P far
+core-core_Mg - S near
+core-core_Mg - S far
+core-core_Mg - Cl near
+core-core_Mg - Cl far
+core-core_Mg - Ca near
+core-core_Mg - Ca far
+core-core_Mg - Ti near
+core-core_Mg - Ti far
+core-core_Mg - Cr far
+core-core_Mg - Br near
+core-core_Mg - Br far
+core-core_Mg - I near
+core-core_Mg - I far
+core-core_Mg - W near
+core-core_Mg - W far
+core-core_Ba - Mg near
+core-core_Ba - Mg far
+* Mg4O4
+mghr
+mgh2r
+mgmehr
+mghcchr
+mgme2r
+mg(ii)c2 (gimniz) r
+c10h10mgr
+mghnh2r
+mghcnr
+mgn2h4r
+mgc2n2r
+mg(ii)c2n2 (meenmg) r
+mg(ii)n4c(+) (fizrem) r
+mg(ii)n6(2+) (dotziv) r
+mgor
+mghohr
+mgcnohr
+mgo2h2r
+mg(ii)c2o2 (dobxib) r
+mg(ii)(cp)co2 (huxsau) r
+mghno2r
+mghonor
+mg(ii)o4(2+) (insmgc) r
+mg(acac)2r
+mgn3o2r
+* mg(ii)(h2o)4(oh)2r
+* mg(ii)(h2o)5.ohr
+* mg(ii)(h2o)6r
+mg(ii)o6 (dacamg) r
+mg(ii)o6 (felguy) r
+mg(edta)r
+mg(ii)o6(-) (gapsev) r
+mg(ii)o6 (davgai) r
+mg(ii)o6 (besxon) r
+mgfr
+mghfr
+mgmefr
+mgf2r
+mg2r
+mg2f4r
+mg(ii)o6(2-) (fapsiy) r
+mgsr
+mgs2h4r
+mg(++)(h2o)4(h2s)2r
+mg(ii)s2o4 (kiwseo) r
+mg(ii)s2n2o2 (ehufui) r
+mgclr
+mgclfr
+mgcl2r
+mg(ii)o4cl2 (cexwux10) r
+mg(ii)2(cp)2cl4o2 (lakleo) r
+mg(ii)cl4(2-) (dupcog) r
+mgbrr
+mg(ii)o2br(+) (basliq) r
+mg(ii)cbro2 (emgbre10) r
+mgetbro2et4r
+mgbr2r
+mg(ii)o2br2 (mgbeet) r
+mg(ii)o5br2 (gupjac) r
+mgi2r
+magnesium, dication
+magnesium, cation
+* magnesium, 1p(u) 3s(1)3p(1)
+* magnesium, 1s(g) 3s(0)3p(2)
+magnesium, 1s(g) 3s(2)3p(0)
+* magnesium, 3p(u) 3s(1)3p(1)
+magnesium, atom
+magnesium hydride (mgh)
+magnesium hydride (mgh2)
+methyl magnesium hydride
+mgh(cch)
+mgh(ch=ch2)
+dimethylmagnesium
+mg(ii)c2 (gimniz)
+bicyclopentadienyl magnesium
+amino magnesium hydride
+magnesium hydride cyanide
+diamino magnesium
+magnesium cyanide
+mg(ii)c2n2 (meenmg)
+mg(ii)n4c(+) (fizrem)
+mg(ii)n6(2+) (dotziv)
+magnesium oxide
+magnesium hydroxide
+magnesium hydride hydroxide
+magnesium cyanide hydroxide
+magnesium di-hydroxide
+mg(ii)c2o2 (dobxib)
+mg(ii)(cp)co2 (huxsau)
+mg(ii)o4(2+) (insmgc)
+magnesium di-acetylacetonate
+mgn3o2
+mg(ii)(h2o)4(oh)2
+mg(ii)(h2o)5.oh
+mg(ii)(h2o)6
+mg(ii)o6 (dacamg)
+mg(ii)o6 (felguy)
+mg(ii)(edta)(=)
+mg(ii)o6(-) (gapsev)
+mg(ii)o6 (davgai)
+mg(ii)o6 (besxon)
+magnesium fluoride
+magnesium difluoride
+magnesium hydride fluoride
+methyl magnesium fluoride
+magnesium, dimer
+magnesium sulfide
+magnesium hydride hydrosulfide
+magnesium hydrosulfide hydroxide
+magnesium di-hydrosulfide
+mg(++)(h2o)4(h2s)2
+mg(ii)s2o4 (kiwseo)
+* mg(ii)s2n2o2 (ehufui)
+magnesium chloride
+magnesium hydride chloride
+magnesium chloride fluoride
+magnesium dichloride
+mg(ii)o4cl2 (cexwux10)
+mg(ii)2(cp)2cl4o2 (lakleo)
+mg(ii)cl4(2-) (dupcog)
+* magnesium dichloride, dimer
+magnesium bromide
+mg(ii)cbro2 (emgbre10)
+magnesium dibromide
+mg(ii)o2br2 (mgbeet)
+mg(ii)o5br2 (gupjac)
+* magnesium dibromide, dimer
+magnesium diiodide

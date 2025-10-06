@@ -1,0 +1,168 @@
+cycles=50 params=PM7.txt  ref=../norm;../erra;../leve 
+(Au)(all)
+end
+* AuCl4(-) D4h (good)
+* AuCl4(-) C2V (bad)
+* Au(iii)Cl4(-) (good).mop
+* Au(iii)Cl4(-) (bad).mop
+* Au2F6
+* Au2F6 (bad)
+* Au2Cl6
+* Au2Cl6 (bad)
+* Au2Br6, dimer (good)
+* Au2Br6, dimer (bad)
+* core-core_Au - H near    
+* core-core_Au - H far 
+core-core_Au - H near
+core-core_Au - H far
+core-core_Au - C near
+core-core_Au - C far
+core-core_Au - N near
+core-core_Au - N far
+core-core_Au - O near
+core-core_Au - O far
+core-core_Au - F near
+core-core_Au - F far
+core-core_Au - P near
+core-core_Au - P far
+core-core_Au - S near
+core-core_Au - S far
+core-core_Au - Cl near
+core-core_Au - Cl far
+core-core_K - Au near
+core-core_K - Au far
+core-core_Au - Se near
+core-core_Au - Se far
+core-core_Au - Br near
+core-core_Au - Br far
+core-core_Rb - Au near
+core-core_Rb - Au far
+core-core_Au - I near
+core-core_Au - I far
+core-core_Au - Pd near
+core-core_Au - Pd far
+core-core_Au - Au near
+core-core_Au - Au far
+core_Au_2_0_10
+* Au2N2Cl2, dimer (good)
+* Au2N2Cl2, dimer (bad)
+Au2O4C4 (good).mop
+Au2O4C4 (bad).mop
+* AuN3Cl (good).mop
+* AuN3Cl (bad).mop
+AuPI3 (good).mop
+AuPI3 (bad).mop
+* Au2C2Cl2 (good).mop
+* Au2C2Cl2 (bad).mop
+* Au2Br6S2 (good).mop
+* Au2Br6S2 (bad).mop
+* Au2Cl2 (bad)
+* core-core_Au - Au heat
+* core-core_Au - Au slope
+* core_Au_2_0_10
+* AuF4(-) (good)
+* AuF4(-) (bad)
+au(iii)br3p (brmpau) r
+au(iii)2c4s2 (culyir) r
+au(ii)2c4cl2 (emplau) r
+au(ii)2c5i (bibpil) r
+au(i)2p2i2 (fuwfim) r
+Au(CCH)2 (+-)
+auhr
+auch3r
+aunh2r
+au(me)2nh2r
+au(cn)2r
+au(i)(cn)2(-) (jeyxam) r
+au(i)c2 (cymiau) r
+au(nh2)3r
+gold(iii)(nh3)4r
+gold(i)(nh3)4r
+au(iii)(cn)4 r
+au(i)n4(+) (azegiv) r
+au(ii)(nh3)6r
+auor
+* au(me)2ohr
+gold(i)(h2o)2r
+gold(i)(h2o)4r
+au(co)4r
+aufr
+au(me)f2r
+auf3r
+auf4(-) r
+auf2shr
+au(me2s)2r
+au(i)s2(+) (afawuz) r
+au(iv)s4 (jekgah) r
+auclr
+au(iii)n3cl(2+) (aemaup) r
+au(i)scl (gojlas) r
+au(i)cl2(-) (ganjou) r
+au(me)cl2r
+au(iii)cl2n2(+) (battof) r
+au(iii)cl2on (kudnay) r
+au(iii)ncl3 (pyaucl10) r
+au(iii)ncl3 (hihcik) r
+au(iii)cl4(-) (benyau) r
+aubrr
+au(i)sbr (gigwau) r
+au(i)br2(-) (doymaf) r
+au(iii)sbr3 (gigwey) r
+au(iii)br4(-) (benbec) r
+auir
+au(i)i2(-) (ganjua) r
+au(iii)i4(-) (gejquh) r
+* au2r
+au(iii)2c4n2 (devlul) r
+* au(i)2p4 (dukreg01) r
+au(iii)2c4s2 (culyir) r
+au(ii)2c4cl2 (emplau) r
+au(ii)2c5i (bibpil) r
+au(i)2p2i2 (fuwfim) r
+(au(ch3)2(cn))4r
+* au7 (planar) r
+gold, cation
+gold 2dg 5d(9)6s(2)
+gold 2sg 5d(10)6s(1)
+gold, atom
+hydrido gold(i)
+methyl gold(i)
+trimethyl gold(iii)
+amino gold(i)
+dimethyl gold(iii) amine
+gold(i) di-cyanide, anion
+triamino gold(iii)
+gold(i)(nh3)4
+au(iii)(cn)4
+au(ii)(nh3)6
+gold(i) oxide, anion
+hydroxy gold(i)
+dimethyl gold(iii) hydroxide
+gold(i)(h2o)4
+gold tetracarbonyl, cation
+gold(i) fluoride
+methyl gold(iii) difluoride
+gold(iii) trifluoride
+gold(iii) tetrafluoride, anion
+gold(iii) difluoride thiol
+au(me2s)2
+au(i)s2(+) (afawuz)
+au(iv)s4 (jekgah)
+gold(i) chloride
+gold(i) dichloride, anion
+gold(iii) tetrachloride, anion
+gold(i) bromide
+au(i)sbr (gigwau)
+gold(i) dibromide, anion
+gold(iii) tetrabromide, anion
+gold(i) iodide
+gold(i) diiodide, anion
+gold(iii) tetraiodide, anion
+* gold, dimer
+au(iii)2c4n2 (devlul)
+au(iii)2c4s2 (culyir)
+* au4, d2h
+* au4 (td)
+(au(ch3)2(cn))4
+* au7 (planar)
+* au7 (non-planar)

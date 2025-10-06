@@ -1,0 +1,9 @@
+*
+*  Optimize a single element
+*
+params=../PM7.txt PM7 ref=../norm;../erra;../leve;../soli
+Alpb_Lu Cl
+Xfac_Lu Cl
+end  
+Lutetium(iii) trichloride (LuCl3) r.mop
+Lutetium(iii) trichloride (LuCl3) 

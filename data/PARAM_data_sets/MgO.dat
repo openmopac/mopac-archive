@@ -1,0 +1,25 @@
+*
+*  Optimize a single element
+*
+params=../PM7.txt PM7 ref=../norm;../erra;../leve;../soli
+Alpb_Mg H  
+Xfac_Mg H  
+Alpb_Mg O  
+Xfac_Mg O  
+Alpb_Mg F  
+Xfac_Mg F  
+Alpb_Mg Mg 
+Xfac_Mg Mg 
+Alpb_Mg Br 
+Xfac_Mg Br 
+end  
+Periclase (MgO) r
+Periclase (MgO)
+Brucite (Mg(OH)2) r
+Brucite (Mg(OH)2)
+Sellaite (MgF2) r
+Sellaite (MgF2) 
+Magnesium (Mg) hcp.mop
+Magnesium (Mg) hcp r.mop
+Magnesium Dibromide (MgBr2)(s) r.mop
+Magnesium Dibromide (MgBr2)(s) 

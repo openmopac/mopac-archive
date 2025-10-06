@@ -1,0 +1,9 @@
+*
+*  Optimize a single element
+*
+ cycles=50 PM7 noscale ref=../soli  params=../PM7.txt                  
+xfac_Cu I
+Alpb_Cu I
+end  
+Copper(i) iodide (CuI) r.mop
+Copper(i) iodide (CuI) 

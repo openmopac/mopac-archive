@@ -1,0 +1,8 @@
+*
+*  Optimize a single element
+*
+params=../PM7.txt PM7 ref=../norm;../erra;../leve;../soli
+Alpb_Se Na
+Xfac_Se Na
+end  
+Sodium selenate (Na2SeO3) (ICSD 280941) r.mop

@@ -1,0 +1,9 @@
+*
+*  Optimize a single element
+*
+params=../PM7.txt PM7 ref=../norm;../erra;../leve;../soli
+Alpb_K B
+Xfac_K B
+end  
+Potassium borohydride (KBH4) (ICSD 99264).mop
+Potassium borohydride (KBH4) (ICSD 99264) r 

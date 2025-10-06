@@ -1,0 +1,134 @@
+ cycles=50 PM7 ref=../norm;../erra;../leve;../soli  params=../PM7.txt
+ xfac_Hg Hg 2 40
+(Hg)(all)
+end
+core-core_Hg - C near
+core-core_Hg - C far
+core-core_Hg - N near
+core-core_Hg - N far
+core-core_Hg - O near
+core-core_Hg - O far
+core-core_Hg - F near
+core-core_Hg - F far
+core-core_Na - Hg near
+core-core_Na - Hg far
+core-core_Hg - S near
+core-core_Hg - S far
+core-core_Hg - Cl near
+core-core_Hg - Cl far
+core-core_K - Hg far
+core-core_Hg - Se near    
+core-core_Hg - Se far 
+core-core_Hg - Br near
+core-core_Hg - Br far
+core-core_Hg - Te near
+core-core_Hg - Te far
+core-core_Hg - I near
+core-core_Hg - I far
+core-core_Hg - Hg near
+core-core_Hg - Hg far
+18-Crown-6-dibromo-mercury(II) (good)
+18-Crown-6-dibromo-mercury(II) (Bad).mop
+18-Crown-6-diiodo-mercury(ii) (good).mop
+18-Crown-6-diiodo-mercury(ii) (bad)
+18-Crown-6-dichloro-mercury(II) (CESZOP) r.mop
+18-Crown-6-dibromo-mercury(ii) (POLKEG) r.mop
+18-Crown-6-diiodo-mercury(ii) (DENZUR01) r.mop
+hghr
+hgmecnr
+hg(cn)2r
+hgor
+hg(ii)cn(+) (bavmug) r
+hg(ii)c2 (begveo) r
+hg(ii)n2 (hgacam) r
+hg(ii)o2 (hgacet10) r
+hgfr
+hgf2r
+hgme2r
+hg(ii)p2 (kasdaj) r
+hg(ii)s2n2 (enhgtc10) r
+hg(ii)s2 (aqonoj) r
+hg(ii)s4 (hgetcb10) r
+hg(ii)s4 (hgthur) r
+hgclr
+hgmeclr
+hg(ii)cl2 (bithiv10) r
+hgcl2r
+hg(ii)p2cl2 (cltehg) r
+hg(ii)cl2s2 (ctschg) r
+hg(ii)cl3(-) (dotlih) r
+hg(ii)cl4(2-) (begziw) r
+[hg(ii)cl4](=)r
+hgbrr
+hgmebrr
+hg(ii)br2 (acnhgb) r
+hgbr2r
+hg(ii)br4(2-) (bopgoc11) r
+hgir
+hgmeir
+hgi2r
+hg(ii)s2i2 (hgitur) r
+hg(ii)i4(2-) (dufhob10) r
+hg(i)hgo (hgflac10) r
+hg(ii)ccl (clhgma) r
+hg(ii)pcl3 (mphgcl10) r
+hg(ii)cl4(2-) (deymup) r
+hg(ii)ni2 (eworen) r
+hg(ii)ccl (biyfiy) r
+hg(ii)cbr (biyfoe) r
+mercury, dication
+mercury, cation
+mercury, 1p(u) 4d(10)5s(1)5p(1)
+mercury, 1s(g) 4d(10)5s(2)5p(0)
+mercury, 3p(g) 4d(10)5s(0)5p(2)
+mercury, 3p(u) 4d(10)5s(1)5p(1)
+mercury, atom
+mercury hydride
+methylmercury
+dimethylmercury, cation
+dimethylmercury
+diethylmercury
+di-n-propylmercury
+diisopropylmercury
+diphenylmercury
+methylmercuric cyanide
+mercuric cyanide
+hg(ii)cn(+) (bavmug)
+hg(ii)c2 (begveo)
+hg(ii)n2 (hgacam)
+hg(ii)o2 (hgacet10)
+mercury fluoride
+mercury difluoride
+mercury sulfide
+hg(ii)s2n2 (enhgtc10)
+hg(ii)s2 (aqonoj)
+hg(ii)s4 (hgetcb10)
+hg(ii)s4 (hgthur)
+mercury chloride
+methylmercuric chloride
+ethylmercuric chloride
+n-propylmercuric chloride
+hg(ii)cl2 (bithiv10)
+mercury dichloride
+hg(ii)cl2s2 (ctschg)
+hg(ii)cl3(-) (dotlih)
+[hg(ii)cl4](=)
+mercury bromide
+methylmercuric bromide
+ethylmercuric bromide
+hg(ii)br2 (acnhgb)
+mercury dibromide
+hg(ii)br4(2-) (bopgoc11)
+methylmercuric iodide
+ethylmercuric iodide
+mercury diiodide
+hg(ii)s2i2 (hgitur)
+hg(ii)i4(2-) (dufhob10)
+mercury dimer, cation
+mercury, dimer
+hg(i)hgo (hgflac10)
+hg(ii)ccl (clhgma)
+hg(ii)cl4(2-) (deymup)
+hg(ii)ni2 (eworen)
+hg(ii)ccl (biyfiy)
+hg(ii)cbr (biyfoe)

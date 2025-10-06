@@ -1,0 +1,175 @@
+cycles=50 params=PM7.txt PM7 ref=../norm;../erra;../leve 
+(Mo)(all)
+end
+core-core_Mo - H near
+core-core_Mo - H far  
+core-core_Li - Mo near    
+core-core_Li - Mo far     
+core-core_Mo - N near
+core-core_Mo - N far  
+core-core_Mo - O near
+core-core_Mo - O far
+core-core_Mo - F near
+core-core_Mo - F far
+core-core_Mo - S near
+core-core_Mo - S far  
+core-core_Mo - Cl near 
+core-core_Mo - Cl far  
+core-core_K - Mo near    
+core-core_K - Mo far    
+core-core_Fe - Mo near    
+core-core_Fe - Mo far     
+core-core_Fe - Mo near    
+core-core_Fe - Mo far     
+core-core_Mo - Br near 
+core-core_Mo - Br far  
+core-core_Rb - Mo near
+core-core_Rb - Mo far  
+core-core_Mo - Mo near
+core-core_Mo - Mo far
+core-core_Mo - I near    
+core-core_Mo - I far  
+core_Mo_0_0_2
+d0 [mo(vi)f6] 1a1g
+MoF6(-) (Oh) 2A1g
+MoF6(-) (Oh) 2T2g
+MoF6(-) (Oh) 2T1u   
+* Mo4 (bad)
+* Mo2Cl10 (good)
+* Mo2Cl10 (bad)
+* Mo(Cp)(CO)3(-) (Good).mop
+* Mo(Cp)(CO)3(-) (bad)
+Mo2(Ac)4 r
+MoCl6(3-) (Oh) 4T1g
+molybdenum diacetate, dimer
+mo(cp)2h2r
+mo(ii)(nh3)6r
+mo(vi)c5o (aceseg) r
+dimethyl molybdenium(vi) dioxider
+mo(vi)c4o2 (acesik) r
+mo(cp)(co)2(no)r
+mo(ii)c5on2 (acpsmo) r
+mo(vi)o4(2-) (chammo) r
+mo(vi)o5 (bowrua) r
+mo(ii)(h2o)6r
+mo(co)6r
+mo(iii)o6 (acacmo) r
+mo(iii)(ox)3r
+mofr
+mo(vi)o5fn(-) (afxpcm) r
+moo2f2r
+moof4r
+mo(vi)f6r
+mof6r
+mo(vi)s2o2n2 (finjob) r
+mo(vi)s4(2-) (amehef) r
+moclr
+moo2cl2r
+mo(vi)o2cl2n2 (aganif) r
+mo(vi)o2cl2n2 (aganeb) r
+mo(iii)cl3o3 (bohyec) r
+moocl4r
+mo(v)cl4o(-) (iwelol) r
+mocl5r
+mocl6r
+crmo(ac)4r
+mobrr
+moo2br2r
+mo(vi)o2br2n2 (bpyrmo) r
+mo(iii)br4s2(-) (cuvtui) r
+mo(vi)br6r
+mo2c17 (allcpm10) r
+molybdenum diacetate, dimer r
+mo2(co)10 dianion r
+mo2cl6o2(2-) (belwaq) r
+mo(iii)2cl9(3-) (fafsou01) r
+mo2br6o2(2-) (belweu) r
+mo2br9r
+moir
+moo2i2r
+mo(iii)i3o3 (firhuj) r
+molybdenum, dication
+molybdenum, cation 6d(g) 4d(5)
+molybdenum, cation 6s(g) 4d(5)
+molybdenum, cation
+molybdenum 5dg 4d(4)5s(2)
+molybdenum 5gg 4d(5)5s(1)
+molybdenum 5sg 4d(5)5s(1)
+* molybdenum 7du 4d(4)5s(1)5p(1)
+* molybdenum 7pu 4d(4)5s(1)5p(1)
+* molybdenum 7pu 4d(5)5p(1)
+molybdenum 7sg 4d(5)5s(1)
+molybdenum, 5d(g) 4d(4)5s(2)
+molybdenum, atom
+bicyclopentadienyl molybdenum dihydride
+dibenzene molybdenum
+bicyclopentadienyl ethylene molybdenum
+bicyclopentadienyl dimethyl molybdenum
+bicyclopentadienyl diethyl molybdenum
+molybdenum(iii) tetracyanide 2e
+mo(nme2)4
+mo(ii)(nh3)6
+mo(iii)(cn)6 4a2g
+mo(vi)c5o (aceseg)
+molybdenum(iv) oxide
+mo(vi)c4o2 (acesik)
+molybdenum(vi) trioxide
+cyclopentadienyl molybdenum nitrosyl dicarbonyl
+mo(vi)o4(2-) (chammo)
+molybdic acid (h2moo4)
+mo(vi)o5 (bowrua)
+mo(ii)(h2o)6
+molybdenum hexacarbonyl
+molybdenum dioxide di(acetylacetonate)
+mo(acac)3
+mo(iii)(ox)3
+molybdenum(i) fluoride
+mo(vi)o5fn(-) (afxpcm)
+molybdenum(ii) difluoride
+molybdenum(vi) difluoride dioxide
+molybdenum(vi) dioxide difluoride
+molybdenum(iii) trifluoride
+molybdenum(iv) tetrafluoride
+molybdenum(iii) tetrafluoride 2e
+molybdenum(vi) oxide tetrafluoride
+molybdenum(v) pentafluoride
+molybdenum(vi) hexafluoride
+molybdenum(v) sulfide trifluoride
+molybdenum(vi) sulfide tetrafluoride
+bicyclopentadienyl dithioisopropyl molybdenum
+bicyclopentadienyl dithiopropyl molybdenum
+bicyclopentadienyl di(thio-n-butyl) molybdenum
+bicyclopentadienyl di(thio-t-butyl) molybdenum
+mo(vi)s2o2n2 (finjob)
+mo(vi)s4(2-) (amehef)
+molybdenum(i) chloride
+bicyclopentadienyl molybdenum dichloride
+molybdenum(vi) dichloride dioxide
+molybdenum(vi) dioxide dichloride
+mo(vi)o2cl2n2 (aganif)
+mo(vi)o2cl2n2 (aganeb)
+molybdenum(iii) trichloride
+molybdenum(iv) tetrachloride
+molybdenum(vi) oxide tetrachloride
+mo(v)cl4o(-) (iwelol)
+molybdenum(v) pentachloride
+molybdenum(vi) hexachloride
+molybdenum chromium tetraacetate
+molybdenum(i) bromide
+molybdenum(ii) dibromide
+bicyclopentadienyl molybdenum dibromide
+molybdenum(vi) dibromide dioxide
+molybdenum(vi) dioxide dibromide
+mo(vi)o2br2n2 (bpyrmo)
+molybdenum(iii) tribromide
+molybdenum(iv) tetrabromide
+mo(iii)br4s2(-) (cuvtui)
+mo2c17 (allcpm10)
+molybdenum trioxide, dimer
+* mo2(co)10 dianion
+mo(iii)2cl9(3-) (fafsou01)
+mo2br6o2(2-) (belweu)
+molybdenum(i) iodide
+bicyclopentadienyl molybdenum diiodide
+molybdenum(vi) dioxide diiodide
+mo(iii)i3o3 (firhuj)

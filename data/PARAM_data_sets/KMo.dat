@@ -1,0 +1,9 @@
+*
+*  Optimize a single element
+*
+ cycles=50 params=../PM7.txt PM7 ref=../norm;../erra;../leve;../soli
+xfac_K Mo
+alpb_K Mo
+end  
+Potassium molybdate (K2MoO4) (ICSD 16154).mop
+Potassium molybdate (K2MoO4) (ICSD 16154) r

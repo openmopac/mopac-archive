@@ -1,0 +1,114 @@
+ *******************************************************************************
+ ** Site#: 23746        For non-commercial use only     Version 16.052W 64BITS**
+ *******************************************************************************
+ ** Cite this program as: MOPAC2016, Version: 16.052W, James J. P. Stewart,   **
+ ** Stewart Computational Chemistry, web: HTTP://OpenMOPAC.net. Days left: 361**
+ *******************************************************************************
+ **                                                                           **
+ **                                MOPAC2016                                  **
+ **                                                                           **
+ *******************************************************************************
+
+                              PM7 CALCULATION RESULTS
+
+
+ *******************************************************************************
+ *  CALCULATION DONE:                                Thu Feb 25 10:05:02 2016  *
+ *  PDBOUT     - PRINT GEOMETY IN PDB FORMAT
+ *  0SCF       - AFTER READING AND PRINTING DATA, STOP
+ *  T=         - A TIME OF 172800.0 SECONDS REQUESTED
+ *  DUMP=N     - RESTART FILE WRITTEN EVERY  7200.000 SECONDS
+ *******************************************************************************
+0scf pdbout
+ Hexagonal Brillouin Zone
+
+   ATOM   CHEMICAL          X               Y               Z
+  NUMBER   SYMBOL      (ANGSTROMS)     (ANGSTROMS)     (ANGSTROMS)
+ 
+     1       H          0.00000000      0.00000000      0.00000000   
+     2       C          1.50000000      0.00000000      0.00000000   
+     3       C          0.75000000      1.30000000      0.00000000   
+     4       H          0.00000000      1.30000000      0.00000000   
+     5       C         -0.75000000      1.30000000      0.00000000   
+     6       C         -1.50000000      0.00000000      0.00000000   
+     7       C         -0.75000000     -1.30000000      0.00000000   
+     8       C          0.75000000     -1.30000000      0.00000000   
+     9       H          0.00000000      0.00000000      1.50000000   
+    10       C          1.50000000      0.00000000      1.50000000   
+    11       C          0.75000000      1.30000000      1.50000000   
+    12       H          0.00000000      1.30000000      1.50000000   
+    13       C         -0.75000000      1.30000000      1.50000000   
+    14       C         -1.50000000      0.00000000      1.50000000   
+    15       C         -0.75000000     -1.30000000      1.50000000   
+    16       C          0.75000000     -1.30000000      1.50000000   
+ 
+
+
+          CARTESIAN COORDINATES 
+
+    NO.       ATOM         X         Y         Z
+
+     1         H        0.0000    0.0000    0.0000
+     2         C        1.5000    0.0000    0.0000
+     3         C        0.7500    1.3000    0.0000
+     4         H        0.0000    1.3000    0.0000
+     5         C       -0.7500    1.3000    0.0000
+     6         C       -1.5000    0.0000    0.0000
+     7         C       -0.7500   -1.3000    0.0000
+     8         C        0.7500   -1.3000    0.0000
+     9         H        0.0000    0.0000    1.5000
+    10         C        1.5000    0.0000    1.5000
+    11         C        0.7500    1.3000    1.5000
+    12         H        0.0000    1.3000    1.5000
+    13         C       -0.7500    1.3000    1.5000
+    14         C       -1.5000    0.0000    1.5000
+    15         C       -0.7500   -1.3000    1.5000
+    16         C        0.7500   -1.3000    1.5000
+
+ General Reference for PM7:
+ "Optimization of Parameters for Semiempirical Methods VI: More Modifications to the 
+ NDDO Approximations and Re-optimization of Parameters", J. J. P. Stewart, J. Mol. Mod., 1:32, 19 (2013)
+ http://www.springerlink.com/openurl.asp?genre=article&id=doi:10.1007/s00894-012-1667-x
+
+           Empirical Formula: C12 H4  =    16 atoms
+
+
+
+      MOLECULAR POINT GROUP   :   C2v 
+
+
+      RHF CALCULATION, NO. OF DOUBLY OCCUPIED LEVELS = 26
+
+ GEOMETRY OF SYSTEM SUPPLIED
+0scf pdbout
+ Hexagonal Brillouin Zone
+
+  H(HETATM    1  H   HET A   1)   0.00000000 +0   0.00000000 +0   0.00000000 +0
+  C(HETATM    2  C   HET A   1)   1.50000000 +0   0.00000000 +0   0.00000000 +0
+  C(HETATM    3  C   HET A   1)   0.75000000 +0   1.30000000 +0   0.00000000 +0
+  H(HETATM    4  H   HET A   1)   0.00000000 +0   1.30000000 +0   0.00000000 +0
+  C(HETATM    5  C   HET A   1)  -0.75000000 +0   1.30000000 +0   0.00000000 +0
+  C(HETATM    6  C   HET A   1)  -1.50000000 +0   0.00000000 +0   0.00000000 +0
+  C(HETATM    7  C   HET A   1)  -0.75000000 +0  -1.30000000 +0   0.00000000 +0
+  C(HETATM    8  C   HET A   1)   0.75000000 +0  -1.30000000 +0   0.00000000 +0
+  H(HETATM    9  H   HET A   1)   0.00000000 +0   0.00000000 +0   1.50000000 +0
+  C(HETATM   10  C   HET A   1)   1.50000000 +0   0.00000000 +0   1.50000000 +0
+  C(HETATM   11  C   HET A   1)   0.75000000 +0   1.30000000 +0   1.50000000 +0
+  H(HETATM   12  H   HET A   1)   0.00000000 +0   1.30000000 +0   1.50000000 +0
+  C(HETATM   13  C   HET A   1)  -0.75000000 +0   1.30000000 +0   1.50000000 +0
+  C(HETATM   14  C   HET A   1)  -1.50000000 +0   0.00000000 +0   1.50000000 +0
+  C(HETATM   15  C   HET A   1)  -0.75000000 +0  -1.30000000 +0   1.50000000 +0
+  C(HETATM   16  C   HET A   1)   0.75000000 +0  -1.30000000 +0   1.50000000 +0
+ 
+
+ **********************
+ *                    *
+ * JOB ENDED NORMALLY *
+ *                    *
+ **********************
+
+
+
+ TOTAL JOB TIME:             0.02 SECONDS
+
+ == MOPAC DONE ==

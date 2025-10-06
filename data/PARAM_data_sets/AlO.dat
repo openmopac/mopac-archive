@@ -1,0 +1,14 @@
+*
+*  Optimize a single element
+*
+cycles=50 params=../PM7.txt PM7 ref=../norm;../erra;../leve;../soli 
+ ALPB_O Al
+ XFAC_O Al
+ ALPB_Al Al
+ XFAC_Al Al
+end
+Corundum (Al2O3)
+Corundum (Al2O3) (bad)
+Corundum (Al2O3) r
+Gibbsite (Al(OH)3)
+Gibbsite (Al(OH)3) r

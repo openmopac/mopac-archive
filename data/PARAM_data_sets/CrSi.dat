@@ -1,0 +1,328 @@
+*
+*  Optimize a single element
+*
+ nofine  params=../PM7.txt       PM7 s et=cr.usd ../everything.txt           ref=../norm;../erra;../leve 
+  (Cr Si)(all) 
+end  
+* core_cr
+* core_Cr_anion
+* core-core_Cr - H heat
+* core-core_Cr - H slope
+*  core-core_Cr - C heat
+*  core-core_Cr - C slope
+*  core-core_Cr - O heat
+*  core-core_Cr - O slope
+  core-core_Cr - F heat
+  core-core_Cr - F slope
+* core-core_K - Cr heat
+* core-core_K - Cr slope
+ core_Cr_0_0_0
+ core-core_Cr - Cr heat
+ core-core_Cr - Cr slope
+* core-core_Zn - Cr heat
+* core-core_Zn - Cr slope
+* CrF5(H2O)(2-) (Good).mop
+* CrF5(H2O)(2-) (bad).mop
+* CrF5(H2O)(-) (bad-charge).mop
+* CrO3F
+* CrO3F(-)
+* Cr(CN)6(3-) (Good)
+* Cr(CN)6(3-) (bad)
+* Cr(CN)6(3-) (bad 2)
+Cr2SiO4
+Cr2SiO4_a
+cr(iii)c6(3-) (mcrldx) r
+cr(ii)(nh3)6r
+cr(iii)n6(3+) (sukfej) r
+cr(iii)n6(0) (bgucrm) r
+dimethyl chromium(vi) dioxider
+cro3r
+cyclopentadiene chromium tricarbonyl r
+cr(c6h6)(co)3r
+cr(vi)o4r
+cr(no)4r
+cr(iii)o6(3+) (tapbuh) r
+cr(ii)(h2o)6r
+cr(co)6r
+cr(iii)o3(1+) (bapwiz) r
+cr(iii)o6(1+) (atolaw) r
+cr(iii)o6 (acaccr) r
+chromium(iii) edta r
+cr(iii)o6(-) (koxacr) r
+cr(iii)(ox)3 r
+cr(iii)o6(3-) (amoxcr) r
+crfr
+cro2f2r
+cr(iii)n2f2o2(1-) (butdav) r
+cr(iii)f4n2(1-) (diyfew) r
+cr(iii)f5o(2-) (yashab) r
+cr(iv)f6r
+cr(ii)s2p4(0) (jiydok) r
+cr(ii)s4(2-) (cuwlip) r
+crclr
+cr(co)4clme(0) (catyol) r
+crcpcl2o(0) (afehic) r
+cro2cl2r
+cr(iii)n3cl3(0) (amzccr) r
+cr(ii)cl4(2-) (bahvip) r
+cr2r
+cr2(cp)2(no)3(nh2)r
+(cp)2cr2(no)4r
+cr(vi)2o7r
+cr2(co)10 dianion r
+cr(ii)2o10(0) (acetcr) r
+cr(iii)2f9(3-) (ocolib) r
+cr(iii)2cl9(3-) (zebron) r
+cr(vi)3o10r
+crbrr
+cro2br2r
+cr(iii)br3n3(0) (mamler) r
+cr(ii)br4o2(2-) (cagciw) r
+cr(iii)br6(3-) (yibwov) r
+crmo(ac)4r
+crir
+cr_pbrsir
+cr(iii)cpi2 r
+cro2i2r
+cr(iii)2(cp)2i4(0) (keltaw) r
+chromium, cation
+chromium, 5dg 3d(4)4s(2)
+chromium, 5dg 3d(5)4s(1)
+chromium, 5dg(2) 3d(5)4s(1)
+chromium, 5pg 3d(5)4s(1)
+chromium, 5sg 3d(5)4s(1)
+* chromium, 7pu 3d(5)4p(1)
+chromium, 7sg 3d(5)4s(1)
+chromium, atom
+bicyclopentadienyl chromium
+dibenzene chromium
+cr(ii)(nh3)6
+cr(iii)n6(3+) (sukfej)
+chromium(vi) trioxide
+chromium(v) trioxide, anion
+cr(co)3(c6h6)
+cr(co)3(c6h5ch3)
+cr(co)3(c7h8)
+1,3,5-trimethylbenzene chromium tricarbonyl
+cr(co)3(c10h8)
+hexamethylbenzene chromium tricarbonyl
+cr(co)3(c6h5-nme2)
+cro4, anion
+cr(co)4, anion
+cr(co)3(c6h5-cho)
+cr(co)3(ph-o-me)
+cr(co)4(c7)
+cr(o-t-butyl)4
+cr(co)4(py)2
+cr(co)4(piperidine)2
+cr(no)4
+cr(co)5
+cr(co)5(piperidine)
+cr(iv)(h2o)6
+cr(iii)(h2o)6
+cr(ii)(h2o)6
+chromium hexacarbonyl
+cr(iii)o6 (koxacr)
+cr(iii)o6 (amoxcr)
+chromium(i) fluoride
+chromium difluoride
+chromium(vi) difluoride dioxide
+cro2f2
+cr(iii)n2f2o2 (butdav)
+crf5, anion
+cr(iii)f5o(2-) (yashab)
+chromium(iii) hexafluoride
+nacro4(-)
+cr(pf3)6
+cr(ii)s4 (cuwlip)
+chromium(i) chloride
+cr(co)4clme (catyol)
+chromium dichloride
+crcpcl2o (afehic)
+chromium dioxide dichloride
+chromium(vi) dichloride dioxide
+crn3cl3 (amzccr)
+cr(ii)cl4 (bahvip)
+kcro4(-)
+chromium, dimer
+(cp)2cr2(no)4
+tetrakis(mu-(6-methyl-2(1h)-pyridinato) dichromium
+chromium diacetate, dimer
+cr2(co)10 dianion
+cr(iii)2f9(3-) (ocolib)
+chromium(i) bromide
+chromium(vi) dibromide dioxide
+cr(iii)br3n3 (mamler)
+cr(ii)br4o2(2-) (cagciw)
+molybdenum chromium tetraacetate
+chromium(i) iodide
+cr(iii)cpi2
+chromium(vi) diiodide dioxide
+cr(iii)2i4cp2 (keltaw)
+Sihr
+ssih2r
+sih4r
+b5h11sir
+simeh3r
+sime4r
+sic4(-) (fogmet) r
+sinr
+sic4 (bawnui) r
+sic3n(+) (caskiq) r
+be-sior
+sih3o (bahtaf) r
+sio4n (bojler) r
+sih3fr
+ch3sih2fr
+sif2r
+sihf3r
+sif3n2 (cewvef) r
+sif3c (bazguf) r
+sif4r
+sif3-bf2r
+sif6(2-) (jijkoc) r
+si2h6r
+cycsi5h10r
+si(sime3)4 (gufmoj) r
+sch3sih3r
+sic3s(-) (itiboc) r
+sic2s2 (gumzuj) r
+sio2s2n (ebupia) r
+si2c4s2 (cadloi) r
+sis4 (dancuq) r
+sis3c (msisul10) r
+siclr
+sic3cl (guhhas) r
+sicl2r
+simecl3r
+sicl4r
+sicl4n2 (jepcow) r
+si2cl6h2n (gilqex) r
+si2cl6c2 (fazkum) r
+ti(iv)n4 (virlaj) r
+mn(co)4si2 (kiryuf) r
+co(co)4si (fuzmao) r
+ni(ii)p2c2 (dildad) r
+geh3sih3r
+gef3-sif3r
+assi3h9r
+sesir
+sesi2h6r
+sif3brr
+sic3br (brmsad) r
+sih2cbr (zuhpib) r
+sibr4r
+pd(ph3)2(sih3)2r
+sbsi3h9r
+sih3ir
+sisii3 (mefdeg) r
+sii4r
+sii2csi (qujset) r
+ba2sio4r
+silicon, dication
+silicon, cation
+silicon, 1d(g) 3s(2)3p(2)
+silicon, 1s(g) 3s(2)3p(2)
+silicon, 3d(u) 3s(1)3p(3)
+silicon, 3p(g) 3s(2)3p(2)
+silicon, 5s(u) 3s(1)3p(3)
+silicon, atom
+silicon, anion
+silicon, dianion
+sih
+silylene (singlet)
+silyl, cation
+silyl
+silyl, anion
+silane
+methylsilyl
+methylsilane
+vinylsilane
+dimethylsilyl
+dimethylsilane
+ethylsilane
+trimethylsilyl
+trimethylsilane
+diethylsilane
+tetramethylsilane
+1,1-dimethylsilacyclobutane
+triethylsilane
+sic4(-) (fogmet)
+tetraethylsilane
+sic4 (bawnui)
+sic3n(+) (caskiq)
+trimethylsilicon hydroxide
+silicon dioxide
+he-sio2, separated
+sih3o (bahtaf)
+si(oh)4
+sio4n (bojler)
+silicon fluoride
+fluorosilane
+sime4f, anion
+silicon difluoride
+difluorosilane
+siof2
+trifluorosilyl
+trifluorosilane
+sif3n2 (cewvef)
+sif3c (bazguf)
+silicon tetrafluoride
+silicon pentafluoride, anion
+sif6(2-) (jijkoc)
+disilane
+hexamethyldisilane
+hexamethyldisilazane
+hexamethyldisiloxane
+h6si2o7
+trisilane
+si(sime3)4 (gufmoj)
+ch3-s-sih3
+sic3s(-) (itiboc)
+sic2s2 (gumzuj)
+sio2s2n (ebupia)
+si2c4s2 (cadloi)
+sis4 (dancuq)
+sis3c (msisul10)
+silicon chloride
+chlorosilane
+chlorodimethylsilane
+chlorotrimethylsilane
+sic3cl (guhhas)
+sif4cl, anion
+silicon dichloride
+dichlorosilane
+dichloromethylsilane
+dichlorodimethylsilane
+trichlorosilyl
+trichlorosilane
+trichloromethylsilane
+silicon tetrachloride
+sicl4n2 (jepcow)
+si2cl6h2n (gilqex)
+silicon pentachloride, anion
+hexachlorodisilane
+si2cl6c2 (fazkum)
+((me)3sich2)4ti
+zn(ch2sime3)2
+zn[n(sime3)2]2
+silicon selenide
+silicon bromide
+bromosilane
+trimethylbromosilane
+sic3br (brmsad)
+silicon dibromide
+dibromosilane
+sih2cbr (zuhpib)
+tribromosilane
+silicon tetrabromide
+zr(ch2si(me)3)4
+cd[n(sime3)2]2
+iodosilane
+silicon diiodide
+diiodosilane
+triiodosilane
+sisii3 (mefdeg)
+silicon tetraiodide
+sii2csi (qujset)
+xe-sio2, separated

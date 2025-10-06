@@ -1,0 +1,9 @@
+*
+*  Optimize a single element
+*
+params=../PM7.txt PM7 ref=../norm;../erra;../leve;../soli
+Alpb_Nb O
+Xfac_Nb O
+end  
+Niobium(v) pentoxide (Nb2O5) (ICSD 71317) r.mop
+Niobium(v) pentoxide (Nb2O5) (ICSD 71317)  

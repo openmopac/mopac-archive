@@ -1,0 +1,7 @@
+*
+* Reset parameters to old PM7 values
+*
+    PM7      ref=../norm;../erra;../leve 
+(K Fe W)(all)
+end 
+

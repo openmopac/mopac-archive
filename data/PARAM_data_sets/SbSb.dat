@@ -1,0 +1,9 @@
+*
+*  Optimize a single element
+*
+debug large  cycles=10 params=../PM7.txt PM7 ref=../norm;../erra;../leve;../soli
+xfac_Sb Sb
+alpb_Sb Sb
+end  
+Antimony (Sb) r
+Antimony (Sb)

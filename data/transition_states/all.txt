@@ -1,0 +1,109 @@
+1a Nitrous oxide and ethylene product.mop
+1a Nitrous oxide and ethylene TS.mop
+1a Nitrous oxide and ethylene.mop
+1b Nitrous oxide and acetylene Product.mop
+1b Nitrous oxide and acetylene TS.mop
+1b Nitrous oxide and acetylene.mop
+2a Hydrazoic acid plus ethylene Product.mop
+2a Hydrazoic acid plus ethylene TS.mop
+2a Hydrazoic acid plus ethylene.mop
+2b Hydrazoic acid plus acetylene Product.mop
+2b Hydrazoic acid plus acetylene TS.mop
+2b Hydrazoic acid plus acetylene.mop
+3a Diazomethane plus ethylene Product.mop
+3a Diazomethane plus ethylene TS.mop
+3a Diazomethane plus ethylene.mop
+3b Diazomethane plus acetylene Product.mop
+3b Diazomethane plus acetylene TS.mop
+3b Diazomethane plus acetylene.mop
+4a Fulminic acid plus ethylene Product.mop
+4a Fulminic acid plus ethylene TS.mop
+4a Fulminic acid plus ethylene.mop
+4b Fulminic acid plus acetylene Product.mop
+4b Fulminic acid plus acetylene TS.mop
+4b Fulminic acid plus acetylene.mop
+5a Formonitrile imine plus ethylene Product.mop
+5a Formonitrile imine plus ethylene TS.mop
+5a Formonitrile imine plus ethylene.mop
+5b Formonitrile imine plus acetylene Product.mop
+5b Formonitrile imine plus acetylene TS.mop
+5b Formonitrile imine plus acetylene.mop
+6a Formonitrile Ylide plus ethylene Product.mop
+6a Formonitrile Ylide plus ethylene TS.mop
+6a Formonitrile Ylide plus ethylene.mop
+6b Formonitrile Ylide plus acetylene Product.mop
+6b Formonitrile Ylide plus acetylene TS.mop
+6b Formonitrile Ylide plus acetylene.mop
+7a Methylene nitrone plus ethylene Product.mop
+7a Methylene nitrone plus ethylene TS.mop
+7a Methylene nitrone plus ethylene.mop
+7b Methylene nitrone plus acetylene Product.mop
+7b Methylene nitrone plus acetylene TS.mop
+7b Methylene nitrone plus acetylene.mop
+8a Formoazomethine imine plus ethylene Product.mop
+8a Formoazomethine imine plus ethylene TS.mop
+8a Formoazomethine imine plus ethylene.mop
+8b Formoazomethine imine plus acetylene Product.mop
+8b Formoazomethine imine plus acetylene TS.mop
+8b Formoazomethine imine plus acetylene.mop
+9a Formoazomethine Ylide plus ethylene Product.mop
+9a Formoazomethine Ylide plus ethylene TS.mop
+9a Formoazomethine Ylide plus ethylene.mop
+9b Formoazomethine Ylide plus acetylene Product.mop
+9b Formoazomethine Ylide plus acetylene TS.mop
+9b Formoazomethine Ylide plus acetylene.mop
+CH3 plus C2H4 - CH3CH2CH2 TS a.mop
+CH3 plus C2H4 - CH3CH2CH2 TS.mop
+CH3 plus C2H4.mop
+CH3 plus FCl - CH3F plus Cl TS a.mop
+CH3 plus FCl - CH3F plus Cl TS.mop
+CH3 plus FCl.mop
+CH3CH2.mop
+CH3CH2CH2 (f) TS.mop
+CH3CH2CH2 (r) TS.mop
+CH3CH2CH2.mop
+CH3F plus Cl.mop
+Cl - CH3 - Cl(-) transition state.mop
+Cl - CH3 - F(-) TS (f).mop
+Cl - CH3 - F(-) TS (r).mop
+Cl - CH3Cl(-) complex.mop
+Cl - CH3F(-) complex.mop
+F - CH3 - F(-) transition state.mop
+F - CH3Cl(-) complex.mop
+F - CH3F(-) complex.mop
+H plus C2H4 - CH3CH2 TS a.mop
+H plus C2H4 - CH3CH2 TS.mop
+H plus C2H4.mop
+H plus CO - HCO TS a.mop
+H plus CO - HCO TS.mop
+H plus CO.mop
+H plus F2 - HF plus F TS a.mop
+H plus F2 - HF plus F TS.mop
+H plus F2.mop
+H plus FCH3 - HF plus CH3 TS a.mop
+H plus FCH3 - HF plus CH3 TS.mop
+H plus FCH3.mop
+H plus HF - HF plus H TS.mop
+H plus HF - HF plus H. TS a.mop
+H plus HF.mop
+H plus N2 - HN2 TS a.mop
+H plus N2 - HN2 TS.mop
+H plus N2.mop
+HCN - HNC (f) TS.mop
+HCN - HNC (r) TS.mop
+HCN - HNC TS a.mop
+HCN - HNC TS.mop
+HCN.mop
+HCO.mop
+HF plus CH3.mop
+HF plus F.mop
+HF plus H.mop
+HN2.mop
+HNC.mop
+HOCH3 plus F(-).mop
+N-methyl acetamide, ts (f).mop
+N-methyl acetamide, ts (r).mop
+N-methyl acetamide, ts.mop
+OH(-) plus CH3F - HOCH3 plus F(-) TS a.mop
+OH(-) plus CH3F - HOCH3 plus F(-) TS.mop
+OH(-) plus CH3F.mop

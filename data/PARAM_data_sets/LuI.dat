@@ -1,0 +1,9 @@
+*
+*  Optimize a single element
+*
+params=../PM7.txt PM7 ref=../norm;../erra;../leve;../soli
+Alpb_Lu I
+Xfac_Lu I
+end  
+Lutetium(iii) triiodide (LuI3) r.mop
+Lutetium(iii) triiodide (LuI3) 

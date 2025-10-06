@@ -1,0 +1,9 @@
+*
+*  Optimize a single element
+*
+cycles=50 params=../PM7.txt PM7 ref=../norm;../erra;../leve;../soli
+Alpb_La P
+Xfac_La P
+end  
+Lanthanum phosphate (LaPO4) (ICSD 79747).mop
+Lanthanum phosphate (LaPO4) (ICSD 79747) r

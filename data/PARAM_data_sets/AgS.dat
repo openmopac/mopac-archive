@@ -1,0 +1,6 @@
+cycles=40 params=pm7.txt           PM7 ref=../norm;../erra;../leve;../soli
+alpb_Ag S
+xfac_Ag S
+end
+Silver sulfide (Ag2S) (ICSD 30445) r.mop
+Silver sulfide (Ag2S) (ICSD 30445) 

@@ -1,0 +1,12 @@
+*
+*  Optimize a single element
+*
+params=../PM7.txt PM7 ref=../norm;../erra;../leve;../soli
+alpb_Ba O
+xfac_Ba O
+end  
+Ba(OH)2 (ICSD 92788) (good).mop
+Ba(OH)2 (ICSD 92788) (bad).mop
+Barium oxide (BaO) 
+Barium oxide (BaO) (bad)
+Barium oxide (BaO) r

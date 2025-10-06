@@ -1,0 +1,227 @@
+*
+*  Optimize a single element
+*
+cycles=50 PM7   PARAMS=../PM7.txt               ref=../norm;../erra;../leve 
+alpb_I Sb
+xfac_I Sb
+alpb_I Sb
+xfac_I Sb
+alpb_I Sb
+xfac_I Sb
+alpb_I Sb
+xfac_I Sb
+alpb_I Sb
+xfac_I Sb
+alpb_I Sb
+xfac_I Sb
+alpb_I Sb
+xfac_I Sb
+alpb_I Sb
+xfac_I Sb
+alpb_I Sb
+xfac_I Sb
+alpb_I Sb
+xfac_I Sb
+alpb_I Sb
+xfac_I Sb
+alpb_I Sb
+xfac_I Sb
+alpb_I Sb
+xfac_I Sb
+alpb_I Sb
+xfac_I Sb
+end  
+core-core_Mg - I near
+core-core_Mg - I far
+core-core_K - I near
+core-core_K - I far
+core-core_Ca - I near
+core-core_Ca - I far
+core-core_Sc - I near
+core-core_Sc - I far
+core-core_Ga - I near
+core-core_Ga - I far
+core-core_Ge - I near
+core-core_Ge - I far
+core-core_Sn - I near
+core-core_Sn - I far
+core-core_Sb - I near
+core-core_Sb - I far
+core-core_Zr - I near
+core-core_Zr - I far
+core-core_Ag - I near
+core-core_Ag - I far
+core-core_In - I near
+core-core_In - I far
+core-core_Ba - I near
+core-core_Ba - I far
+core-core_La - I near
+core-core_La - I far
+core-core_Lu - I near
+core-core_Lu - I far
+core-core_Hg - I near
+core-core_Hg - I far
+
+
+
+
+
+HIO3 dimer separate
+HIO3 dimer
+I2 dimer separated
+I2 dimer
+core-core_Be - I near
+core-core_Be - I far
+core-core_B - I near
+core-core_B - I far
+* core-core_I - O near
+* core-core_I - O far
+core-core_Na - I near
+core-core_Na - I far
+core-core_Al - I near
+core-core_Al - I far
+core-core_Si - I near
+core-core_Si - I far
+core-core_P - I near
+core-core_P - I far
+core-core_S - I near
+core-core_S - I far
+core-core_Fe - I near
+core-core_Fe - I far
+core-core_Zn - I near
+core-core_Zn - I far
+core-core_Ge - I near
+core-core_Ge - I far
+core-core_Sr - I near
+core-core_Sr - I far
+core-core_Nb - I far
+core-core_Nb - I near
+core-core_Ag - I far
+core-core_Ag - I near
+core-core_I - I near
+core-core_I - I far
+core-core_Ba - I near
+core-core_Ba - I far
+core-core_I - I near
+core-core_I - I far
+core-core_I - I near
+core-core_I - I far
+core-core_La - I near
+core-core_La - I far
+core-core_Pt - I near
+core-core_Pt - I far
+core-core_Au - I near
+core-core_Au - I far
+core-core_Bi - I near
+core-core_Bi - I far
+* HIO4 separated
+* HIO4 bad
+01 Chloromethane formaldehyde separated
+01 Chloromethane formaldehyde 
+02 Bromomethane formaldehyde separated
+02 Bromomethane formaldehyde 
+03 Iodomethane formaldehyde separated
+03 Iodomethane formaldehyde 
+04 Trifluorochloromethane formaldehyde separated
+04 Trifluorochloromethane formaldehyde 
+05 Trifluorobromomethane formaldehyde separated
+05 Trifluorobromomethane formaldehyde 
+06 Trifluoroiodomethane formaldehyde separated
+06 Trifluoroiodomethane formaldehyde
+07 Chlorobenzene acetone separated
+07 Chlorobenzene acetone 
+08 Bromobenzene acetone separated
+08 Bromobenzene acetone 
+09 Iodobenzene acetone separated
+09 Iodobenzene acetone 
+10 Chlorobenzene trimethylamine separated
+10 Chlorobenzene trimethylamine 
+11 Bromobenzene trimethylamine separated
+11 Bromobenzene trimethylamine 
+12 Iodobenzene trimethylamine separated
+12 Iodobenzene trimethylamine 
+* HIO3 (good)
+* HIO3 (bad)
+IO4(-) (really wild guess)
+* HIO4 (really wild guess)
+hir
+ch3ir
+c6h5ir
+ifr
+cf3ir
+if5r
+if7r
+iclr
+c4h4clir
+ibrr
+c4h4brir
+i2r
+ch2i2r
+e-c2h2i2r
+z-c2h2i2r
+1,2-diiodobenzener
+chi3r
+pi3r
+ci4r
+iodine, cation
+iodine, 2p(u) - 5s(2)5p(5)
+iodine, 2s(g) - 5s(1)5p(6)
+iodine, atom
+iodide, anion
+hydrogen iodide
+methyl iodide
+iodoethane
+3-iodo-1-propene
+e-1-iodo-1-propene
+z-1-iodo-1-propene
+1-iodopropane
+2-iodopropane
+1-butyl iodide
+tert-butyl iodide
+iodobenzene
+iodocyclohexane
+benzyl iodide
+m-iodotoluene
+o-iodotoluene
+p-iodotoluene
+1-iodonaphthalene
+2-iodonaphthalene
+cyanogen iodide
+iodine oxide
+acetyl iodide
+iodomethyl methyl ether
+1-iodo-2-propanone
+3-iodo-2-butanone
+benzoyl iodide
+nitrosyl iodide
+2-iodobenzoic acid
+3-iodobenzoic acid
+4-iodobenzoic acid
+iodine fluoride
+trifluoroiodomethane
+1,1,1-trifluoro-2-iodoethane
+iodine pentafluoride
+pentafluoroiodobenzene
+iodine heptafluoride
+iodine heptafluoride_pw91
+iodomethyl methyl sulfide
+iodine chloride
+iodine monochloride
+1,2-chloroiodoethane
+1-chloro-4-iodobutadiene
+iodine bromide
+1-bromo-4-iodobutadiene
+iodine, dimer
+diiodomethane
+diiodoacetylene
+e-1,2-diiodoethene
+z-1,2-diiodoethene
+1,2-diiodoethane
+1,2-diiodopropane
+1,3-diiodopropane
+1,2-diiodobutane
+1,4-diiodobutane
+1,2-diiodobenzene
+5,7-diiodo-8-hydroxyquinoline
+1,2 diiodotetrafluoroethane
+iodoform

@@ -1,0 +1,9 @@
+*
+*  Optimize a single element
+*
+cycles=50 params=../PM7.txt PM7 ref=../norm;../erra;../leve;../soli 
+ ALPB_Re Re
+ XFAC_Re Re
+end
+Rhenium (Re) (ICSD 40355) hcp.mop
+Rhenium (Re) (ICSD 40355) hcp r

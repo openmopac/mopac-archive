@@ -1,0 +1,214 @@
+*
+*  Optimize a single element
+*
+all cycles=50 params=PM7.txt PM7 ref=../norm;../erra;../leve;../soli
+(Ti)(all) 
+end  
+core-core_Li - Ti near    
+core-core_Li - Ti far 
+core-core_Ti - C near    
+core-core_Ti - C far 
+core-core_Ti - H near    
+core-core_Ti - H far 
+core-core_Ti - O near    
+core-core_Ti - O far 
+core-core_Ti - F near
+core-core_Ti - F far  
+core-core_Mg - Ti near
+core-core_Mg - Ti far  
+core-core_Ti - Si near    
+core-core_Ti - Si far 
+core-core_Ti - S near
+core-core_Ti - S far
+core-core_Ti - Cl near    
+core-core_Ti - Cl far 
+core-core_Ca - Ti near    
+core-core_Ca - Ti far 
+core-core_Ti - Ti near
+core-core_Ti - Ti far
+core-core_Fe - Ti near
+core-core_Fe - Ti far
+core-core_Ti - Br near    
+core-core_Ti - Br far 
+core-core_Ti - I near    
+core-core_Ti - I far 
+core-core_Ba - Ti near
+core-core_Ba - Ti far
+titanium tetraiodide
+* Ti6 (good)
+* Ti6 (bad)
+* Ti2O4
+* Mn2O2
+* Mn2Ti2O6 (bad)
+TiF6(3-) 2A1g
+TiF6(3-) 2T1u
+((me)3sich2)4ti
+tetrabenzyl titanium
+tih4r
+ti(iv)c14 (likray) r
+ti(iv)c13 (korfig) r
+ti(nh2)4r
+ti(nhme)4r
+ti(ii)(nh3)6r
+ti(ii)(h2o)6r
+tifr
+tiof2r
+ti(iii)f2(h2o)4(+) (sixxay) r
+tif4r
+ti(iv)f6(2-) (koyxol) r
+ti_f6r
+ti(iv)n4 (virlaj) r
+ticlr
+ti(iv)clc14 (rirwuk) r
+ticl(nh2)3r
+ti(iii)cp2clp (dewxei) r
+ti(iv)s6cl (csacti) r
+ti(cp)2cl2r
+ti(iv)cp2cl2 (cdcpti) r
+ti(iv)cl2cp2 (bozpip) r
+ticl2(nh2)2r
+tiocl2r
+ti(iv)cl2o2n2 (cesalt) r
+methyl titanium(iv) trichlorider
+ticpcl3 (cehpio) r
+ticl3nh2r
+ti(iii)n3cl3 (cpmati) r
+ti(iii)cl3o3 (tcxnti) r
+ti(iv)cl3pcp (lefcuu) r
+ti(iv)chclp (bixfuj10) r
+ticl4r
+ti(iv)cl4cp(-) (iceseo) r
+ticl4nh3r
+ticl4(nh3)2r
+ti(iv)cl4n2 (difwaq)
+ti(iv)cl4n2 (gamgac) r
+ti(iv)cl4o2 (bomfak) r
+ti(iv)cl4s(=) (gerham) r
+ti(iv)cl6(2-) (barmaj) r
+ti(ii)(c6h6)cl4 (belyia01) r
+* ti2r
+ti(iv)2ocl4cp2 (cytidc) r
+ti2(oet)4cl4r
+ti(iv)2o6cl6 (yarsoz) r
+ti(iii)2cl6(pme3)3 (letmig) r
+ti(iv)2cl9(mecn)2 (malyaz) r
+ti(iv)2cl8o2 (gexsad) r
+ti(iv)2cl8o2 (clnmti) r
+ti2cl9r
+ti(iv)cp2f2 (vajxej) r
+ti(iv)as2s2cl2 (cirhug) r
+tibrr
+tiobr2r
+ti_br6r
+tiir
+ti(iii)cp2i (pemkoh) r
+ti_psbrir
+ti_cclibrr
+ti(iii)i2n4(+) (kadviu) r
+tioi2r
+ti_i6r
+ti(iv)i4cp (johjof) r
+ti(ii)i4(ar) (tefcem) r
+* titanium(++), 1d(u) 3d(1)4p(1)
+* titanium(++), 3d(u) 3d(1)4p(1)
+* titanium(++), 3f(u) 3d(1)4p(1)
+* titanium(++), 3p(u) 3d(1)4p(1)
+* titanium(+), 4f(g) 4s(1)3d(2)
+* titanium(+), 4g(u) 4s(0)3d(2)4p(1)
+* titanium(+), 4p(g) 4s(0)3d(3)
+* titanium, cation
+titanium, 3d(g) 4s(1)3d(3)
+titanium, 3f(g) 4s(2)3d(2)
+titanium, 3g(g) 4s(1)3d(3)
+titanium, 3h(g) 4s(1)3d(3)
+titanium, 3p(g) 4s(2)3d(2)
+titanium, 5f(g) 4s(1)3d(3)
+* titanium, 5g(u) 4s(1)3d(2)4p(1)
+titanium, 5p(g) 4s(1)3d(3)
+titanium, atom
+tih4
+ti(c5h5)2 d5d
+bicyclopentadienyl dimethyl titanium
+ti(iv)c14 (likray)
+titanium (neo-c5h11)4
+bicyclopentadienyl biphenyl titanium
+ti(cp)2(ch2c6h5)2
+ti(cp)2(m-tol)2
+ti(cp)2(p-tol)2
+titanium tetra(diethylamine)
+ti(ii)(nh3)6
+titanium monoxide
+titanium dioxide
+ti(cp)2(oc6h5)2
+ti(cp)2(2-mec6h4o)2
+ti(cp)2(3-mec6h4o)2
+ti(cp)2(4-mec6h4o)2
+ti(cp)2(4-meoc6h4)2
+titanium tetraisopropoxide
+titanium tetrapropoxide
+ti(o-s-c4h9)4
+ti(o-t-butyl)4
+titanium tetra-n-butoxide
+ti(o-n-c5h11)4
+ti(o-neo-c5h11)4
+ti(cp)2(o(co)c6h5)2
+ti(iii)(h2o)6
+* ti(ii)(h2o)6
+tif
+titanium(i) fluoride
+tifo
+titanium difluoride
+tiof2
+titanium(iv) oxide difluoride
+ti(iii)f2(h2o)4(+)
+titanium trifluoride
+titanium tetrafluoride
+titanium tetrafluoride anion
+titanium pentafluoride anion
+ti(iv)f6(2-)
+ti(iii)f6
+ti(ii)f6
+ti(cp)2(4-cf3c6h4)2
+bicyclopentadienyl titanium di(trifluoroacetate)
+bicyclopentadienyl dithioethyl titanium
+bicyclopentadienyl dithiopropyl titanium
+ti(cp)2(sc6h5)2
+ticl
+titanium(i) chloride
+bicyclopentadienyl methyl titanium chloride
+ti(iv)clc14 (rirwuk)
+bicyclopentadienyl phenyl titanium chloride
+ticlo
+ti(iv)s6cl (csacti)
+titanium dichloride
+bicyclopentadienyl titanium dichloride
+ti(iv)cp2cl2 (cdcpti)
+titanium(iv) oxide dichloride
+ti(cp)2(2-clc6h4o)2
+ti(iv)cl2o2n2 (cesalt)
+titanium trichloride
+ticpcl3 (cehpio)
+ti(iii)n3cl3 (+)
+ti(iii)cl3o3 (tcxnti)
+titanium tetrachloride
+ti(iv)cl4cp(-) (iceseo)
+ti(iv)cl4o2 (bomfak)
+ti(ii)cl6
+ti(iv)cl6(2-)
+bicyclopentadienyl titanium di(trichloroacetate)
+* ziegler-monohapto complex gs
+* ziegler-bihapto complex gs
+ti(iv)2cl9(mecn)2
+ti(iv)2cl8o2 (clnmti)
+titanium(i) bromide
+titanium dibromide
+titanium(iv) oxide dibromide
+titanium tribromide
+titanium tetrabromide
+tii
+titanium(i) iodide
+ti(iii)cp2i (pemkoh)
+titanium diiodide
+titanium(iv) oxide diiodide
+titanium triiodide
+titanium tetraiodide

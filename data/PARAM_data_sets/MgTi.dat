@@ -1,0 +1,10 @@
+*
+*  Optimize a single element
+*
+PM7 ref=../norm;../erra;../soli
+alpb_Mg Ti
+xfac_Mg Ti
+end  
+Ilmenite (MgTiO3) r
+Ilmenite (MgTiO3)
+

@@ -1,0 +1,9 @@
+*
+*  Optimize a single element
+*
+ params=PM7.txt  cycles=20 PM7 ref=../norm;../erra;../leve;../soli
+ XFAC_Ir S
+ Alpb_Ir S
+end  
+Iridium(iv) disulfide (IrS2) (ICSD 640950).mop
+Iridium(iv) disulfide (IrS2) (ICSD 640950) r

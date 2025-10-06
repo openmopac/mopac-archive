@@ -1,0 +1,9 @@
+*
+*  Optimize a single element
+*
+params=../PM7.txt PM7 ref=../norm;../erra;../leve;../soli
+Alpb_Ca C
+Xfac_Ca C
+end  
+Calcium acetylide (CaC2) (ICSD 411190).mop
+Calcium acetylide (CaC2) (ICSD 411190) r

@@ -1,0 +1,249 @@
+*
+*  Optimize a single element
+*
+cycles=50  params=PM7.txt PM7 ref=../norm;../erra;../leve;../soli
+*   upp Co 20 40
+(Co I)(all) 
+end  
+core-core_Co - H near    
+core-core_Co - H far 
+core-core_Co - N heat 1p1
+*   core-core_Co - N heat
+*   core-core_Co - N slope
+core-core_Co - C heat
+core-core_Co - C slope
+core-core_Co - O heat 1p1
+core-core_Co - O heat
+core-core_Co - O slope
+core-core_Co - F near    
+core-core_Co - F far
+core-core_Na - Co heat
+core-core_Na - Co slope
+core-core_Co - Cl near 
+core-core_Co - Cl far  
+* core-core_Co - As heat 1p5
+core-core_Co - As heat
+core-core_Co - As slope
+core-core_K - Co heat
+core-core_K - Co slope
+core-core_Co - Co near    
+core-core_Co - Co far     
+core-core_Co - Br near
+core-core_Co - Br heat
+core-core_Co - Br slope
+core-core_Co - I near 
+core-core_Co - I far  
+CoI2 (bad)
+CoF6(3-) 7A1g
+Co(III)IS2Cp (GECVEP) (good).mop
+Co(III)IS2Cp (bad).mop
+CoN4I2(-) (good)
+CoN4I2(-) (bad)
+* Cobalt (Co) r
+* Cobalt (Co) 
+* Co(+2) - (+) heat
+* Co(+2) - (+) slope
+* Co-N (good)
+* Co-N (Bad)
+* Co - Co 6p6
+* Co - Co 7p0
+* Co(Cp)3 heat
+* Co(Cp)3 slope
+* Co(CO)5 cation D3h (Ref)
+* Co(CO)5 cation C4v (Bad)
+* Co(CO)5 cation D3h (bad-2)
+Co(CO)4 (-) (+-)
+Co(CO)4 (-) (Td)
+Co(CO)4 (-) (D4h)
+Co(CO)4 (-) (C4v)
+Co(CO)4 (-) (D2d)
+Co(CO)4(-) (good)
+Co(CO)4(-) (bad)
+CoCl4(=) Td 6E.mop
+CoCl4(=) Td 6A1
+co(iii)is2cp (gecvep) r
+co(iii)is2cp (gecvep) 
+co(ii)cp2 (dcypco) r
+co(v)(cn)4r
+co(iii)(cn)6r
+co(iii)(en)3r
+co(iii)n6(3+) (cotenc01) r
+co(ii)n6(2+) (qicsok) r
+co(iii)c3n3 (fefrud) r
+co(iii)n6(2+) (famyex) r
+co(co)4(-) (fubyoq) r
+co(co)3nor
+co(iii)o2n4(+) (oxenco) r
+co(iii)n4o2(+) (aetxco) r
+co(iii)n6(+) (nixgeg) r
+co(co)5 cation_r
+co(iii)n4co (amgxco01) r
+co(ii)(h2o)6(2+) (nazvoz) r
+co(ii)(h2o)6r
+co(ii)(acac)3(-) (ikeyay)
+co(iii)n4o2(+) (nitnco) r
+co(iii)(ox)3r
+cofr
+coofr
+cof3r
+co(co)4si (fuzmao) r
+co(ii)s4 (tacaco10) r
+co(iii)s6 (medtco10) r
+co(iii)s6 (tdtcco) r
+coclr
+co(iii)n5cl(2+) (adetco) r
+cooclr
+methyl cobalt(iii) chloride hydroxider
+co(iii)(nh3)2(h2o)2clfr
+co(i)p3cl (butdez) r
+co(ii)s2n2 (cotucl11) r
+co(iii)n3cl3 (amprco) r
+co(iii)sn2cl3 (catbaa) r
+co(ii)cl4(2-) (dmdpco) r
+* co2(co)8r
+cobrr
+coobrr
+co(iii)n4bro (bukpig) r
+co(ii)br4(2-) (bpyrbc10) r
+co(ii)br4r
+coir
+cooir
+comeclir
+co(iii)n4i2(-) (fircoy01) r
+coi3r
+co(iii)i6 d6_r
+cobalt, cation
+cobalt, 2dg 3d(8)4s(1)
+cobalt, 2fg 3d(8)4s(1)
+cobalt, 2gg 3d(7)4s(2)
+cobalt, 2hg 3d(7)4s(2)
+cobalt, 2pg 3d(7)4s(2)
+cobalt, 2pg 3d(8)4s(1)
+cobalt, 4fg 3d(7)4s(2)
+cobalt, 4fg 3d(8)4s(1)
+cobalt, 4pg 3d(7)4s(2)
+cobalt, 4pg 3d(8)4s(1)
+cobalt, atom
+cobalt, second 4f(g)
+bicyclopentadienyl cobalt
+co(ii)cp2 (dcypco)
+co(iii)n6(3+) (cotenc01)
+co(ii)n6(2+) (qicsok)
+co(iii)c3n3 (fefrud)
+co(iii)n6(2+) (famyex)
+co(co)4
+co(iii)n4o2(+) (aetxco)
+co(iii)o2n4(+) (oxenco)
+co(iii)n6(+) (nixgeg)
+co(co)5 cation
+co(iii)n4co (amgxco01)
+co(ii)(h2o)6
+co(iii)n4o2(+) (nitnco)
+co(iii)(ox)3
+cobalt(iii) oxide fluoride
+cof2
+cobalt trifluoride
+co(ii)s4 (tacaco10)
+co(iii)s6 (medtco10)
+co(iii)s6 (tdtcco)
+cobalt(i) chloride
+co(iii)n5cl(2+) (adetco)
+cobalt(iii) oxide chloride
+co(iii)(nh3)2(h2o)2clf
+cocl2
+co(ii)s2n2 (cotucl11)
+cocl3
+co(iii)n3cl3 (amprco)
+co(iii)sn2cl3 (catbaa)
+co2(co)8
+cobalt dichloride, dimer
+cobalt(i) bromide
+cobalt(iii) oxide bromide
+co(iii)n4bro (bukpig)
+cobalt(i) iodide
+cobalt(iii) oxide iodide
+co(iii)is2cp (gecvep)
+co(iii)n4i2(-) (fircoy01)
+cobalt triiodide
+core-core_I - O far
+hir
+ch3ir
+c6h5ir
+ifr
+cf3ir
+if5r
+if7r
+iclr
+c4h4clir
+ibrr
+c4h4brir
+i2r
+ch2i2r
+e-c2h2i2r
+z-c2h2i2r
+1,2-diiodobenzener
+chi3r
+pi3r
+ci4r
+iodine, cation
+iodine, 2p(u) - 5s(2)5p(5)
+iodine, 2s(g) - 5s(1)5p(6)
+iodine, atom
+iodide, anion
+hydrogen iodide
+methyl iodide
+iodoethane
+3-iodo-1-propene
+e-1-iodo-1-propene
+z-1-iodo-1-propene
+1-iodopropane
+2-iodopropane
+1-butyl iodide
+tert-butyl iodide
+iodobenzene
+iodocyclohexane
+benzyl iodide
+m-iodotoluene
+o-iodotoluene
+p-iodotoluene
+1-iodonaphthalene
+2-iodonaphthalene
+cyanogen iodide
+iodine oxide
+acetyl iodide
+iodomethyl methyl ether
+1-iodo-2-propanone
+3-iodo-2-butanone
+benzoyl iodide
+nitrosyl iodide
+2-iodobenzoic acid
+3-iodobenzoic acid
+4-iodobenzoic acid
+iodine fluoride
+trifluoroiodomethane
+1,1,1-trifluoro-2-iodoethane
+iodine pentafluoride
+pentafluoroiodobenzene
+iodine heptafluoride
+iodine heptafluoride_pw91
+iodomethyl methyl sulfide
+iodine chloride
+iodine monochloride
+1,2-chloroiodoethane
+1-chloro-4-iodobutadiene
+iodine bromide
+1-bromo-4-iodobutadiene
+iodine, dimer
+diiodomethane
+diiodoacetylene
+e-1,2-diiodoethene
+z-1,2-diiodoethene
+1,2-diiodoethane
+1,2-diiodopropane
+1,3-diiodopropane
+1,2-diiodobutane
+1,4-diiodobutane
+1,2-diiodobenzene
+5,7-diiodo-8-hydroxyquinoline
+1,2 diiodotetrafluoroethane
+iodoform

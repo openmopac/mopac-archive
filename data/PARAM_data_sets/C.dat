@@ -1,0 +1,6 @@
+*
+*  Optimize a single element
+*
+params=../PM7.txt  PM7   set=../main_group_only.txt                ref=../norm;../erra;../leve
+(C)(all) 
+end  

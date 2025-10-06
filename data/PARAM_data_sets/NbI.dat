@@ -1,0 +1,10 @@
+*
+*  Optimize a single element
+*
+params=../PM7.txt PM7 ref=../norm;../erra;../leve;../soli
+Alpb_Nb I
+Xfac_Nb I
+end  
+Niobium(iii) triiodide (NbI3) (ICSD 109145) r.mop
+Niobium(v) pentaiodide (NbI5) (ICSD 10457) r.mop
+Niobium(v) pentaiodide (NbI5) (ICSD 10457) 

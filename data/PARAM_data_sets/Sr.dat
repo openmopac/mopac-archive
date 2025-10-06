@@ -1,0 +1,130 @@
+*
+*  Optimize a single element
+*
+cycles=50 params=../PM7.txt PM7 ref=../norm;../erra;../leve  
+alpb_Sr O 1 5
+xfac_Sr O 1 60
+alpb_Sr F 1 5
+xfac_Sr Si 1 50
+alpb_Sr S 1 5
+xfac_Sr S 1 50
+alpb_Sr Cl 1 5
+xfac_Sr Cl 1 50
+xfac_Sr Sr 1 50
+xfac_Sr I 1 50
+(Sr)(all) 
+end  
+core-core_Sr - H near    
+core-core_Sr - H far
+core-core_Sr - C near    
+core-core_Sr - C far
+core-core_Sr - N near    
+core-core_Sr - N far
+core-core_Sr - O near    
+core-core_Sr - O far
+core-core_Sr - F near
+core-core_Sr - F far
+core-core_Sr - Si near
+core-core_Sr - Si far
+core-core_Sr - P near
+core-core_Sr - P far
+core-core_Sr - S near
+core-core_Sr - S far
+core-core_Sr - Cl near
+core-core_Sr - Cl far
+core-core_Sr - Br near
+core-core_Sr - Br far
+* core-core_Sr - Sr nearer
+core-core_Sr - Sr near
+core-core_Sr - Sr far        
+core-core_Sr - I near
+core-core_Sr - I far
+core-core_Sr - W near
+core-core_Sr - W far
+core_Sr_0_0_0
+core_Sr_2_6_0
+* Sr5
+Sr4O4 (cube)
+* Sr4O4 (flat)
+SrF4(3-) 2A1
+SrF4(3-) 2T2
+sr(ii)o4s2 (yugmoc)a
+sr(ii)o4s2 (yugmoc)a r
+(ch3)2srr
+sr(ii)(cp)2n2 (teyyeb) r
+sr(ii)n4 (wagcir) r
+sr(ii)n8(2+) (taqnaa) r
+sr(ii)n9(2+) (tapmom) r
+* sror
+* srohr
+sr(ii)(cp)2o2 (volnoz) r
+sr(ii)(h2o)6r
+sr(ii)o6n2(2+) (sutziq) r
+sr(ii)o8(2+) (poxkoc) r
+sr(ii)o9(2+) (wazfuy) r
+sr(ii)o8(2+) (nasyel) r
+* sr(ii)(h2o)5.fr
+cis-sr(ii)(h2o)4.f2r
+sr(ii)n6f3 (udiraa) r
+sr(ii)o4n4 (nupsas) r
+sr(ii)o8(2-) (rizhaj) r
+srsr
+sr(ii)o6n2 (fuydae) r
+sr(ii)(h2o)5.clr
+srcl2r
+cis-sr(ii)(h2o)4.cl2r
+srbrr
+sr(ii)(h2o)5.brr
+sr(ii)n5br2 (tanwag) r
+cis-sr(ii)(h2o)4.br2r
+sr(ii)(h2o)5.ir
+sri2r
+sr(ii)n5i2 (tanquu) r
+sr(ii)n2o2i2 (taqpuw) r
+cis-sr(ii)(h2o)4.i2r
+sr(ii)o6i2 (fogrup) r
+strontium, dication
+strontium, cation
+strontium 1d(g) 5s(0)5p(2)
+strontium 1p(u) 5s(1)5p(1)
+strontium 1s(g) 5s(0)5p(2)
+strontium 1s(g) 5s(2)5p(0)
+strontium 3p(g) 5s(0)5p(2)
+strontium 3p(u) 5s(1)5p(1)
+strontium, atom
+dimethyl strontium
+* sr(ii)(cp)2n2 (teyyeb)
+* sr(ii)n4 (wagcir)
+* sr(ii)n8(2+) (taqnaa)
+* strontium oxide
+* strontium di-hydroxide
+* sr(ii)(h2o)6
+* sr(ii)o6n2(2+) (sutziq)
+* sr(ii)o8(2+) (poxkoc)
+* sr(ii)o9(2+) (wazfuy)
+* sr(ii)o8(2+) (nasyel)
+strontium fluoride
+* sr(ii)(h2o)5.f
+strontium difluoride
+* cis-sr(ii)(h2o)4.f2
+* sr(ii)o8(2-) (rizhaj)
+strontium sulfide
+* sro-so3
+* sr(ii)o6n2 (fuydae)
+strontium chloride
+* sr(ii)(h2o)5.cl
+strontium dichloride, cation
+strontium dichloride
+* cis-sr(ii)(h2o)4.cl2
+strontium monobromide
+* sr(ii)(h2o)5.br
+strontium dibromide
+sr(ii)n5br2 (tanwag)
+* cis-sr(ii)(h2o)4.br2
+strontium iodide
+* sr(ii)(h2o)5.i
+strontium diiodide
+sr(ii)n5i2 (tanquu)
+sr(ii)n2o2i2 (taqpuw)
+* cis-sr(ii)(h2o)4.i2
+sr(ii)o6i2 (fogrup)

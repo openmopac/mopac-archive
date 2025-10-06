@@ -1,0 +1,19 @@
+HEADER  data-set: G:\tm\Hexagonal Brillouin Zone
+REMARK  MOPAC 2016, Version: 16.052W Date: Feb 25 2016 10:05
+HETATM    1  H   HET A   1       0.000   0.000   0.000  1.00  0.00      PROT H 
+HETATM    2  C   HET A   1       1.500   0.000   0.000  1.00  0.00      PROT C 
+HETATM    3  C   HET A   1       0.750   1.300   0.000  1.00  0.00      PROT C 
+HETATM    4  H   HET A   1       0.000   1.300   0.000  1.00  0.00      PROT H 
+HETATM    5  C   HET A   1      -0.750   1.300   0.000  1.00  0.00      PROT C 
+HETATM    6  C   HET A   1      -1.500   0.000   0.000  1.00  0.00      PROT C 
+HETATM    7  C   HET A   1      -0.750  -1.300   0.000  1.00  0.00      PROT C 
+HETATM    8  C   HET A   1       0.750  -1.300   0.000  1.00  0.00      PROT C 
+HETATM    9  H   HET A   1       0.000   0.000   1.500  1.00  0.00      PROT H 
+HETATM   10  C   HET A   1       1.500   0.000   1.500  1.00  0.00      PROT C 
+HETATM   11  C   HET A   1       0.750   1.300   1.500  1.00  0.00      PROT C 
+HETATM   12  H   HET A   1       0.000   1.300   1.500  1.00  0.00      PROT H 
+HETATM   13  C   HET A   1      -0.750   1.300   1.500  1.00  0.00      PROT C 
+HETATM   14  C   HET A   1      -1.500   0.000   1.500  1.00  0.00      PROT C 
+HETATM   15  C   HET A   1      -0.750  -1.300   1.500  1.00  0.00      PROT C 
+HETATM   16  C   HET A   1       0.750  -1.300   1.500  1.00  0.00      PROT C 
+END

@@ -1,0 +1,163 @@
+ cycles=50 params=pm7.txt         PM7 ref=../norm;../erra;../leve 
+(Pd)(all)
+end
+core-core_Pd - H near
+core-core_Pd - H far
+core-core_Pd - B near
+core-core_Pd - B far
+core-core_Pd - C near
+core-core_Pd - C far
+core-core_Pd - N far
+core-core_Pd - O near
+core-core_Pd - O far
+core-core_Pd - F near 
+core-core_Pd - F far 
+core-core_Pd - S near
+core-core_Pd - S far
+core-core_Pd - Cl near    
+core-core_Pd - Cl far     
+core-core_Pd - Br near
+core-core_Pd - Br far
+core-core_Pd - Pd near
+core-core_Pd - Pd far
+core-core_Pd - I near
+core-core_Pd - I far
+core-core_Au - Pd near
+core-core_Au - Pd far
+* PdF6(3-) 2T1u
+* PdF6(3-) 2A1g
+* PdCl2 (good)
+* PdCl2 (bad)
+* Pd(Ox)2
+* PdCl4(=) D4h (good)
+* PdCl4(=) C2v (bad)
+* PdBr4(=) D4h (good)
+* PdBr4(=) C2v (bad)
+* Pd(CO)3 (+-)
+pdh_cat_r
+pdhr
+pdh2r
+pd_cat_ch3r
+pdch3r
+pd(ch3)hr
+* pdc2h2r
+pd(ch3)2_catr
+pd(ch3)2r
+pd(-(ch2)4-)r
+pd(cp)c3 (alcppd10) r
+pd(ii)c3cl3(-) (behmik) r
+pd(ii)(nh3)4r
+pd(cn)4_ani_r
+pd(ii)(cn)4(2-) (eatcpd) r
+pd(ii)n4(2+) (kuxsif) r
+pd(ii)n4(2+) (buxsiw) r
+pd(ii)(cn)2n2 (jarcek) r
+pd(ii)(nh3)6r
+pdhohr
+pdcor
+pd(ch3)(och3)r
+pdo2r
+pd(ii)(h2o)4r
+pd(co)4r
+pd(ii)(me2o)(ome)(h2o)(me2co)r
+pd(ii)o4 (ewosue) r
+pd(ii)n4 (bzqxpd01) r
+pd(ii)n4 (betwec) r
+pd(ii)(ox)2(2-) (fovmuy) r
+palladium edtar
+pdfr
+pdhfr
+pd(ch3)fr
+pdf2r
+pd(ii)f4r
+pd(ph3)2(sih3)2r
+pdpnnsr
+pd(ii)s3n (caxqun) r
+pd(ii)s4 (lessil) r
+pd(ii)s2n2 (bewkap) r
+pd(ii)s4 (dthbpd10) r
+pd(ii)s4 (fectuc) r
+pdclr
+pdhclr
+pd(ch3)clr
+pdcl2r
+pd(ii)cl2c4 (cyocpd02) r
+pd(ii)n2cl2 (feqcot) r
+pdcl2(mecn)2r
+pd(ii)n2cl2 (ambupd) r
+pd(ii)n2cl2 (cogyec) r
+pd(ii)cl2n2 (buqrua) r
+pd(ii)c2cl2 (battiz) r
+cis-pd(ph3)2cl2r
+trans-pd(ph3)2cl2r
+trans-pd(cl)2(set2)2r
+pd(ii)(co)cl3(-) (katpea) r
+pd(ii)cl4(2-) (avukor) r
+pdcl4r
+pd(iv)n2cl4 (bokhak) r
+pd(iv)cl6(2-) (jizlot) r
+pdbr2r
+pd(ii)br2n2 (macgon)
+pdc2br2 (amiper) r
+pd(ii)(co)br3(-) (katpie) r
+pdbr4_ani_r
+pd(ii)br4(2-) (fethob) r
+pd(ii)br4r
+pd2r
+pd2(me)2r
+pd2(cp)2(co)2r
+pi-allyl palladium chloride dimer r
+pd_ifr
+pd(ii)p2i2 (impppd01) r
+pd(ii)i4r
+palladium, di-cation 3f(g) 4d(8)
+palladium, cation 4f(g) 4d(8)5s(1)
+palladium, 1s(g) 4d(10)5s(0)
+palladium, 3d(g) 4d(9)5s(1)
+palladium, atom
+pd(cp)c3 (alcppd10)
+pd(ii)(nh3)4
+pd(ii)(cn)4(2-) (eatcpd)
+pd(ii)n4(2+) (kuxsif)
+pd(ii)(cn)2n2 (jarcek)
+pd(ii)(nh3)6
+methyl methoxy palladium(ii)
+palladium(ii) tetraquo
+pd(co)4
+pd(ii)(me2o)(ome)(h2o)(me2co)
+pd(ii)o4 (ewosue)
+pd(ii)n4 (bzqxpd01)
+pd(ii)n4 (betwec)
+pd(ii)(ox)2(2-) (fovmuy)
+palladium edta
+* methyl palladium fluoride
+* palladium(ii) difluoride
+palladium(ii) tetrafluoride
+pd(ii)s3n (caxqun)
+pd(ii)s4 (lessil)
+pd(ii)s2n2 (bewkap)
+pd(ii)s4 (dthbpd10)
+* methyl palladium chloride
+palladium(ii) dichloride
+pd(ii)cl2c4 (cyocpd02)
+pd(ii)n2cl2 (feqcot)
+pdcl2(mecn)2
+pd(ii)n2cl2 (ambupd)
+pd(ii)c2cl2 (battiz)
+cis-pd(pph3)2cl2
+trans-pd(cl)2(set2)2
+pd(ii)(co)cl3(-) (katpea)
+palladium(ii) tetrachloride
+pd(ii)cl4(2-) (avukor)
+pd(iv)n2cl4 (bokhak)
+pd(iv)cl6(2-) (jizlot)
+palladium(ii) dibromide
+pdc2br2 (amiper)
+pd(ii)(co)br3(-) (katpie)
+palladium(ii) tetrabromide
+pd(ii)br4(2-) (fethob)
+pd2(me)2
+pd2(cp)2(co)2
+pi-allyl palladium chloride dimer
+palladium(ii) diiodide
+palladium(ii) tetraiodide

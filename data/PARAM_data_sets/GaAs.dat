@@ -1,0 +1,9 @@
+*
+*  Optimize a single element
+*
+params=../PM7.txt cycles=30 PM7 ref=../norm;../erra;../leve;../soli
+xfac_Ga As
+alpb_Ga As
+end  
+Gallium arsenide (GaAs) r
+Gallium arsenide (GaAs) 

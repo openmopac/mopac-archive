@@ -1,0 +1,24 @@
+*
+*  Optimize a single element
+*
+ params=PM7.txt cycles=50 PM7      ref=../norm;../erra;../leve;../soli
+XFAC_Mn O
+ALPB_Mn O
+XFAC_Mn Cl
+ALPB_Mn Cl
+XFAC_Mn Mn
+ALPB_Mn Mn
+end  
+Manganese(ii) oxide (MnO) (ICSD 657304) r.mop
+Manganese(iv) dioxide (MnO2) (ICSD 171866) r
+Manganese(ii) dichloride (MnCl2) r
+Manganese (Mn) (ICSD 44932) complex r
+Manganese (Mn) (ICSD 44932) complex 
+Manganese(ii) dichloride (MnCl2) r
+Manganese (Mn) (ICSD 44932) complex r
+Manganese(ii) oxide (MnO) (ICSD 657304) 
+Manganese(iv) dioxide (MnO2) (ICSD 171866) 
+Manganese(ii) dichloride (MnCl2)
+Manganese (Mn) (ICSD 44932) complex
+Manganese(ii) dichloride (MnCl2) 
+Manganese (Mn) (ICSD 44932) complex 

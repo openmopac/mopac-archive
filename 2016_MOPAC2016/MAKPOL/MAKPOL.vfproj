@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VisualStudioProject ProjectCreator="Intel Fortran" Keyword="Console Application" Version="11.0" ProjectIdGuid="{101FF4C3-32E4-45EA-9A49-BB19DE75936C}">
+	<Platforms>
+		<Platform Name="Win32"/></Platforms>
+	<Configurations>
+		<Configuration Name="Debug|Win32">
+				<Tool Name="VFFortranCompilerTool" SuppressStartupBanner="true" DebugInformationFormat="debugEnabled" Optimization="optimizeDisabled" WarnInterfaces="true" Traceback="true" BoundsCheck="true" StackFrameCheck="true" RuntimeLibrary="rtMultiThreadedDebug"/>
+				<Tool Name="VFLinkerTool" LinkIncremental="linkIncrementalNo" SuppressStartupBanner="true" GenerateManifest="false" GenerateDebugInformation="true" SubSystem="subSystemConsole"/>
+				<Tool Name="VFResourceCompilerTool"/>
+				<Tool Name="VFMidlTool" SuppressStartupBanner="true"/>
+				<Tool Name="VFCustomBuildTool"/>
+				<Tool Name="VFPreLinkEventTool"/>
+				<Tool Name="VFPreBuildEventTool"/>
+				<Tool Name="VFPostBuildEventTool"/>
+				<Tool Name="VFManifestTool" SuppressStartupBanner="true"/></Configuration>
+		<Configuration Name="Release|Win32">
+				<Tool Name="VFFortranCompilerTool" SuppressStartupBanner="true"/>
+				<Tool Name="VFLinkerTool" OutputFile="M:\utility\MAKPOL_F90.exe" LinkIncremental="linkIncrementalNo" SuppressStartupBanner="true" GenerateManifest="false" SubSystem="subSystemConsole"/>
+				<Tool Name="VFResourceCompilerTool"/>
+				<Tool Name="VFMidlTool" SuppressStartupBanner="true"/>
+				<Tool Name="VFCustomBuildTool"/>
+				<Tool Name="VFPreLinkEventTool"/>
+				<Tool Name="VFPreBuildEventTool"/>
+				<Tool Name="VFPostBuildEventTool"/>
+				<Tool Name="VFManifestTool" SuppressStartupBanner="true"/></Configuration></Configurations>
+	<Files>
+		<Filter Name="Header Files" Filter="fi;fd"/>
+		<Filter Name="Resource Files" Filter="rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe"/>
+		<Filter Name="Source Files" Filter="f90;for;f;fpp;ftn;def;odl;idl">
+		<File RelativePath=".\MAKPOL source code\cell.F90"/>
+		<File RelativePath=".\MAKPOL source code\common_atomtx.f90"/>
+		<File RelativePath=".\MAKPOL source code\common_ctvec.f90"/>
+		<File RelativePath=".\MAKPOL source code\common_elemts.f90"/>
+		<File RelativePath=".\MAKPOL source code\common_geosym.f90"/>
+		<File RelativePath=".\MAKPOL source code\common_jobnam.f90"/>
+		<File RelativePath=".\MAKPOL source code\common_keywrd.f90"/>
+		<File RelativePath=".\MAKPOL source code\common_sizes.F90"/>
+		<File RelativePath=".\MAKPOL source code\common_symult.f90"/>
+		<File RelativePath=".\MAKPOL source code\common_systm.f90"/>
+		<File RelativePath=".\MAKPOL source code\common_titles.f90"/>
+		<File RelativePath=".\MAKPOL source code\geout.F90"/>
+		<File RelativePath=".\MAKPOL source code\getpdb.F90"/>
+		<File RelativePath=".\MAKPOL source code\getsym.f90"/>
+		<File RelativePath=".\MAKPOL source code\gettxt.f90"/>
+		<File RelativePath=".\MAKPOL source code\haddon.f90"/>
+		<File RelativePath=".\MAKPOL source code\maklay.f90"/>
+		<File RelativePath=".\MAKPOL source code\Makpol.F90"/>
+		<File RelativePath=".\MAKPOL source code\maksym.f90"/>
+		<File RelativePath=".\MAKPOL source code\mod_atomradii.F90"/>
+		<File RelativePath=".\MAKPOL source code\setcuc.f90"/>
+		<File RelativePath=".\MAKPOL source code\standard.F90"/>
+		<File RelativePath=".\MAKPOL source code\symtry.f90"/></Filter></Files>
+	<Globals/></VisualStudioProject>

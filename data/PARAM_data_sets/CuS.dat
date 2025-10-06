@@ -1,0 +1,19 @@
+*
+*  Optimize a single element
+*
+params=../PM7.txt       PM7      ref=../norm;../erra;../leve 
+alpb_Cu S
+xfac_Cu S
+end  
+core-core_Cu - S heat
+core-core_Cu - S slope
+cusr
+copper hydrogen sulfide r
+cu_cat_h2sr
+cu_cat_ch3shr
+cu(sh)2r
+cus3(pme3)3_r
+cu(ii)s3n2br(+) (brucua) r
+copper hydrogen sulfide
+cu(sh)2
+cu(ii)s3n2br(+) (brucua)

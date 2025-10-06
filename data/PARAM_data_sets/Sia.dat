@@ -1,0 +1,189 @@
+*
+*  Optimize a single element
+*
+parab=1.d5 cycles=50 params=../PM7.txt PM7 ../everything.txt ref=../norm;../erra;../leve
+(Si)(all) 
+end  
+core-core_Mg - Si near
+core-core_Mg - Si far 
+core-core_Ca - Si near
+core-core_Ca - Si far 
+core-core_Si - Si near
+core-core_Si - Si near slope
+core-core_Al - Si near
+core-core_Al - Si far 
+core-core_Si - Cl heat
+core-core_Si - Cl slope
+core-core_Sr - Si near
+core-core_Sr - Si far 
+core-core_Zr - Si near 
+* core_Si_2_2_4
+* core_Si_2_6_0
+P2Si2H4
+Sihr
+ssih2r
+sih4r
+b5h11sir
+simeh3r
+sime4r
+sic4(-) (fogmet) r
+sinr
+sic4 (bawnui) r
+sic3n(+) (caskiq) r
+be-sior
+sih3o (bahtaf) r
+sio4n (bojler) r
+sih3fr
+ch3sih2fr
+sif2r
+sihf3r
+sif3n2 (cewvef) r
+sif3c (bazguf) r
+sif4r
+sif3-bf2r
+sif6(2-) (jijkoc) r
+si2h6r
+cycsi5h10r
+si(sime3)4 (gufmoj) r
+sch3sih3r
+sic3s(-) (itiboc) r
+sic2s2 (gumzuj) r
+sio2s2n (ebupia) r
+si2c4s2 (cadloi) r
+sis4 (dancuq) r
+sis3c (msisul10) r
+siclr
+sic3cl (guhhas) r
+sicl2r
+simecl3r
+sicl4r
+sicl4n2 (jepcow) r
+si2cl6h2n (gilqex) r
+si2cl6c2 (fazkum) r
+ti(iv)n4 (virlaj) r
+mn(co)4si2 (kiryuf) r
+co(co)4si (fuzmao) r
+ni(ii)p2c2 (dildad) r
+geh3sih3r
+gef3-sif3r
+assi3h9r
+sesir
+sesi2h6r
+sif3brr
+sic3br (brmsad) r
+sih2cbr (zuhpib) r
+sibr4r
+* pd(ph3)2(sih3)2r
+sbsi3h9r
+sih3ir
+sisii3 (mefdeg) r
+sii4r
+sii2csi (qujset) r
+ba2sio4r
+silicon, dication
+silicon, cation
+silicon, 1d(g) 3s(2)3p(2)
+silicon, 1s(g) 3s(2)3p(2)
+silicon, 3d(u) 3s(1)3p(3)
+silicon, 3p(g) 3s(2)3p(2)
+silicon, 5s(u) 3s(1)3p(3)
+silicon, atom
+silicon, anion
+silicon, dianion
+sih
+silylene (singlet)
+silyl, cation
+silyl
+silyl, anion
+silane
+methylsilyl
+methylsilane
+vinylsilane
+dimethylsilyl
+dimethylsilane
+ethylsilane
+trimethylsilyl
+trimethylsilane
+diethylsilane
+tetramethylsilane
+1,1-dimethylsilacyclobutane
+triethylsilane
+sic4(-) (fogmet)
+tetraethylsilane
+sic4 (bawnui)
+sic3n(+) (caskiq)
+trimethylsilicon hydroxide
+silicon dioxide
+he-sio2, separated
+sih3o (bahtaf)
+si(oh)4
+sio4n (bojler)
+silicon fluoride
+fluorosilane
+sime4f, anion
+silicon difluoride
+difluorosilane
+siof2
+trifluorosilyl
+trifluorosilane
+sif3n2 (cewvef)
+sif3c (bazguf)
+silicon tetrafluoride
+silicon pentafluoride, anion
+sif6(2-) (jijkoc)
+disilane
+hexamethyldisilane
+hexamethyldisilazane
+hexamethyldisiloxane
+h6si2o7
+trisilane
+si(sime3)4 (gufmoj)
+ch3-s-sih3
+sic3s(-) (itiboc)
+sic2s2 (gumzuj)
+sio2s2n (ebupia)
+si2c4s2 (cadloi)
+sis4 (dancuq)
+sis3c (msisul10)
+silicon chloride
+chlorosilane
+chlorodimethylsilane
+chlorotrimethylsilane
+sic3cl (guhhas)
+sif4cl, anion
+silicon dichloride
+dichlorosilane
+dichloromethylsilane
+dichlorodimethylsilane
+trichlorosilyl
+trichlorosilane
+trichloromethylsilane
+silicon tetrachloride
+sicl4n2 (jepcow)
+si2cl6h2n (gilqex)
+silicon pentachloride, anion
+hexachlorodisilane
+si2cl6c2 (fazkum)
+((me)3sich2)4ti
+zn(ch2sime3)2
+zn[n(sime3)2]2
+silicon selenide
+silicon bromide
+bromosilane
+trimethylbromosilane
+sic3br (brmsad)
+silicon dibromide
+dibromosilane
+sih2cbr (zuhpib)
+tribromosilane
+silicon tetrabromide
+zr(ch2si(me)3)4
+cd[n(sime3)2]2
+iodosilane
+silicon diiodide
+diiodosilane
+triiodosilane
+sisii3 (mefdeg)
+silicon tetraiodide
+sii2csi (qujset)
+xe-sio2, separated

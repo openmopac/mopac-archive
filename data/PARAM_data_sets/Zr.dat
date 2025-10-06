@@ -1,0 +1,127 @@
+*
+*  Optimize a single element
+*
+cycles=50 params=../PM7.txt PM7 ref=../norm;../erra;../leve 
+(Zr)(all) 
+end  
+core-core_Zr - O near
+core-core_Zr - O far
+core-core_Zr - F near   
+core-core_Zr - F far    
+core-core_Zr - Si near
+core-core_Zr - Si far
+core-core_Zr - S near
+core-core_Zr - S far
+core-core_Zr - Cl near    
+core-core_Zr - Cl far
+core-core_Fe - Zr near    
+core-core_Fe - Zr far    
+core-core_Zr - Br near    
+core-core_Zr - Br far    
+core-core_Zr - I near
+core-core_Zr - I far
+core-core_Zr - Zr near    
+core-core_Zr - Zr near slope
+core-core_Zr - W far
+Zr(iii)Cl6H3
+* core_Zr_2_2_0
+Zr(iii)Br4(-) 2E
+Zr(iii)Br4(-) 2A1
+Zr(iii)Br4(-) 2T2
+* Zr4Cl8
+* Zr8Cl16 (bad)
+* ZrF6(=) (good).mop
+* ZrF6(=) (bad).mop
+* [Zr(III)(H2O)6]3+ 2Tg
+* [Zr(III)(H2O)6]3+ 2Ag
+zrh4r
+zr(iv)(me)6(2-) (jamwoj) r
+zr(iv)(cp)2c4 (cpdzra) r
+zrc12 (jandil10) r
+zr(ii)(nh3)6r
+zr(ii)(h2o)6r
+zrfr
+zr(iv)(cp)2f2 (fdcpzr) r
+zrof2r
+zrf4r
+zrf6, dianion r
+zr(ii)(cp)2p2 (ficzew) r
+zrclr
+zr(iv)(cp)2o2cl (cubzoo) r
+zr(iv)(cp)2clos (buwmah) r
+zr(iv)(cp)2cl2 (cpdczr) r
+zrocl2r
+methyl zirconium(iv) trichlorider
+zrcl4r
+zr(iv)n2cl4 (fazxej) r
+zr(iv)cl4n2 (keckuy) r
+zr(iv)cl4n2 (fufsoo) r
+zrcl6, dianion r
+zrbrr
+zrobr2r
+zrbr4r
+zr(iv)br4n2 (fimzuw10) r
+zrbr6, dianion r
+zr(iv)2f8n2 (felkai) r
+zrir
+zr_ficlcr
+zr(iv)(cp)2i2 (idcpzr) r
+zroi2r
+zri6, dianion r
+zirconium 3f(g) 5s(2)4d(2)
+zirconium 3p(g) 5s(2)4d(2)
+zirconium 5f(g) 5s(1)4d(3)
+* zirconium 5g(u) 5s(1)4d(2)5p(1)
+zirconium, atom
+zirconium, anion
+zirconium hydride
+zrh4
+zr(iv)(me)6(2-) (jamwoj)
+bicyclopentadienyl dimethyl zirconium
+zr(iv)(cp)2c4 (cpdzra)
+zrc12 (jandil10)
+zirconium tetra(neopentyl)
+bicyclopentadienyl biphenyl zirconium
+tetrabenzyl zirconium
+zirconium nitride
+zirconium tetra(dimethylamine)
+zirconium tetra(diethylamine)
+zr(ii)(nh3)6
+zirconium oxide
+zirconium dioxide
+zirconium tetraisopropoxide
+zr(ii)(h2o)6
+zirconium fluoride
+zirconium(i) fluoride
+zirconium difluoride
+zr(iv)(cp)2f2 (fdcpzr)
+zirconium(iv) oxide difluoride
+zirconium trifluoride
+zirconium tetrafluoride
+zr(ch2si(me)3)4
+zirconium chloride
+zirconium(i) chloride
+zr(iv)(cp)2o2cl (cubzoo)
+zr(iv)(cp)2clos (buwmah)
+zirconium dichloride
+bicyclopentadienyl zirconium dichloride
+zr(iv)(cp)2cl2 (cpdczr)
+zirconium(iv) oxide dichloride
+zirconium trichloride
+zirconium tetrachloride
+zr(iv)n2cl4 (fazxej)
+zr(iv)cl4n2 (keckuy)
+zr(iv)cl4n2 (fufsoo)
+zirconium bromide
+zirconium(i) bromide
+zirconium dibromide
+zirconium(iv) oxide dibromide
+zirconium tribromide
+zirconium tetrabromide
+zr(iv)br4n2 (fimzuw10)
+zr(iv)2f8n2 (felkai)
+zirconium diiodide
+zr(iv)(cp)2i2 (idcpzr)
+zirconium(iv) oxide diiodide
+zirconium triiodide
+zirconium tetraiodide

@@ -1,0 +1,191 @@
+ cycles=50 params=../pm7.txt  PM7 ref=../norm;../erra;../leve;../soli
+* upp Ni 20 50
+* zpn ni 4 5
+ (Ni)(all)
+end
+core-core_Ni - H near
+core-core_Ni - H far 
+core-core_Ni - B near
+core-core_Ni - B far 
+core-core_Ni - C near
+core-core_Ni - C far
+core-core_Ni - N near
+core-core_Ni - N far
+core-core_Ni - O near
+core-core_Ni - O far 
+core-core_Ni - F near 
+core-core_Ni - F far   
+core-core_Ni - S near 
+core-core_Ni - S far   
+core-core_Ni - Cl near    
+core-core_Ni - Cl far
+core-core_K - Ni near
+core-core_K - Ni far
+core-core_Ni - Cr near    
+core-core_Ni - Cr far
+core-core_Ni - Ni near
+core-core_Ni - Ni far
+core-core_Ni - Br near
+core-core_Ni - Br far
+core-core_Ni - W near
+core-core_Ni - W far
+core-core_Ni - I near     
+core-core_Ni - I far     
+* Ni(CO)3 (+-)
+* Ni(CO)4_REF
+* Ni(CO)4_bad
+* nickel (Ni) r
+* nickel (Ni) 
+NiF6(3-) 2T1u
+NiCl4(=) Td 5A2
+ni(ii)(nh3)4r
+ni(ii)(cn)4r
+ni(ii)(cn)5r
+ni(ii)(nh3)6r
+ni(ii)(en)3r
+ni(ii)n6(2+) (aeamni10) r
+nickel phthalocyanine r
+ni(ii)(oh)2r
+cis-ni(ii)(oh)2.(h2o)2r
+trans-ni(ii)(oh)2.(h2o)2r
+ni(ii)(oh).(h2o)3r
+ni(ii)(h2o)4r
+ni(co)4r
+ni(co)3nor
+ni(ii)c4n (vaxsui) r
+ni(ii)(dmg) (nimglo10) r
+ni(ii)(h2o)6r
+ni(ii)o6(2+) (jernid) r
+ni(ii)o6 (aqacni) r
+nifr
+nich3fr
+niof2r
+cis-ni(ii)f2.(h2o)2r
+trans-ni(ii)f2.(h2o)2r
+ni 2o and 2f r
+ni(ii)ofn4(+) (enfbni) r
+ni(iv)f6r
+* ni(ii)f6r
+ni(ii)p2c2 (dildad) r
+ni(ii)(ph3)4r
+ni(ii)s2n2 (baeini) r
+ni(ii)(en)2(ncs)2r
+ni 2s and 2n r
+ni for ni-s-c angle r
+cis (me2s)2nif2 r
+trans (me2s)2nif2 r
+ni 2s and 2f r
+ni(ii)p2s2 (kusloz) r
+ni(ii)s2c2(-) (cusjuv) r
+ni(ii)(h2s)4r
+ni(ii)(n2s2h)2r
+ni(ii)(n2s2h)2rr
+ni(iii)s4(-) (tropnj) r
+ni(ii)s4(2-) (toxnia) r
+ni(ii)s4br2 (zotvuz) r
+niclr
+nich3clr
+ni(ii)cl.(h2o)3r
+niocl2r
+cis-ni(ii)cl2.(h2o)2r
+trans-ni(ii)cl2.(h2o)2r
+cis (me2s)2nicl2 r
+trans (me2s)2nicl2 r
+ni 2s and 2cl r
+ni(ii)cl3.h2or
+ni(ii)cl4r
+ni2(cp)2(co)2r
+ni3(cp)3(co)3r
+nibrr
+nich3brr
+ni_sbrr
+ni_pnsbrr
+ni(ii)s3n2br(+) (brucub) r
+nibr2r
+niobr2r
+ni 2o and 2br r
+cis (me2s)2nibr2 r
+trans (me2s)2nibr2 r
+ni 2s and 2br r
+ni(ii)br4r
+niir
+nich3ir
+ni(ii)f4r
+ni_iclr
+ni 2o and 2i r
+cis (me2s)2nii2 r
+trans (me2s)2nii2 r
+ni(iii)i3p2 (gapyax) r
+ni(ii)i4r
+nickel (+), 2dg 3d(8)4s(1)
+nickel (+), 2dg 3d(9)4s(0)
+nickel (+), 2fg 3d(8)4s(1)
+nickel (+), 2pg 3d(8)4s(1)
+nickel (+), 4fg 3d(8)4s(1)
+nickel (+), 4fg2 3d(7)4s(2)
+nickel (+), 4pg 3d(8)4s(1)
+* nickel(+), 8pu 3d(7)4s(1)4p(1)
+nickel, cation
+nickel, 1dg 3d(8)4s(2)
+nickel, 1dg 3d(9)4s(1)
+nickel, 1gg 3d(8)4s(2)
+nickel, 1sg 3d(10)
+nickel, 3dg 3d(9)4s(1)
+nickel, 3fg 3d(8)4s(2)
+nickel, 3pg 3d(8)4s(2)
+nickel, atom
+ni(ii)(nh3)4
+ni(ii)(cn)4
+pentacyanonickelate(ii) ion
+ni(ii)(nh3)6
+nickel monoxide
+cis-ni(ii)(oh)2.(h2o)2
+trans-ni(ii)(oh)2.(h2o)2
+ni(ii)(oh).(h2o)3
+ni(ii)(h2o)4
+ni(co)4
+ni(co)3no
+ni(ii)c4n (vaxsui)
+ni(ii)(dmg) (nimglo10)
+ni(ii)(h2o)6
+ni(ii)o6(2+) (jernid)
+nickel edta
+nickel(i) fluoride
+methyl nickel(ii) fluoride
+nickel(iv) oxide difluoride
+cis-ni(ii)f2.(h2o)2
+trans-ni(ii)f2.(h2o)2
+nickel(ii) tetrafluoride d4h
+ni(pf3)4
+ni(ii)s2n2 (baeini)
+ni 2s and 2n
+cis (me2s)2nif2
+trans (me2s)2nif2
+ni(ii)s2c2(-) (cusjuv)
+ni(ii)(h2s)4
+ni(ii)(n2s2h)2
+ni(iii)s4(-) (tropnj)
+ni(ii)s4(2-) (toxnia)
+ni(ii)s4br2 (zotvuz)
+nickel(i) chloride
+methyl nickel(ii) chloride
+ni(ii)cl.(h2o)3
+nickel(iv) oxide dichloride
+cis-ni(ii)cl2.(h2o)2
+trans-ni(ii)cl2.(h2o)2
+cis (me2s)2nicl2
+trans (me2s)2nicl2
+ni(ii)cl3.h2o
+nickel(ii) tetrachloride d4h
+ni2(cp)2(co)2
+nickel(i) bromide
+methyl nickel(ii) bromide
+ni(ii)s3n2br(+) (brucub)
+nickel(iv) oxide dibromide
+cis (me2s)2nibr2
+trans (me2s)2nibr2
+nickel(ii) tetrabromide d4h
+nickel(i) iodide
+methyl nickel(ii) iodide
+cis (me2s)2nii2
+nickel(ii) tetraiodide d4h

@@ -1,0 +1,9 @@
+*
+*  Optimize a single element
+*
+params=../PM7.txt PM7 ref=../norm;../erra;../leve;../soli
+Alpb_Te Cl
+Xfac_Te Cl
+end  
+Tellurium(iv) tetrachloride (TeCl4) (ICSD 411157).mop
+Tellurium(iv) tetrachloride (TeCl4) (ICSD 411157) r

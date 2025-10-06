@@ -1,0 +1,6 @@
+cycles=40 params=pm7.txt           PM7 ref=../norm;../erra;../leve;../soli
+alpb_P Cl
+xfac_P Cl
+end
+Phosphorus pentachloride (PCl5)
+Phosphorus pentachloride (PCl5) r

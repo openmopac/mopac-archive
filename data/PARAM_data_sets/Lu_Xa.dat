@@ -1,0 +1,21 @@
+*
+*  Optimize a single element
+*
+relg=0.1635 cycles=50 params=../PM7.txt PM7 ref=../norm;../erra;../leve;../soli 
+Alpb_Lu O
+Xfac_Lu O
+Alpb_Lu P
+Xfac_Lu P
+Alpb_Lu I
+Xfac_Lu I
+ALPB_Lu Lu
+XFAC_Lu Lu
+end  
+Lutetium(iii) oxide (Lu2O3) (ICSD 151762).mop
+Lutetium(iii) oxide (Lu2O3) (ICSD 151762) r
+Lutetium phosphate (LuPO4) (ICSD 79761).mop
+Lutetium phosphate (LuPO4) (ICSD 79761) r
+Lutetium(iii) triiodide (LuI3) r.mop
+Lutetium(iii) triiodide (LuI3) 
+Lutetium (Lu) (ICSD 642414) r.mop
+Lutetium (Lu) (ICSD 642414) 

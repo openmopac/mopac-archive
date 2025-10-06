@@ -1,0 +1,400 @@
+<html><head>
+   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+   <meta name="GENERATOR" content="Mozilla/4.04 [en] (Win95; I) [Netscape]">
+   <title> Description of Mopac</title>
+</head>
+<body>
+
+<h1>
+<a name="SECTION0003000"></a>Description of Mopac</h1>
+MOPAC is a general-purpose semi-empirical molecular orbital package for
+the study of chemical structures and reactions. The semi-empirical Hamiltonians
+MNDO, MINDO/3, AM1, and PM3 are used in the electronic part of the calculation
+to obtain molecular orbitals, the heat of formation and its derivative
+with respect to molecular geometry. Using these results MOPAC calculates
+the vibrational spectra, thermodynamic quantities, isotopic substitution
+effects and force constants for molecules, radicals, ions, and polymers.
+For studying chemical reactions, a transition-state location routine and
+two transition state optimizing routines are available. For users to get
+the most out of the program, they must understand how the program works,
+how to enter data, how to interpret the results, and what to do when things
+go wrong.
+
+<p>While MOPAC calls upon many concepts in quantum theory and thermodynamics
+and uses some fairly advanced mathematics, the user need not be familiar
+with these specialized topics. MOPAC is written with the non-theoretician
+in mind. The input data are kept as simple as possible so users can give
+their attention to the chemistry involved and not concern themselves with
+quantum and thermodynamic exotica.
+
+</p><p>The simplest description of how MOPAC works is that the user creates
+a data-file which describes a molecular system and specifies what kind
+of calculations and output are desired. The user then commands MOPAC to
+carry out the calculation using that data-file. Finally the user extracts
+the desired output on the system from the output files created by MOPAC.
+
+</p><p>NOTES (1) This is the "sixth edition". MOPAC has undergone a steady
+expansion since its first release, and users of the earlier editions are
+recommended to familiarize themselves with the changes which are described
+in this manual. If any errors are found, or if MOPAC does not perform as
+described, please contact Dr. James J. P. Stewart, Frank J. Seiler Research
+Laboratory, U.S. Air Force Academy, Colorado Springs, CO 80840-6528. (2)
+MOPAC runs successfully on normal CDC, Data General, Gould, and Digital
+computers, and also on the CDC 205 and CRAY-XMP "supercomputers". The CRAY
+version has been partly optimized to take advantage of the CRAY architecture.
+Several versions exist for microcomputers such as the IBM PC-AT and XT,
+Zenith, etc.
+</p><h2>
+<a name="SECTION00031001"></a>Summary of Mopac Capabilities</h2>
+
+<ol>
+<li>
+MNDO, MINDO/3, AM1, and PM3 Hamiltonians.</li>
+
+<li>
+Restricted Hartree-Fock (RHF) and Unrestricted Hartree-Fock (UHF) methods.</li>
+
+<li>
+Extensive Configuration Interaction</li>
+
+<li>
+100 configurations</li>
+
+<li>
+Singlets, Doublets, Triplets, Quartets, Quintets, and Sextets</li>
+
+<li>
+Excited states</li>
+
+<li>
+Geometry optimizations, etc., on specified states</li>
+
+<li>
+Single SCF calculation</li>
+
+<li>
+Geometry optimization</li>
+
+<li>
+Gradient minimization</li>
+
+<li>
+Transition state location</li>
+
+<li>
+Reaction path coordinate calculation</li>
+
+<li>
+Force constant calculation</li>
+
+<li>
+Normal coordinate analysis</li>
+
+<li>
+Transition dipole calculation</li>
+
+<li>
+Thermodynamic properties calculation</li>
+
+<li>
+Localized orbitals</li>
+
+<li>
+Covalent bond orders</li>
+
+<li>
+Bond analysis into sigma and pi contributions</li>
+
+<li>
+One dimensional polymer calculation</li>
+
+<li>
+Dynamic Reaction Coordinate calculation</li>
+
+<li>
+Intrinsic Reaction Coordinate calculation</li>
+</ol>
+
+<h2>
+<a name="SECTION0003100" copyright="" (c)="" status="" of="" mopac<="" a=""></a></h2>
+At the request of the Air Force Academy Law Department the following notice
+has been placed in MOPAC.
+
+<p><b>Notice of Public Domain nature of MOPAC</b>
+
+</p><p>'This computer program is a work of the United States Government and
+as such is not subject to protection by copyright (17 U.S.C. # 105.) Any
+person who fraudulently places a copyright notice or does any other act
+contrary to the provisions of 17 U.S. Code 506(c) shall be subject to the
+penalties provided therein. This notice shall not be altered or removed
+from this software and is to be on all reproductions.'
+
+</p><p>I recommend that a user obtain a copy by either copying it from an existing
+site or ordering an 'official' copy from the Quantum Chemistry Program
+Exchange, (QCPE), Department of Chemistry, Indiana University, Bloomington,
+Indiana, 47405. The cost covers handling only. Contact the Editor, Richard
+Counts, at (812) 855-4784 for further details.
+</p><h2>
+<a name="SECTION0003200"></a>Porting Mopac to other Machines</h2>
+MOPAC is written for the DIGITAL VAX computer. However, the program has
+been written with the idea that it will be ported to other machines. After
+such a port has been done, the new program should be given the version
+number 6.10, or, if two or more versions are generated, 6.20, 6.30, etc.
+To validate the new copy, QCPE has a test-suite of calculations. If all
+tests are passed, within the tolerances given in the tests, then the new
+program can be called a valid version of MOPAC 6. Insofar as is practical,
+the mode of submission of a MOPAC job should be preserved, e.g.,
+<pre><tt>&nbsp;&nbsp; (prompt) MOPAC &lt;data-set&gt; [&lt;queue-options&gt;...]</tt></pre>
+Any changes which do not violate the FORTRAN-77 conventions, and which
+users believe would be generally desirable, can be sent to the author.
+<h2>
+<a name="SECTION0003300"></a>Relationship of Ampac and Mopac</h2>
+In 1985 MOPAC 3.0 and AMPAC 1.0 were submitted to QCPE for distribution.
+At that time, AMPAC differed from MOPAC in that it had the AM1 algorithm.
+Additionally, changes in some MNDO parameters in AMPAC made AMPAC results
+incompatable with MOPAC Versions 1-3. Subsequent versions of MOPAC, in
+addition to being more highly debugged than Version 3.0, also had the AM1
+method. Such versions were compatable with AMPAC and with versions 1-3
+of MOPAC.
+
+<p>In order to avoid confusion, all versions of MOPAC after 3.0 include
+journal references so that the user knows unambiguously which parameter
+sets were used in any given job.
+
+</p><p>Since 1985 AMPAC and MOPAC have evolved along different lines. In MOPAC
+I have endeavoured to provide a highly robust program, one with only a
+few new features, but which is easily portable and which can be relied
+upon to give precise, if not very exciting, answers. At Austin, the functionality
+of AMPAC has been enhanced by the research work of Prof. Dewar's group.
+The new AMPAC 2.1 thus has functionalities not present in MOPAC. In publications,
+users should cite not only the program name but also the version number.
+
+</p><p>Commercial concerns have optimized both MOPAC and AMPAC for use on supercomputers.
+The quality of optimization and the degree to which the parent algorithm
+has been preserved differs between MOPAC and AMPAC and also between some
+machine specific versions. Different users may prefer one program to the
+other, based on considerations such as speed. Some modifications of AMPAC
+run faster than some modifications of MOPAC, and vice versa, but if these
+are modified versions of MOPAC 3.0 or AMPAC 1.0, they represent the programming
+prowess of the companies doing the conversion, and not any intrinsic difference
+between the two programs.
+
+</p><p>Testing of these large algorithms is difficult, and several times users
+have reported bugs in MOPAC or AMPAC which were introduced after they were
+supplied by QCPE.
+
+</p><p><b>Cooperative Development of MOPAC</b>
+
+</p><p>MOPAC has developed, and hopefully will continue to develop, by the
+addition of contributed code. As a policy, any supplied code which is incorporated
+into MOPAC will be described in the next release of the Manual, and the
+author or supplier acknowledged. In the following release only journal
+references will be retained. The objective is to produce a good program.
+This is obviously not a one-person undertaking; if it was, then the product
+would be poor indeed. Instead, as we are in a time of rapid change in computational
+chemistry, a time characterized by a very free exchange of ideas and code,
+MOPAC has been evolving by accretion. The unstinting and generous donation
+of intellectual effort speaks highly of the donors. However, with the rapid
+commercialization of computational chemistry software in the past few years,
+it is unfortunate but it seems unlikely that this idyllic state will continue.
+</p><h2>
+<a name="SECTION0003400"></a>Programs Recommended for use with Mopac</h2>
+MOPAC is the core program of a series of programs for the theoretical study
+of chemical phenomena. This version is the sixth in an on-going development,
+and efforts are being made to continue its further evolution. In order
+to make using MOPAC easier, five other programs have also been written.
+Users of MOPAC are recommended to use all four programs. Efforts will be
+made to continue the development of these programs.
+
+<p><b>HELP</b>
+
+</p><p>HELP is a stand-alone program which mimics the VAX HELP function. It
+is intended for users on UNIX computers. HELP comes with the basic MOPAC
+6.00, and is recommended for general use.
+
+</p><p><b>DRAW</b>
+
+</p><p>DRAW, written by Maj. Donn Storch, USAF, and available through QCPE,
+is a powerful editing program specifically written to interface with MOPAC.
+Among the various facilities it offers are:
+</p><ol>
+<li>
+The on-line editing and analysis of a data file, starting from scratch
+or from an existing data file, an archive file, or from a results file.</li>
+
+<li>
+The option of continuous graphical representation of the system being studied.
+Several types of terminals are supported, including DIGITAL, TEKTRONIX,
+and TERAK terminals.</li>
+
+<li>
+The drawing of electron density contour maps generated by DENSITY on graphical
+devices.</li>
+
+<li>
+The drawing of solid-state band structures generated by MOSOL.</li>
+
+<li>
+The sketching of molecular vibrations, generated by a normal coordinate
+analysis.</li>
+</ol>
+<b>DENSITY</b>
+
+<p>DENSITY, written by Dr. James J. P. Stewart, and available through QCPE,
+is an electron-density plotting program. It accepts data-files directly
+from MOPAC, and is intended to be used for the graphical representation
+of electron density distribution, individual M.O.'s, and difference maps.
+
+</p><p><b>MOHELP</b>
+
+</p><p>MOHELP, also available through QCPE, is an on-line help facility, written
+by Maj. Donn Storch and Dr. James J. P. Stewart, to allow non-VAX users
+access to the VAX HELP libraries for MOPAC, DRAW, and DENSITY.
+
+</p><p>MOSOL (Distributed by QCPE) is a full solid-state MNDO program written
+by Dr. James J. P. Stewart. In comparison with MOPAC, MOSOL is extremely
+slow. As a result, while geometry optimization, force constants, and other
+functions can be carried out by MOSOL, these slow calculations are best
+done using the solid-state facility within MOPAC. MOSOL should be used
+for two or three dimensional solids only, a task that MOPAC cannot perform.
+</p><h2>
+<a name="SECTION0003500"></a>The Data-File</h2>
+This section is aimed at the complete novice -- someone who knows nothing
+at all about the structure of a MOPAC data-file.
+
+<p>First of all, there are at most four possible types of data-files for
+MOPAC, but the simplest data-file is the most commonly used. Rather than
+define it, two examples are shown below. An explanation of the geometry
+definitions shown in the examples is given in the chapter "GEOMETRY SPECIFICATION".
+</p><h2>
+<a name="SECTION0003600"></a>Example Of Data For Ethylene</h2>
+
+<pre><tt>Line&nbsp;&nbsp; 1 :&nbsp;&nbsp;&nbsp;&nbsp; UHF PULAY MINDO3 VECTORS DENSITY LOCAL T=300
+Line&nbsp;&nbsp; 2 :&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; EXAMPLE OF DATA FOR MOPAC
+Line&nbsp;&nbsp; 3 :&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; MINDO/3 UHF CLOSED-SHELL D2D ETHYLENE
+Line&nbsp;&nbsp; 4a:&nbsp;&nbsp;&nbsp; C
+Line&nbsp;&nbsp; 4b:&nbsp;&nbsp;&nbsp; C&nbsp;&nbsp;&nbsp; 1.400118&nbsp; 1
+Line&nbsp;&nbsp; 4c:&nbsp;&nbsp;&nbsp; H&nbsp;&nbsp;&nbsp; 1.098326&nbsp; 1&nbsp; 123.572063&nbsp; 1
+Line&nbsp;&nbsp; 4d:&nbsp;&nbsp;&nbsp; H&nbsp;&nbsp;&nbsp; 1.098326&nbsp; 1&nbsp; 123.572063&nbsp; 1&nbsp; 180.000000&nbsp; 0&nbsp;&nbsp; 2&nbsp; 1&nbsp; 3
+Line&nbsp;&nbsp; 4e:&nbsp;&nbsp;&nbsp; H&nbsp;&nbsp;&nbsp; 1.098326&nbsp; 1&nbsp; 123.572063&nbsp; 1&nbsp;&nbsp; 90.000000&nbsp; 0&nbsp;&nbsp; 1&nbsp; 2&nbsp; 3
+Line&nbsp;&nbsp; 4f:&nbsp;&nbsp;&nbsp; H&nbsp;&nbsp;&nbsp; 1.098326&nbsp; 1&nbsp; 123.572063&nbsp; 1&nbsp; 270.000000&nbsp; 0&nbsp;&nbsp; 1&nbsp; 2&nbsp; 3
+Line&nbsp;&nbsp; 5 :</tt></pre>
+As can be seen, the first three lines are textual. The first line consists
+of keywords (here seven keywords are shown). These control the calculation.
+The next two lines are comments or titles. The user might want to put the
+name of the molecule and why it is being run on these two lines.
+
+<p>These three lines are obligatory. If no name or comment is wanted, leave
+blank lines. If no keywords are specified, leave a blank line. A common
+error is to have a blank line before the keyword line: this error is quite
+tricky to find, so be careful not to have four lines before the start of
+the geometric data (lines 4a-4f in the example). Whatever is decided, the
+three lines, blank or otherwise, are obligatory.
+
+</p><p>In the example given, one line of keywords and two of documentation
+are shown. By use of keywords, these defaults can be changed. Modifying
+keywords are +, &amp;, and SETUP. These are defined in the KEYWORDS chapter.
+</p><pre><tt>Line 1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Line 2&nbsp;&nbsp;&nbsp;&nbsp; Line 3&nbsp; Line 4&nbsp;&nbsp; Line 5&nbsp; Setup used
+
+Keys&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Text&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Text&nbsp;&nbsp; Z-matrix Z-matrix&nbsp; not used
+Keys +&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Keys&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Text&nbsp;&nbsp;&nbsp; Text&nbsp;&nbsp;&nbsp; Z-matrix&nbsp; not used
+Keys +&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Keys +&nbsp;&nbsp;&nbsp;&nbsp; Keys&nbsp;&nbsp;&nbsp; Text&nbsp;&nbsp;&nbsp; Text&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; not used
+Keys &amp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Keys&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Text&nbsp;&nbsp; Z-matrix Z-matrix&nbsp; not used
+Keys &amp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Keys &amp;&nbsp;&nbsp;&nbsp;&nbsp; Keys&nbsp;&nbsp; Z-matrix Z-matrix&nbsp; not used
+Keys SETUP&nbsp; Text&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Text&nbsp;&nbsp; Z-matrix Z-matrix 1 or 2 lines used
+Keys +&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Keys SETUP Text&nbsp;&nbsp;&nbsp; Text&nbsp;&nbsp;&nbsp; Z-matrix 1 line used
+Keys &amp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Keys SETUP Text&nbsp;&nbsp; Z-matrix Z-matrix 1 line used</tt></pre>
+No other combinations are allowed.
+
+<p>The proposed use of the SETUP option is to allow a frequently used set
+of keywords to be defined by a single keyword. For example, if the default
+criteria are not suitable, SETUP might contain
+</p><pre><tt>" SCFCRT=1.D-8&nbsp; SHIFT=30 ITRY=600 GNORM=0.02 ANALYT "
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; "</tt></pre>
+The order of usage of a keyword is Line 1 &gt; Line 2 &gt; Line 3. Line 1 &gt; SETUP.
+Line 2 &gt; SETUP. SETUP &gt; built in default values.
+
+<p>The next set of lines defines the geometry. In the example, the numbers
+are all neatly lined up; this is not necessary, but does make it easier
+when looking for errors in the data. The geometry is defined in lines 4a
+to 4f; line 5 terminates both the geometry and the data-file. Any additional
+data, for example symmetry data, would follow line 5.
+
+</p><p>Summarizing, then, the structure for a MOPAC data-file is:
+</p><pre><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+Line&nbsp; 1:&nbsp;&nbsp; Keywords. (See chapter 2 on definitions of keywords)
+Line&nbsp; 2:&nbsp;&nbsp; Title of the calculation,&nbsp; e.g. the name of the
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; molecule or ion.
+Line&nbsp; 3:&nbsp;&nbsp; Other information describing the calculation.
+Lines 4:&nbsp;&nbsp; Internal or cartesian coordinates (See chapter on
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; specification of geometry)
+Line&nbsp; 5:&nbsp;&nbsp; Blank line to terminate the geometry definition.</tt></pre>
+Other layouts for data-files involve additions to the simple layout. These
+additions occur at the end of the data-file, after line 5. The three most
+common additions are:
+
+<p>(a) Symmetry data: This follows the geometric data, and is ended by
+a blank line.
+
+</p><p>(b) Reaction path: After all geometry and symmetry data (if any) are
+read in, points on the reaction coordinate are defined.
+
+</p><p>(c) Saddle data: A complete second geometry is input. The second geometry
+follows the first geometry and symmetry data (if any).
+</p><h2>
+<a name="SECTION0003700"></a>Example Of Data For Polytetrahydrofuran</h2>
+
+
+<p>The following example illustrates the data file for a four hour polytetrahydrofuran
+calculation. As you can see the layout of the data is almost the same as
+that for a molecule, the main difference is in the presence of the translation
+vector atom "Tv".
+</p><pre><tt>Line 1 :T=4H
+Line 2 :&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; POLY-TETRAHYDROFURAN (C4 H8 O)2
+Line 3 :
+Line 4a:&nbsp;&nbsp; C&nbsp;&nbsp;&nbsp; 0.000000&nbsp; 0&nbsp;&nbsp;&nbsp; 0.000000&nbsp; 0&nbsp;&nbsp;&nbsp; 0.000000&nbsp; 0&nbsp;&nbsp; 0&nbsp; 0&nbsp; 0
+Line 4b:&nbsp;&nbsp; C&nbsp;&nbsp;&nbsp; 1.551261&nbsp; 1&nbsp;&nbsp;&nbsp; 0.000000&nbsp; 0&nbsp;&nbsp;&nbsp; 0.000000&nbsp; 0&nbsp;&nbsp; 1&nbsp; 0&nbsp; 0
+Line 4c:&nbsp;&nbsp; O&nbsp;&nbsp;&nbsp; 1.401861&nbsp; 1&nbsp; 108.919034&nbsp; 1&nbsp;&nbsp;&nbsp; 0.000000&nbsp; 0&nbsp;&nbsp; 2&nbsp; 1&nbsp; 0
+Line 4d:&nbsp;&nbsp; C&nbsp;&nbsp;&nbsp; 1.401958&nbsp; 1&nbsp; 119.302489&nbsp; 1 -179.392581&nbsp; 1&nbsp;&nbsp; 3&nbsp; 2&nbsp; 1
+Line 4e:&nbsp;&nbsp; C&nbsp;&nbsp;&nbsp; 1.551074&nbsp; 1&nbsp; 108.956238&nbsp; 1&nbsp; 179.014664&nbsp; 1&nbsp;&nbsp; 4&nbsp; 3&nbsp; 2
+Line 4f:&nbsp;&nbsp; C&nbsp;&nbsp;&nbsp; 1.541928&nbsp; 1&nbsp; 113.074843&nbsp; 1&nbsp; 179.724877&nbsp; 1&nbsp;&nbsp; 5&nbsp; 4&nbsp; 3
+Line 4g:&nbsp;&nbsp; C&nbsp;&nbsp;&nbsp; 1.551502&nbsp; 1&nbsp; 113.039652&nbsp; 1&nbsp; 179.525806&nbsp; 1&nbsp;&nbsp; 6&nbsp; 5&nbsp; 4
+Line 4h:&nbsp;&nbsp; O&nbsp;&nbsp;&nbsp; 1.402677&nbsp; 1&nbsp; 108.663575&nbsp; 1&nbsp; 179.855864&nbsp; 1&nbsp;&nbsp; 7&nbsp; 6&nbsp; 5
+Line 4i:&nbsp;&nbsp; C&nbsp;&nbsp;&nbsp; 1.402671&nbsp; 1&nbsp; 119.250433&nbsp; 1 -179.637345&nbsp; 1&nbsp;&nbsp; 8&nbsp; 7&nbsp; 6
+Line 4j:&nbsp;&nbsp; C&nbsp;&nbsp;&nbsp; 1.552020&nbsp; 1&nbsp; 108.665746&nbsp; 1 -179.161900&nbsp; 1&nbsp;&nbsp; 9&nbsp; 8&nbsp; 7
+Line 4k:&nbsp; XX&nbsp;&nbsp;&nbsp; 1.552507&nbsp; 1&nbsp; 112.659354&nbsp; 1 -178.914985&nbsp; 1&nbsp; 10&nbsp; 9&nbsp; 8
+Line 4l:&nbsp; XX&nbsp;&nbsp;&nbsp; 1.547723&nbsp; 1&nbsp; 113.375266&nbsp; 1 -179.924995&nbsp; 1&nbsp; 11 10&nbsp; 9
+Line 4m:&nbsp;&nbsp; H&nbsp;&nbsp;&nbsp; 1.114250&nbsp; 1&nbsp;&nbsp; 89.824605&nbsp; 1&nbsp; 126.911018&nbsp; 1&nbsp;&nbsp; 1&nbsp; 3&nbsp; 2
+Line 4n:&nbsp;&nbsp; H&nbsp;&nbsp;&nbsp; 1.114708&nbsp; 1&nbsp;&nbsp; 89.909148&nbsp; 1 -126.650667&nbsp; 1&nbsp;&nbsp; 1&nbsp; 3&nbsp; 2
+Line 4o:&nbsp;&nbsp; H&nbsp;&nbsp;&nbsp; 1.123297&nbsp; 1&nbsp;&nbsp; 93.602831&nbsp; 1&nbsp; 127.182594&nbsp; 1&nbsp;&nbsp; 2&nbsp; 4&nbsp; 3
+Line 4p:&nbsp;&nbsp; H&nbsp;&nbsp;&nbsp; 1.123640&nbsp; 1&nbsp;&nbsp; 93.853406&nbsp; 1 -126.320187&nbsp; 1&nbsp;&nbsp; 2&nbsp; 4&nbsp; 3
+Line 4q:&nbsp;&nbsp; H&nbsp;&nbsp;&nbsp; 1.123549&nbsp; 1&nbsp;&nbsp; 90.682924&nbsp; 1&nbsp; 126.763659&nbsp; 1&nbsp;&nbsp; 4&nbsp; 6&nbsp; 5
+Line 4r:&nbsp;&nbsp; H&nbsp;&nbsp;&nbsp; 1.123417&nbsp; 1&nbsp;&nbsp; 90.679889&nbsp; 1 -127.033695&nbsp; 1&nbsp;&nbsp; 4&nbsp; 6&nbsp; 5
+Line 4s:&nbsp;&nbsp; H&nbsp;&nbsp;&nbsp; 1.114352&nbsp; 1&nbsp;&nbsp; 90.239157&nbsp; 1&nbsp; 126.447043&nbsp; 1&nbsp;&nbsp; 5&nbsp; 7&nbsp; 6
+Line 4t:&nbsp;&nbsp; H&nbsp;&nbsp;&nbsp; 1.114462&nbsp; 1&nbsp;&nbsp; 89.842852&nbsp; 1 -127.140168&nbsp; 1&nbsp;&nbsp; 5&nbsp; 7&nbsp; 6
+Line 4u:&nbsp;&nbsp; H&nbsp;&nbsp;&nbsp; 1.114340&nbsp; 1&nbsp;&nbsp; 89.831790&nbsp; 1&nbsp; 126.653999&nbsp; 1&nbsp;&nbsp; 6&nbsp; 8&nbsp; 7
+Line 4v:&nbsp;&nbsp; H&nbsp;&nbsp;&nbsp; 1.114433&nbsp; 1&nbsp;&nbsp; 89.753913&nbsp; 1 -126.926618&nbsp; 1&nbsp;&nbsp; 6&nbsp; 8&nbsp; 7
+Line 4w:&nbsp;&nbsp; H&nbsp;&nbsp;&nbsp; 1.123126&nbsp; 1&nbsp;&nbsp; 93.644744&nbsp; 1&nbsp; 127.030541&nbsp; 1&nbsp;&nbsp; 7&nbsp; 9&nbsp; 8
+Line 4x:&nbsp;&nbsp; H&nbsp;&nbsp;&nbsp; 1.123225&nbsp; 1&nbsp;&nbsp; 93.880969&nbsp; 1 -126.380511&nbsp; 1&nbsp;&nbsp; 7&nbsp; 9&nbsp; 8
+Line 4y:&nbsp;&nbsp; H&nbsp;&nbsp;&nbsp; 1.123328&nbsp; 1&nbsp;&nbsp; 90.261019&nbsp; 1&nbsp; 127.815464&nbsp; 1&nbsp;&nbsp; 9 11 10
+Line 4z:&nbsp;&nbsp; H&nbsp;&nbsp;&nbsp; 1.123227&nbsp; 1&nbsp;&nbsp; 91.051403&nbsp; 1 -125.914234&nbsp; 1&nbsp;&nbsp; 9 11 10
+Line 4A:&nbsp;&nbsp; H&nbsp;&nbsp;&nbsp; 1.113970&nbsp; 1&nbsp;&nbsp; 90.374545&nbsp; 1&nbsp; 126.799259&nbsp; 1&nbsp; 10 12 11
+Line 4B:&nbsp;&nbsp; H&nbsp;&nbsp;&nbsp; 1.114347&nbsp; 1&nbsp;&nbsp; 90.255788&nbsp; 1 -126.709810&nbsp; 1&nbsp; 10 12 11
+Line 4C:&nbsp; Tv&nbsp;&nbsp; 12.299490&nbsp; 1&nbsp;&nbsp;&nbsp; 0.000000&nbsp; 0&nbsp;&nbsp;&nbsp; 0.000000&nbsp; 0&nbsp;&nbsp; 1 11 10
+Line 5 :&nbsp;&nbsp; 0&nbsp;&nbsp;&nbsp; 0.000000&nbsp; 0&nbsp;&nbsp;&nbsp; 0.000000&nbsp; 0&nbsp;&nbsp;&nbsp; 0.000000&nbsp; 0&nbsp;&nbsp; 0&nbsp; 0&nbsp; 0</tt></pre>
+Polytetrahydrofuran has a repeat unit of (C4 H8 O)2; i.e., twice the monomer
+unit. This is necessary in order to allow the lattice to repeat after a
+translation through 12.3 Angstroms. See the section on Solid State Capability
+for further details.
+
+<p>Note the two dummy atoms on lines 4k and 4l. These are useful, but not
+essential, for defining the geometry. The atoms on lines 4y to 4B use these
+dummy atoms, as does the translation vector on line 4C. The translation
+vector has only the length marked for optimization. The reason for this
+is also explained in the Background chapter.&nbsp;
+</p><hr>
+<br>&nbsp;
+<br>&nbsp;
+
+
+</body></html>

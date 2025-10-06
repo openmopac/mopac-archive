@@ -1,0 +1,258 @@
+cycles=50 params=../PM7.txt pm7  ref=../norm;../erra;../leve 
+alpb_f F 2 5
+alpb_f H 2 5
+alpb_f N 2 5
+alpb_f O 2 5
+alpb_f C 2 5
+(F)(All)
+end  
+hfr
+cfr
+chfr
+ch3fr
+c2hfr
+c2h3fr
+cf2cch2r
+fcnr
+fnor
+f2r
+h2f2r
+cf2r
+nf2-cnr
+f2or
+cof2r
+chf3r
+nf3r
+cf3cnr
+cf4r
+c2f4r
+c2f6r
+(cf3)2or
+c3f8r
+c3o2f8r
+c4f10r
+ch2pfr
+pf3r
+pof3r
+pf5r
+p2f4r
+ch3so3fr
+sf2r
+f2csr
+osf2r
+so2f2r
+sf4r
+sof4r
+sf5ncor
+sf6r
+psf3r
+fssfr
+s2f2r
+s2f10r
+clfr
+coclfr
+clo3fr
+chclf2r
+clf3r
+clf5r
+cf2cl2r
+ccl3fr
+brfr
+brfo3r
+brf3r
+cbrf3r
+brf5r
+brsf5r
+brf2psr
+ifr
+cf3ir
+if5r
+if7r
+fluorine, 2p(u) 2s(2)2p(5)
+fluorine, 2s(g) 2s(1)2p(6)
+fluorine, atom
+fluoride, anion
+hydrogen fluoride
+fluoromethylidyne
+fluoromethyl, cation
+fluoromethyl, radical
+fluoromethane, complex
+fluoromethane
+fluoroacetylene
+fluoroethylene
+ch3chf, cation
+fluoroethane
+2-fluoropropane
+fluorobenzene
+fluorocyclohexane
+1-fluorononane
+cyanogen fluoride
+fluorine oxide
+hypofluorous acid
+hcof
+acetyl fluoride
+nitrosyl fluoride
+fluorine dioxide
+p-fluorobenzoic acid
+fluorine nitrite
+fluorine nitrate
+fluorodinitromethane
+fluorodinitrophenylmethane
+fluorine
+difluoromethylene
+difluoromethyl, cation
+difluoromethane, cation
+difluoromethane
+difluoroacetylene
+gem-difluoroethylene
+ch3cf2, cation
+1,1-difluoroethane
+1,2-difluorobenzene
+1,3-difluorobenzene
+1,4-difluorobenzene
+nf2.
+difluoro nitrogen, anion
+t-butyldifluoroamine
+n,n'-difluorobenzylamine
+cis-difluorodiazene
+trans-difluorodiazene
+difluorine oxide
+carbonyl fluoride
+trifluoromethyl, cation
+trifluoromethyl
+trifluoromethyl, anion
+trifluoromethane, cation
+trifluoromethane
+trifluoroethylene
+cf3ch2, cation
+ch2f.cf2, cation
+cf3ch2.
+1,1,1-trifluoroethane
+(trifluoromethyl)-benzene
+trifluoromethylbenzene
+nitrogen trifluoride
+trifluoroacetonitrile
+trifluoromethylisocyanide
+f3no
+trifluoroacetic acid
+carbon tetrafluoride
+tetrafluoroethylene
+1,2,4,5-tetrafluorobenzene
+1-fluoro-3-(trifluoro-methyl)benzene
+tetrafluorohydrazine
+n,n,n',n'-tetrafluoro-1,1-cyclohexanediamine
+n,n,n',n'-tetrafluoro-4-methyl-1,2-pentane
+1,1-bis(difluoroamine)heptane
+perfluoromethanol
+bis(fluoroxy)perfluoromethane
+pentafluorobenzene
+2,3,4,5,6-pentafluorotoluene
+pentafluoromethylamine
+pentafluoroguanidine
+pentafluorophenol
+hexafluoroethane
+perfluorobutadiene
+hexafluorobenzene
+hexafluorodimethylamine
+c2f6o, complex
+dimethyl perfluoroether
+perfluoroacetone
+hexafluoropentanedioic acid, dimethyl ester
+heptafluoromethane triamine
+perfluoropropane
+perfluorobut-2-ene
+perfluorocyclobutane
+octafluorotoluene
+octafluoromethanetetramine
+perfluorodimethoxymethane
+n-perfluorobutane
+decafluorocyclohexene
+undecafluoropiperidine
+tetrakis(difluoroamine)-n-1,1-trifluorodimethylamine
+dodecafluorocyclohexane
+bis-(n-perfluoropropyl ether)
+perfluorotriethylamine
+perfluoroheptane
+cis-perfluorobicyclo[4,3,0]nonane
+trans-perfluorobicyclo[4,3,0]nonane
+perfluoro 3-ethyl 2,4 dimethyl pent-2-en
+perfluoro cis decalin
+perfluoro-di(n-butyl) ether
+perfluoro-2,7-dimethyloctane
+perfluorotributylamine
+phosphorus monofluoride (triplet)
+ch2=p-f
+fpo
+phosphorus difluoride
+opf2
+methylphosphonodifluoride
+phosphorus trifluoride
+phosphorus oxyfluoride
+phosphorus tetrafluoride
+phosphorus tetrafluoride, anion
+phosphorus pentafluoride
+phosphorus hexafluoride, anion
+sulfur fluoride
+so2f
+fluorosulfonic acid (hoso2f)
+sulfur difluoride
+thiocarbonyl difluoride
+thionyl fluoride
+sulfuryl fluoride
+sulfur trifluoride
+sof3
+s-ethyl trifluorothioacetic acid
+sulfur tetrafluoride
+sof4
+sulfur pentafluoride
+sulfur pentafluoride, anion
+sf5oh
+sulfur hexafluoride
+fssf
+ssf2
+chlorine fluoride
+hydrogen chloride fluoride, anion
+fluorochloromethane
+ofcl
+carbonyl fluoride chloride
+fclo2(-)
+perchloryl fluoride
+clf2
+difluorochloromethane
+nclf2
+chlorine trifluoride
+trifluorochloromethane
+chlorotrifluoroethene
+chlorine pentafluoride
+chloropentafluoroethane
+chloropentafluorobenzene
+1,1,2-trifluoro-2-chloroethyl dodecafluoroheptylether
+so2clf
+sf5cl
+fluorodichloromethane
+difluorodichloromethane
+1,2-dichloro 1,1,2,2-tetrafluoroethane
+fluorotrichloromethane
+1,1',2-trichloro-1,2,2'-trifluoroethane
+bromine fluoride
+bromodifluoromethane
+1-bromo-1,1-difluoroethane
+bromine trifluoride, d3h
+bromine trifluoride, c2v
+bromine trifluoride
+bromotrifluoromethane
+1-bromo-2,2,2-trifluoroethane
+bromine pentafluoride, d3h
+bromine pentafluoride, c4v
+bromine pentafluoride
+bromopentafluorobenzene
+difluorodibromomethane
+1,2-dibromotetrafluoroethane
+iodine fluoride
+trifluoroiodomethane
+1,1,1-trifluoro-2-iodoethane
+iodine pentafluoride
+pentafluoroiodobenzene
+iodine heptafluoride
+iodine heptafluoride_pw91
+1,2 diiodotetrafluoroethane

@@ -1,0 +1,27 @@
+*
+*  Optimize a single element
+*
+ params=PM7.txt cycles=50 PM7      ref=../norm;../erra;../leve;../soli
+XFAC_La N
+ALPB_La N
+XFAC_La O
+ALPB_La O
+XFAC_La P
+ALPB_La P
+XFAC_La Cl
+ALPB_La Cl
+XFAC_La La
+ALPB_La La
+end  
+Lanthanum (La) r
+Lanthanum(iii) oxide (La2O3) (ICSD 56771) r
+Lanthanum(iii) nitrate (La(NO2)3) (ICSD 281587) r
+Lanthanum phosphate (LaPO4) (ICSD 79747) r
+Lanthanum(iii) trichloride (LaCl3) r
+Lanthanum (La) 
+Lanthanum(iii) oxide (La2O3) (ICSD 56771) 
+Lanthanum(iii) nitrate (La(NO2)3) (ICSD 281587) 
+Lanthanum phosphate (LaPO4) (ICSD 79747) 
+Lanthanum(iii) trichloride (LaCl3) 
+
+

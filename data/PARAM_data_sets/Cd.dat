@@ -1,0 +1,110 @@
+*
+*  Optimize a single element
+*
+cycles=50 params=../PM7.txt PM7 ref=../norm;../erra;../leve;../soli 
+(Cd)(all) 
+end  
+core-core_Cd - H near
+core-core_Cd - H far
+core-core_Cd - C near
+core-core_Cd - C far
+core-core_Cd - N near
+core-core_Cd - N far
+core-core_Cd - O near
+core-core_Cd - O far
+core-core_Cd - F near
+core-core_Cd - F far
+core-core_Cd - S near
+core-core_Cd - S far
+core-core_Cd - Cl near
+core-core_Cd - Cl far 
+core-core_Cd - Se near
+core-core_Cd - Se far
+core-core_Cd - Br near
+core-core_Cd - Br far 
+core-core_Cd - Cd near    
+core-core_Cd - Cd near slope
+core-core_Cd - I near
+core-core_Cd - I far 
+* Cd(CH3)2 (+-)
+* CdSN (good)
+* CdSn (Bad)
+* Cd4 (good)
+* Cd4 (bad)
+cdme2r
+cd(ii)n2c2 (lajmoy) r
+cd(ii)(cn)3(-)r
+cd(ii)(cn)4(=)r
+cd(ii)(nh3)6r
+cd(ii)(en)3r
+cd(ii)n6(2+) (encdss) r
+cd(ii)(oh)2r
+cd(ii)(h2o)6r
+cd(ii)o4n2 (bunvub10) r
+cd(ii)(edta)(=)r
+ch3-cd-fr
+cdf2r
+cd(ii)f4(=)r
+cd(ch3s)2r
+cd(ii)n6 (cdenic) r
+[cd(ch3s)3](-)r
+cdn4c4s4r
+ch3-cd-clr
+cdcl2r
+cd(ii)n2cl2 (cdpycl) r
+cd(ii)s2cl2 (cturcd) r
+cd(ii)s2n2cl2 (tchzcd) r
+cd(ii)cl4(2-) (qnlcdc10) r
+cd(ii)cl4(=)r
+cd(ii)br.5(h2o)r
+cdbr2r
+cd(ii)s2br2 (peksut) r
+cd(ii)br4(2-) (mamcdb) r
+cd(ii)br4(=)r
+[cd(ii)2(cn)7](3-)r
+cdi2r
+cd(ii)n3i2 (jaqruo) r
+cd(ii)s2i2 (zzzawd01) r
+cd(ii)i4(2-) (hibruf) r
+cadmium(+), 2p(u) 5s(0)5p(1)
+cadmium(+), 2s(g) 5s(1)5p(0)
+cadmium, cation
+cadmium 1p(u) 4d(10)5s(1)5p(1)
+cadmium 1s(g) 4d(10)5s(2)5p(0)
+cadmium 3p(g) 4d(10)5s(0)5p(2)
+cadmium 3p(u) 4d(10)5s(1)5p(1)
+cadmium, atom
+methyl cadmium
+dimethyl cadmium, cation
+dimethyl cadmium
+diethyl cadmium
+cd(ii)n2c2 (lajmoy)
+cd(ii)(cn)3(-)
+cd(ii)(cn)4(=)
+cd(ii)(nh3)6
+cd(ii)(en)3
+cd(ii)(oh)2
+cd(ii)(h2o)6
+cd(ii)o4n2 (bunvub10)
+cd(ii)(edta)(=)
+methyl cadmium fluoride
+cadmium difluoride
+cd(ii)f4(=)
+cd[n(sime3)2]2
+cd(ch3s)2
+cd(ii)n6 (cdenic)
+[cd(ch3s)3](-)
+methyl cadmium chloride
+cadmium dichloride
+cd(ii)n2cl2 (cdpycl)
+cd(ii)s2cl2 (cturcd)
+cd(ii)s2n2cl2 (tchzcd)
+cd(ii)cl4(=)
+cd(ii)br.5(h2o)
+cadmium dibromide
+cd(ii)s2br2 (peksut)
+cd(ii)br4(=)
+[cd(ii)2(cn)7](3-)
+cd(ii)n3i2 (jaqruo)
+cd(ii)s2i2 (zzzawd01)
+cd(ii)i4(2-) (hibruf)

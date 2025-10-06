@@ -1,0 +1,9 @@
+*
+*  Optimize a single element
+*
+cycles=50 params=../PM7.txt PM7 ref=../norm;../erra;../leve;../soli
+Alpb_As Cl
+Xfac_As Cl
+end  
+Arsenic(iii) chloride (AsCl3) r.mop
+Arsenic(iii) chloride (AsCl3) 

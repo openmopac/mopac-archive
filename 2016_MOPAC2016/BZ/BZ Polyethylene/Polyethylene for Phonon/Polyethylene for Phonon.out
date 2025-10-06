@@ -1,0 +1,1470 @@
+ *******************************************************************************
+ ** Site#: 29054        For non-commercial use only    Version 18.038W 64BITS **
+ *******************************************************************************
+ ** Cite this program as: MOPAC2016, Version: 18.038W, James J. P. Stewart,   **
+ ** Stewart Computational Chemistry, web: HTTP://OpenMOPAC.net. Days left: 365**
+ *******************************************************************************
+ **                                                                           **
+ **                                MOPAC2016                                  **
+ **                                                                           **
+ *******************************************************************************
+
+                              PM7 CALCULATION RESULTS
+
+
+ *******************************************************************************
+ *  CALCULATION DONE:                                Wed Feb 07 14:34:30 2018  *
+ *  XYZ        - CARTESIAN COORDINATE SYSTEM TO BE USED
+ *  T=         - A TIME OF 172800.0 SECONDS REQUESTED
+ *  DUMP=N     - RESTART FILE WRITTEN EVERY  7200.000 SECONDS
+ *  OUTPUT     - MINIMIZE OUTPUT
+ *******************************************************************************
+    xyz output
+ Polyethylene for Phonon
+
+ 
+
+                   THE SYSTEM IS A POLYMER
+
+
+                UNIT CELL TRANSLATION VECTORS
+
+              X                Y              Z
+    T1 =   -16.8808446      5.6978121     -9.3654786
+
+ General Reference for PM7:
+ "Optimization of Parameters for Semiempirical Methods VI: More Modifications to the 
+ NDDO Approximations and Re-optimization of Parameters", J. J. P. Stewart, J. Mol. Mod., 1:32, 19 (2013)
+ http://www.springerlink.com/openurl.asp?genre=article&id=doi:10.1007/s00894-012-1667-x
+
+           Empirical Formula: C16 H32  =    48 atoms
+
+
+
+      RHF CALCULATION, NO. OF DOUBLY OCCUPIED LEVELS = 48
+
+
+          Geometry optimization using L-BFGS
+ CYCLE:     1 TIME:   0.062 TIME LEFT:  2.00D  GRAD.:   155.816 HEAT: -60.58854
+ CYCLE:     2 TIME:   0.027 TIME LEFT:  2.00D  GRAD.:   153.977 HEAT: -60.82991
+ CYCLE:     3 TIME:   0.047 TIME LEFT:  2.00D  GRAD.:    51.492 HEAT: -74.52736
+ CYCLE:     4 TIME:   0.051 TIME LEFT:  2.00D  GRAD.:   154.032 HEAT: -60.83002
+ CYCLE:     5 TIME:   0.047 TIME LEFT:  2.00D  GRAD.:    51.496 HEAT: -74.52777
+ CYCLE:     6 TIME:   0.027 TIME LEFT:  2.00D  GRAD.:    41.480 HEAT: -76.87541
+ CYCLE:     7 TIME:   0.031 TIME LEFT:  2.00D  GRAD.:    26.913 HEAT: -80.00940
+ CYCLE:     8 TIME:   0.047 TIME LEFT:  2.00D  GRAD.:    72.369 HEAT: -78.77873
+ CYCLE:     9 TIME:   0.062 TIME LEFT:  2.00D  GRAD.:     6.312 HEAT: -80.64390
+ CYCLE:    10 TIME:   0.047 TIME LEFT:  2.00D  GRAD.:     2.129 HEAT: -80.66810
+ CYCLE:    11 TIME:   0.047 TIME LEFT:  2.00D  GRAD.:     1.345 HEAT: -80.67275
+ CYCLE:    12 TIME:   0.031 TIME LEFT:  2.00D  GRAD.:     1.606 HEAT: -80.67499
+ CYCLE:    13 TIME:   0.031 TIME LEFT:  2.00D  GRAD.:     1.702 HEAT: -80.67943
+ CYCLE:    14 TIME:   0.031 TIME LEFT:  2.00D  GRAD.:     5.284 HEAT: -80.68368
+ CYCLE:    15 TIME:   0.031 TIME LEFT:  2.00D  GRAD.:     3.002 HEAT: -80.69249
+ CYCLE:    16 TIME:   0.031 TIME LEFT:  2.00D  GRAD.:     1.911 HEAT: -80.69811
+ CYCLE:    17 TIME:   0.031 TIME LEFT:  2.00D  GRAD.:     3.039 HEAT: -80.70413
+ CYCLE:    18 TIME:   0.047 TIME LEFT:  2.00D  GRAD.:     3.186 HEAT: -80.70840
+ CYCLE:    19 TIME:   0.031 TIME LEFT:  2.00D  GRAD.:     4.772 HEAT: -80.75225
+ CYCLE:    20 TIME:   0.031 TIME LEFT:  2.00D  GRAD.:     1.127 HEAT: -80.78531
+ CYCLE:    21 TIME:   0.031 TIME LEFT:  2.00D  GRAD.:     0.668 HEAT: -80.78603
+
+ -------------------------------------------------------------------------------
+ xyz output
+ Polyethylene for Phonon
+
+
+
+     HERBERTS TEST WAS SATISFIED IN BFGS                      
+     SCF FIELD WAS ACHIEVED                                   
+
+
+                              PM7 CALCULATION
+                                                       MOPAC2016 (Version: 18.038W)
+                                                       Wed Feb 07 14:34:31 2018
+                                                       No. of days remaining = 365
+
+
+
+
+          FINAL HEAT OF FORMATION =        -80.78607 KCAL/MOL =    -338.00892 KJ/MOL
+
+
+          TOTAL ENERGY            =      -2399.44579 EV
+          ELECTRONIC ENERGY       =     -31855.34215 EV
+          CORE-CORE REPULSION     =      29455.89636 EV
+
+          GRADIENT NORM           =          0.66833
+          IONIZATION POTENTIAL    =         10.590223 EV
+          HOMO LUMO ENERGIES (EV) =        -10.590  3.747
+          NO. OF FILLED LEVELS    =         48
+          MOLECULAR WEIGHT        =        224.4288
+
+
+          SCF CALCULATIONS        =         22
+ 
+          WALL-CLOCK TIME         =          0.840 SECONDS
+          COMPUTATION TIME        =          3.323 SECONDS
+
+
+
+
+
+           Empirical Formula: C16 H32  =    48 atoms
+
+
+
+                  EIGENVALUES  
+ -29.86153 -29.32922 -29.32511 -27.75992 -27.75851 -25.28956 -25.28094 -22.22965
+ -22.22960 -20.62381 -20.19770 -20.19234 -19.51328 -19.49688 -19.24956 -19.24633
+ -17.19700 -16.73445 -16.73366 -15.52433 -15.52430 -15.05296 -15.04635 -14.13627
+ -14.13587 -13.99963 -13.99724 -13.70398 -13.70232 -12.93498 -12.92416 -12.61197
+ -12.61179 -12.09912 -12.09654 -11.68228 -11.67685 -11.65833 -11.65267 -11.56030
+ -11.52628 -11.52253 -11.17973 -11.17885 -11.03542 -11.03389 -11.01710 -10.59022
+   3.74737   3.88673   3.88791   3.98467   4.26106   4.26143   4.26502   4.26703
+   4.73133   4.73467   4.78291   4.78365   5.08477   5.08507   5.11194   5.11387
+   5.28488   5.35463   5.35614   5.53669   5.53714   5.76014   5.76106   5.96345
+   5.96364   6.11991   6.12092   6.23464   6.23497   6.30891   6.30987   6.33613
+   6.65190   6.67219   6.68414   6.68460   6.69850   6.69936   6.71505   6.71509
+   6.75235   6.75274   6.78685   6.78709   6.79174   6.79199   6.82027   6.82130
+ *******************************************************************************
+ ** Site#: 29054        For non-commercial use only    Version 18.038W 64BITS **
+ *******************************************************************************
+ ** Cite this program as: MOPAC2016, Version: 18.038W, James J. P. Stewart,   **
+ ** Stewart Computational Chemistry, web: HTTP://OpenMOPAC.net. Days left: 365**
+ *******************************************************************************
+ **                                                                           **
+ **                                MOPAC2016                                  **
+ **                                                                           **
+ *******************************************************************************
+
+                              PM7 CALCULATION RESULTS
+
+
+ *******************************************************************************
+ *  CALCULATION DONE:                                Wed Feb 07 14:34:31 2018  *
+ *  MERS=N     - NUMBER OF FUNDAMENTAL UNIT CELLS USED:  8
+ *  OLDGEO     - PREVIOUS GEOMETRY TO BE USED
+ *  FORCE      - FORCE CALCULATION SPECIFIED
+ *  T=         - A TIME OF 172800.0 SECONDS REQUESTED
+ *  DUMP=N     - RESTART FILE WRITTEN EVERY  7200.000 SECONDS
+ *  OUTPUT     - MINIMIZE OUTPUT
+ *******************************************************************************
+oldgeo force MERS=(8) output
+ FORCE calculation on Polyethylene
+
+ 
+
+ General Reference for PM7:
+ "Optimization of Parameters for Semiempirical Methods VI: More Modifications to the 
+ NDDO Approximations and Re-optimization of Parameters", J. J. P. Stewart, J. Mol. Mod., 1:32, 19 (2013)
+ http://www.springerlink.com/openurl.asp?genre=article&id=doi:10.1007/s00894-012-1667-x
+
+                   THE SYSTEM IS A POLYMER
+
+
+                UNIT CELL TRANSLATION VECTORS
+
+              X                Y              Z
+    T1 =   -16.9687118      5.6978121     -9.3654786
+
+           Empirical Formula: C16 H32  =    48 atoms
+
+
+
+      RHF CALCULATION, NO. OF DOUBLY OCCUPIED LEVELS = 48
+
+
+
+          HEAT OF FORMATION =     -80.786089 KCALS/MOLE
+
+
+          CARTESIAN COORDINATE DERIVATIVES
+
+   NUMBER  ATOM         X            Y            Z
+
+     1       C     -0.001321    -0.020269     0.034073
+     2       C      0.103589     0.019375    -0.007339
+     3       H      0.014962     0.003626    -0.057904
+     4       H      0.008427     0.051408    -0.005440
+     5       H     -0.009909    -0.019247     0.051046
+     6       H     -0.031229    -0.045440     0.057054
+     7       C     -0.020988     0.033145    -0.041671
+     8       C     -0.094640    -0.098282     0.100956
+     9       H     -0.043893    -0.019492     0.094829
+    10       H     -0.069883    -0.055337     0.067827
+    11       H     -0.089644     0.059514    -0.074701
+    12       H     -0.105838     0.042379    -0.078673
+    13       C     -0.055182     0.015743    -0.033513
+    14       C     -0.012411     0.007157    -0.055879
+    15       H     -0.083774     0.043500    -0.059107
+    16       H     -0.101239     0.044901    -0.063733
+    17       H     -0.041258     0.028753    -0.058552
+    18       H     -0.063044     0.045893    -0.042740
+    19       C     -0.039492    -0.005518     0.016223
+    20       C     -0.033517     0.014091    -0.065078
+    21       H     -0.066314     0.043824    -0.051780
+    22       H     -0.080269     0.036301    -0.054280
+    23       H     -0.001211    -0.001819    -0.001615
+    24       H     -0.022835     0.005677     0.010928
+    25       C     -0.018562     0.004714     0.020029
+    26       C      0.057343    -0.032605    -0.002015
+    27       H      0.015859     0.021778    -0.003123
+    28       H      0.002627     0.005139    -0.014110
+    29       H      0.091857    -0.028918     0.052654
+    30       H      0.069526    -0.033327     0.060347
+    31       C     -0.005394     0.000138     0.020195
+    32       C      0.100189    -0.079602     0.059636
+    33       H      0.051715    -0.022163     0.058037
+    34       H      0.036564    -0.025055     0.052573
+    35       H      0.103562    -0.025501     0.062524
+    36       H      0.082501    -0.042425     0.064100
+    37       C      0.084260     0.079632    -0.128057
+    38       C      0.058846    -0.069859     0.068669
+    39       H      0.097442    -0.054022     0.073486
+    40       H      0.080211    -0.027609     0.084620
+    41       H      0.063717     0.036960    -0.086958
+    42       H      0.046995     0.064470    -0.062931
+    43       C     -0.103069    -0.036598     0.003768
+    44       C      0.028290    -0.020679    -0.026526
+    45       H      0.022311     0.032046    -0.061427
+    46       H      0.001419     0.055355    -0.040198
+    47       H     -0.001498     0.008935     0.056107
+    48       H     -0.025793    -0.040690     0.007668
+    49      Tv      0.000000
+ 
+
+
+          GRADIENT NORM =   0.64349
+
+
+          TIME FOR SCF CALCULATION =    0.03
+
+          TIME FOR DERIVATIVES     =    0.03
+
+          MOLECULAR WEIGHT =  224.43
+
+
+
+          ROTATIONAL CONSTANTS IN CM(-1)
+
+          A =    0.16806596   B =    0.00221100   C =    0.00219658
+
+
+
+           PRINCIPAL MOMENTS OF INERTIA IN UNITS OF 10**(-40)*GRAM-CM**2
+
+          A =      166.5583   B =    12660.6931   C =    12743.7772
+
+
+
+    FIRST DERIVATIVES WILL BE USED IN THE CALCULATION OF SECOND DERIVATIVES
+
+          ESTIMATED TIME TO COMPLETE CALCULATION =       18.00 SECONDS
+
+    FOR POINT-GROUP C2h  THERE ARE   4 UNIQUE SYMMETRY FUNCTIONS.
+
+ STEP:   1 TIME =     0.11 SECS, INTEGRAL =      0.11 TIME LEFT: 172799.83
+ STEP:   2 TIME =     0.14 SECS, INTEGRAL =      0.25 TIME LEFT: 172799.69
+ STEP:   3 TIME =     0.11 SECS, INTEGRAL =      0.36 TIME LEFT: 172799.58
+ STEP:   4 TIME =     0.09 SECS, INTEGRAL =      0.45 TIME LEFT: 172799.48
+ STEP:   5 TIME =     0.11 SECS, INTEGRAL =      0.56 TIME LEFT: 172799.38
+ STEP:   6 TIME =     0.11 SECS, INTEGRAL =      0.67 TIME LEFT: 172799.27
+ STEP:   7 TIME =     0.11 SECS, INTEGRAL =      0.78 TIME LEFT: 172799.16
+ STEP:   8 TIME =     0.11 SECS, INTEGRAL =      0.89 TIME LEFT: 172799.05
+ STEP:   9 TIME =     0.12 SECS, INTEGRAL =      1.02 TIME LEFT: 172798.92
+ STEP:  10                       INTEGRAL =      1.02 TIME LEFT: 172798.92
+ STEP:  11                       INTEGRAL =      1.02 TIME LEFT: 172798.92
+ STEP:  12                       INTEGRAL =      1.02 TIME LEFT: 172798.92
+ STEP:  13 TIME =     0.09 SECS, INTEGRAL =      1.11 TIME LEFT: 172798.83
+ STEP:  14 TIME =     0.11 SECS, INTEGRAL =      1.22 TIME LEFT: 172798.72
+ STEP:  15 TIME =     0.11 SECS, INTEGRAL =      1.33 TIME LEFT: 172798.61
+ STEP:  16                       INTEGRAL =      1.33 TIME LEFT: 172798.61
+ STEP:  17                       INTEGRAL =      1.33 TIME LEFT: 172798.61
+ STEP:  18                       INTEGRAL =      1.33 TIME LEFT: 172798.61
+ STEP:  19 TIME =     0.09 SECS, INTEGRAL =      1.42 TIME LEFT: 172798.52
+ STEP:  20 TIME =     0.11 SECS, INTEGRAL =      1.53 TIME LEFT: 172798.41
+ STEP:  21 TIME =     0.11 SECS, INTEGRAL =      1.64 TIME LEFT: 172798.30
+ STEP:  22 TIME =     0.11 SECS, INTEGRAL =      1.75 TIME LEFT: 172798.19
+ STEP:  23 TIME =     0.11 SECS, INTEGRAL =      1.86 TIME LEFT: 172798.08
+ STEP:  24 TIME =     0.11 SECS, INTEGRAL =      1.96 TIME LEFT: 172797.97
+ STEP:  25 TIME =     0.11 SECS, INTEGRAL =      2.07 TIME LEFT: 172797.86
+ STEP:  26 TIME =     0.12 SECS, INTEGRAL =      2.20 TIME LEFT: 172797.74
+ STEP:  27 TIME =     0.11 SECS, INTEGRAL =      2.31 TIME LEFT: 172797.63
+ STEP:  28                       INTEGRAL =      2.31 TIME LEFT: 172797.63
+ STEP:  29                       INTEGRAL =      2.31 TIME LEFT: 172797.63
+ STEP:  30                       INTEGRAL =      2.31 TIME LEFT: 172797.63
+ STEP:  31 TIME =     0.16 SECS, INTEGRAL =      2.46 TIME LEFT: 172797.47
+ STEP:  32 TIME =     0.11 SECS, INTEGRAL =      2.57 TIME LEFT: 172797.36
+ STEP:  33 TIME =     0.14 SECS, INTEGRAL =      2.71 TIME LEFT: 172797.22
+ STEP:  34                       INTEGRAL =      2.71 TIME LEFT: 172797.22
+ STEP:  35                       INTEGRAL =      2.71 TIME LEFT: 172797.22
+ STEP:  36                       INTEGRAL =      2.71 TIME LEFT: 172797.22
+ STEP:  37 TIME =     0.11 SECS, INTEGRAL =      2.82 TIME LEFT: 172797.11
+ STEP:  38 TIME =     0.09 SECS, INTEGRAL =      2.92 TIME LEFT: 172797.02
+ STEP:  39 TIME =     0.11 SECS, INTEGRAL =      3.03 TIME LEFT: 172796.91
+ STEP:  40 TIME =     0.11 SECS, INTEGRAL =      3.14 TIME LEFT: 172796.80
+ STEP:  41 TIME =     0.11 SECS, INTEGRAL =      3.25 TIME LEFT: 172796.69
+ STEP:  42 TIME =     0.11 SECS, INTEGRAL =      3.36 TIME LEFT: 172796.58
+ STEP:  43 TIME =     0.11 SECS, INTEGRAL =      3.46 TIME LEFT: 172796.47
+ STEP:  44 TIME =     0.14 SECS, INTEGRAL =      3.61 TIME LEFT: 172796.33
+ STEP:  45 TIME =     0.11 SECS, INTEGRAL =      3.71 TIME LEFT: 172796.22
+ STEP:  46                       INTEGRAL =      3.71 TIME LEFT: 172796.22
+ STEP:  47                       INTEGRAL =      3.71 TIME LEFT: 172796.22
+ STEP:  48                       INTEGRAL =      3.71 TIME LEFT: 172796.22
+ STEP:  49 TIME =     0.12 SECS, INTEGRAL =      3.84 TIME LEFT: 172796.10
+ STEP:  50 TIME =     0.14 SECS, INTEGRAL =      3.98 TIME LEFT: 172795.96
+ STEP:  51 TIME =     0.11 SECS, INTEGRAL =      4.09 TIME LEFT: 172795.85
+ STEP:  52                       INTEGRAL =      4.09 TIME LEFT: 172795.85
+ STEP:  53                       INTEGRAL =      4.09 TIME LEFT: 172795.85
+ STEP:  54                       INTEGRAL =      4.09 TIME LEFT: 172795.85
+ STEP:  55 TIME =     0.11 SECS, INTEGRAL =      4.20 TIME LEFT: 172795.74
+ STEP:  56 TIME =     0.12 SECS, INTEGRAL =      4.32 TIME LEFT: 172795.61
+ STEP:  57 TIME =     0.11 SECS, INTEGRAL =      4.43 TIME LEFT: 172795.51
+ STEP:  58 TIME =     0.09 SECS, INTEGRAL =      4.52 TIME LEFT: 172795.41
+ STEP:  59 TIME =     0.11 SECS, INTEGRAL =      4.63 TIME LEFT: 172795.30
+ STEP:  60 TIME =     0.09 SECS, INTEGRAL =      4.73 TIME LEFT: 172795.21
+ STEP:  61 TIME =     0.11 SECS, INTEGRAL =      4.84 TIME LEFT: 172795.10
+ STEP:  62 TIME =     0.11 SECS, INTEGRAL =      4.95 TIME LEFT: 172794.99
+ STEP:  63 TIME =     0.09 SECS, INTEGRAL =      5.04 TIME LEFT: 172794.90
+ STEP:  64                       INTEGRAL =      5.04 TIME LEFT: 172794.90
+ STEP:  65                       INTEGRAL =      5.04 TIME LEFT: 172794.90
+ STEP:  66                       INTEGRAL =      5.04 TIME LEFT: 172794.90
+ STEP:  67 TIME =     0.11 SECS, INTEGRAL =      5.15 TIME LEFT: 172794.79
+ STEP:  68 TIME =     0.12 SECS, INTEGRAL =      5.27 TIME LEFT: 172794.66
+ STEP:  69 TIME =     0.11 SECS, INTEGRAL =      5.38 TIME LEFT: 172794.55
+ STEP:  70                       INTEGRAL =      5.38 TIME LEFT: 172794.55
+ STEP:  71                       INTEGRAL =      5.38 TIME LEFT: 172794.55
+ STEP:  72                       INTEGRAL =      5.38 TIME LEFT: 172794.55
+ STEP:  73                       INTEGRAL =      5.38 TIME LEFT: 172794.55
+ STEP:  74                       INTEGRAL =      5.38 TIME LEFT: 172794.55
+ STEP:  75                       INTEGRAL =      5.38 TIME LEFT: 172794.55
+ STEP:  76                       INTEGRAL =      5.38 TIME LEFT: 172794.55
+ STEP:  77                       INTEGRAL =      5.38 TIME LEFT: 172794.55
+ STEP:  78                       INTEGRAL =      5.38 TIME LEFT: 172794.55
+ STEP:  79                       INTEGRAL =      5.38 TIME LEFT: 172794.55
+ STEP:  80                       INTEGRAL =      5.38 TIME LEFT: 172794.55
+ STEP:  81                       INTEGRAL =      5.38 TIME LEFT: 172794.55
+ STEP:  82                       INTEGRAL =      5.38 TIME LEFT: 172794.55
+ STEP:  83                       INTEGRAL =      5.38 TIME LEFT: 172794.55
+ STEP:  84                       INTEGRAL =      5.38 TIME LEFT: 172794.55
+ STEP:  85                       INTEGRAL =      5.38 TIME LEFT: 172794.55
+ STEP:  86                       INTEGRAL =      5.38 TIME LEFT: 172794.55
+ STEP:  87                       INTEGRAL =      5.38 TIME LEFT: 172794.55
+ STEP:  88                       INTEGRAL =      5.38 TIME LEFT: 172794.55
+ STEP:  89                       INTEGRAL =      5.38 TIME LEFT: 172794.55
+ STEP:  90                       INTEGRAL =      5.38 TIME LEFT: 172794.55
+ STEP:  91                       INTEGRAL =      5.38 TIME LEFT: 172794.55
+ STEP:  92                       INTEGRAL =      5.38 TIME LEFT: 172794.55
+ STEP:  93                       INTEGRAL =      5.38 TIME LEFT: 172794.55
+ STEP:  94                       INTEGRAL =      5.38 TIME LEFT: 172794.55
+ STEP:  95                       INTEGRAL =      5.38 TIME LEFT: 172794.55
+ STEP:  96                       INTEGRAL =      5.38 TIME LEFT: 172794.55
+ STEP:  97                       INTEGRAL =      5.38 TIME LEFT: 172794.55
+ STEP:  98                       INTEGRAL =      5.38 TIME LEFT: 172794.55
+ STEP:  99                       INTEGRAL =      5.38 TIME LEFT: 172794.55
+ STEP: 100                       INTEGRAL =      5.38 TIME LEFT: 172794.55
+ STEP: 101                       INTEGRAL =      5.38 TIME LEFT: 172794.55
+ STEP: 102                       INTEGRAL =      5.38 TIME LEFT: 172794.55
+ STEP: 103                       INTEGRAL =      5.38 TIME LEFT: 172794.55
+ STEP: 104                       INTEGRAL =      5.38 TIME LEFT: 172794.55
+ STEP: 105                       INTEGRAL =      5.38 TIME LEFT: 172794.55
+ STEP: 106                       INTEGRAL =      5.38 TIME LEFT: 172794.55
+ STEP: 107                       INTEGRAL =      5.38 TIME LEFT: 172794.55
+ STEP: 108                       INTEGRAL =      5.38 TIME LEFT: 172794.55
+ STEP: 109                       INTEGRAL =      5.38 TIME LEFT: 172794.55
+ STEP: 110                       INTEGRAL =      5.38 TIME LEFT: 172794.55
+ STEP: 111                       INTEGRAL =      5.38 TIME LEFT: 172794.55
+ STEP: 112                       INTEGRAL =      5.38 TIME LEFT: 172794.55
+ STEP: 113                       INTEGRAL =      5.38 TIME LEFT: 172794.55
+ STEP: 114                       INTEGRAL =      5.38 TIME LEFT: 172794.55
+ STEP: 115                       INTEGRAL =      5.38 TIME LEFT: 172794.55
+ STEP: 116                       INTEGRAL =      5.38 TIME LEFT: 172794.55
+ STEP: 117                       INTEGRAL =      5.38 TIME LEFT: 172794.55
+ STEP: 118                       INTEGRAL =      5.38 TIME LEFT: 172794.55
+ STEP: 119                       INTEGRAL =      5.38 TIME LEFT: 172794.55
+ STEP: 120                       INTEGRAL =      5.38 TIME LEFT: 172794.55
+ STEP: 121                       INTEGRAL =      5.38 TIME LEFT: 172794.55
+ STEP: 122                       INTEGRAL =      5.38 TIME LEFT: 172794.55
+ STEP: 123                       INTEGRAL =      5.38 TIME LEFT: 172794.55
+ STEP: 124                       INTEGRAL =      5.38 TIME LEFT: 172794.55
+ STEP: 125                       INTEGRAL =      5.38 TIME LEFT: 172794.55
+ STEP: 126                       INTEGRAL =      5.38 TIME LEFT: 172794.55
+ STEP: 127                       INTEGRAL =      5.38 TIME LEFT: 172794.55
+ STEP: 128                       INTEGRAL =      5.38 TIME LEFT: 172794.55
+ STEP: 129                       INTEGRAL =      5.38 TIME LEFT: 172794.55
+ STEP: 130                       INTEGRAL =      5.38 TIME LEFT: 172794.55
+ STEP: 131                       INTEGRAL =      5.38 TIME LEFT: 172794.55
+ STEP: 132                       INTEGRAL =      5.38 TIME LEFT: 172794.55
+ STEP: 133                       INTEGRAL =      5.38 TIME LEFT: 172794.55
+ STEP: 134                       INTEGRAL =      5.38 TIME LEFT: 172794.55
+ STEP: 135                       INTEGRAL =      5.38 TIME LEFT: 172794.55
+ STEP: 136                       INTEGRAL =      5.38 TIME LEFT: 172794.55
+ STEP: 137                       INTEGRAL =      5.38 TIME LEFT: 172794.55
+ STEP: 138                       INTEGRAL =      5.38 TIME LEFT: 172794.55
+ STEP: 139                       INTEGRAL =      5.38 TIME LEFT: 172794.55
+ STEP: 140                       INTEGRAL =      5.38 TIME LEFT: 172794.55
+ STEP: 141                       INTEGRAL =      5.38 TIME LEFT: 172794.55
+ STEP: 142                       INTEGRAL =      5.38 TIME LEFT: 172794.55
+ STEP: 143                       INTEGRAL =      5.38 TIME LEFT: 172794.55
+ STEP: 144                       INTEGRAL =      5.38 TIME LEFT: 172794.55
+
+
+          HEAT OF FORMATION =     -80.786089 KCALS/MOLE
+
+          ZERO POINT ENERGY     269.685 KCAL/MOL
+
+
+          DESCRIPTION OF VIBRATIONS
+
+
+ VIBRATION    1    1Au      ATOM PAIR        ENERGY CONTRIBUTION    RADIAL
+ FREQ.        30.53        C 19 --  C 26           +7.4% (999.0%)     0.0%
+ T-DIPOLE    0.0099        C 25 --  C 26           +6.3% (999.0%)     0.0%
+ TRAVEL      0.0242        C 19 --  C 20           +6.3% (999.0%)     0.0%
+ RED. MASS   0.7895        C  1 --  C  2           +5.5% (999.0%)     0.0%
+ EFF. MASS3756.4966
+
+ VIBRATION    2    1Bg      ATOM PAIR        ENERGY CONTRIBUTION    RADIAL
+ FREQ.        32.95        C 31 --  C 38           +6.4% (999.0%)     0.0%
+ T-DIPOLE    0.0000        C  7 --  C 14           +6.4% (999.0%)     0.0%
+ TRAVEL      0.0252        C 37 --  C 38           +5.7% (999.0%)     0.0%
+ RED. MASS   0.7856        C  7 --  C  8           +5.7% (999.0%)     0.0%
+ EFF. MASS3225.1326
+
+ VIBRATION    3    1Bu      ATOM PAIR        ENERGY CONTRIBUTION    RADIAL
+ FREQ.        54.81        C 19 --  C 26           +5.8% (716.9%)     0.0%
+ T-DIPOLE    0.2245        C 25 --  C 26           +5.1% (668.3%)     0.0%
+ TRAVEL      0.0345        C 19 --  C 20           +5.1% (668.3%)     0.0%
+ RED. MASS   0.7872        C  1 --  C  2           +5.0% (666.1%)     0.0%
+ EFF. MASS1033.2459
+
+ VIBRATION    4    1Ag      ATOM PAIR        ENERGY CONTRIBUTION    RADIAL
+ FREQ.        55.99        C  7 --  C 14           +5.5% (700.9%)     0.0%
+ T-DIPOLE    0.0000        C 31 --  C 38           +5.5% (700.9%)     0.0%
+ TRAVEL      0.0349        C 13 --  C 14           +4.9% (657.9%)     0.0%
+ RED. MASS   0.7891        C 31 --  C 32           +4.9% (657.9%)     0.0%
+ EFF. MASS 989.7780
+
+ VIBRATION    5    2Bg      ATOM PAIR        ENERGY CONTRIBUTION    RADIAL
+ FREQ.        80.26        C 25 --  C 32           +5.9% (462.6%)     0.0%
+ T-DIPOLE    0.0000        C 13 --  C 20           +5.9% (462.6%)     0.0%
+ TRAVEL      0.0393        C 37 --  C 44           +5.3% (440.7%)     0.0%
+ RED. MASS   0.6828        C  1 --  C  8           +5.3% (440.7%)     0.0%
+ EFF. MASS 543.5408
+
+ VIBRATION    6    2Au      ATOM PAIR        ENERGY CONTRIBUTION    RADIAL
+ FREQ.        82.59        C 31 --  C 38           +5.8% (435.7%)     0.0%
+ T-DIPOLE    0.0056        C  7 --  C 14           +5.8% (435.7%)     0.0%
+ TRAVEL      0.0399        C 19 --  C 26           +5.4% (421.4%)     0.0%
+ RED. MASS   0.6845        C 43 --  C 44           +4.0% (363.6%)     0.0%
+ EFF. MASS 514.0456
+
+ VIBRATION    7    3Au      ATOM PAIR        ENERGY CONTRIBUTION    RADIAL
+ FREQ.       132.42        C 19 --  C 26           +4.4% (232.1%)     0.0%
+ T-DIPOLE    0.0004        C 31 --  C 32           +4.3% (228.1%)     0.0%
+ TRAVEL      0.0507        C 13 --  C 14           +4.3% (228.1%)     0.0%
+ RED. MASS   0.5637        C  7 --  C  8           +4.2% (225.7%)     0.0%
+ EFF. MASS 197.8788
+
+ VIBRATION    8    3Bg      ATOM PAIR        ENERGY CONTRIBUTION    RADIAL
+ FREQ.       133.75        C 31 --  C 38           +4.4% (231.4%)     0.0%
+ T-DIPOLE    0.0000        C  7 --  C 14           +4.4% (231.4%)     0.0%
+ TRAVEL      0.0510        C 19 --  C 20           +4.2% (225.9%)     0.0%
+ RED. MASS   0.5519        C 25 --  C 26           +4.2% (225.9%)     0.0%
+ EFF. MASS 194.0431
+
+ VIBRATION    9    4Bg      ATOM PAIR        ENERGY CONTRIBUTION    RADIAL
+ FREQ.       158.43        C  1 --  C  8           +4.3% (168.9%)     0.0%
+ T-DIPOLE    0.0000        C 37 --  C 44           +4.3% (168.9%)     0.0%
+ TRAVEL      0.0614        C 13 --  C 20           +4.0% (163.4%)     0.0%
+ RED. MASS   0.1375        C 25 --  C 32           +4.0% (163.4%)     0.0%
+ EFF. MASS 112.8089
+
+ VIBRATION   10    5Bg      ATOM PAIR        ENERGY CONTRIBUTION    RADIAL
+ FREQ.       160.26        C  1 --  C  2           +5.7% (186.4%)     0.0%
+ T-DIPOLE    0.0000        C 43 --  C 44           +5.6% (186.4%)     0.0%
+ TRAVEL      0.0615        C 25 --  C 26           +4.5% (166.8%)     0.0%
+ RED. MASS   0.2004        C 19 --  C 20           +4.5% (166.8%)     0.0%
+ EFF. MASS 111.4147
+
+ VIBRATION   11    4Au      ATOM PAIR        ENERGY CONTRIBUTION    RADIAL
+ FREQ.       160.34        C 31 --  C 38           +5.7% (195.0%)     0.0%
+ T-DIPOLE    0.0041        C  7 --  C 14           +5.7% (195.0%)     0.0%
+ TRAVEL      0.0616        C 37 --  C 38           +5.6% (192.7%)     0.0%
+ RED. MASS   0.1818        C  7 --  C  8           +5.6% (192.7%)     0.0%
+ EFF. MASS 110.9533
+
+ VIBRATION   12    2Ag      ATOM PAIR        ENERGY CONTRIBUTION    RADIAL
+ FREQ.       165.49        C 37 --  C 44           +4.6% (215.5%)     3.2%
+ T-DIPOLE    0.0000        C  1 --  C  8           +4.6% (215.5%)     3.2%
+ TRAVEL      0.0578        C 25 --  C 32           +4.5% (213.5%)     0.5%
+ RED. MASS   0.7093        C 13 --  C 20           +4.5% (213.5%)     0.5%
+ EFF. MASS 121.7918
+
+ VIBRATION   13    5Au      ATOM PAIR        ENERGY CONTRIBUTION    RADIAL
+ FREQ.       166.13        C 13 --  C 14           +5.1% (192.3%)     0.0%
+ T-DIPOLE    0.0017        C 31 --  C 32           +5.1% (192.3%)     0.0%
+ TRAVEL      0.0579        C 25 --  C 26           +3.9% (168.3%)     0.0%
+ RED. MASS   0.2775        C 19 --  C 20           +3.9% (168.3%)     0.0%
+ EFF. MASS 120.9153
+
+ VIBRATION   14    6Bg      ATOM PAIR        ENERGY CONTRIBUTION    RADIAL
+ FREQ.       167.21        C 19 --  C 26           +7.1% (220.1%)     0.0%
+ T-DIPOLE    0.0000        C  1 --  C  8           +4.6% (177.3%)     0.0%
+ TRAVEL      0.0585        C 37 --  C 44           +4.6% (177.3%)     0.0%
+ RED. MASS   0.3065        C 43 --  C 44           +3.8% (160.1%)     0.0%
+ EFF. MASS 117.6388
+
+ VIBRATION   15    2Bu      ATOM PAIR        ENERGY CONTRIBUTION    RADIAL
+ FREQ.       167.83        C 19 --  C 26           +4.7% (211.6%)     0.3%
+ T-DIPOLE    0.0035        C 31 --  C 38           +4.7% (211.6%)     0.2%
+ TRAVEL      0.0582        C  7 --  C 14           +4.7% (211.6%)     0.2%
+ RED. MASS   0.7085        C 31 --  C 32           +3.2% (173.9%)     0.3%
+ EFF. MASS 118.6441
+
+ VIBRATION   16    6Au      ATOM PAIR        ENERGY CONTRIBUTION    RADIAL
+ FREQ.       170.05        C 13 --  C 20           +6.7% (201.4%)     0.0%
+ T-DIPOLE    0.0039        C 25 --  C 32           +6.7% (201.4%)     0.0%
+ TRAVEL      0.0623        C 25 --  C 26           +4.6% (167.8%)     0.0%
+ RED. MASS   0.2311        C 19 --  C 20           +4.6% (167.8%)     0.0%
+ EFF. MASS 102.2897
+
+ VIBRATION   17    7Bg      ATOM PAIR        ENERGY CONTRIBUTION    RADIAL
+ FREQ.       173.71        C  7 --  C 14           +7.4% (204.5%)     0.0%
+ T-DIPOLE    0.0000        C 31 --  C 38           +7.4% (204.5%)     0.0%
+ TRAVEL      0.0627        C  7 --  C  8           +4.7% (163.0%)     0.0%
+ RED. MASS   0.2506        C 37 --  C 38           +4.7% (163.0%)     0.0%
+ EFF. MASS  98.8120
+
+ VIBRATION   18    8Bg      ATOM PAIR        ENERGY CONTRIBUTION    RADIAL
+ FREQ.       176.90        C 19 --  C 26           +8.0% (215.2%)     0.0%
+ T-DIPOLE    0.0000        C 31 --  C 32           +5.0% (169.8%)     0.0%
+ TRAVEL      0.0617        C 13 --  C 14           +5.0% (169.8%)     0.0%
+ RED. MASS   0.3078        C 25 --  C 32           +3.6% (145.6%)     0.0%
+ EFF. MASS 100.1904
+
+ VIBRATION   19    7Au      ATOM PAIR        ENERGY CONTRIBUTION    RADIAL
+ FREQ.       179.78        C 43 --  C 44           +6.2% (188.5%)     0.0%
+ T-DIPOLE    0.0028        C  1 --  C  2           +6.2% (188.5%)     0.0%
+ TRAVEL      0.0621        C 31 --  C 38           +5.1% (171.0%)     0.0%
+ RED. MASS   0.3186        C  7 --  C 14           +5.1% (171.0%)     0.0%
+ EFF. MASS  97.2599
+
+ VIBRATION   20    3Bu      ATOM PAIR        ENERGY CONTRIBUTION    RADIAL
+ FREQ.       274.14        C 19 --  C 26           +5.2% (136.1%)    10.7%
+ T-DIPOLE    0.1496        C 25 --  C 26           +4.5% (126.9%)    17.4%
+ TRAVEL      0.0922        C 19 --  C 20           +4.5% (126.9%)    17.4%
+ RED. MASS   0.7789        C  1 --  C  2           +4.5% (126.6%)    20.4%
+ EFF. MASS  28.9379
+
+ VIBRATION   21    3Ag      ATOM PAIR        ENERGY CONTRIBUTION    RADIAL
+ FREQ.       276.12        C  7 --  C 14           +5.0% (135.6%)     6.9%
+ T-DIPOLE    0.0000        C 31 --  C 38           +5.0% (135.6%)     6.9%
+ TRAVEL      0.0924        C 13 --  C 14           +4.3% (126.1%)    13.3%
+ RED. MASS   0.7804        C 31 --  C 32           +4.3% (126.1%)    13.3%
+ EFF. MASS  28.6328
+
+ VIBRATION   22    4Bu      ATOM PAIR        ENERGY CONTRIBUTION    RADIAL
+ FREQ.       310.40        C 19 --  C 26           +3.4% ( 98.3%)     0.8%
+ T-DIPOLE    0.1724        C 31 --  C 32           +3.3% ( 96.9%)     0.9%
+ TRAVEL      0.0729        C 13 --  C 14           +3.3% ( 96.9%)     0.9%
+ RED. MASS   0.6202        C  7 --  C  8           +3.3% ( 96.5%)     1.0%
+ EFF. MASS  40.8332
+
+ VIBRATION   23    4Ag      ATOM PAIR        ENERGY CONTRIBUTION    RADIAL
+ FREQ.       311.49        C 31 --  C 38           +3.4% ( 97.6%)     0.8%
+ T-DIPOLE    0.0000        C  7 --  C 14           +3.4% ( 97.6%)     0.8%
+ TRAVEL      0.0730        C 43 --  C 44           +3.3% ( 97.1%)     0.7%
+ RED. MASS   0.6163        C  1 --  C  2           +3.3% ( 97.1%)     0.7%
+ EFF. MASS  40.6291
+
+ VIBRATION   24    5Ag      ATOM PAIR        ENERGY CONTRIBUTION    RADIAL
+ FREQ.       453.18        C 19 --  C 26           +4.1% ( 73.8%)     0.7%
+ T-DIPOLE    0.0000        C 25 --  C 32           +4.0% ( 73.0%)     0.7%
+ TRAVEL      0.0801        C 13 --  C 20           +4.0% ( 73.0%)     0.7%
+ RED. MASS   0.4530        C  1 --  C  8           +4.0% ( 72.9%)     0.6%
+ EFF. MASS  23.1952
+
+ VIBRATION   25    5Bu      ATOM PAIR        ENERGY CONTRIBUTION    RADIAL
+ FREQ.       453.92        C  7 --  C  8           +4.0% ( 73.6%)     0.6%
+ T-DIPOLE    0.0584        C 37 --  C 38           +4.0% ( 73.6%)     0.6%
+ TRAVEL      0.0801        C 31 --  C 32           +4.0% ( 73.3%)     0.6%
+ RED. MASS   0.4540        C 13 --  C 14           +4.0% ( 73.3%)     0.6%
+ EFF. MASS  23.1678
+
+ VIBRATION   26    6Ag      ATOM PAIR        ENERGY CONTRIBUTION    RADIAL
+ FREQ.       482.68        C 37 --  C 44           +3.7% ( 66.1%)    12.3%
+ T-DIPOLE    0.0000        C  1 --  C  8           +3.7% ( 66.1%)    12.3%
+ TRAVEL      0.0893        C 13 --  C 20           +3.7% ( 66.0%)     3.6%
+ RED. MASS   0.6097        C 25 --  C 32           +3.7% ( 66.0%)     3.6%
+ EFF. MASS  17.4999
+
+ VIBRATION   27    6Bu      ATOM PAIR        ENERGY CONTRIBUTION    RADIAL
+ FREQ.       483.38        C 19 --  C 26           +3.8% ( 66.4%)     2.9%
+ T-DIPOLE    0.4840        C  7 --  C 14           +3.7% ( 65.5%)     0.5%
+ TRAVEL      0.0894        C 31 --  C 38           +3.7% ( 65.5%)     0.5%
+ RED. MASS   0.6117        C 43 --  C 44           +3.0% ( 58.8%)     3.5%
+ EFF. MASS  17.4700
+
+ VIBRATION   28    7Ag      ATOM PAIR        ENERGY CONTRIBUTION    RADIAL
+ FREQ.       540.44        C 19 --  C 26           +3.9% ( 60.1%)     0.0%
+ T-DIPOLE    0.0000        C 37 --  C 38           +3.7% ( 58.4%)     0.0%
+ TRAVEL      0.0840        C  7 --  C  8           +3.7% ( 58.4%)     0.0%
+ RED. MASS   0.4431        C 31 --  C 32           +3.7% ( 58.3%)     0.0%
+ EFF. MASS  17.6631
+
+ VIBRATION   29    7Bu      ATOM PAIR        ENERGY CONTRIBUTION    RADIAL
+ FREQ.       541.01        C 31 --  C 38           +3.8% ( 59.8%)     0.0%
+ T-DIPOLE    0.4903        C  7 --  C 14           +3.8% ( 59.8%)     0.0%
+ TRAVEL      0.0840        C 25 --  C 26           +3.7% ( 58.6%)     0.0%
+ RED. MASS   0.4439        C 19 --  C 20           +3.7% ( 58.6%)     0.0%
+ EFF. MASS  17.6644
+
+ VIBRATION   30    8Au      ATOM PAIR        ENERGY CONTRIBUTION    RADIAL
+ FREQ.       802.46        C  2 --  H  3           +8.7% ( 43.3%)     4.8%
+ T-DIPOLE    0.8338        C  2 --  H  4           +8.7% ( 43.3%)     4.8%
+ TRAVEL      0.2217        C 43 --  H 47           +8.7% ( 43.3%)     4.8%
+ RED. MASS   0.0674        C 43 --  H 48           +8.7% ( 43.3%)     4.8%
+ EFF. MASS   1.7103
+
+ VIBRATION   31    9Bg      ATOM PAIR        ENERGY CONTRIBUTION    RADIAL
+ FREQ.       803.36        C  7 --  H 11           +5.5% ( 34.9%)     5.0%
+ T-DIPOLE    0.0000        C  7 --  H 12           +5.5% ( 34.9%)     5.0%
+ TRAVEL      0.2176        C 38 --  H 39           +5.5% ( 34.9%)     5.0%
+ RED. MASS   0.0447        C 38 --  H 40           +5.5% ( 34.9%)     5.0%
+ EFF. MASS   1.7730
+
+ VIBRATION   32    9Au      ATOM PAIR        ENERGY CONTRIBUTION    RADIAL
+ FREQ.       803.40        C 26 --  H 27           +7.2% ( 39.8%)     4.7%
+ T-DIPOLE    0.9453        C 26 --  H 28           +7.2% ( 39.8%)     4.7%
+ TRAVEL      0.2222        C 19 --  H 23           +7.2% ( 39.7%)     4.7%
+ RED. MASS   0.0607        C 19 --  H 24           +7.2% ( 39.7%)     4.7%
+ EFF. MASS   1.6999
+
+ VIBRATION   33   10Bg      ATOM PAIR        ENERGY CONTRIBUTION    RADIAL
+ FREQ.       810.63        C 13 --  H 17           +5.1% ( 34.3%)     6.5%
+ T-DIPOLE    0.0000        C 13 --  H 18           +5.1% ( 34.3%)     6.5%
+ TRAVEL      0.1955        C 32 --  H 33           +5.1% ( 34.3%)     6.5%
+ RED. MASS   0.0488        C 32 --  H 34           +5.1% ( 34.3%)     6.5%
+ EFF. MASS   2.1760
+
+ VIBRATION   34   10Au      ATOM PAIR        ENERGY CONTRIBUTION    RADIAL
+ FREQ.       812.80        C  7 --  H 11           +4.9% ( 33.6%)     6.6%
+ T-DIPOLE    0.0103        C  7 --  H 12           +4.9% ( 33.6%)     6.6%
+ TRAVEL      0.1956        C 38 --  H 39           +4.9% ( 33.6%)     6.6%
+ RED. MASS   0.0482        C 38 --  H 40           +4.9% ( 33.6%)     6.6%
+ EFF. MASS   2.1682
+
+ VIBRATION   35   11Bg      ATOM PAIR        ENERGY CONTRIBUTION    RADIAL
+ FREQ.       837.89        C 20 --  H 21           +4.7% ( 33.4%)     9.3%
+ T-DIPOLE    0.0000        C 20 --  H 22           +4.7% ( 33.4%)     9.3%
+ TRAVEL      0.1672        C 25 --  H 29           +4.7% ( 33.4%)     9.3%
+ RED. MASS   0.0586        C 25 --  H 30           +4.7% ( 33.4%)     9.3%
+ EFF. MASS   2.8778
+
+ VIBRATION   36   11Au      ATOM PAIR        ENERGY CONTRIBUTION    RADIAL
+ FREQ.       838.30        C  8 --  H  9           +4.7% ( 33.4%)     9.3%
+ T-DIPOLE    0.0157        C  8 --  H 10           +4.7% ( 33.4%)     9.3%
+ TRAVEL      0.1674        C 37 --  H 41           +4.7% ( 33.4%)     9.3%
+ RED. MASS   0.0585        C 37 --  H 42           +4.7% ( 33.4%)     9.3%
+ EFF. MASS   2.8692
+
+ VIBRATION   37   12Au      ATOM PAIR        ENERGY CONTRIBUTION    RADIAL
+ FREQ.       885.96        C 26 --  H 27           +2.7% ( 25.5%)    11.1%
+ T-DIPOLE    0.0169        C 26 --  H 28           +2.7% ( 25.5%)    11.1%
+ TRAVEL      0.1441        C 19 --  H 23           +2.7% ( 25.5%)    11.1%
+ RED. MASS   0.0560        C 19 --  H 24           +2.7% ( 25.5%)    11.1%
+ EFF. MASS   3.6646
+
+ VIBRATION   38   12Bg      ATOM PAIR        ENERGY CONTRIBUTION    RADIAL
+ FREQ.       886.82        C  1 --  H  5           +2.6% ( 25.1%)    11.5%
+ T-DIPOLE    0.0000        C  1 --  H  6           +2.6% ( 25.1%)    11.5%
+ TRAVEL      0.1427        C 44 --  H 45           +2.6% ( 25.1%)    11.5%
+ RED. MASS   0.0578        C 44 --  H 46           +2.6% ( 25.1%)    11.5%
+ EFF. MASS   3.7364
+
+ VIBRATION   39   13Bg      ATOM PAIR        ENERGY CONTRIBUTION    RADIAL
+ FREQ.       952.09        C 13 --  H 17           +3.6% ( 28.2%)    15.2%
+ T-DIPOLE    0.0000        C 13 --  H 18           +3.6% ( 28.2%)    15.2%
+ TRAVEL      0.1298        C 32 --  H 33           +3.6% ( 28.2%)    15.2%
+ RED. MASS   0.1002        C 32 --  H 34           +3.6% ( 28.2%)    15.2%
+ EFF. MASS   4.2013
+
+ VIBRATION   40   13Au      ATOM PAIR        ENERGY CONTRIBUTION    RADIAL
+ FREQ.       952.86        C  1 --  H  5           +3.6% ( 28.3%)    15.1%
+ T-DIPOLE    0.0078        C  1 --  H  6           +3.6% ( 28.3%)    15.2%
+ TRAVEL      0.1296        C 44 --  H 45           +3.6% ( 28.3%)    15.1%
+ RED. MASS   0.1013        C 44 --  H 46           +3.6% ( 28.3%)    15.1%
+ EFF. MASS   4.2145
+
+ VIBRATION   41   14Au      ATOM PAIR        ENERGY CONTRIBUTION    RADIAL
+ FREQ.      1020.77        C  1 --  C  8           +3.0% ( 24.7%)     0.0%
+ T-DIPOLE    0.0115        C 37 --  C 44           +3.0% ( 24.7%)     0.0%
+ TRAVEL      0.1262        C 25 --  C 32           +2.9% ( 24.3%)     0.0%
+ RED. MASS   0.1020        C 13 --  C 20           +2.9% ( 24.3%)     0.0%
+ EFF. MASS   4.1488
+
+ VIBRATION   42   14Bg      ATOM PAIR        ENERGY CONTRIBUTION    RADIAL
+ FREQ.      1020.91        C 19 --  C 26           +3.1% ( 24.6%)     0.0%
+ T-DIPOLE    0.0000        C 31 --  C 38           +3.1% ( 24.4%)     0.0%
+ TRAVEL      0.1267        C  7 --  C 14           +3.1% ( 24.4%)     0.0%
+ RED. MASS   0.1006        C 19 --  H 23           +2.9% ( 23.9%)    17.0%
+ EFF. MASS   4.1152
+
+ VIBRATION   43    8Bu      ATOM PAIR        ENERGY CONTRIBUTION    RADIAL
+ FREQ.      1068.01        C  1 --  C  8           +6.0% ( 44.4%)    53.6%
+ T-DIPOLE    0.2522        C 37 --  C 44           +6.0% ( 44.4%)    53.6%
+ TRAVEL      0.0728        C 13 --  C 20           +5.1% ( 40.9%)    52.4%
+ RED. MASS   0.7640        C 25 --  C 32           +5.1% ( 40.9%)    52.4%
+ EFF. MASS  11.9285
+
+ VIBRATION   44    8Ag      ATOM PAIR        ENERGY CONTRIBUTION    RADIAL
+ FREQ.      1068.08        C  7 --  C 14           +5.8% ( 42.8%)    54.3%
+ T-DIPOLE    0.0000        C 31 --  C 38           +5.8% ( 42.8%)    54.3%
+ TRAVEL      0.0727        C 19 --  C 26           +4.9% ( 39.4%)    51.2%
+ RED. MASS   0.7684        C 43 --  C 44           +4.3% ( 36.7%)    57.6%
+ EFF. MASS  11.9333
+
+ VIBRATION   45    9Ag      ATOM PAIR        ENERGY CONTRIBUTION    RADIAL
+ FREQ.      1077.22        C 19 --  C 26           +4.8% ( 39.4%)    84.9%
+ T-DIPOLE    0.0000        C 31 --  C 32           +4.4% ( 37.8%)    85.0%
+ TRAVEL      0.0720        C 13 --  C 14           +4.4% ( 37.8%)    85.0%
+ RED. MASS   0.7184        C 37 --  C 38           +3.8% ( 35.2%)    88.1%
+ EFF. MASS  12.0781
+
+ VIBRATION   46    9Bu      ATOM PAIR        ENERGY CONTRIBUTION    RADIAL
+ FREQ.      1077.88        C 31 --  C 38           +4.4% ( 38.0%)    88.0%
+ T-DIPOLE    0.3355        C  7 --  C 14           +4.4% ( 38.0%)    88.0%
+ TRAVEL      0.0720        C 25 --  C 26           +4.3% ( 37.7%)    85.3%
+ RED. MASS   0.7169        C 19 --  C 20           +4.3% ( 37.7%)    85.3%
+ EFF. MASS  12.0799
+
+ VIBRATION   47   15Bg      ATOM PAIR        ENERGY CONTRIBUTION    RADIAL
+ FREQ.      1080.79        C  7 --  H 11           +2.9% ( 21.8%)     0.7%
+ T-DIPOLE    0.0000        C  7 --  H 12           +2.9% ( 21.8%)     0.7%
+ TRAVEL      0.1398        C 38 --  H 39           +2.9% ( 21.8%)     0.7%
+ RED. MASS   0.0663        C 38 --  H 40           +2.9% ( 21.8%)     0.7%
+ EFF. MASS   3.1935
+
+ VIBRATION   48   15Au      ATOM PAIR        ENERGY CONTRIBUTION    RADIAL
+ FREQ.      1080.98        C 19 --  H 23           +2.9% ( 22.0%)     1.1%
+ T-DIPOLE    0.0102        C 19 --  H 24           +2.9% ( 22.0%)     1.1%
+ TRAVEL      0.1392        C 26 --  H 27           +2.9% ( 22.0%)     1.1%
+ RED. MASS   0.0667        C 26 --  H 28           +2.9% ( 22.0%)     1.1%
+ EFF. MASS   3.2174
+
+ VIBRATION   49   10Bu      ATOM PAIR        ENERGY CONTRIBUTION    RADIAL
+ FREQ.      1112.62        C  7 --  C 14           +6.8% ( 45.4%)    38.4%
+ T-DIPOLE    0.2502        C 31 --  C 38           +6.8% ( 45.4%)    38.4%
+ TRAVEL      0.0720        C 31 --  C 32           +5.9% ( 42.2%)    35.0%
+ RED. MASS   0.8586        C 13 --  C 14           +5.9% ( 42.2%)    35.0%
+ EFF. MASS  11.6928
+
+ VIBRATION   50   10Ag      ATOM PAIR        ENERGY CONTRIBUTION    RADIAL
+ FREQ.      1112.78        C 19 --  C 26           +7.3% ( 45.5%)    42.1%
+ T-DIPOLE    0.0000        C 43 --  C 44           +6.5% ( 42.9%)    43.9%
+ TRAVEL      0.0721        C  1 --  C  2           +6.5% ( 42.9%)    43.9%
+ RED. MASS   0.8601        C 19 --  C 20           +6.0% ( 41.4%)    32.1%
+ EFF. MASS  11.6728
+
+ VIBRATION   51   16Au      ATOM PAIR        ENERGY CONTRIBUTION    RADIAL
+ FREQ.      1115.47        C 44 --  H 45           +3.2% ( 19.8%)     0.0%
+ T-DIPOLE    0.0294        C 44 --  H 46           +3.2% ( 19.8%)     0.0%
+ TRAVEL      0.2446        C  1 --  H  5           +3.2% ( 19.8%)     0.0%
+ RED. MASS   0.0315        C  1 --  H  6           +3.2% ( 19.8%)     0.0%
+ EFF. MASS   1.0106
+
+ VIBRATION   52   11Ag      ATOM PAIR        ENERGY CONTRIBUTION    RADIAL
+ FREQ.      1123.73        C  1 --  C  8           +3.8% ( 31.3%)    75.1%
+ T-DIPOLE    0.0000        C 37 --  C 44           +3.8% ( 31.3%)    75.1%
+ TRAVEL      0.0783        C  7 --  C  8           +3.6% ( 30.9%)    65.4%
+ RED. MASS   0.4326        C 37 --  C 38           +3.6% ( 30.9%)    65.4%
+ EFF. MASS   9.7773
+
+ VIBRATION   53   11Bu      ATOM PAIR        ENERGY CONTRIBUTION    RADIAL
+ FREQ.      1131.50        C  1 --  C  2           +5.1% ( 38.9%)    99.4%
+ T-DIPOLE    0.0838        C 43 --  C 44           +5.1% ( 38.9%)    99.4%
+ TRAVEL      0.0709        C 31 --  C 32           +4.3% ( 35.9%)    99.7%
+ RED. MASS   0.7161        C 13 --  C 14           +4.3% ( 35.9%)    99.7%
+ EFF. MASS  11.8710
+
+ VIBRATION   54   12Ag      ATOM PAIR        ENERGY CONTRIBUTION    RADIAL
+ FREQ.      1132.20        C 31 --  C 38           +4.7% ( 37.4%)    99.4%
+ T-DIPOLE    0.0000        C  7 --  C 14           +4.7% ( 37.4%)    99.4%
+ TRAVEL      0.0708        C 19 --  C 26           +4.6% ( 36.9%)    99.6%
+ RED. MASS   0.7135        C  1 --  C  8           +4.5% ( 36.4%)    99.6%
+ EFF. MASS  11.8674
+
+ VIBRATION   55   12Bu      ATOM PAIR        ENERGY CONTRIBUTION    RADIAL
+ FREQ.      1139.45        C 31 --  C 38           +6.5% ( 42.2%)    68.6%
+ T-DIPOLE    0.4388        C  7 --  C 14           +6.5% ( 42.2%)    68.6%
+ TRAVEL      0.0765        C  7 --  C  8           +6.3% ( 41.4%)    74.4%
+ RED. MASS   0.6863        C 37 --  C 38           +6.3% ( 41.4%)    74.4%
+ EFF. MASS  10.0998
+
+ VIBRATION   56   13Ag      ATOM PAIR        ENERGY CONTRIBUTION    RADIAL
+ FREQ.      1139.53        C 19 --  C 26           +6.6% ( 40.9%)    86.5%
+ T-DIPOLE    0.0000        C 43 --  C 44           +6.4% ( 40.4%)    85.5%
+ TRAVEL      0.0761        C  1 --  C  2           +6.4% ( 40.4%)    85.5%
+ RED. MASS   0.6762        C 19 --  C 20           +5.5% ( 37.3%)    49.0%
+ EFF. MASS  10.2166
+
+ VIBRATION   57   14Ag      ATOM PAIR        ENERGY CONTRIBUTION    RADIAL
+ FREQ.      1142.03        C 25 --  C 26           +4.5% ( 35.4%)    59.5%
+ T-DIPOLE    0.0000        C 19 --  C 20           +4.5% ( 35.4%)    59.5%
+ TRAVEL      0.0709        C 19 --  C 26           +4.0% ( 33.3%)    10.1%
+ RED. MASS   0.6317        C 31 --  C 32           +3.9% ( 32.9%)    43.3%
+ EFF. MASS  11.7567
+
+ VIBRATION   58   16Bg      ATOM PAIR        ENERGY CONTRIBUTION    RADIAL
+ FREQ.      1162.40        C  1 --  C  2           +3.0% ( 24.2%)     0.0%
+ T-DIPOLE    0.0000        C 43 --  C 44           +3.0% ( 24.2%)     0.0%
+ TRAVEL      0.0921        C  1 --  C  8           +2.9% ( 23.9%)     0.0%
+ RED. MASS   0.2437        C 37 --  C 44           +2.9% ( 23.9%)     0.0%
+ EFF. MASS   6.8407
+
+ VIBRATION   59   13Bu      ATOM PAIR        ENERGY CONTRIBUTION    RADIAL
+ FREQ.      1163.82        C  1 --  C  8           +8.7% ( 48.8%)    84.3%
+ T-DIPOLE    0.3963        C 37 --  C 44           +8.7% ( 48.8%)    84.3%
+ TRAVEL      0.0723        C  1 --  C  2           +7.2% ( 44.2%)    84.1%
+ RED. MASS   1.0725        C 43 --  C 44           +7.2% ( 44.2%)    84.1%
+ EFF. MASS  11.0767
+
+ VIBRATION   60   15Ag      ATOM PAIR        ENERGY CONTRIBUTION    RADIAL
+ FREQ.      1164.62        C 19 --  C 26           +6.6% ( 41.4%)    80.2%
+ T-DIPOLE    0.0000        C 31 --  C 38           +5.9% ( 38.9%)    77.4%
+ TRAVEL      0.0731        C  7 --  C 14           +5.9% ( 38.9%)    77.4%
+ RED. MASS   0.7526        C  7 --  C  8           +4.0% ( 31.9%)    81.0%
+ EFF. MASS  10.8346
+
+ VIBRATION   61   14Bu      ATOM PAIR        ENERGY CONTRIBUTION    RADIAL
+ FREQ.      1166.01        C 25 --  C 26           +8.3% ( 48.1%)    87.4%
+ T-DIPOLE    0.1639        C 19 --  C 20           +8.3% ( 48.1%)    87.4%
+ TRAVEL      0.0719        C 13 --  C 20           +8.2% ( 47.7%)    85.3%
+ RED. MASS   1.1557        C 25 --  C 32           +8.2% ( 47.7%)    85.3%
+ EFF. MASS  11.1875
+
+ VIBRATION   62   16Ag      ATOM PAIR        ENERGY CONTRIBUTION    RADIAL
+ FREQ.      1168.00        C 19 --  C 26           +5.7% ( 39.1%)    90.6%
+ T-DIPOLE    0.0000        C 31 --  C 32           +4.9% ( 36.6%)    90.6%
+ TRAVEL      0.0710        C 13 --  C 14           +4.9% ( 36.6%)    90.6%
+ RED. MASS   0.7947        C 37 --  C 38           +4.6% ( 35.3%)    91.5%
+ EFF. MASS  11.4627
+
+ VIBRATION   63   17Bg      ATOM PAIR        ENERGY CONTRIBUTION    RADIAL
+ FREQ.      1187.90        C 19 --  C 26           +4.3% ( 25.8%)     0.0%
+ T-DIPOLE    0.0000        C 25 --  C 26           +3.7% ( 23.9%)     0.0%
+ TRAVEL      0.1115        C 19 --  C 20           +3.7% ( 23.9%)     0.0%
+ RED. MASS   0.1551        C  1 --  C  2           +3.4% ( 23.0%)     0.0%
+ EFF. MASS   4.5632
+
+ VIBRATION   64   17Au      ATOM PAIR        ENERGY CONTRIBUTION    RADIAL
+ FREQ.      1188.41        C 31 --  C 38           +4.0% ( 25.2%)     0.0%
+ T-DIPOLE    0.0062        C  7 --  C 14           +4.0% ( 25.2%)     0.0%
+ TRAVEL      0.1120        C 13 --  C 14           +3.4% ( 23.5%)     0.0%
+ RED. MASS   0.1529        C 31 --  C 32           +3.4% ( 23.5%)     0.0%
+ EFF. MASS   4.5218
+
+ VIBRATION   65   18Bg      ATOM PAIR        ENERGY CONTRIBUTION    RADIAL
+ FREQ.      1203.86        C 20 --  H 21           +4.5% ( 21.7%)     0.1%
+ T-DIPOLE    0.0000        C 20 --  H 22           +4.5% ( 21.7%)     0.1%
+ TRAVEL      0.2333        C 25 --  H 29           +4.5% ( 21.7%)     0.1%
+ RED. MASS   0.0336        C 25 --  H 30           +4.5% ( 21.7%)     0.1%
+ EFF. MASS   1.0290
+
+ VIBRATION   66   18Au      ATOM PAIR        ENERGY CONTRIBUTION    RADIAL
+ FREQ.      1212.25        C 31 --  H 35           +6.0% ( 25.0%)     0.0%
+ T-DIPOLE    0.0068        C 31 --  H 36           +6.0% ( 25.0%)     0.0%
+ TRAVEL      0.2238        C 14 --  H 15           +6.0% ( 25.0%)     0.0%
+ RED. MASS   0.0462        C 14 --  H 16           +6.0% ( 25.0%)     0.0%
+ EFF. MASS   1.1107
+
+ VIBRATION   67   19Bg      ATOM PAIR        ENERGY CONTRIBUTION    RADIAL
+ FREQ.      1213.30        C 43 --  H 47           +6.0% ( 24.9%)     0.0%
+ T-DIPOLE    0.0000        C 43 --  H 48           +6.0% ( 24.9%)     0.0%
+ TRAVEL      0.2251        C  2 --  H  3           +6.0% ( 24.9%)     0.0%
+ RED. MASS   0.0456        C  2 --  H  4           +6.0% ( 24.9%)     0.1%
+ EFF. MASS   1.0968
+
+ VIBRATION   68   20Bg      ATOM PAIR        ENERGY CONTRIBUTION    RADIAL
+ FREQ.      1221.84        C 13 --  H 17           +3.2% ( 20.4%)     4.2%
+ T-DIPOLE    0.0000        C 13 --  H 18           +3.2% ( 20.4%)     4.2%
+ TRAVEL      0.1301        C 32 --  H 33           +3.2% ( 20.4%)     4.2%
+ RED. MASS   0.0856        C 32 --  H 34           +3.2% ( 20.4%)     4.2%
+ EFF. MASS   3.2611
+
+ VIBRATION   69   19Au      ATOM PAIR        ENERGY CONTRIBUTION    RADIAL
+ FREQ.      1221.97        C 31 --  H 35           +3.0% ( 20.0%)     3.7%
+ T-DIPOLE    0.0145        C 31 --  H 36           +3.0% ( 20.0%)     3.7%
+ TRAVEL      0.1302        C 14 --  H 15           +3.0% ( 20.0%)     3.7%
+ RED. MASS   0.0857        C 14 --  H 16           +3.0% ( 20.0%)     3.7%
+ EFF. MASS   3.2528
+
+ VIBRATION   70   20Au      ATOM PAIR        ENERGY CONTRIBUTION    RADIAL
+ FREQ.      1232.50        C  1 --  H  5           +5.0% ( 22.7%)     0.0%
+ T-DIPOLE    0.0224        C  1 --  H  6           +5.0% ( 22.7%)     0.0%
+ TRAVEL      0.2035        C 44 --  H 45           +5.0% ( 22.7%)     0.0%
+ RED. MASS   0.0429        C 44 --  H 46           +5.0% ( 22.7%)     0.0%
+ EFF. MASS   1.3211
+
+ VIBRATION   71   21Bg      ATOM PAIR        ENERGY CONTRIBUTION    RADIAL
+ FREQ.      1233.55        C 31 --  H 35           +5.5% ( 23.7%)     0.3%
+ T-DIPOLE    0.0000        C 31 --  H 36           +5.5% ( 23.7%)     0.3%
+ TRAVEL      0.2038        C 14 --  H 15           +5.5% ( 23.7%)     0.3%
+ RED. MASS   0.0450        C 14 --  H 16           +5.5% ( 23.7%)     0.3%
+ EFF. MASS   1.3160
+
+ VIBRATION   72   22Bg      ATOM PAIR        ENERGY CONTRIBUTION    RADIAL
+ FREQ.      1245.89        C  7 --  H 11           +3.6% ( 20.5%)     6.0%
+ T-DIPOLE    0.0000        C  7 --  H 12           +3.6% ( 20.5%)     6.0%
+ TRAVEL      0.1465        C 38 --  H 39           +3.6% ( 20.5%)     6.0%
+ RED. MASS   0.0598        C 38 --  H 40           +3.6% ( 20.5%)     6.0%
+ EFF. MASS   2.5218
+
+ VIBRATION   73   21Au      ATOM PAIR        ENERGY CONTRIBUTION    RADIAL
+ FREQ.      1247.72        C  8 --  H  9           +3.9% ( 21.5%)     1.0%
+ T-DIPOLE    0.0083        C  8 --  H 10           +3.9% ( 21.5%)     1.0%
+ TRAVEL      0.1470        C 37 --  H 41           +3.9% ( 21.5%)     1.0%
+ RED. MASS   0.0618        C 37 --  H 42           +3.9% ( 21.5%)     1.0%
+ EFF. MASS   2.5025
+
+ VIBRATION   74   22Au      ATOM PAIR        ENERGY CONTRIBUTION    RADIAL
+ FREQ.      1250.32        C 44 --  H 45           +5.0% ( 22.9%)     0.2%
+ T-DIPOLE    0.0113        C 44 --  H 46           +5.0% ( 22.9%)     0.2%
+ TRAVEL      0.1823        C  1 --  H  5           +5.0% ( 22.9%)     0.2%
+ RED. MASS   0.0446        C  1 --  H  6           +5.0% ( 22.9%)     0.2%
+ EFF. MASS   1.6220
+
+ VIBRATION   75   23Bg      ATOM PAIR        ENERGY CONTRIBUTION    RADIAL
+ FREQ.      1252.48        C 19 --  H 23           +5.4% ( 23.8%)     3.5%
+ T-DIPOLE    0.0000        C 19 --  H 24           +5.4% ( 23.8%)     3.5%
+ TRAVEL      0.1817        C 26 --  H 27           +5.4% ( 23.8%)     3.5%
+ RED. MASS   0.0476        C 26 --  H 28           +5.4% ( 23.8%)     3.5%
+ EFF. MASS   1.6312
+
+ VIBRATION   76   23Au      ATOM PAIR        ENERGY CONTRIBUTION    RADIAL
+ FREQ.      1257.48        C  8 --  H  9           +3.5% ( 19.5%)     5.5%
+ T-DIPOLE    0.0061        C  8 --  H 10           +3.5% ( 19.5%)     5.5%
+ TRAVEL      0.1631        C 37 --  H 41           +3.5% ( 19.5%)     5.5%
+ RED. MASS   0.0361        C 37 --  H 42           +3.5% ( 19.5%)     5.5%
+ EFF. MASS   2.0169
+
+ VIBRATION   77   24Bg      ATOM PAIR        ENERGY CONTRIBUTION    RADIAL
+ FREQ.      1258.05        C 43 --  H 47           +4.4% ( 21.6%)     5.3%
+ T-DIPOLE    0.0000        C 43 --  H 48           +4.4% ( 21.6%)     5.3%
+ TRAVEL      0.1649        C  2 --  H  3           +4.4% ( 21.6%)     5.3%
+ RED. MASS   0.0389        C  2 --  H  4           +4.4% ( 21.6%)     5.2%
+ EFF. MASS   1.9721
+
+ VIBRATION   78   15Bu      ATOM PAIR        ENERGY CONTRIBUTION    RADIAL
+ FREQ.      1312.83        C 20 --  H 22           +4.5% ( 22.9%)     0.0%
+ T-DIPOLE    2.8736        C 20 --  H 21           +4.5% ( 22.9%)     0.0%
+ TRAVEL      0.1669        C 25 --  H 30           +4.5% ( 22.9%)     0.0%
+ RED. MASS   0.0410        C 25 --  H 29           +4.5% ( 22.9%)     0.0%
+ EFF. MASS   1.8436
+
+ VIBRATION   79   16Bu      ATOM PAIR        ENERGY CONTRIBUTION    RADIAL
+ FREQ.      1318.22        C  2 --  H  4           +3.9% ( 17.3%)     0.8%
+ T-DIPOLE    0.1401        C  2 --  H  3           +3.9% ( 17.3%)     0.8%
+ TRAVEL      0.2076        C 43 --  H 48           +3.9% ( 17.3%)     0.8%
+ RED. MASS   0.0316        C 43 --  H 47           +3.9% ( 17.3%)     0.8%
+ EFF. MASS   1.1871
+
+ VIBRATION   80   17Ag      ATOM PAIR        ENERGY CONTRIBUTION    RADIAL
+ FREQ.      1318.23        C 13 --  H 18           +3.7% ( 16.7%)     0.9%
+ T-DIPOLE    0.0000        C 13 --  H 17           +3.7% ( 16.7%)     0.9%
+ TRAVEL      0.2064        C 32 --  H 34           +3.7% ( 16.7%)     0.9%
+ RED. MASS   0.0312        C 32 --  H 33           +3.7% ( 16.7%)     0.9%
+ EFF. MASS   1.2007
+
+ VIBRATION   81   18Ag      ATOM PAIR        ENERGY CONTRIBUTION    RADIAL
+ FREQ.      1319.75        C 32 --  H 34           +5.9% ( 21.1%)     0.8%
+ T-DIPOLE    0.0000        C 32 --  H 33           +5.9% ( 21.1%)     0.8%
+ TRAVEL      0.2075        C 13 --  H 18           +5.9% ( 21.1%)     0.8%
+ RED. MASS   0.0430        C 13 --  H 17           +5.9% ( 21.1%)     0.8%
+ EFF. MASS   1.1861
+
+ VIBRATION   82   17Bu      ATOM PAIR        ENERGY CONTRIBUTION    RADIAL
+ FREQ.      1320.13        C 13 --  H 18           +6.2% ( 22.2%)     0.9%
+ T-DIPOLE    0.8256        C 13 --  H 17           +6.2% ( 22.2%)     0.9%
+ TRAVEL      0.1996        C 32 --  H 34           +6.2% ( 22.2%)     0.9%
+ RED. MASS   0.0419        C 32 --  H 33           +6.2% ( 22.2%)     0.9%
+ EFF. MASS   1.2826
+
+ VIBRATION   83   18Bu      ATOM PAIR        ENERGY CONTRIBUTION    RADIAL
+ FREQ.      1320.30        C 25 --  H 30           +6.4% ( 21.9%)     0.9%
+ T-DIPOLE    0.2068        C 25 --  H 29           +6.4% ( 21.9%)     0.9%
+ TRAVEL      0.2082        C 20 --  H 22           +6.4% ( 21.9%)     0.9%
+ RED. MASS   0.0425        C 20 --  H 21           +6.4% ( 21.9%)     0.9%
+ EFF. MASS   1.1778
+
+ VIBRATION   84   19Ag      ATOM PAIR        ENERGY CONTRIBUTION    RADIAL
+ FREQ.      1320.70        C 20 --  H 22           +6.2% ( 22.2%)     1.1%
+ T-DIPOLE    0.0000        C 20 --  H 21           +6.2% ( 22.2%)     1.1%
+ TRAVEL      0.1996        C 25 --  H 30           +6.2% ( 22.2%)     1.1%
+ RED. MASS   0.0412        C 25 --  H 29           +6.2% ( 22.2%)     1.1%
+ EFF. MASS   1.2815
+
+ VIBRATION   85   19Bu      ATOM PAIR        ENERGY CONTRIBUTION    RADIAL
+ FREQ.      1323.36        C 25 --  H 30           +7.4% ( 24.2%)     0.6%
+ T-DIPOLE    0.5590        C 25 --  H 29           +7.4% ( 24.2%)     0.6%
+ TRAVEL      0.2006        C 20 --  H 22           +7.4% ( 24.2%)     0.6%
+ RED. MASS   0.0541        C 20 --  H 21           +7.4% ( 24.2%)     0.6%
+ EFF. MASS   1.2664
+
+ VIBRATION   86   20Ag      ATOM PAIR        ENERGY CONTRIBUTION    RADIAL
+ FREQ.      1323.96        C 44 --  H 46           +6.2% ( 22.4%)     0.8%
+ T-DIPOLE    0.0000        C 44 --  H 45           +6.2% ( 22.4%)     0.8%
+ TRAVEL      0.1960        C  1 --  H  6           +6.2% ( 22.4%)     0.8%
+ RED. MASS   0.0412        C  1 --  H  5           +6.2% ( 22.4%)     0.8%
+ EFF. MASS   1.3256
+
+ VIBRATION   87   21Ag      ATOM PAIR        ENERGY CONTRIBUTION    RADIAL
+ FREQ.      1324.64        C 14 --  H 16           +6.2% ( 24.2%)     0.0%
+ T-DIPOLE    0.0000        C 14 --  H 15           +6.2% ( 24.2%)     0.0%
+ TRAVEL      0.1799        C 31 --  H 36           +6.2% ( 24.2%)     0.0%
+ RED. MASS   0.0428        C 31 --  H 35           +6.2% ( 24.2%)     0.0%
+ EFF. MASS   1.5727
+
+ VIBRATION   88   20Bu      ATOM PAIR        ENERGY CONTRIBUTION    RADIAL
+ FREQ.      1325.11        C 43 --  H 48           +6.8% ( 24.2%)     0.6%
+ T-DIPOLE    0.4584        C 43 --  H 47           +6.8% ( 24.2%)     0.6%
+ TRAVEL      0.1868        C  2 --  H  4           +6.8% ( 24.2%)     0.6%
+ RED. MASS   0.0510        C  2 --  H  3           +6.8% ( 24.2%)     0.6%
+ EFF. MASS   1.4588
+
+ VIBRATION   89   22Ag      ATOM PAIR        ENERGY CONTRIBUTION    RADIAL
+ FREQ.      1325.56        C  2 --  H  4           +7.2% ( 24.5%)     0.5%
+ T-DIPOLE    0.0000        C  2 --  H  3           +7.2% ( 24.5%)     0.5%
+ TRAVEL      0.1880        C 43 --  H 48           +7.2% ( 24.5%)     0.5%
+ RED. MASS   0.0479        C 43 --  H 47           +7.2% ( 24.5%)     0.5%
+ EFF. MASS   1.4395
+
+ VIBRATION   90   21Bu      ATOM PAIR        ENERGY CONTRIBUTION    RADIAL
+ FREQ.      1326.03        C 31 --  H 36           +6.0% ( 23.1%)     0.5%
+ T-DIPOLE    1.7293        C 31 --  H 35           +6.0% ( 23.1%)     0.5%
+ TRAVEL      0.1895        C 14 --  H 16           +6.0% ( 23.1%)     0.5%
+ RED. MASS   0.0484        C 14 --  H 15           +6.0% ( 23.1%)     0.5%
+ EFF. MASS   1.4160
+
+ VIBRATION   91   23Ag      ATOM PAIR        ENERGY CONTRIBUTION    RADIAL
+ FREQ.      1328.49        C  1 --  H  6           +5.2% ( 26.0%)     0.0%
+ T-DIPOLE    0.0000        C  1 --  H  5           +5.2% ( 26.0%)     0.0%
+ TRAVEL      0.1310        C 44 --  H 46           +5.2% ( 26.0%)     0.0%
+ RED. MASS   0.0811        C 44 --  H 45           +5.2% ( 26.0%)     0.0%
+ EFF. MASS   2.9597
+
+ VIBRATION   92   22Bu      ATOM PAIR        ENERGY CONTRIBUTION    RADIAL
+ FREQ.      1329.21        C 38 --  H 40           +4.0% ( 21.6%)     0.0%
+ T-DIPOLE    0.8074        C 38 --  H 39           +4.0% ( 21.6%)     0.0%
+ TRAVEL      0.1445        C  7 --  H 12           +4.0% ( 21.6%)     0.0%
+ RED. MASS   0.0452        C  7 --  H 11           +4.0% ( 21.6%)     0.0%
+ EFF. MASS   2.4281
+
+ VIBRATION   93   24Ag      ATOM PAIR        ENERGY CONTRIBUTION    RADIAL
+ FREQ.      1329.69        C 26 --  H 28           +7.9% ( 31.1%)     0.1%
+ T-DIPOLE    0.0000        C 26 --  H 27           +7.9% ( 31.1%)     0.1%
+ TRAVEL      0.1390        C 19 --  H 24           +7.9% ( 31.1%)     0.1%
+ RED. MASS   0.0875        C 19 --  H 23           +7.9% ( 31.1%)     0.1%
+ EFF. MASS   2.6244
+
+ VIBRATION   94   25Ag      ATOM PAIR        ENERGY CONTRIBUTION    RADIAL
+ FREQ.      1338.22        C 26 --  H 28           +3.6% ( 17.0%)     1.9%
+ T-DIPOLE    0.0000        C 26 --  H 27           +3.6% ( 17.0%)     1.9%
+ TRAVEL      0.1787        C 19 --  H 24           +3.6% ( 17.0%)     1.9%
+ RED. MASS   0.0310        C 19 --  H 23           +3.6% ( 17.0%)     1.9%
+ EFF. MASS   1.5775
+
+ VIBRATION   95   23Bu      ATOM PAIR        ENERGY CONTRIBUTION    RADIAL
+ FREQ.      1343.92        C 14 --  H 16           +4.2% ( 18.6%)     2.4%
+ T-DIPOLE    2.3435        C 14 --  H 15           +4.2% ( 18.6%)     2.4%
+ TRAVEL      0.1743        C 31 --  H 36           +4.2% ( 18.6%)     2.4%
+ RED. MASS   0.0365        C 31 --  H 35           +4.2% ( 18.6%)     2.4%
+ EFF. MASS   1.6519
+
+ VIBRATION   96   24Bu      ATOM PAIR        ENERGY CONTRIBUTION    RADIAL
+ FREQ.      1344.71        C 44 --  H 46           +5.0% ( 22.9%)     1.7%
+ T-DIPOLE    0.5769        C 44 --  H 45           +5.0% ( 22.9%)     1.7%
+ TRAVEL      0.1477        C  1 --  H  6           +5.0% ( 22.9%)     1.7%
+ RED. MASS   0.0559        C  1 --  H  5           +5.0% ( 22.9%)     1.7%
+ EFF. MASS   2.2995
+
+ VIBRATION   97   26Ag      ATOM PAIR        ENERGY CONTRIBUTION    RADIAL
+ FREQ.      1344.83        C 32 --  H 34           +3.8% ( 20.1%)     1.4%
+ T-DIPOLE    0.0000        C 32 --  H 33           +3.8% ( 20.1%)     1.4%
+ TRAVEL      0.1458        C 13 --  H 18           +3.8% ( 20.1%)     1.4%
+ RED. MASS   0.0472        C 13 --  H 17           +3.8% ( 20.1%)     1.4%
+ EFF. MASS   2.3579
+
+ VIBRATION   98   27Ag      ATOM PAIR        ENERGY CONTRIBUTION    RADIAL
+ FREQ.      1347.61        C  7 --  H 12           +3.9% ( 19.9%)     2.0%
+ T-DIPOLE    0.0000        C  7 --  H 11           +3.9% ( 19.9%)     2.0%
+ TRAVEL      0.1492        C 38 --  H 40           +3.9% ( 19.9%)     2.0%
+ RED. MASS   0.0458        C 38 --  H 39           +3.9% ( 19.9%)     2.0%
+ EFF. MASS   2.2488
+
+ VIBRATION   99   25Bu      ATOM PAIR        ENERGY CONTRIBUTION    RADIAL
+ FREQ.      1347.89        C 32 --  H 34           +5.4% ( 23.6%)     1.6%
+ T-DIPOLE    1.9290        C 32 --  H 33           +5.4% ( 23.6%)     1.6%
+ TRAVEL      0.1480        C 13 --  H 18           +5.4% ( 23.6%)     1.6%
+ RED. MASS   0.0569        C 13 --  H 17           +5.4% ( 23.6%)     1.6%
+ EFF. MASS   2.2850
+
+ VIBRATION  100   26Bu      ATOM PAIR        ENERGY CONTRIBUTION    RADIAL
+ FREQ.      1365.18        C 13 --  H 18           +4.0% ( 21.6%)     0.3%
+ T-DIPOLE    0.7037        C 13 --  H 17           +4.0% ( 21.6%)     0.3%
+ TRAVEL      0.1376        C 32 --  H 34           +4.0% ( 21.6%)     0.3%
+ RED. MASS   0.0593        C 32 --  H 33           +4.0% ( 21.6%)     0.3%
+ EFF. MASS   2.6106
+
+ VIBRATION  101   28Ag      ATOM PAIR        ENERGY CONTRIBUTION    RADIAL
+ FREQ.      1366.13        C 14 --  H 16           +4.1% ( 21.7%)     0.2%
+ T-DIPOLE    0.0000        C 14 --  H 15           +4.1% ( 21.7%)     0.2%
+ TRAVEL      0.1375        C 31 --  H 36           +4.1% ( 21.7%)     0.2%
+ RED. MASS   0.0586        C 31 --  H 35           +4.1% ( 21.7%)     0.2%
+ EFF. MASS   2.6098
+
+ VIBRATION  102   29Ag      ATOM PAIR        ENERGY CONTRIBUTION    RADIAL
+ FREQ.      1373.94        C  1 --  H  6           +4.1% ( 21.7%)     0.6%
+ T-DIPOLE    0.0000        C  1 --  H  5           +4.1% ( 21.7%)     0.6%
+ TRAVEL      0.1355        C 44 --  H 46           +4.1% ( 21.7%)     0.6%
+ RED. MASS   0.0626        C 44 --  H 45           +4.1% ( 21.7%)     0.6%
+ EFF. MASS   2.6712
+
+ VIBRATION  103   27Bu      ATOM PAIR        ENERGY CONTRIBUTION    RADIAL
+ FREQ.      1374.16        C 31 --  H 36           +4.3% ( 22.4%)     0.5%
+ T-DIPOLE    2.5732        C 31 --  H 35           +4.3% ( 22.4%)     0.5%
+ TRAVEL      0.1357        C 14 --  H 16           +4.3% ( 22.4%)     0.5%
+ RED. MASS   0.0639        C 14 --  H 15           +4.3% ( 22.4%)     0.5%
+ EFF. MASS   2.6652
+
+ VIBRATION  104   28Bu      ATOM PAIR        ENERGY CONTRIBUTION    RADIAL
+ FREQ.      1386.99        C 14 --  H 16           +4.1% ( 21.4%)     0.6%
+ T-DIPOLE    0.9154        C 14 --  H 15           +4.1% ( 21.4%)     0.6%
+ TRAVEL      0.1395        C 31 --  H 36           +4.1% ( 21.4%)     0.6%
+ RED. MASS   0.0562        C 31 --  H 35           +4.1% ( 21.4%)     0.6%
+ EFF. MASS   2.4979
+
+ VIBRATION  105   30Ag      ATOM PAIR        ENERGY CONTRIBUTION    RADIAL
+ FREQ.      1388.10        C  8 --  H 10           +4.4% ( 21.9%)     0.0%
+ T-DIPOLE    0.0000        C  8 --  H  9           +4.4% ( 21.9%)     0.0%
+ TRAVEL      0.1401        C 37 --  H 42           +4.4% ( 21.9%)     0.0%
+ RED. MASS   0.0553        C 37 --  H 41           +4.4% ( 21.9%)     0.0%
+ EFF. MASS   2.4754
+
+ VIBRATION  106   31Ag      ATOM PAIR        ENERGY CONTRIBUTION    RADIAL
+ FREQ.      1392.82        C 20 --  H 22           +4.4% ( 22.1%)     0.2%
+ T-DIPOLE    0.0000        C 20 --  H 21           +4.4% ( 22.1%)     0.2%
+ TRAVEL      0.1376        C 25 --  H 30           +4.4% ( 22.1%)     0.2%
+ RED. MASS   0.0601        C 25 --  H 29           +4.4% ( 22.1%)     0.2%
+ EFF. MASS   2.5570
+
+ VIBRATION  107   29Bu      ATOM PAIR        ENERGY CONTRIBUTION    RADIAL
+ FREQ.      1395.19        C 19 --  H 24           +4.1% ( 21.3%)     1.0%
+ T-DIPOLE    2.4951        C 19 --  H 23           +4.1% ( 21.3%)     1.0%
+ TRAVEL      0.1378        C 26 --  H 28           +4.1% ( 21.3%)     1.0%
+ RED. MASS   0.0602        C 26 --  H 27           +4.1% ( 21.3%)     1.0%
+ EFF. MASS   2.5457
+
+ VIBRATION  108   32Ag      ATOM PAIR        ENERGY CONTRIBUTION    RADIAL
+ FREQ.      1396.45        C 38 --  H 40           +3.6% ( 19.7%)     0.6%
+ T-DIPOLE    0.0000        C 38 --  H 39           +3.6% ( 19.7%)     0.6%
+ TRAVEL      0.1403        C  7 --  H 12           +3.6% ( 19.7%)     0.6%
+ RED. MASS   0.0511        C  7 --  H 11           +3.6% ( 19.7%)     0.6%
+ EFF. MASS   2.4548
+
+ VIBRATION  109   30Bu      ATOM PAIR        ENERGY CONTRIBUTION    RADIAL
+ FREQ.      1399.18        C 43 --  H 48           +3.1% ( 18.3%)     1.3%
+ T-DIPOLE    2.3499        C 43 --  H 47           +3.1% ( 18.3%)     1.3%
+ TRAVEL      0.1402        C  2 --  H  4           +3.1% ( 18.3%)     1.3%
+ RED. MASS   0.0489        C  2 --  H  3           +3.1% ( 18.3%)     1.3%
+ EFF. MASS   2.4522
+
+ VIBRATION  110   25Bg      ATOM PAIR        ENERGY CONTRIBUTION    RADIAL
+ FREQ.      2650.55        C  2 --  H  3           +3.7% ( 20.0%)    98.3%
+ T-DIPOLE    0.0000        C  2 --  H  4           +3.7% ( 20.0%)    98.3%
+ TRAVEL      0.1356        C 43 --  H 47           +3.7% ( 20.0%)    98.3%
+ RED. MASS   0.0310        C 43 --  H 48           +3.7% ( 20.0%)    98.3%
+ EFF. MASS   1.3840
+
+ VIBRATION  111   26Bg      ATOM PAIR        ENERGY CONTRIBUTION    RADIAL
+ FREQ.      2651.24        C  2 --  H  3           +6.2% ( 25.9%)    98.3%
+ T-DIPOLE    0.0000        C  2 --  H  4           +6.2% ( 25.9%)    98.3%
+ TRAVEL      0.1354        C 43 --  H 47           +6.2% ( 25.9%)    98.3%
+ RED. MASS   0.0457        C 43 --  H 48           +6.2% ( 25.9%)    98.3%
+ EFF. MASS   1.3880
+
+ VIBRATION  112   24Au      ATOM PAIR        ENERGY CONTRIBUTION    RADIAL
+ FREQ.      2651.63        C 31 --  H 35           +5.9% ( 25.3%)    98.3%
+ T-DIPOLE    0.0005        C 31 --  H 36           +5.9% ( 25.3%)    98.3%
+ TRAVEL      0.1354        C 14 --  H 15           +5.9% ( 25.3%)    98.3%
+ RED. MASS   0.0449        C 14 --  H 16           +5.9% ( 25.3%)    98.3%
+ EFF. MASS   1.3881
+
+ VIBRATION  113   25Au      ATOM PAIR        ENERGY CONTRIBUTION    RADIAL
+ FREQ.      2654.71        C 44 --  H 45           +5.7% ( 24.8%)    98.3%
+ T-DIPOLE    0.0012        C 44 --  H 46           +5.7% ( 24.8%)    98.3%
+ TRAVEL      0.1347        C  1 --  H  5           +5.7% ( 24.8%)    98.2%
+ RED. MASS   0.0465        C  1 --  H  6           +5.7% ( 24.8%)    98.3%
+ EFF. MASS   1.3997
+
+ VIBRATION  114   27Bg      ATOM PAIR        ENERGY CONTRIBUTION    RADIAL
+ FREQ.      2655.13        C 31 --  H 35           +5.6% ( 24.5%)    98.3%
+ T-DIPOLE    0.0000        C 31 --  H 36           +5.6% ( 24.5%)    98.3%
+ TRAVEL      0.1347        C 14 --  H 15           +5.6% ( 24.5%)    98.3%
+ RED. MASS   0.0457        C 14 --  H 16           +5.6% ( 24.5%)    98.3%
+ EFF. MASS   1.3994
+
+ VIBRATION  115   28Bg      ATOM PAIR        ENERGY CONTRIBUTION    RADIAL
+ FREQ.      2661.14        C 37 --  H 41           +6.3% ( 26.0%)    98.2%
+ T-DIPOLE    0.0000        C 37 --  H 42           +6.3% ( 26.0%)    98.2%
+ TRAVEL      0.1337        C  8 --  H  9           +6.3% ( 26.0%)    98.2%
+ RED. MASS   0.0468        C  8 --  H 10           +6.3% ( 26.0%)    98.2%
+ EFF. MASS   1.4170
+
+ VIBRATION  116   26Au      ATOM PAIR        ENERGY CONTRIBUTION    RADIAL
+ FREQ.      2661.30        C 25 --  H 29           +6.0% ( 25.4%)    98.2%
+ T-DIPOLE    0.0025        C 25 --  H 30           +6.0% ( 25.4%)    98.2%
+ TRAVEL      0.1337        C 20 --  H 21           +6.0% ( 25.4%)    98.2%
+ RED. MASS   0.0467        C 20 --  H 22           +6.0% ( 25.4%)    98.2%
+ EFF. MASS   1.4172
+
+ VIBRATION  117   27Au      ATOM PAIR        ENERGY CONTRIBUTION    RADIAL
+ FREQ.      2669.55        C  8 --  H  9           +3.3% ( 18.7%)    98.1%
+ T-DIPOLE    0.0107        C  8 --  H 10           +3.3% ( 18.7%)    98.1%
+ TRAVEL      0.1325        C 37 --  H 41           +3.3% ( 18.7%)    98.1%
+ RED. MASS   0.0312        C 37 --  H 42           +3.3% ( 18.7%)    98.1%
+ EFF. MASS   1.4378
+
+ VIBRATION  118   29Bg      ATOM PAIR        ENERGY CONTRIBUTION    RADIAL
+ FREQ.      2670.08        C 31 --  H 35           +3.3% ( 18.7%)    98.1%
+ T-DIPOLE    0.0000        C 31 --  H 36           +3.3% ( 18.7%)    98.1%
+ TRAVEL      0.1326        C 14 --  H 15           +3.3% ( 18.7%)    98.1%
+ RED. MASS   0.0312        C 14 --  H 16           +3.3% ( 18.7%)    98.1%
+ EFF. MASS   1.4369
+
+ VIBRATION  119   28Au      ATOM PAIR        ENERGY CONTRIBUTION    RADIAL
+ FREQ.      2679.32        C 13 --  H 17           +6.0% ( 25.2%)    98.0%
+ T-DIPOLE    0.0169        C 13 --  H 18           +6.0% ( 25.2%)    98.0%
+ TRAVEL      0.1314        C 32 --  H 33           +6.0% ( 25.2%)    98.0%
+ RED. MASS   0.0467        C 32 --  H 34           +6.0% ( 25.2%)    98.0%
+ EFF. MASS   1.4576
+
+ VIBRATION  120   30Bg      ATOM PAIR        ENERGY CONTRIBUTION    RADIAL
+ FREQ.      2679.56        C  1 --  H  5           +6.1% ( 25.4%)    98.0%
+ T-DIPOLE    0.0000        C  1 --  H  6           +6.1% ( 25.4%)    98.0%
+ TRAVEL      0.1314        C 44 --  H 45           +6.1% ( 25.4%)    98.0%
+ RED. MASS   0.0469        C 44 --  H 46           +6.1% ( 25.4%)    98.0%
+ EFF. MASS   1.4577
+
+ VIBRATION  121   31Bg      ATOM PAIR        ENERGY CONTRIBUTION    RADIAL
+ FREQ.      2688.01        C 13 --  H 17           +5.4% ( 23.8%)    97.9%
+ T-DIPOLE    0.0000        C 13 --  H 18           +5.4% ( 23.8%)    97.9%
+ TRAVEL      0.1304        C 32 --  H 33           +5.4% ( 23.8%)    97.9%
+ RED. MASS   0.0469        C 32 --  H 34           +5.4% ( 23.8%)    97.9%
+ EFF. MASS   1.4751
+
+ VIBRATION  122   29Au      ATOM PAIR        ENERGY CONTRIBUTION    RADIAL
+ FREQ.      2688.45        C 43 --  H 47           +5.6% ( 24.3%)    97.9%
+ T-DIPOLE    0.0259        C 43 --  H 48           +5.6% ( 24.3%)    97.9%
+ TRAVEL      0.1304        C  2 --  H  3           +5.6% ( 24.3%)    97.9%
+ RED. MASS   0.0477        C  2 --  H  4           +5.6% ( 24.3%)    97.9%
+ EFF. MASS   1.4749
+
+ VIBRATION  123   30Au      ATOM PAIR        ENERGY CONTRIBUTION    RADIAL
+ FREQ.      2695.22        C 26 --  H 27           +6.4% ( 26.0%)    97.9%
+ T-DIPOLE    0.0339        C 26 --  H 28           +6.4% ( 26.0%)    97.9%
+ TRAVEL      0.1297        C 19 --  H 23           +6.4% ( 26.0%)    97.9%
+ RED. MASS   0.0481        C 19 --  H 24           +6.4% ( 26.0%)    97.9%
+ EFF. MASS   1.4870
+
+ VIBRATION  124   32Bg      ATOM PAIR        ENERGY CONTRIBUTION    RADIAL
+ FREQ.      2695.56        C 38 --  H 39           +6.3% ( 25.8%)    97.9%
+ T-DIPOLE    0.0000        C 38 --  H 40           +6.3% ( 25.8%)    97.9%
+ TRAVEL      0.1297        C  7 --  H 11           +6.3% ( 25.8%)    97.9%
+ RED. MASS   0.0492        C  7 --  H 12           +6.3% ( 25.8%)    97.9%
+ EFF. MASS   1.4869
+
+ VIBRATION  125   31Au      ATOM PAIR        ENERGY CONTRIBUTION    RADIAL
+ FREQ.      2699.87        C 38 --  H 39           +3.3% ( 18.7%)    97.9%
+ T-DIPOLE    1.8413        C 38 --  H 40           +3.3% ( 18.7%)    97.9%
+ TRAVEL      0.1294        C  7 --  H 11           +3.3% ( 18.7%)    97.9%
+ RED. MASS   0.0321        C  7 --  H 12           +3.3% ( 18.7%)    97.9%
+ EFF. MASS   1.4920
+
+ VIBRATION  126   33Ag      ATOM PAIR        ENERGY CONTRIBUTION    RADIAL
+ FREQ.      2733.82        C  2 --  H  4          +10.2% ( 31.5%)    97.8%
+ T-DIPOLE    0.0000        C  2 --  H  3          +10.2% ( 31.5%)    97.8%
+ TRAVEL      0.1459        C 43 --  H 48          +10.2% ( 31.5%)    97.9%
+ RED. MASS   0.0631        C 43 --  H 47          +10.2% ( 31.5%)    97.8%
+ EFF. MASS   1.1580
+
+ VIBRATION  127   31Bu      ATOM PAIR        ENERGY CONTRIBUTION    RADIAL
+ FREQ.      2734.01        C 13 --  H 18           +6.2% ( 24.5%)    97.8%
+ T-DIPOLE    0.4760        C 13 --  H 17           +6.2% ( 24.5%)    97.8%
+ TRAVEL      0.1460        C 32 --  H 34           +6.2% ( 24.5%)    97.8%
+ RED. MASS   0.0458        C 32 --  H 33           +6.2% ( 24.5%)    97.8%
+ EFF. MASS   1.1576
+
+ VIBRATION  128   34Ag      ATOM PAIR        ENERGY CONTRIBUTION    RADIAL
+ FREQ.      2734.60        C 25 --  H 30           +5.5% ( 23.0%)    97.9%
+ T-DIPOLE    0.0000        C 25 --  H 29           +5.5% ( 23.0%)    97.9%
+ TRAVEL      0.1464        C 20 --  H 22           +5.5% ( 23.0%)    97.9%
+ RED. MASS   0.0385        C 20 --  H 21           +5.5% ( 23.0%)    97.9%
+ EFF. MASS   1.1508
+
+ VIBRATION  129   32Bu      ATOM PAIR        ENERGY CONTRIBUTION    RADIAL
+ FREQ.      2734.91        C 37 --  H 42           +6.9% ( 26.0%)    97.6%
+ T-DIPOLE    1.0411        C 37 --  H 41           +6.9% ( 26.0%)    97.6%
+ TRAVEL      0.1447        C  8 --  H 10           +6.9% ( 26.0%)    97.6%
+ RED. MASS   0.0485        C  8 --  H  9           +6.9% ( 26.0%)    97.6%
+ EFF. MASS   1.1771
+
+ VIBRATION  130   35Ag      ATOM PAIR        ENERGY CONTRIBUTION    RADIAL
+ FREQ.      2735.45        C 38 --  H 40           +6.5% ( 25.1%)    97.7%
+ T-DIPOLE    0.0000        C 38 --  H 39           +6.5% ( 25.1%)    97.7%
+ TRAVEL      0.1448        C  7 --  H 12           +6.5% ( 25.1%)    97.7%
+ RED. MASS   0.0474        C  7 --  H 11           +6.5% ( 25.1%)    97.7%
+ EFF. MASS   1.1760
+
+ VIBRATION  131   36Ag      ATOM PAIR        ENERGY CONTRIBUTION    RADIAL
+ FREQ.      2739.24        C 37 --  H 42           +6.5% ( 25.2%)    97.1%
+ T-DIPOLE    0.0000        C 37 --  H 41           +6.5% ( 25.2%)    97.1%
+ TRAVEL      0.1428        C  8 --  H 10           +6.5% ( 25.2%)    97.1%
+ RED. MASS   0.0462        C  8 --  H  9           +6.5% ( 25.2%)    97.1%
+ EFF. MASS   1.2065
+
+ VIBRATION  132   33Bu      ATOM PAIR        ENERGY CONTRIBUTION    RADIAL
+ FREQ.      2739.34        C 25 --  H 30           +5.8% ( 23.7%)    97.1%
+ T-DIPOLE    0.8067        C 25 --  H 29           +5.8% ( 23.7%)    97.1%
+ TRAVEL      0.1428        C 20 --  H 22           +5.8% ( 23.7%)    97.1%
+ RED. MASS   0.0459        C 20 --  H 21           +5.8% ( 23.7%)    97.1%
+ EFF. MASS   1.2067
+
+ VIBRATION  133   37Ag      ATOM PAIR        ENERGY CONTRIBUTION    RADIAL
+ FREQ.      2745.51        C 19 --  H 24           +3.7% ( 18.8%)    96.3%
+ T-DIPOLE    0.0000        C 19 --  H 23           +3.7% ( 18.8%)    96.3%
+ TRAVEL      0.1408        C 26 --  H 28           +3.7% ( 18.8%)    96.3%
+ RED. MASS   0.0306        C 26 --  H 27           +3.7% ( 18.8%)    96.3%
+ EFF. MASS   1.2382
+
+ VIBRATION  134   34Bu      ATOM PAIR        ENERGY CONTRIBUTION    RADIAL
+ FREQ.      2745.99        C 43 --  H 48           +3.5% ( 18.5%)    96.2%
+ T-DIPOLE    0.8245        C 43 --  H 47           +3.5% ( 18.5%)    96.2%
+ TRAVEL      0.1408        C  2 --  H  4           +3.5% ( 18.5%)    96.2%
+ RED. MASS   0.0304        C  2 --  H  3           +3.5% ( 18.5%)    96.2%
+ EFF. MASS   1.2388
+
+ VIBRATION  135   35Bu      ATOM PAIR        ENERGY CONTRIBUTION    RADIAL
+ FREQ.      2752.76        C 13 --  H 18           +5.9% ( 24.0%)    96.0%
+ T-DIPOLE    0.9942        C 13 --  H 17           +5.9% ( 24.0%)    96.0%
+ TRAVEL      0.1390        C 32 --  H 34           +5.9% ( 24.0%)    96.0%
+ RED. MASS   0.0442        C 32 --  H 33           +5.9% ( 24.0%)    96.0%
+ EFF. MASS   1.2681
+
+ VIBRATION  136   38Ag      ATOM PAIR        ENERGY CONTRIBUTION    RADIAL
+ FREQ.      2753.15        C  1 --  H  6           +6.2% ( 24.4%)    96.0%
+ T-DIPOLE    0.0000        C  1 --  H  5           +6.2% ( 24.4%)    96.1%
+ TRAVEL      0.1390        C 44 --  H 46           +6.2% ( 24.4%)    96.1%
+ RED. MASS   0.0448        C 44 --  H 45           +6.2% ( 24.4%)    96.1%
+ EFF. MASS   1.2681
+
+ VIBRATION  137   39Ag      ATOM PAIR        ENERGY CONTRIBUTION    RADIAL
+ FREQ.      2759.43        C 13 --  H 18           +5.3% ( 22.6%)    95.6%
+ T-DIPOLE    0.0000        C 13 --  H 17           +5.3% ( 22.6%)    95.6%
+ TRAVEL      0.1375        C 32 --  H 34           +5.3% ( 22.6%)    95.6%
+ RED. MASS   0.0451        C 32 --  H 33           +5.3% ( 22.6%)    95.6%
+ EFF. MASS   1.2925
+
+ VIBRATION  138   36Bu      ATOM PAIR        ENERGY CONTRIBUTION    RADIAL
+ FREQ.      2759.91        C 43 --  H 48           +5.5% ( 22.9%)    95.6%
+ T-DIPOLE    0.8873        C 43 --  H 47           +5.5% ( 22.9%)    95.5%
+ TRAVEL      0.1375        C  2 --  H  4           +5.5% ( 22.9%)    95.6%
+ RED. MASS   0.0460        C  2 --  H  3           +5.5% ( 22.9%)    95.5%
+ EFF. MASS   1.2925
+
+ VIBRATION  139   37Bu      ATOM PAIR        ENERGY CONTRIBUTION    RADIAL
+ FREQ.      2764.79        C 26 --  H 28           +6.6% ( 25.2%)    95.3%
+ T-DIPOLE    0.8603        C 26 --  H 27           +6.6% ( 25.2%)    95.3%
+ TRAVEL      0.1365        C 19 --  H 24           +6.6% ( 25.2%)    95.3%
+ RED. MASS   0.0461        C 19 --  H 23           +6.6% ( 25.2%)    95.3%
+ EFF. MASS   1.3093
+
+ VIBRATION  140   40Ag      ATOM PAIR        ENERGY CONTRIBUTION    RADIAL
+ FREQ.      2764.98        C 38 --  H 40           +6.4% ( 24.8%)    95.3%
+ T-DIPOLE    0.0000        C 38 --  H 39           +6.4% ( 24.8%)    95.3%
+ TRAVEL      0.1365        C  7 --  H 12           +6.4% ( 24.8%)    95.3%
+ RED. MASS   0.0471        C  7 --  H 11           +6.4% ( 24.8%)    95.3%
+ EFF. MASS   1.3091
+
+ VIBRATION  141   38Bu      ATOM PAIR        ENERGY CONTRIBUTION    RADIAL
+ FREQ.      2767.75        C 38 --  H 40           +3.4% ( 18.1%)    95.2%
+ T-DIPOLE    1.4989        C 38 --  H 39           +3.4% ( 18.1%)    95.2%
+ TRAVEL      0.1361        C  7 --  H 12           +3.4% ( 18.1%)    95.2%
+ RED. MASS   0.0305        C  7 --  H 11           +3.4% ( 18.1%)    95.2%
+ EFF. MASS   1.3156
+
+           FORCE CONSTANT IN CARTESIAN COORDINATES (Millidynes/A)
+
+    ATOM   CHEMICAL       X               Y               Z
+   NUMBER   SYMBOL  FORCE CONSTANT  FORCE CONSTANT  FORCE CONSTANT
+
+      1       C        6.983308        6.701977        6.917105
+      2       C        6.989521        6.703595        6.928054
+      3       H        1.223785        3.738480        0.728184
+      4       H        1.223260        1.222213        3.244976
+      5       H        1.220164        3.736910        0.730258
+      6       H        1.219637        1.224329        3.243366
+      7       C        7.017700        6.698045        6.906704
+      8       C        7.020725        6.697528        6.915461
+      9       H        1.229828        3.732729        0.725443
+     10       H        1.229298        1.224855        3.233848
+     11       H        1.231065        3.730097        0.730970
+     12       H        1.230531        1.229359        3.232242
+     13       C        7.034742        6.700716        6.918878
+     14       C        7.018293        6.696538        6.915165
+     15       H        1.228649        3.730107        0.728698
+     16       H        1.228117        1.227363        3.231974
+     17       H        1.230892        3.725799        0.729944
+     18       H        1.230358        1.228991        3.227286
+     19       C        7.035005        6.698079        6.919479
+     20       C        7.026939        6.698918        6.922539
+     21       H        1.225683        3.728319        0.724603
+     22       H        1.225150        1.224996        3.228459
+     23       H        1.231949        3.730054        0.732779
+     24       H        1.231416        1.228493        3.234873
+     25       C        7.026939        6.698918        6.922539
+     26       C        7.035005        6.698079        6.919479
+     27       H        1.231949        3.730054        0.732779
+     28       H        1.231416        1.228493        3.234873
+     29       H        1.225683        3.728319        0.724603
+     30       H        1.225150        1.224996        3.228459
+     31       C        7.018293        6.696538        6.915165
+     32       C        7.034742        6.700716        6.918878
+     33       H        1.230892        3.725799        0.729944
+     34       H        1.230358        1.228991        3.227286
+     35       H        1.228649        3.730107        0.728698
+     36       H        1.228117        1.227363        3.231974
+     37       C        7.020725        6.697528        6.915461
+     38       C        7.017700        6.698045        6.906704
+     39       H        1.231065        3.730097        0.730970
+     40       H        1.230531        1.229359        3.232242
+     41       H        1.229828        3.732729        0.725443
+     42       H        1.229298        1.224855        3.233848
+     43       C        6.989521        6.703595        6.928054
+     44       C        6.983308        6.701977        6.917105
+     45       H        1.220164        3.736910        0.730258
+     46       H        1.219637        1.224329        3.243366
+     47       H        1.223785        3.738480        0.728184
+     48       H        1.223260        1.222213        3.244976
+
+ **********************
+ *                    *
+ * JOB ENDED NORMALLY *
+ *                    *
+ **********************
+
+
+
+ TOTAL JOB TIME:             7.23 SECONDS
+
+ == MOPAC DONE ==

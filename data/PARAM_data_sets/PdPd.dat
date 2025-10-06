@@ -1,0 +1,9 @@
+*
+*  Optimize a single element
+*
+params=../PM7.txt PM7 ref=../norm;../erra;../leve;../soli
+Alpb_Pd Pd
+Xfac_Pd Pd
+end  
+Palladium (Pd) (ICSD 648680) fcc r.mop
+Palladium (Pd) (ICSD 648680) fcc 

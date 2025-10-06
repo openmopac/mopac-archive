@@ -1,0 +1,9 @@
+*
+*  Optimize a single element
+*
+params=../PM7.txt PM7 ref=../norm;../erra;../leve;../soli
+Alpb_As F
+Xfac_As F
+end  
+Arsenic(iii) fluoride (AsF3) r.mop
+Arsenic(iii) fluoride (AsF3) 

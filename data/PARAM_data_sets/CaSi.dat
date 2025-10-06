@@ -1,0 +1,11 @@
+*
+*  Optimize a single element
+*
+params=../PM7.txt;CaSi.rp PM7 ref=../norm;../erra;../leve;../soli
+Alpb_Ca Si
+Xfac_Ca Si
+end  
+core-core_Ca - Si heat
+core-core_Ca - Si slope
+Wollastonite (CaSiO3) 
+Wollastonite (CaSiO3) r

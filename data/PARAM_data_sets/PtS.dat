@@ -1,0 +1,9 @@
+*
+*  Optimize a single element
+*
+ params=PM7.txt cycles=50 PM7      ref=../norm;../erra;../leve;../soli
+XFAC_Pt S
+ALPB_Pt S
+end  
+Platinum(iv) disulfide (PtS2) (ICSD 41375) r.mop
+Platinum(iv) disulfide (PtS2) (ICSD 41375) 

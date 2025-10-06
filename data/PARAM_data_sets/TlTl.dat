@@ -1,0 +1,9 @@
+*
+*  Optimize a single element
+*
+cycles=50 params=../PM7.txt PM7 ref=../norm;../erra;../leve;../soli 
+ ALPB_Tl Tl
+ XFAC_Tl Tl
+end
+Thallium (Tl) (ICSD 52525) hcp r.mop
+Thallium (Tl) (ICSD 52525) hcp 

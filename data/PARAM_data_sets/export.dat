@@ -1,0 +1,7 @@
+*
+* Optimize a single element
+*
+cycles=50 params=PM7.txt        PM7      ref=../norm;../erra;../leve 
+(Zr Mn Sb Te Zn Ba Cs As Se Sr Ga)(All)
+end 
+

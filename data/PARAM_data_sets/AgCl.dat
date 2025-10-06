@@ -1,0 +1,9 @@
+*
+*  Optimize a single element
+*
+cycles=50 params=../PM7.txt PM7 ref=../norm;../erra;../leve;../soli 
+ ALPB_Ag Cl
+ XFAC_Ag Cl
+end
+Silver(i) chloride (AgCl).mop
+Silver(i) chloride (AgCl) r

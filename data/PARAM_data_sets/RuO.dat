@@ -1,0 +1,9 @@
+*
+*  Optimize a single element
+*
+ cycles=100 params=../PM7.txt PM7 ref=../norm;../erra;../leve;../soli
+xfac_Ru O
+alpb_Ru O
+end  
+Ruthenium(viii) tetroxide (RuO4) (ICSD 415303).mop
+Ruthenium(viii) tetroxide (RuO4) (ICSD 415303) r

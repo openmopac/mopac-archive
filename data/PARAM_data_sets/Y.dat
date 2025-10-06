@@ -1,0 +1,152 @@
+*
+*  Optimize a single element
+*
+cycles=50 PM7 params=PM7.txt ref=../norm;../erra;../leve 
+(Y)(all) 
+end  
+core-core_Li - Y near
+core-core_Li - Y far  
+core-core_Y - C near
+core-core_Y - C far  
+core-core_Y - O near
+core-core_Y - O far
+core-core_Y - F near
+core-core_Y - F far
+core-core_Na - Y near
+core-core_Na - Y far  
+core-core_Y - P near 
+core-core_Y - P far
+core-core_Y - Cl near 
+core-core_Y - Cl far
+core-core_K - Y near 
+core-core_K - Y far  
+core-core_Y - Br near 
+core-core_Y - Br far
+core-core_Rb - Y near    
+core-core_Rb - Y far
+core-core_Y - Y near    
+core-core_Y - Y far
+core-core_Y - I near
+core-core_Y - I far
+core_Y_1_2_0
+core_Y_2_6_10
+Y5
+Y2(Cp)2O2 (good)
+Y2(Cp)2O2 (bad)
+trimethyl yttrium
+bicyclopentadienyl yttrium
+y(cp)2cn (cigzex) r
+y(iii)n3 (famvev) r
+y(ii)(nh3)6r
+y(iii)n8(3+) (rogrua) r
+y(iii)n9(3+) (xawxic) r
+yor
+y(cp)3o (baczou) r
+y(iii)(cp)2o2(+) (pezdaz) r
+y(h2o)6r
+y(ii)(h2o)6r
+y(iii)o8(3+) (bejdoj) r
+y(iii)o8 (yacact) r
+y(iii)o9(3+) (ayeths01) r
+y(iii)o9 (bontut) r
+y(iii)o9 (varqou) r
+y(iii)o9 (afarii) r
+yfr
+yofr
+yf3r
+yf4 anion r
+yf6r
+y(iii)o6 (hedjop) r
+y(iii)o8 (coqduh) r
+y(iii)o8 (eruyar) r
+y(iii)o8(-) (cysfac10) r
+ysr
+yo6n3 (butkeg) r
+y(iii)o9 (cexfam) r
+y(iii)n6(3-) (kakqes) r
+yclr
+yoclr
+y(cp)2o2cl (aguvut) r
+y(iii)o7cl(2+) (fizkoo) r
+ycl3r
+y(iii)n4cl3 (yiqmug) r
+y(iii)cl3o2n2 (timnim) r
+y(iii)o4cl3 (fuxpet) r
+y(iii)o4cl3 (wapyuh) r
+ycl6r
+ybrr
+y(iii)n4br2 (eroziu) r
+ybr3r
+ybr6r
+* y2r
+* y2cl4r
+yir
+y(iii)o5i2(+) (erasiz) r
+yi3r
+yi6r
+yttrium, cation 1d(g)
+yttrium, cation 3f(g)
+yttrium, cation
+yttrium 2dg 4d(1)5s(2)
+yttrium 2dg 4d(2)5s(1)
+yttrium 2du 4d(1)5s(1)5p(1)
+yttrium 2du2 4d(1)5s(1)5p(1)
+yttrium 2fg 4d(2)5s(1)
+yttrium 2fu 4d(1)5s(1)5p(1)
+yttrium 2gg 4d(2)5s(1)
+yttrium 2pu 5s(2)5p(1)
+yttrium 4du 4d(1)5s(1)5p(1)
+yttrium 4fg 4d(2)5s(1)
+yttrium 4fu 4d(1)5s(1)5p(1)
+yttrium 4pg 4d(2)5s(1)
+yttrium 4pu 4d(1)5s(1)5p(1)
+yttrium, atom
+tricyclopentadienyl yttrium(iii)
+y(cp)2cn (cigzex)
+y(iii)n3 (famvev)
+y(ii)(nh3)6
+y(iii)n8(3+) (rogrua)
+y(iii)n9(3+) (xawxic)
+yttrium(ii) oxide
+yttrium(i) oxide, anion
+y(cp)3o (baczou)
+y(iii)(cp)2o2(+) (pezdaz)
+* y(ii)(h2o)6
+* y(iii)o8(3+) (bejdoj)
+* y(iii)o8 (yacact)
+* y(iii)o9(3+) (ayeths01)
+* y(iii)o9 (bontut)
+* y(iii)o9 (varqou)
+* y(iii)o9 (afarii)
+yttrium(i) fluoride
+yttrium(iii) oxide fluoride
+yttrium(iii) trifluoride
+yttrium(iii) tetrafluoride, anion
+yttrium(iii) hexafluoride
+y(iii)o8 (coqduh)
+y(iii)o8 (eruyar)
+y(iii)o8(-) (cysfac10)
+yttrium(ii) sulfide
+yo6n3 (butkeg)
+y(iii)o9 (cexfam)
+y(iii)n6(3-) (kakqes)
+yttrium(i) chloride
+yttrium(iii) oxide chloride
+y(cp)2o2cl (aguvut)
+y(iii)o7cl(2+) (fizkoo)
+yttrium(iii) trichloride
+y(iii)n4cl3 (yiqmug)
+y(iii)cl3o2n2 (timnim)
+y(iii)o4cl3 (fuxpet)
+y(iii)o4cl3 (wapyuh)
+yttrium(iii) hexachloride
+yttrium(i) bromide
+y(iii)n4br2 (eroziu)
+yttrium(iii) tribromide
+yttrium(iii) hexabromide
+* yttrium, dimer
+yttrium dichloride, dimer
+yttrium(i) iodide
+y(iii)o5i2(+) (erasiz)
+yttrium(iii) triiodide
+yttrium(iii) hexaiodide

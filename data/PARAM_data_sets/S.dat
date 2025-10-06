@@ -1,0 +1,275 @@
+*
+*  Optimize a single element
+*
+cycles=50 params=../PM7.txt  PM7   ref=../norm;../erra;../leve
+(S)(all) 
+end  
+core-core_H - S near
+core-core_H - S far
+* core-core_S - S near
+core-core_S - S far
+Ag4S4
+Ag8S8     
+S3O9 (dimer) (good)
+S3O9 (dimer) (bad)
+* Ag4(SO2)4
+* Adenine-4-thiouracil_r
+* Adenine-4-thiouracil_separated
+* Adenine-4-thiouracil
+h2sr
+csr
+ch2sr
+ch3shr
+ch3chsr
+c2h6shr
+me2sr
+thiophener
+snr
+ch3ncsr
+me2sor
+so2r
+me2so2r
+so3r
+me2so3r
+h2so4r
+me2so4r
+ch3so3fr
+sf2r
+f2csr
+osf2r
+so2f2r
+sf4r
+sof4r
+sf5ncor
+sf6r
+psf3r
+s2r
+h2s2r
+cs2r
+ch3ssch3r
+me2s2r
+aa_16_cys-cys r
+aa_19_met-met r
+fssfr
+s2f2r
+s2f10r
+s6r
+s8r
+ch3sclr
+scl2r
+oscl2r
+so2cl2r
+ch3opscl2r
+ch3spocl2r
+s2cl2r
+pscl3r
+scl6r
+brsf5r
+brf2psr
+sobr2r
+psbr3r
+sulfur(+) 4p(g) 3s(1)3p(4)
+sulfur, cation
+sulfur 1d(g) 3s(2)3p(4)
+sulfur 1s(g) 3s(2)3p(4)
+sulfur, 3p(g) 3s(2)3p(4)
+sulfur, atom
+sulfur, anion
+hydrogen sulfide (hs)
+hydrogen sulfide, anion
+hydrogen sulfide (h2s)
+carbon sulfide
+thioformaldehyde
+methanethio radical
+thiomethanol
+thioketene, h2ccs
+c2h3s
+thiirane
+dimethyl thioether
+thioethanol
+thietane
+1-propanthiol
+isopropanthiol
+methylethylthioether
+thiophene
+2,3-dihydrothiophene
+2,5-dihydrothiophene
+cis dimethylthiirane
+tetrahydrothiophene
+trans dimethylthiirane
+butanethiol
+diethyl thioether
+methylpropylthioether
+cyclopentanthiol
+thiacyclohexane
+thiophenol
+cyclohexanethiol
+2,3-dimethyl-2-butanethiol
+2-methyl-2-pentanethiol
+butyl ethyl sulfide
+methyl pentyl sulfide
+methyl phenyl sulfide
+toluenethiol
+3(tert-butyl)-1-propene
+1-heptanethiol
+benzyl methyl sulfide
+ethyl phenyl sulfide
+di-tert-butyl sulfide
+diisobutyl sulfide
+diphenyl sulfide
+sulfur nitride
+hydrogen isothiocyanate
+methyl isothiocyanate
+methyl thiocyanate
+ethanethioamide
+4-methylthiazole
+benzothiazole
+benzenecarbothioamide
+n,n-(dimethyl)thiobenzamide
+phenothiazine
+thiourea
+tetramethylthiourea
+4,6-bis(isopropylamino)-2-methylmercapto)-s-triazine
+sulfur monoxide (triplet)
+hos
+carbon oxysulfide
+ethyne sulfenic acid
+thiolacetic acid
+dimethyl sulfoxide
+s-ethylthioacetate
+diethyl sulfoxide
+benzenesulfenic acid
+dipropyl sulfoxide
+phenoxathiin
+diphenyl sulfoxide
+thioxanthone
+s-o_in_peptide
+s-o_in_peptide_strained
+bis-diethylamine sulfoxide
+sulfur dioxide
+s(oh)2
+dimethyl sulfone
+methylethyl sulfone
+2,5-dihydrothiophene sulfone
+divinyl sulfone
+diethyl sulfone
+methyl-i-propyl sulfone
+methyl n-butyl sulfone
+methyl-t-butyl sulfone
+di-n-propyl sulfone
+ethyl-t-butyl sulfone
+diethoxy ethylthiomethane
+benzyl methyl sulfone
+p-tolyl methyl sulfone
+di-i-butyl sulfone
+di-n-butyl sulfone
+di-tert-butyl sulfone
+diisobutyl sulfone
+(e)-1-methyl-4-(1-propenyl-sulfonyl)-benzene
+1-methyl-4-(1-methyl-ethenylsulfonyl) benzene
+2-butenyl p-tolyl sulfone
+2-methyl-2-propenyl p-tolyl sulfone
+3-butenyl p-tolyl sulfone
+diphenyl sulfone
+cysteine
+methionine
+sulfur trioxide
+hoso2(-)
+h2so3
+dimethyl sulfite
+(ch3o)(c2h5o)so
+diethyl sulfite
+dipropyl sulfite
+di-n-butyl sulfite
+sulfuric acid
+dimethyl sulfate
+(ch3o)3so
+diethyl sulfate
+dipropyl sulfate
+di-n-butyl sulfate
+sulfur fluoride
+so2f
+fluorosulfonic acid (hoso2f)
+sulfur difluoride
+thiocarbonyl difluoride
+thionyl fluoride
+sulfuryl fluoride
+sulfur trifluoride
+sof3
+s-ethyl trifluorothioacetic acid
+sulfur tetrafluoride
+sof4
+sulfur pentafluoride
+sulfur pentafluoride, anion
+sf5oh
+sulfur hexafluoride
+phosphorus monosulfide
+phosphorus sulfide
+sulfur dimer
+hs2
+h2s2, complex
+hydrogen disulfide
+carbon disulfide
+ch3ssh
+(ch3)2s=s
+1,2-ethanedithiol
+2,3-dithiabutane
+ch3sch2sh
+ethanedithiol-1,2
+propane-1,3-dithiol
+(c2h5s)2
+1,4-butanedithiol
+3,6-dithiaoctane
+dipropyl disulfide
+ethyl tert-butyl disulfide
+isopropyl tert-butyl disulfide
+di-tert-butyl disulfide
+dibutyldisulfide
+diphenyl disulfide
+diisopropyldithiocarbamic acid
+dipropyldithiocarbamic acid
+s2(cn)2
+thiocyanogen
+bis-diethylamino disulfide
+1,3-dithiolan-2-one
+cys-cys
+diphenyl disulfone
+fssf
+ssf2
+sulfur, trimer (open chain)
+hs3
+hydrogen trisulfide
+2,3,4-trithiapentane
+1,3-dithiol-2-thione
+1,3-dithiolan-2-thione
+1,3-benzodithiole-2-thione
+3h-1,2-benzodithiole-3-thione
+4,5-tetramethylene-1,3-dithiol-2-thione
+sulfur tetramer
+sulfur, tetramer (open chain)
+hydrogen tetrasulfide
+sulfur, pentamer
+hydrogen pentasulfide
+sulfur, hexamer
+s8
+scl
+ch3scl
+c6h5scl
+socl
+hoso2cl
+so2clf
+sf5cl
+sulfur dichloride
+thionyl chloride
+sulfuryl chloride
+clsscl
+sulfur trichloride
+socl3
+phosphorus thiochloride
+sulfur tetrachloride
+socl4
+sulfur pentachloride
+sulfur hexachloride
+sulfur dibromide
+dibromine disulfide
+iodomethyl methyl sulfide

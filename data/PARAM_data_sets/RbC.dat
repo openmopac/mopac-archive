@@ -1,0 +1,9 @@
+*
+*  Optimize a single element
+*
+params=../PM7.txt PM7 ref=../norm;../erra;../leve;../soli
+Alpb_Rb C
+Xfac_Rb C
+end  
+Rubidium acetylide (Rb2C2) (ICSD 51529) r.mop
+Rubidium acetylide (Rb2C2) (ICSD 51529)  

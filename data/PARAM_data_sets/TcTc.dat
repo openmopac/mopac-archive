@@ -1,0 +1,9 @@
+*
+*  Optimize a single element
+*
+cycles=50 params=../PM7.txt PM7 ref=../norm;../erra;../leve;../soli 
+ ALPB_Tc Tc
+ XFAC_Tc Tc
+end
+Technetium (Tc) (ICSD 653014) hcp.mop
+Technetium (Tc) (ICSD 653014) hcp r 

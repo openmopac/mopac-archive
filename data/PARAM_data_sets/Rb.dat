@@ -1,0 +1,92 @@
+*
+*  Optimize a single element
+*
+cycles=50 params=../PM7.txt PM7 ref=../norm;../erra;../leve;../soli           
+ gpp  Rb 1 6
+ gsp  Rb 1 6
+ gp2  Rb 1 6
+ Hsp  Rb 1 2
+(Rb)(all) 
+end  
+core-core_Rb - H near
+core-core_Rb - H far
+core-core_Rb - B near
+core-core_Rb - B far
+core-core_Rb - C near
+core-core_Rb - C far
+core-core_Rb - N near
+core-core_Rb - N far
+core-core_Rb - O near
+core-core_Rb - O far
+core-core_Rb - F near
+core-core_Rb - F far
+core-core_Rb - P near
+core-core_Rb - P far
+core-core_Rb - S near
+core-core_Rb - S far
+core-core_Rb - Cl near
+core-core_Rb - Cl far
+core-core_Rb - V near
+core-core_Rb - V far
+core-core_Rb - Cr near
+core-core_Rb - Cr far
+core-core_Rb - Br near
+core-core_Rb - Br far
+core-core_Rb - Rb near
+core-core_Rb - Rb far
+core-core_Rb - Y near
+core-core_Rb - Y far
+core-core_Rb - Mo near
+core-core_Rb - Mo far
+core-core_Rb - I near
+core-core_Rb - I far
+core-core_Rb - In near
+core-core_Rb - In far
+core-core_Rb - Au near
+core-core_Rb - Au far
+core-core_Rb - Tl near
+core-core_Rb - Tl far
+core-core_Rb - Bi near
+core-core_Rb - Bi far
+* Rb2
+core_Rb_0_1
+core_Rb_1_1
+core_Rb_0_2
+RbF4(4-) 2Tu
+RbFr
+RbClr
+RbBrr
+RbIr
+Rb2F2r
+Rb2Cl2r
+Rb2Br2r
+Rb2I2r
+Rubidium fluoride
+Rubidium chloride
+Rubidium bromide
+Rubidium iodide
+Rb2C2
+Rb(Cp)r
+rbhr
+ch3-rbr
+rbohr
+rbbo2r
+rb(i)o4n2(+) (cagfia) r
+rb(+)(h2o)6r
+rb(i)o6(+) (cabjar) r
+rb(i)(cp)o6 (qextiw) r
+rb(i)o6(c4n) (yakwud) r
+rb(i)o6n (imawau) r
+rb(i)o6n2(+) (ehenag) r
+rb(0)o6n2 (ebewox) r
+* rb(i)n4(3-) (zifkii) r
+rb(i)o6(cp) (qirfig) r
+rb(i)o3 (sogkuu) r
+rubidium, cation
+rubidium 2s(g)  5s(1)5p(0)
+* rubidium, 2p(u) - 5s(0)5p(1)
+rubidium, atom
+methyl rubidium
+rbbo2
+Rubidium fluoride, dimer
+rubidium, dimer

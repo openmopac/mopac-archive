@@ -1,0 +1,172 @@
+*
+* Abandon: Try to get Mn-Mn correct 
+* Try to get Mn-Si correct
+*
+ params=PM7.txt     all     PM7  cycles=50                   ref=../norm;../erra;../leve 
+(Mn)(all) 
+end  
+core-core_Mn - H near
+core-core_Mn - H far 
+core-core_Mn - C near
+core-core_Mn - C far      
+core-core_Mn - N near
+core-core_Mn - N far      
+core-core_Mn - O near
+core-core_Mn - O far 
+core-core_Mn - F near
+core-core_Mn - F far
+core-core_Mn - Si near 
+core-core_Mn - Si far
+core-core_Mn - P near 
+core-core_Mn - P far
+core-core_Mn - S near 
+core-core_Mn - S far
+core-core_Mn - Cl near
+core-core_Mn - Cl far 
+core-core_K - Mn near
+core-core_K - Mn far
+core-core_Ca - Mn near    
+core-core_Ca - Mn far   
+core-core_Mn - Ti near
+core-core_Mn - Ti far  
+core-core_Mn - Mn near
+core-core_Mn - Mn far
+core-core_Mn - Br near     
+core-core_Mn - Br far      
+core-core_Mn - I near    
+core-core_Mn - I far     
+manganese, 6dg 3d(6)4s(1)
+manganese, 6sg 3d(5)4s(2)
+Mn4O8
+* Mn(ii)F4 (d4h)
+* Mn(iii)F4 (D4h)
+* MnF4O2 (good)
+* MnF4O2 (Bad)
+* Ti2O4
+* Mn2O2
+* Mn2Ti2O6 (bad)
+MnF6 2T1u
+mn2(ac)4r
+MnF6(3-) 5Eg.mop
+MnF6(3-) 5A2g.mop
+* Mn(CCH)3 (+-)
+* MnCl3 (+-)
+* core-core_Mn - I heat 2p5
+* Manganese(ii) diiodide (MnI2) (good).mop
+* Manganese(ii) diiodide (MnI2) (bad).mop
+* Mn(ii) complex (Good)
+* Mn(ii) complex (bad)
+* Mn(ii) complex (bad 2)
+* Mn(0) complex (bad)
+* mn2(co)10_Ref
+* mn2(co)10 (bad)
+* MnO8(2+) (good)
+* MnO8(2+) (bad)
+mnnr
+mn(ii)(nh3)6r
+mnor
+mn(co)c8 (butmnc) r
+methyl manganese(vi) trioxider
+mn(co)3cp (cpmnco) r
+mn(co)3c5 (hexmnc) r
+mno4_ani_r
+mn(c12h8n2)(h2o)4_r
+mn(co)(no)3r
+mn(co)5hr
+mn(ii)(h2o)6r
+mn(co)6r
+mn(ii)o4n2 (xoyhau) r
+mn(iii)edta(-) (edtmnk01) r
+mn(iii)o6(-) (kammnd) r
+mnfr
+mnof2r
+mn(ii)(h2o)4f2(trans)r
+mn(co)5c (cdfvmn) r
+mn(co)4o (facmna) r
+mn(co)4si2 (kiryuf) r
+mnsr
+mn(co)2scp (valxai) r
+mn(co)2cps (cpcsmn) r
+mn(ii)s2o4 (wifsej) r
+mn(iii)s4n(-) (cowhol) r
+mnclr
+mn(co)5cl (zoswej) r
+mn(co)3cls2 (geqluj) r
+mnocl2r
+mn(ii)cl2n4 (mupyur) r
+mn(ii)(h2o)4cl2(trans)r
+mn2(ac)4r
+mn2(co)10r
+mn2(co)10c2 (jipvot) r
+mn2(co)8(cf2)2 (dofpet) r
+mn(ii)2cl6o4(=) (ipramn01) r
+mn(co)5ge (busvoa) r
+mn(co)3clse2 (gontim) r
+mnbrr
+mnbr2r
+mnobr2r
+mn(ii)(h2o)4br2(trans)r
+mn(co)4cbr (al) (cmncxa10) r
+mn(ii)br4 (=) (pydmnb) r
+mn(co)5sb (bazpex) r
+mnir
+mn(co)3n2i (yomhen) r
+mn(co)5i (vucfaa) r
+mnoi2r
+mn(ii)(h2o)4i2(trans)r
+mn2(co)8i2 (sizyuv) r
+manganese, cation
+manganese, 6dg 3d(6)4s(1)
+manganese, 6sg 3d(5)4s(2)
+* manganese, 8pu 3d(5)4s(1)4p(1)
+manganese, atom
+bicyclopentadienyl manganese
+manganese(iii) nitride
+mn(ii)(nh3)6
+manganese(ii) oxide
+mn(co)c8 (butmnc)
+manganese (iv) dioxide, anion
+manganese (v) trioxide
+cyclopentadienyl manganese tricarbonyl
+mn(co)3c5 (hexmnc)
+permanganate anion
+mn(co)(no)3
+mn(co)5
+mn(co)5h
+mn(co)5ch3
+mn(co)5(c6h5)
+mn(co)5(c6h5ch2)
+mn(ii)(h2o)6
+manganese hexacarbonyl, cation
+mn(co)5coch3
+mn(co)5(c6h5co)
+mn(acac)3
+mn(iii)edta(-) (edtmnk01)
+mn(iii)o6(-) (kammnd)
+manganese(i) fluoride
+manganese(iv) oxide difluoride
+mn(ii)(h2o)4f2(trans)
+mn(co)5c (cdfvmn)
+mn(co)5cf3
+mn(co)5cocf3
+mn(co)4o (facmna)
+manganese(iii) phosphide
+manganese(ii) sulfide
+mn(co)2scp (valxai)
+mn(co)2cps (cpcsmn)
+mn(iii)s4n(-) (cowhol)
+manganese(i) chloride
+mn(co)5cl
+mn(co)3cls2 (geqluj)
+mn(ii)(h2o)4cl2(trans)
+mn2(co)9
+mn2(co)10
+manganese(i) bromide
+mn(co)5br
+manganese(iv) oxide dibromide
+mn(ii)(h2o)4br2(trans)
+manganese(i) iodide
+mn(co)3n2i (yomhen)
+mn(co)5i
+manganese(iv) oxide diiodide
+mn(ii)(h2o)4i2(trans)

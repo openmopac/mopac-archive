@@ -1,0 +1,9 @@
+*
+*  Optimize a single element
+*
+ cycles=50 params=../PM7.txt PM7 ref=../norm;../erra;../leve;../soli
+xfac_K Mn
+alpb_K Mn
+end  
+Potassium permanganate (KMnO4) r.mop
+Potassium permanganate (KMnO4) 

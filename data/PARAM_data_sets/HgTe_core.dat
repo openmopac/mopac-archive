@@ -1,0 +1,9 @@
+*
+*  Optimize a single element
+*
+params=../PM7.txt cycles=50 PM7 ref=../norm;../erra;../leve;../soli
+Alpb_Hg Te
+Xfac_Hg Te
+end  
+core-core_Hg - Te near
+core-core_Hg - Te far

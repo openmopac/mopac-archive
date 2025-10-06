@@ -1,0 +1,131 @@
+cycles=50 params=../PM7.txt PM7 ref=../norm;../erra;../leve 
+(Ir)(all)
+end
+iridium, 4fg 5d(7)6s(2)
+iridium, 4fg2 5d(8)6s(1)
+core-core_Ir - H near    
+core-core_Ir - H far 
+core-core_Ir - C near    
+core-core_Ir - C far 
+core-core_Ir - O near    
+core-core_Ir - O far     
+core-core_Ir - F near
+core-core_Ir - F far
+core-core_Ir - S near
+core-core_Ir - S far
+core-core_Ir - Cl near
+core-core_Ir - Cl far
+core-core_Ir - Br near
+core-core_Ir - Br far
+core-core_Ir - I near    
+core-core_Ir - I far 
+core-core_Cs - Ir near    
+core-core_Cs - Ir far 
+core-core_Ir - Ir near
+core-core_Ir - Ir near slope
+IrF6
+* IrC10 (good)
+* IrC10 (bad)
+IrC2O2 (good)
+IrC2O2 (bad)
+* Ir(CCH)3 (+-)
+* IrCl3 (+-)
+* IrF5 (+-)
+* IrF6(3-) (Oh) 7T1u
+IrF6(3-) (Oh) 1A1g
+IrF6(3-) (Oh) 3T2g
+* IrCl3F3(-) (good)
+* IrCl3F3(0) (bad)
+* IrCl3F3(-) (bad)
+* Ir - Ir 10p0
+* Ir - Ir 9p4
+*Iridium (Ir) r
+* Iridium (Ir)
+* (CpIr)2I3(+) (Good).mop
+* (CpIr)2I3(+) (bad).mop
+* Ir2(Cp)2I3 r
+* Ir(Cp)I3 r
+IrF6(3-) (Oh) 3T1g.mop
+IrF6(3-) (Oh) 1A1g.mop
+IrEnPyCl3 r.mop
+IrN3Cl3 r.mop
+Ir(Acac)(CO)2 r
+Ir(III)Br2CN2_(TICQEC) r.mop
+Ir(III)C7Br2_(XUKREA) r.mop
+Ir(III)Br3N3_(BONREC) r.mop
+IrF6(-)
+IrF6(-) (Oh)
+ir(ii)(nh3)6r
+ir(cn)6r
+ir(cp)(co)2 (wamwem) r
+ir(co)4r
+ir(co)5 cation_r
+ir(co)5r
+ir(h2o)6r
+ir(ii)(h2o)6r
+ir(co)6(3+) (xolyig) r
+ir(iii)o6 (qqqcxj01) r
+ir(iii)(ox)3r
+irfr
+irofr
+irf6r
+ir(iii)f6 d6_r
+ir(c6f6)(cp) (padlub) r
+ir(c6f6)(c2h4)(cp) (padlov) r
+ir(iii)s6 (edtcir) r
+irclr
+irc8cl (cbutir) r
+iroclr
+methyl iridium(iii) chloride hydroxider
+ir(iii)n3cl3 (yapgol) r
+ircl4r
+ir(iii)cl4n2(-) (imixux) r
+ir(iii)cl4n2(-) (imixor) r
+ir(iv)cl4n2 (gikbeh) r
+ir(iii)nocl4(2-) (furcea) r
+ir(iii)cl4s2(-) (boclua) r
+ir(iii)cl5n(2-) (clpzir) r
+ir(v)cl6(-) (tevfij) r
+ir(iii)cl6 d6_r
+ircl6r
+irbrr
+irobrr
+ir(iii)o6 (lecday) r
+irbr4r
+ir(iii)br6 d6_r
+irbr6r
+irir
+iroir
+irc4o2(me)i (vazbed) r
+iri4r
+iri6r
+ir2(co)8r
+iridium, cation
+iridium, 2gg 5d(7)6s(2)
+iridium, 4pg 5d(7)6s(2)
+* iridium, 4pg2 5d(8)6s(1)
+* iridium, atom 4f(g) 6s(2)5d(7)
+iridium, atom
+ir(ii)(nh3)6
+iridium(iii) hexacyanide
+iridium tetracarbonyl, anion
+iridium pentacarbonyl, cation
+iridium(iii) hexaquo
+ir(ii)(h2o)6
+iridium(i) fluoride
+iridium(iii) oxide fluoride
+iridium(v) hexafluoride, anion
+iridium(iii) hexafluoride, trianion
+iridium(i) chloride
+iridium(iii) oxide chloride
+iridium(v) tetrachloride, cation
+iridium(iii) hexachloride
+iridium(i) bromide
+iridium(iii) oxide bromide
+iridium(v) tetrabromide, cation
+iridium(iii) hexabromide
+iridium(i) iodide
+iridium(iii) oxide iodide
+iridium(v) tetraiodide, cation
+iridium(iii) hexaiodide
+* ir2(co)8

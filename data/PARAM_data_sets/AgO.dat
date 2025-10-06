@@ -1,0 +1,9 @@
+*
+*  Optimize a single element
+*
+cycles=50 params=../PM7.txt PM7 ref=../norm;../erra;../leve;../soli
+xfac_Ag O
+alpb_Ag O
+end  
+Silver(i) oxide (Ag2O) (ICSD 281041) r.mop
+Silver(i) oxide (Ag2O) (ICSD 281041) 

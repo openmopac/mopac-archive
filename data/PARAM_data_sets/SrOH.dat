@@ -1,0 +1,13 @@
+*
+*  Optimize a single element
+*
+cycles=50 params=../PM7.txt PM7 ref=../norm;../erra;../leve;../soli 
+ALPB_Sr H
+XFAC_Sr H
+ALPB_Sr O
+XFAC_Sr O
+end
+Strontium oxide (SrO)(s) r
+Strontium hydroxide(Sr(OH)2) (ICSD 1415801) r
+Strontium oxide (SrO)(s) 
+Strontium hydroxide(Sr(OH)2) (ICSD 1415801) 

@@ -1,0 +1,11 @@
+*
+*  Optimize a single element
+*
+params=../PM7.txt PM7 ref=../norm;../erra;../leve;../soli
+Alpb_Sn Se
+Xfac_Sn Se
+end  
+Tin(iv) diselenide (SnSe2) (ICSD 43594).mop
+Tin(iv) diselenide (SnSe2) (ICSD 43594) r
+Tin selenide (SnSe) (ICSD 52426) r.mop
+Tin selenide (SnSe) (ICSD 52426) 

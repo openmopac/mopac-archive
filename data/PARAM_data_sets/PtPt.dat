@@ -1,0 +1,9 @@
+*
+*  Optimize a single element
+*
+cycles=50 params=../PM7.txt PM7 ref=../norm;../erra;../leve;../soli 
+ ALPB_Pt Pt
+ XFAC_Pt Pt
+end
+Platinum (Pt) (ICSD 649490) fcc.mop
+Platinum (Pt) (ICSD 649490) fcc r

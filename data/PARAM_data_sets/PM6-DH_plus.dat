@@ -1,0 +1,73 @@
+ref=../erra  pm6-DH+     all
+end
+01_NH3_dimer separated.mop
+01_NH3_dimer.mop
+02_water_dimer separated.mop
+02_water_dimer.mop
+03_formic_acid_dimer separated.mop
+03_formic_acid_dimer.mop
+04_formamide_dimer separated.mop
+04_formamide_dimer.mop
+05_uracil_HB separated.mop
+05_uracil_HB.mop
+06_pyridoxine_aminopyridine separated.mop
+06_pyridoxine_aminopyridine.mop
+07_adenine_thymine_WC separated.mop
+07_adenine_thymine_WC.mop
+08_CH4_dimer_r.mop
+08_CH4_dimer_well_separated.mop
+08_CH4_dimer.mop
+09_Ethylene_dimer_r.mop
+09_Ethylene_dimer_well_separated.mop
+09_Ethylene_dimer.mop
+10_benzene_methane_r.mop
+10_benzene_methane_well_separated.mop
+10_benzene_methane.mop
+11_benzene_dimer_stack_r.mop
+11_benzene_dimer_stack_well_separated.mop
+11_benzene_dimer_stack.mop
+12_pyrazine_dimer_well_separated.mop
+12_pyrazine_dimer.mop
+13_uracil_dimer_stack_r.mop
+13_uracil_dimer_stack_well_separated.mop
+13_uracil_dimer_stack.mop
+14_indole_benzene_stack_well_separated.mop
+14_indole_benzene_stack.mop
+15_adenine_thymine_stack_r.mop
+15_adenine_thymine_stack separated.mop
+15_adenine_thymine_stack.mop
+16_Ethylene_acetylene_r.mop
+16_Ethylene_acetylene_well_separated.mop
+16_Ethylene_acetylene.mop
+17_benzene_H2O_r.mop
+17_benzene_H2O_well_separated.mop
+17_benzene_H2O.mop
+18_benzene_NH3_r.mop
+18_benzene_NH3_well_separated.mop
+18_benzene_NH3.mop
+19_benzene_HCN_well_separated.mop
+19_benzene_HCN.mop
+20_benzene_dimer_T_r.mop
+20_benzene_dimer_T_well_separated.mop
+20_benzene_dimer_T.mop
+21_indole_benzene_T_well_separated.mop
+21_indole_benzene_T.mop
+22_phenol_dimer r.mop
+22_phenol_dimer separated.mop
+22_phenol_dimer.mop
+23_Methanol_dimer_r.mop
+23_Methanol_dimer_well_separated.mop
+23_Methanol_dimer.mop
+24_Methanol_formaldehyde_r.mop
+24_Methanol_formaldehyde_well_separated.mop
+24_Methanol_formaldehyde.mop
+a0_Guanine-cytosine_WC_r.mop
+a0_Guanine-cytosine_WC_well_separated.mop
+a0_Guanine-cytosine_WC.mop
+a1_Guanine-cytosine_stacked_r.mop
+a1_Guanine-cytosine_stacked_well_separated.mop
+a1_Guanine-cytosine_stacked.mop
+Adenine-4-thiouracil_r.mop
+Adenine-4-thiouracil_separated.mop
+Adenine-4-thiouracil.mop
+

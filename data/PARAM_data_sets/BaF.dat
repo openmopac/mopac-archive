@@ -1,0 +1,9 @@
+*
+*  Optimize a single element
+*
+PM7  params=PM7.txt ref=../norm;../erra;../soli
+alpb_Ba F
+xfac_Ba F
+end  
+Frankdicksonite (BaF2) r
+Frankdicksonite (BaF2)

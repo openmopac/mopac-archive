@@ -1,0 +1,9 @@
+*
+*  Optimize a single element
+*
+cycles=50 params=../PM7.txt PM7 ref=../norm;../erra;../leve;../soli
+Alpb_Sb Br
+Xfac_Sb Br
+end  
+Antimony(iii) bromide (SbBr3).mop
+Antimony(iii) bromide (SbBr3) r

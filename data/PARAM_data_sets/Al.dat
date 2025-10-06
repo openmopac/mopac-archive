@@ -1,0 +1,182 @@
+*
+* Optimize a single element
+*
+cycles=50 params=../PM7.txt   PM7  ref=../norm;../erra;../leve;../soli
+(Al)(All)
+end
+* al6
+aluminum, 4S(u) - 3s(0)3p(3).mop
+aluminum, 2D(u) - 3s(0)3p(3).mop
+aluminum, atom
+core-core_Al - H near
+core-core_Al - H far
+core-core_Li - Al near    
+core-core_Li - Al far    
+core-core_Al - C near
+core-core_Al - C far
+core-core_Al - N near
+core-core_Al - N far
+core-core_Al - O near
+core-core_Al - O far
+core-core_Al - F near     
+core-core_Al - F far     
+core-core_Na - Al near    
+core-core_Na - Al far
+core-core_Mg - Al near    
+core-core_Mg - Al far    
+core-core_Al - Al near    
+core-core_Al - Al far    
+core-core_Al - Si near 
+core-core_Al - Si far
+core-core_Al - P near
+core-core_Al - P far
+core-core_Al - S near
+core-core_Al - S far
+core-core_Al - Cl near
+core-core_Al - Cl far
+core-core_K - Al near
+core-core_K - Al far
+core-core_Al - Cu near
+core-core_Al - Cu far
+core-core_Al - As near
+core-core_Al - As far
+core-core_Al - Br near
+core-core_Al - Br far
+core-core_Al - Sb near
+core-core_Al - Sb far
+core-core_Al - I near
+core-core_Al - I far
+core-core_Ba - Al near
+core-core_Ba - Al far
+core-core_Al - Tl far
+* core_Al_0_1_2   
+* core_Al_0_1p5_1p5
+core_Al_0p5_2p0_1p0
+core_Al_0p7_3p7_1p5
+core_Al_0_6_0
+Al3O3(OH)3 (good)
+Al3O3(OH)3 (bad)
+Al2(OH)6 (good)
+Al2(OH)6 (bad)
+Al2O2(OH)2 (good)
+Al2O2(OH)2 (bad)
+al(iii)i2n2 (dimaal)
+Al2I6 r
+alhr
+alme3r
+al(iii)c4(-) (cuvmah) r
+alnr
+al(iii)c3n (linzox) r
+al(iii)c3n (antmal) r
+alor
+al(iii)c3o(-) (aacmal) r
+al(iii)(h2o)4(oh)2r
+al(iii)(h2o)5.ohr
+al(iii)(h2o)6r
+aluminum (iii) edta r
+aluminum trisoxalate r
+aluminum trisoxalato h1r
+aluminum trisoxalato h2r
+aluminum trisoxalato h3r
+alfr
+alf3r
+alf4_ani_r
+lialf4r
+al(iii)f6(3-) (yaxxaw) r
+na3alf6r
+al2r
+al2or
+al2o2_2(oh)r
+alclr
+alcl3r
+al(iii)cl3n (cmamal01) r
+alcl3nme3r
+al(iii)cl4(-) (calzuk) r
+al(iii)ccl3 (malcld) r
+al(iii)cl2n2 (madalc10) r
+al2cl6r
+kalf4r
+ti(ii)(c6h6)cl4 (belyia01) r
+albrr
+albr3r
+albr3nh3r
+mn(co)4cbr (al) (cmncxa10) r
+al(iii)br2n2 (brmaal) r
+al2br6r
+rbalf4r
+agalr
+al(iii)c3i(-) (maimal) r
+al(iii)c2i2(-) (csimal) r
+ali3r
+al(iii)i2n2 (dimaal) r
+als3i (famlek) r
+ti(ii)i4(ar) (tefcem) r
+baalo2(oh).2(h2o)r
+aluminum, 2p(u) - 3s(2)3p(1)
+aluminum, 2s(g) - 3s(1)3p(2)
+aluminum, 4p(g) - 3s(1)3p(2)
+aluminum, atom
+aluminum hydride
+al(4-)
+trimethylaluminum
+al(iii)c4(-) (cuvmah)
+triethylaluminum
+aluminum nitride
+al(iii)c3n (antmal)
+aluminum oxide, cation
+aluminum oxide, anion
+aluminum hydroxide, cation
+h-al=o
+aluminum hydroxide, anion
+aluminum dioxide
+aluminum dioxide, anion
+aluminum oxide hydroxide
+al(iii)c3o(-) (aacmal)
+al(iii)(h2o)4(oh)2
+al(iii)(h2o)5.oh
+al(iii)(h2o)6
+aluminum (iii) edta
+aluminum trisoxalate
+aluminum trisoxalato h1
+aluminum trisoxalato h2
+aluminum trisoxalato h3
+aluminum fluoride, cation
+aluminum oxide fluoride
+aluminum difluoride, cation
+aluminum difluoride, anion
+aluminum difluoride oxide, anion
+aluminum trifluoride
+aluminum tetrafluoride, anion
+lithium tetrafluoroaluminate
+al(iii)f6(3-) (yaxxaw)
+sodium tetrafluoroaluminate
+al2o2, cation
+aluminum trifluoride, dimer
+aluminum sulfide
+aluminum chloride, cation
+aluminum chloride oxide
+aluminum chloride fluoride, cation
+aluminum chloride difluoride
+alcl2, cation
+aluminum dichloride
+aluminum dichloride, anion
+aluminum dichloride fluoride
+aluminum trichloride
+al(iii)cl3n (cmamal01)
+al(iii)cl4(-) (calzuk)
+lialcl4
+al(iii)ccl3 (malcld)
+* al(iii)cl2n2 (madalc10)
+aluminum trichloride dimer
+aluminum tribromide
+* al(iii)br2n2 (brmaal)
+aluminum tribromide dimer
+aluminum telluride
+aluminum iodide
+al(iii)c3i(-) (maimal)
+al(iii)c2i2(-) (csimal)
+aluminum triiodide
+al(iii)i2n2 (dimaal)
+als3i (famlek)
+aluminum triiodide dimer
+cesium tetrafluoroaluminate

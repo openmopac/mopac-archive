@@ -1,0 +1,28 @@
+*
+*  This job is to be run using MAKPOL.
+*  It will be expanded into a Large Unit Cell for use by MOPAC
+*
+*
+*  8 mers should be enough to ensure that the electronic structure will be converged.
+*
+*  Keyword "LET" is normally necessary for band-structure work, i.e., work involving 
+*
+*  the program BZ, but is not needed for very simple systems such as polymers.
+*
+*  Keyword HTML is useful for providing a quick way to check that the geometry is good.
+*
+*  Optimization flags are ignored by MAKPOL, so they can be "1" or "0".
+*
+* This system is good for electronics and phonon spectra, but is not suitable for symmetry work.
+*
+   mers=(8) html 
+ Polyethylene
+
+  C     0.0  0    0.0  0    0.0  0     0     0     0
+  C     1.5  1    0.0  0    0.0  0     1     0     0
+  H     1.1  1  109.5  1    0.0  0     2     1     0
+  H     1.1  0  109.5  0  120.0  0     2     1     3
+  H     1.1  0  109.5  1  180.0  1     1     2     3
+  H     1.1  0  109.5  0   60.0  0     1     2     3
+ Tv     1.5  1  114.0  1 -120.0  1     2     1     3
+ 

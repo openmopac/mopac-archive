@@ -1,0 +1,9 @@
+*
+*  Optimize a single element
+*
+params=MgW.rp PM7 ref=../norm;../erra;../soli
+alpb_Mg W
+xfac_Mg W
+end  
+MgWO4 r
+MgWO4

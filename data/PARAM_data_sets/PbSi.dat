@@ -1,0 +1,9 @@
+*
+*  Optimize a single element
+*
+params=../PM7.txt PM7 ref=../norm;../erra;../leve;../soli
+Alpb_Pb Si
+Xfac_Pb Si
+end  
+Lead silicate (PbSiO3) (ICSD 250220).mop
+Lead silicate (PbSiO3) (ICSD 250220) r

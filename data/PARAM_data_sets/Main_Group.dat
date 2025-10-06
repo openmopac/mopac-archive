@@ -1,0 +1,5038 @@
+params=../PM7.txt pm7 only  s et=../everything.txt  ref=../norm;../erra;../leve 
+alpb_H H 0.9 5
+ xfac_C H 0.1 5
+ xfac_N H 0.1 5
+ xfac_O H 0.1 5
+ fn21 C 0.5 5
+ hsp C 0.5 5
+fn21 N .5 5
+ xfac_O O 0.1 5
+xfac_F F 0.1 5
+ (H Li Be B C N O F Na Mg Al Si P S CL K Ca Zn Ga Ge As Se BR Rb Sr Cd In Sn Sb Te I Cs Ba Hg Tl Pb Bi)(All)
+par3  -10 10
+par4  -10 10
+end  
+* core-core_O - O heat
+* core-core_O - O slope
+* core-core_F - F heat
+* core-core_F - F slope
+water, tetramer
+water, tetramer (bad)
+oxalic acid dimer, infinity
+oxalic acid dimer, 3p47    
+water dimer structure 1 (non-planar open cs)
+Arsenic oxide, complex
+08_ch4_dimer_r
+16_ethylene_acetylene_r
+09_ethylene_dimer_r
+10_benzene_methane_r
+11_benzene_dimer_stack_r
+20_benzene_dimer_t_r
+18_benzene_nh3_r
+17_benzene_h2o_r
+08_ch4_dimer_well_separated
+08_ch4_dimer
+16_ethylene_acetylene_well_separated
+16_ethylene_acetylene
+09_ethylene_dimer_well_separated
+09_ethylene_dimer
+10_benzene_methane_well_separated
+10_benzene_methane
+11_benzene_dimer_stack_well_separated
+11_benzene_dimer_stack
+20_benzene_dimer_t_well_separated
+20_benzene_dimer_t
+18_benzene_nh3_well_separated
+18_benzene_nh3
+17_benzene_h2o_well_separated
+17_benzene_h2o
+24_methanol_formaldehyde_r
+23_methanol_dimer_r
+15_adenine_thymine_stack_r
+a0_guanine-cytosine_wc_r
+a1_guanine-cytosine_stacked_r
+13_uracil_dimer_stack_r
+19_benzene_hcn_well_separated
+19_benzene_hcn
+14_indole_benzene_stack_well_separated
+14_indole_benzene_stack
+21_indole_benzene_t_well_separated
+21_indole_benzene_t
+12_pyrazine_dimer_well_separated
+12_pyrazine_dimer
+24_methanol_formaldehyde_well_separated
+24_methanol_formaldehyde
+23_methanol_dimer_well_separated
+23_methanol_dimer
+a0_guanine-cytosine_wc_well_separated
+a0_guanine-cytosine_wc
+a1_guanine-cytosine_stacked_well_separated
+a1_guanine-cytosine_stacked
+13_uracil_dimer_stack_well_separated
+13_uracil_dimer_stack
+Li(Cp)r
+Na(Cp)r
+K(Cp)r
+Rb(Cp)r
+Cs(Cp)r
+Zn2 Complex (Ref)
+Zn2 Complex (Bad)
+K(+)-18-crown-6_ref
+K(+)-18-crown-6_bad
+h2r
+lihr
+li2r
+beh_cat_r
+behr
+libehr
+bhr
+bh2r
+b2r
+b2h4c2vr
+b2h6r
+b4h10r
+b5h9r
+b5h11r
+b6h10r
+b10h14r
+ch2sir
+ch2tr
+ch4r
+lich3r
+c2r
+c2h2r
+c2h4r
+c2h6r
+licchr
+lic2h5r
+beme2r
+c2b4h6r
+allener
+cyc3h4r
+propyner
+cyc3h6r
+propener
+propaner
+lic3h7r
+me3br
+c4h2r
+c4h4r
+vinylacetr
+bicycbutr
+but2yner
+transc4h6r
+but1ener
+cyc4h8r
+ibutener
+tbut2ener
+butaner
+ic4h10r
+lic4h9r
+n-butyl lithium r
+(be(me)2)2r
+cyc5h6r
+spiranr
+neoc5r
+benzener
+fulvener
+chexenr
+cyc6h12r
+li(i)4(et)4 (ethyli) r
+c10h8r
+biphenyl, for torsion r
+o-methyl biphenyl, for torsion r
+o,o'-dimethyl biphenyl, for torsion r
+nh3r
+linh2r
+bh2nh2r
+bh3nh3r
+cnr
+hcnr
+ch3nh2r
+lincr
+ch3cnr
+ch3ncr
+c2h4nhr
+me2nhr
+chccnr
+ch2chcnr
+me3nr
+c4h4nhr
+c5h5nr
+n2r
+01_nh3_dimer r
+bh3-nh3, dimer r
+c2n2r
+mennmer
+li(i)(cp)n2 (sijnii) r
+li(i)n2c5 (fagcar) r
+n3r
+borazoler
+triaziner
+li(i)n3c (dankuy) r
+li(i)n4(+) (pikwah) r
+be(ii)3n6 (dmabet10) r
+h2or
+lior
+liohr
+li2or
+beor
+bor
+cor
+ch2or
+ch3ohr
+lioch3r
+bh3cor
+ch2cor
+ch3chor
+ch3och3r
+ch2chchor
+acetoner
+furanr
+c5or
+nor
+lionr
+hncor
+hconh2r
+hconh2rr
+n2or
+ceb r
+1d88_b3p r
+06_pyridoxine_aminopyridine r
+2me_b3p r
+o2r
+h2o2r
+02_water_dimer r
+water dimer structure 1 (non-planar open cs)r
+water dimer structure 1' (non-planar open cs)r
+water dimer structure 10 (planar bifurcated c2v)r
+water dimer structure 2 (open ci)r
+water dimer structure 3 (planar open cs)r
+water dimer structure 4 (cyclic ci)r
+water dimer structure 5 (cyclic c2)r
+water dimer structure 6 (cyclic c2h)r
+water dimer structure 7 (triply hydrogen bonded cs)r
+water dimer structure 8 (non-planar bifurcated c2v)r
+water dimer structure 9 (non-planar bifurcated c2v)r
+h(+)(h2o)2r
+lioh.h2or
+li(+)(h2o)2r
+bo2r
+obbor
+co2r
+hcoohr
+chochor
+hcooch3r
+c3o2r
+pquinoner
+22_phenol_dimer r
+no2r
+hno2r
+hno2transr
+salr
+nh2no2r
+04_formamide_dimer r
+be(ii)n2o2 (xefseg) r
+o3r
+lioh.2h2or
+li(+)(h2o)3r
+boric acid r
+b2o3r
+b2o3h2r
+b3o3h3r
+bo3me3r
+hno3r
+n2o3r
+aa_20_pro-pro r
+aa_03_val-val r
+aa_05_ile-ile r
+naphthoquinone_b3p r
+li(+)(h2o)4r
+li(i)(h2o)4(+) (badtuv10) r
+b(oh)4, anion r
+03_formic_acid_dimer r
+(c2h4)bo4h2, anion r
+be(ii)o4 (acacbe02) r
+be(ii)o4(2-) (yambod) r
+li(i)2(cp)2o4 (danpox) r
+n2o4r
+05_uracil_hb r
+lihco3.2h2or
+lino3.2h2or
+li(+)(h2o)6r
+orthoboric acid, dimer r
+tri-acetyl borate r
+li(i)o6(+) (colgep) r
+li(i)o6(+) (lolnop01) r
+li(i)o4 (fecwit) r
+meno23r
+be(ii)o4(2-) (malbek) r
+beryllium (edta) r
+petnr
+hfr
+lifr
+befr
+bfr
+bh2fr
+cfr
+chfr
+ch3fr
+c2hfr
+c2h3fr
+cf2cch2r
+fcnr
+lif.h2or
+fnor
+bfh2o2r
+li(+)(h2o)5.fr
+f2r
+h2f2r
+li2f2r
+bef2r
+bhf2r
+cf2r
+c6h5bf2r
+bf2nh2r
+nf2-cnr
+f2or
+bf2or
+bf2ohr
+cof2r
+bf3r
+chf3r
+nf3r
+cf3cnr
+bf3oh, anion r
+be(ii)f4(2-) (kippee) r
+fluoroboric acid anion r
+b2f4r
+cf4r
+c2f4r
+c2f6r
+(cf3)2or
+c3f8r
+c3o2f8r
+c4f10r
+nahr
+na-lir
+nach3r
+nacnr
+naor
+naohr
+naoh.h2or
+na(+)(h2o)2r
+nabo2r
+naoh.2h2or
+na(+)(h2o)3r
+na(+)(h2o)4r
+nahco3.2h2or
+nano3.2h2or
+na(+)(h2o)6r
+nafr
+na2r
+na2or
+na2f2r
+mghr
+mgh2r
+mgmehr
+mghcchr
+mgme2r
+mg(ii)c2 (gimniz) r
+c10h10mgr
+mghnh2r
+mghcnr
+mgn2h4r
+mgc2n2r
+mg(ii)c2n2 (meenmg) r
+mg(ii)n4c(+) (fizrem) r
+mg(ii)n6(2+) (dotziv) r
+mgor
+mghohr
+mgcnohr
+mgo2h2r
+mg(ii)c2o2 (dobxib) r
+mg(ii)(cp)co2 (huxsau) r
+mghno2r
+mghonor
+mg(ii)o4(2+) (insmgc) r
+mg(acac)2r
+mgn3o2r
+mg(ii)(h2o)4(oh)2r
+mg(ii)(h2o)5.ohr
+mg(ii)(h2o)6r
+mg(ii)o6 (dacamg) r
+mg(ii)o6 (felguy) r
+mg(edta)r
+mg(ii)o6(-) (gapsev) r
+mg(ii)o6 (davgai) r
+mg(ii)o6 (besxon) r
+mgfr
+mghfr
+mgmefr
+mgf2r
+mg2r
+mg2f4r
+alhr
+alme3r
+al(iii)c4(-) (cuvmah) r
+alnr
+al(iii)c3n (linzox) r
+al(iii)c3n (antmal) r
+alor
+al(iii)c3o(-) (aacmal) r
+al(iii)(h2o)4(oh)2r
+al(iii)(h2o)5.ohr
+al(iii)(h2o)6r
+aluminum (iii) edta r
+aluminum trisoxalate r
+aluminum trisoxalato h1r
+aluminum trisoxalato h2r
+aluminum trisoxalato h3r
+alfr
+alf3r
+alf4_ani_r
+lialf4r
+al(iii)f6(3-) (yaxxaw) r
+na3alf6r
+al2r
+al2or
+al2o2_2(oh)r
+sihr
+sih2r
+sih4r
+b5h11sir
+simeh3r
+sime4r
+sic4(-) (fogmet) r
+sinr
+sic4 (bawnui) r
+sic3n(+) (caskiq) r
+sih3o (bahtaf) r
+sio4n (bojler) r
+sih3fr
+ch3sih2fr
+sif2r
+sihf3r
+sif3n2 (cewvef) r
+sif3c (bazguf) r
+sif4r
+sif3-bf2r
+sif6(2-) (jijkoc) r
+si2h6r
+cycsi5h10r
+si(sime3)4 (gufmoj) r
+ph3r
+cpr
+pchr
+ch3ph2r
+me3pr
+c5h5pr
+li(i)n3p (geddoi) r
+por
+triphenyl phosphine oxide r
+ethylene phosphate anion r
+dimethyl phosphate anion r
+me2hpo4r
+me3po4r
+li(i)o4p (cejqaj) r
+po(ocn)3r
+ch2pfr
+pf3r
+bf3ph3r
+pf3bh3r
+pof3r
+pf5r
+p2r
+pyrophosphoric acid r
+p2f4r
+methyl triphosphate r
+p4r
+p4o6r
+p4o10r
+mg(ii)o6(2-) (fapsiy) r
+h2sr
+besr
+bhsr
+csr
+ch2sr
+ch3shr
+ch3bsr
+ch3chsr
+c2h6shr
+me2sr
+thiophener
+snr
+ch3ncsr
+me2sor
+so2r
+me2so2r
+so3r
+me2so3r
+li(i)o3n (fobhej) r
+h2so4r
+me2so4r
+li(i)o4n (barvof) r
+li(i)o4n (barviz) r
+lihso4.2h2or
+ch3so3fr
+sf2r
+f2csr
+osf2r
+so2f2r
+sf4r
+sof4r
+sf5ncor
+sf6r
+nahso4.2h2or
+mgsr
+sch3sih3r
+sic3s(-) (itiboc) r
+psf3r
+s2r
+h2s2r
+cs2r
+ch3ssch3r
+me2s2r
+li(i)o2s2 (yubvum) r
+aa_16_cys-cys r
+aa_19_met-met r
+fssfr
+s2f2r
+s2f10r
+mgs2h4r
+mg(++)(h2o)4(h2s)2r
+mg(ii)s2o4 (kiwseo) r
+mg(ii)s2n2o2 (ehufui) r
+sic2s2 (gumzuj) r
+sio2s2n (ebupia) r
+si2c4s2 (cadloi) r
+sis4 (dancuq) r
+s6r
+sis3c (msisul10) r
+s8r
+hclr
+liclr
+bh2clr
+b2h5clr
+chclr
+ch3clr
+c2hclr
+c2h5clr
+2-chloropropener
+1-chloropropaner
+2-chloropropaner
+2-chloro-2-methylpropaner
+be(ii)(cp)cl (jefkio) r
+c5h5beclr
+chlorobenzener
+clcnr
+cyanogen chlorider
+be(ii)n3cl(+) (valhew) r
+li(i)n3cl (gajyar) r
+clor
+lioclr
+licl.h2or
+acetyl chlorider
+noclr
+no2clr
+hclo4r
+li(i)o4cl (cejqir) r
+li(+)(h2o)5.clr
+li(i)o6 (fivtek) r
+clfr
+coclfr
+clo3fr
+bclf2r
+chclf2r
+clf3r
+clf5r
+naclr
+mgclr
+mgclfr
+alclr
+siclr
+sic3cl (guhhas) r
+ch3sclr
+cl2r
+li2cl2r
+becl2r
+bhcl2r
+ch2cl2r
+cis-dichloroethylener
+1,1-dichloroethaner
+trans-1,2-dichloroethaner
+be(ii)cl2n2 (mecybc) r
+be(ii)cl2n2 (valhas) r
+cl2or
+cocl2r
+be(ii)cl2 (etbecl) r
+oxalyl chlorider
+be(ii)cl2o2 (etbecl01) r
+cf2cl2r
+na2cl2r
+mgcl2r
+mg(ii)o4cl2 (cexwux10) r
+mg(ii)2(cp)2cl4o2 (lakleo) r
+sicl2r
+scl2r
+oscl2r
+so2cl2r
+ch3opscl2r
+ch3spocl2r
+s2cl2r
+li3cl3r
+bcl3r
+chcl3r
+be(ii)cl3n(-) (fasqum) r
+ccl3fr
+alcl3r
+al(iii)cl3n (cmamal01) r
+alcl3nme3r
+simecl3r
+pcl3r
+pocl3r
+pscl3r
+b2cl4r
+b4cl4r
+ccl4r
+c2cl4r
+2,3,5,6-tetrachloro-1,4-benzoquinoner
+mg(ii)cl4(2-) (dupcog) r
+al(iii)cl4(-) (calzuk) r
+al(iii)ccl3 (malcld) r
+al(iii)cl2n2 (madalc10) r
+sicl4r
+sicl4n2 (jepcow) r
+si2cl6h2n (gilqex) r
+pcl5r
+be(ii)2cl6(2-) (equnuz) r
+c2cl6r
+c6cl6r
+al2cl6r
+scl6r
+si2cl6c2 (fazkum) r
+khr
+kch3r
+kohr
+koh.h2or
+koh.h2orr
+k(+)(h2o)2r
+kbo2r
+k(+)(h2o)3r
+k(+)(h2o)4r
+k(+)(h2o)5r
+khco3.2h2or
+kno3.2h2or
+k(+)(h2o)6r
+k(+)-18-crown-6_(kegxid)r
+k(i)o6(+) (aqepiv) r
+k(i)o6n (yakwox) r
+k(i)o6n2(+) (gazgix) r
+k(i)o7 (legxok) r
+kfr
+k(+)(h2o)5.f r
+kbf4r
+kalf4r
+k(i)o5n3 (poztck) r
+k(i)o6s (ruxvah) r
+kclr
+k(+)(h2o)5.cl r
+k2r
+k2or
+k2f2r
+k2sr
+k2cl2r
+cahr
+canh2r
+cac2n2r
+can2c2r
+ca(ii)n6(2+) (qakgal) r
+ca(ii)(en)3r
+caor
+caohr
+cao2h2r
+ca(ii)(cp)2o2 (teyyif) r
+ca(ii)(cp)2o2 (sehpea) r
+ca(ii)o2 (tasfoi) r
+ca(++)(h2o)4.(oh)2r
+ca(++)(h2o)5.ohr
+ca(++)(h2o)6r
+ca(ii)(h2o)6(2+) (bihniq) r
+ca(ii)o6 (boltif) r
+ca(ii)o7n2(2+) (cacrpb) r
+calcium(ii) edta r
+ca(ii)o6n2 (linyai) r
+ca(ii)o8 (gebpae) r
+calcium hydrogen trisoxalate r
+ca(ii)o10 (dujjoh) r
+ca(ii)o8 (caarab) r
+cafr
+ca(++)(h2o)5.fr
+caf2r
+ca(h2po4)2r
+casr
+caso4.2h2or
+ca(++).2(h2s)r
+ca(ii)n6o (bukzuc) r
+caclr
+ca(++)(h2o)5.clr
+cacl2r
+ca(ii)cl4o2(2-) (dilxol) r
+ca(ii)2o12cl2(2+) (nadqep) r
+znet2r
+zn(ii)c4(2-) (ltmezn) r
+c5h5znmer
+znpr2r
+zn(ii)n4(2+) (fuzcuy) r
+zn(ii)(en)3r
+zn(ii)n6(2+) (cibkih) r
+zn[(c6h9)(nh2)3]2(++)r
+znn3o2r
+zn(ii)o5 (acaczm01) r
+zn(ii)(h2o)4(oh)2r
+zn(ii)(h2o)5.ohr
+zn(ii)(h2o)6r
+zn(ii)o6(2+) (znaqbs) r
+zn(ii)o6 (znaqac02) r
+zinc (ii) edtar
+h3zn(ox)3r
+znf2r
+zn(ii)s2n2 (xustag) r
+zn(ii)o3s2 (gayzip) r
+[zn(ch3s)3](-)r
+[zn(ch3s)4](=)r
+zn(ii)s4o2 (tedvih) r
+zn(ii)n2ccl (clpdzn)r
+zn(ii)o3ncl (ceamzn) r
+zncl2r
+zn(ii)n2cl2 (znacet) r
+zn(ii)n2cl2 (cahgex) r
+zn(ii)o2cl2 (ducneu) r
+zn(ii)sncl2 (catszn) r
+zn(ii)s2cl2 (clstuz) r
+zn(ii)cl4(2-) (abdznc20) r
+zn2[s2c-nme2]4r
+gahr
+ga(me)3r
+ga(et)3r
+ga(iii)c3 (dmgacp) r
+ga(iii)(c6)(+) (cuttug) r
+ga(iii)o2c2 (bezhap) r
+ga(oh)3r
+ga(ome)3r
+ga(iii)o6 (acacga) r
+ga(iii)(pc)3(3-)r
+gallium (iii) edta r
+ga(iii)(edta) (edtaga01) r
+ga(iii)o6(3-) (cokfir) r
+gafr
+ga(iii)c2f2(-) (cupquz) r
+[ga(iii)f2.(me2n)](+)r
+gaf3r
+ga(iii)f6(3-) (buyfoq01) r
+ga(ch3o)2(ch3s)r
+[ga(iii)f2](+).h2sr
+ga(iii)s6 (edtcga01) r
+gaclr
+game3cl_ani_r
+game2cl2_ani_r
+ga(iii)cncl2 (afajum) r
+ga(iii)n2cl2 (abisot) r
+gacl3r
+gamecl3_ani_r
+gacl3nh3r
+ga(iii)cl4(-) (amifil) r
+gacl4_ani_r
+ga(iii)2n4c4 (dmpzga) r
+ga2or
+ga(iii)2n2o2c4 (barneo) r
+ga(iii)2o4c4 (dmgaox)r
+ga2cl2h4r
+ga2cl6r
+geh4r
+geh3ch3r
+geeth3r
+geme2h2r
+geme3hr
+geme4r
+geh3cnr
+geh3n3r
+geor
+geh3ncor
+geo6(+) (acacge) r
+gefr
+geh3fr
+ch3geh2fr
+geno3f (gaqmeq) r
+gen4f(-) (beglii) r
+gef2r
+geme2f2r
+gec2o2f2 (libzax) r
+gemef3r
+gef4n2 (humcoh) r
+gef6(2-) (iwoqoa) r
+gec3f2(-) (fexfuj) r
+geh3sih3r
+gef3-sif3r
+gesr
+geh3ncsr
+geh3spf2r
+gec2s2 (asowag) r
+geh3clr
+geclme3r
+geo4cl(-) (cldxge) r
+gef3clr
+ges2o2cl(-) (cutkor) r
+gecl2 (dioxgc) r
+gecl2r
+geme2cl2r
+gecl2s2 (cttger) r
+gecl3(-) (fassuo) r
+gehcl3r
+gemecl3r
+geccl3 (bosbiu01) r
+gecl4r
+ge2h6r
+(geme3)2r
+ge2me6or
+f2p2ge2h6r
+ge2c4cl4 (cgechd10) r
+pge3h9r
+ge3c3cl6 (fitgof) r
+ash2r
+ash3r
+asme3r
+as(v)c4(+) (masinc10) r
+ash2-nh2r
+as(iii)c3 (cnmars) r
+asc3n3r
+as(v)c3o (asoxca) r
+as(oh)3r
+as(v)o3c (arsacp) r
+as(v)o4(-) (dayqav) r
+as(v)o5 (htoasp) r
+asf3r
+asf5r
+as(v)f6(-) (bonmog) r
+asc3f9r
+assi3h9r
+as(iii)n2cl (lewvis) r
+ascl3r
+as(iii)ncl3 (asctma) r
+ascl5r
+asasc (arsmet) r
+as(v)f4o2(2-) (pydfas) r
+as(iii)2c4 (hirciu) r
+as(v)(iii)c4s2 (dmsars) r
+as(iii)s2c (marsta) r
+as(iii)o2c (asoxad) r
+as4o6r
+as(iii)as2c (asmeth) r
+h2ser
+secr
+ch3sehr
+seethr
+seme2r
+c4h4ser
+c4h8ser
+seh-nh2r
+secnhr
+seor
+ocsr
+seo2r
+seo3r
+se(oh)6r
+secf2r
+sef2or
+seo2f2r
+sef4r
+sef5ncor
+sef6r
+sef6(=)
+sec2f6r
+sesir
+sesi2h6r
+sepf2hr
+csser
+secl2r
+seocl2r
+secl6(=)r
+znser
+znse(me)2r
+znsecl2r
+geser
+se2me2r
+se2f10or
+me4se2gec3r
+p4se3r
+se4cl16r
+hbrr
+librr
+ch3brr
+c2hbrr
+brcnr
+li(i)n3br (jeprol) r
+li(i)n3br (gajyev) r
+brhccor
+ch3cobrr
+brnor
+li(i)o4br (cesjuf) r
+li(+)(h2o)5.brr
+brfr
+brfo3r
+brf3r
+cbrf3r
+brf5r
+nabrr
+mgbrr
+mg(ii)o2br(+) (basliq) r
+mg(ii)cbro2 (emgbre10) r
+mgetbro2et4r
+albrr
+sif3brr
+sic3br (brmsad) r
+brsf5r
+brf2psr
+brclr
+ch2clbrr
+kbrr
+k(+)(h2o)5.br r
+cabrr
+ca(++)(h2o)5.brr
+zn(ii)n4br(+) (daeazn) r
+gabrr
+geh3brr
+geme3brr
+geo3br (buwcur) r
+geo4br(-) (cutlae) r
+gec2s2br (kadkop) r
+as(iii)c2br (bropar) r
+as(iii)brs2(+) (edtcas) r
+br2r
+li2br2r
+bebr2r
+ch2br2r
+li(i)2br2n4 (sajvee01) r
+cobr2r
+c4o2br2r
+be(ii)o2br2 (qqqdpy01) r
+li(i)2br2o4 (decxeo01) r
+na2br2r
+mgbr2r
+mg(ii)o2br2 (mgbeet) r
+mg(ii)o5br2 (gupjac) r
+sih2cbr (zuhpib) r
+sobr2r
+k2br2r
+cabr2r
+ca(ii)n2o2br2 (tapkea) r
+znbr2r
+zn(ii)n2br2 (cahgib) r
+zn(ii)o2br2 (caryup) r
+gebr2r
+as(v)c2br3 (dmeasb) r
+bbr3r
+albr3r
+albr3nh3r
+pbr3r
+pobr3r
+psbr3r
+gabr3nh3r
+gemebr3r
+asbr3r
+as(iii)cbr2 (fafwak) r
+cbr4r
+c2br4r
+al(iii)br2n2 (brmaal) r
+sibr4r
+zn(ii)br4(2-) (beynuo) r
+ga(iii)br4(-) (agogae) r
+ga(iii)2n2br4 (bawvea) r
+gebr4r
+gen2br4 (bomqoj) r
+al2br6r
+ga2br6r
+ge2br6c (cojloc) r
+sebr6(=)r
+as(iii)br5(2-) (coddee) r
+rbhr
+ch3-rbr
+rbohr
+rbbo2r
+rb(+)(h2o)2.ohr
+rb(+)(h2o)3r
+rb(+)(h2o)4r
+rb(i)o4n2(+) (cagfia) r
+rb(+)(h2o)6r
+rb(i)o6(+) (cabjar) r
+rb(i)(cp)o6 (qextiw) r
+rb(i)o6(c4n) (yakwud) r
+rb(i)o6n (imawau) r
+rb(i)o6n2(+) (ehenag) r
+rb(0)o6n2 (ebewox) r
+rbfr
+rbalf4r
+rb(i)n4(3-) (zifkii) r
+rbclr
+rb(+)(h2o)3.clr
+rb(+)(h2o)3.fr
+rbbrr
+rb(+)(h2o)3.brr
+rb(i)o6(cp) (qirfig) r
+rb2f2r
+rb2cl2r
+rb2br2r
+rb(i)o3 (sogkuu) r
+(ch3)2srr
+sr(ii)(cp)2n2 (teyyeb) r
+sr(ii)n4 (wagcir) r
+sr(ii)n8(2+) (taqnaa) r
+sr(ii)n9(2+) (tapmom) r
+sror
+srohr
+sr(ii)(cp)2o2 (volnoz) r
+sr(ii)(h2o)6r
+sr(ii)o6n2(2+) (sutziq) r
+sr(ii)o8(2+) (poxkoc) r
+sr(ii)o9(2+) (wazfuy) r
+sr(ii)o8(2+) (nasyel) r
+sr(ii)(h2o)5.fr
+try
+cis-sr(ii)(h2o)4.f2r
+sr(ii)n6f3 (udiraa) r
+sr(ii)o4n4 (nupsas) r
+sr(ii)o8(2-) (rizhaj) r
+srsr
+sr(ii)o4s2 (yugmoc)a r
+sr(ii)o6n2 (fuydae) r
+sr(ii)(h2o)5.clr
+srcl2r
+cis-sr(ii)(h2o)4.cl2r
+srbrr
+sr(ii)(h2o)5.brr
+sr(ii)n5br2 (tanwag) r
+cis-sr(ii)(h2o)4.br2r
+cdme2r
+cd(ii)n2c2 (lajmoy) r
+cd(ii)(cn)3(-)r
+cd(ii)(cn)4(=)r
+cd(ii)(nh3)6r
+cd(ii)(en)3r
+cd(ii)n6(2+) (encdss) r
+cd(ii)(oh)2r
+cd(ii)(h2o)6r
+cd(ii)o4n2 (bunvub10) r
+cd(ii)(edta)(=)r
+ch3-cd-fr
+cdf2r
+cd(ii)f4(=)r
+cd(ch3s)2r
+cd(ii)n6 (cdenic) r
+[cd(ch3s)3](-)r
+cdn4c4s4r
+ch3-cd-clr
+cdcl2r
+cd(ii)n2cl2 (cdpycl) r
+cd(ii)s2cl2 (cturcd) r
+cd(ii)s2n2cl2 (tchzcd) r
+cd(ii)cl4(2-) (qnlcdc10) r
+cd(ii)cl4(=)r
+cd(ii)br.5(h2o)r
+cdbr2r
+cd(ii)s2br2 (peksut) r
+cd(ii)br4(2-) (mamcdb) r
+cd(ii)br4(=)r
+[cd(ii)2(cn)7](3-)r
+inhr
+in(iii)c2(+) (dminbr) r
+in(iii)c3 (trmein) r
+inme3r
+in(iii)c4(-) (cmeind) r
+in(iii)(nh3)6r
+in(oh)3r
+in(iii)(h2o)6r
+in(iii)o6 (acacin) r
+in(iii)(pc)3(3-)r
+in(iii)n2o6 (bpacin) r
+indium(iii)(edta)(-) r
+in(iii)(ox)3(3-)r
+infr
+in(iii)f2c2(-) (cuprio) r
+inf3r
+in(iii)f6(3-) (lorcie) r
+in(iii)c3p (fobfae) r
+inf2(ch3s)r
+inf2(me2s)(+)r
+inclr
+in(iii)s2n2cl (tupbah) r
+in(iii)c2cl2(-) (aqifel) r
+in(iii)cl2o2n2 (cakcas) r
+incl3r
+in(iii)o2cl3 (vukkob) r
+in(iii)cl6(3-) (fuvcaa) r
+inh3-gah3r
+inser
+inbrr
+in(iii)c2br2(-) (masmbi) r
+inbr3r
+in(iii)cbr3 (petnux) r
+in(((i)clbr3(-) (bupnab) r
+in(iii)c2n2 (amdmin) r
+in2or
+in2f6r
+in2cl6r
+in2ser
+in2br6r
+snh4r
+snmeh3r
+snme2h2r
+snme3hr
+snme4r
+sn(iv)n4c (wayyok) r
+sn(ii)n4 (vurfuj) r
+sn(iv)(en)3r
+snor
+tin tetramethoxide r
+sn(iv)o4c2 (acdmsn) r
+min_sn(iv)(h2o)3.(oh)3r
+sn(iv)(h2o)3.(oh)3r
+sn(iv)(h2o)4(oh)2r
+sn(iv)(h2o)6r
+sn(iv)o8 (acetsn01) r
+sn(iv)n4cf(+) (rocvag) r
+dimethyltin difluoride r
+snf4r
+sn(iv)f6(2-) (jozxif) r
+snsr
+sn(ch3s)(me3)r
+sn(iv)s2c2 (acelid) r
+snh3clr
+sn(iv)s4cl(-) (bthsna10) r
+sncl2r
+snme2cl2r
+sn(iv)cl2c3(-) (bepfil) r
+sn(iv)n4cl2 (wattiu) r
+sn(iv)c2cl2o (adidum) r
+sn(iv)o2c2cl2 (bcmesn) r
+sn(iv)o4cl2 (acclti) r
+sn(ii)scl2 (capwev) r
+sn(iv)s4cl2 (cihdec) r
+sn(ii)cl3(-) (bitxux) r
+sncl4r
+sn(iv)cl4c2(2-) (arawar) r
+sn(iv)o2cl4 (cimwie) r
+sn(iv)cl6(2-) (amclsn10) r
+geh3-snh3r
+snser
+snh3brr
+snme3brr
+snbr2r
+dimethyltin dibromide r
+sn(iv)s4br2 (carsna) r
+sn(ii)br3(-) (bityae) r
+snbr4r
+sn(iv)br6(2-) (bujpur) r
+min_sn2o4r
+sn(iv)c3ocl (aceyiq) r
+sbh3r
+sb(ch3)r
+sb(v)c4(+) (bohsia) r
+sb(et)3r
+sb(c6h5)3r
+sb(iii)c3 (afutaw) r
+sb(iii)o3 (fepwus) r
+sb(oh)6(-)r
+sb(me2)fr
+sb(v)c3f2 (trsbdf) r
+sb(iii)f3 (ureaaf) r
+sbf4(+)r
+sb(iii)f4(-) (namteb) r
+sbf5r
+sb(v)f6(-) (coshat) r
+sbf6(-)r
+sbc3f9r
+sbsi3h9r
+sb(iii)s4c (casper) r
+ch3-sb-clr
+et-sb-clr
+sboclr
+sb(iii)s2cl (clssbp10) r
+sb(iii)cl3 (anisbc) r
+sbcl3r
+sb(iii)n2cl3 (bpysbc10) r
+sbcl4(+)r
+sb(v)cl4o2 (dotjeb01) r
+sbcl5r
+sb(iii)cl5(2-) (bpclsb) r
+sb(v)c3cl2 (clvisb) r
+sb(v)ocl5 (acmepo) r
+sb(v)cl5o (curduo) r
+sb(v)cl6(-) (acclsb20) r
+sbcl6(-)r
+sb(iii)cbr2 (kutxus) r
+sb(iii)br3 (dejyew) r
+sbbr3r
+sb(v)c2br3 (dpsbtb) r
+sb(iii)cbr4(2-) (bimkir) r
+sb(iii)br5(2-) (clpysb) r
+sb(v)cbr5(-) (jinmic) r
+sb(v)br6(-) (clbrpz) r
+sbbr6(-)r
+insbh4r
+sb2r
+sb2(d-c4h2o6)2(=)r
+sb2f4r
+sb2cl4r
+sb2br4r
+teh2r
+te(iv)c3(+) (huhbiv) r
+te(iv)c4 (pobwos) r
+te(ii)n2 (cessau) r
+teo2r
+te(oh)6r
+te(vi)o6 (binfaf01) r
+tef2r
+te(vi)c2f4 (bijvum) r
+te(iv)f5(-) (jijjob) r
+te(vi)f5o(-) (gekzif) r
+tef5ncobr
+tef6r
+te(vi)f6o(-) (kupbay) r
+te(vi)f7(-) (rolsoa) r
+te(iv)c2f2 (vejwuc) r
+alter
+teh-alh2r
+tef2.pf3r
+tef3.pf3(+)r
+me-te-s-me r
+-te-s-(ch2)3-r
+tes2r
+te(sh)2r
+te(ii)s2 (racnep) r
+meophtespr
+te(ii)s4 (temxan10) r
+tecl2r
+te(iv)c2cl2 (dmtecl02) r
+te(iv)c2br2 (bibboe) r
+te(iv)o2cl3(-) (porsoe) r
+tecl4r
+te(iv)cl6(2-) (bexsec) r
+znter
+geter
+et3tebrr
+tebr2r
+te(iv)c2br2 (coqnol) r
+te(iv)s4br2 (bawfio) r
+tebr4r
+te(iv)br6(2-) (cixrik) r
+tebr6(=)r
+in2ter
+snter
+te2r
+te2f10or
+te4cl16r
+hir
+liir
+beir
+ch3ir
+c6h5ir
+li(i)n3i (jeprur) r
+li(i)o4i (harcei) r
+li(+)(h2o)5.ir
+ifr
+cf3ir
+if5r
+if7r
+nair
+al(iii)c3i(-) (maimal) r
+sih3ir
+iclr
+c4h4clir
+kir
+k(+)(h2o)5.i r
+k(i)o5ni (dughoc) r
+cair
+ca(++)(h2o)5.ir
+zn(ii)n4i(+) (znetam10) r
+gair
+gah3-hir
+geh3ir
+geo2i (iacger) r
+gec2s2i (kadkuv) r
+as(v)ic2as(+) (farrar) r
+ibrr
+c4h4brir
+rbir
+rb(+)(h2o)3.ir
+sr(ii)(h2o)5.ir
+inir
+in(iii)n2ibrin (cihpoy) r
+snh3ir
+snme3ir
+sb(iii)c2i (doqwel) r
+sb(iii)ic2 (doqwel) r
+i2r
+li2i2r
+bei2r
+ch2i2r
+e-c2h2i2r
+z-c2h2i2r
+1,2-diiodobenzener
+li(ii)2i2n4 (sajvaa) r
+na2i2r
+mgi2r
+al(iii)c2i2(-) (csimal) r
+k2i2r
+cai2r
+ca(ii)n4i2 (taqqeh) r
+ca(ii)n5i2 (tanqoo) r
+zni2r
+zn(ii)n2i2 (znpydi) r
+zn(ii)o2i2 (acaqaw) r
+as(iii)ci2 (dimars) r
+asc3i (zodjor) r
+rb2i2r
+sri2r
+sr(ii)n5i2 (tanquu) r
+sr(ii)n2o2i2 (taqpuw) r
+cis-sr(ii)(h2o)4.i2r
+sr(ii)o6i2 (fogrup) r
+cdi2r
+cd(ii)n3i2 (jaqruo) r
+cd(ii)s2i2 (zzzawd01) r
+in(iii)i2n2c (dacjia) r
+sni2r
+dimethyltin diiodide r
+sn(iv)s4i2 (carsnb) r
+sb(iii)c2i2(-) (eleced) r
+te(iv)c2i2 (didmte) r
+te(ii)s2i2 (fobbaz) r
+bi3r
+chi3r
+ali3r
+sisii3 (mefdeg) r
+pi3r
+gai3r
+geci3 (cudkiv) r
+geci3 (bafnig) r
+asi3r
+ini3r
+sb(iii)s3i3 (juykuj) r
+ci4r
+al(iii)i2n2 (dimaal) r
+sii4r
+sii2csi (qujset) r
+als3i (famlek) r
+zn(ii)i4(2-) (bzdazp) r
+ga(iii)2i4s2 (digzau) r
+ga(iii)4i4s6 (cifmot) r
+gei4 (jedxev) r
+gei4r
+ge2c4i4 (igechd10) r
+cd(ii)i4(2-) (hibruf) r
+in(iii)i4(-) (ahomit) r
+sb(iii)i4(-) (picoia) r
+sb2i4r
+te(ii)i4(2-) (damfig) r
+te(iv)ci4(-) (ijojas) r
+in2i6r
+sbi6(-)r
+te(iv)i6(2-) (cemfef10) r
+te(iv)i6(2-) (izowav) r
+ch3csr
+csohr
+csobo1r
+cs(i)(c6)2o2(+) (wivrau) r
+csno21r
+csno2r
+csno3r
+cs(+)(h2o)4r
+cs(+)(h2o)6r
+cs(i)o6(+) (csthxd) r
+cs(i)(cp)o6 (qextoc) r
+cs(i)o6n2(+) (cscryp10) r
+cs(0)o8 (dubcim) r
+csfr
+cs(+)(h2o)3.fr
+cspo3r
+cs(i)o5s2(+) (rilguo) r
+csclr
+cs(+)(h2o)3.clr
+csbrr
+cs(+)(h2o)3.brr
+csir
+cs(+)(h2o)3.ir
+cscsr
+cs2o2 (elokof)a r
+cs2f2r
+cs2so4r
+cs2s4 (jupqiu) r
+cs2cl2r
+cs2br2r
+cs2i2r
+cs(i)o6i2 (xidbuh) r
+cso6i2 (nelmew) r
+cs(i)o3 (qqqaws01) r
+ba(ii)n6(2+) (bindad10) r
+ba(ii)n8(2+) (sarnaa) r
+baor
+ba(ii)o4n4 (zutgaw) r
+ba(ii)(h2o)6 r
+ba(ii)o8(2+) (keffeg) r
+ba(ii)o10(2+) (pxcdba) r
+ba(ii)o11 (jawzow) r
+bafr
+baf2r
+baalo2(oh).2(h2o)r
+basr
+bacl2r
+babr2r
+bai2r
+ba2sio4r
+hghr
+hgmecnr
+hg(cn)2r
+hgor
+hg(ii)cn(+) (bavmug) r
+hg(ii)c2 (begveo) r
+hg(ii)n2 (hgacam) r
+hg(ii)o2 (hgacet10) r
+hgfr
+hgf2r
+hgme2r
+hg(ii)p2 (kasdaj) r
+hg(ii)s2n2 (enhgtc10) r
+hg(ii)s2 (aqonoj) r
+hg(ii)s4 (hgetcb10) r
+hg(ii)s4 (hgthur) r
+hgclr
+hgmeclr
+hg(ii)cl2 (bithiv10) r
+hgcl2r
+hg(ii)p2cl2 (cltehg) r
+hg(ii)cl2s2 (ctschg) r
+hg(ii)cl3(-) (dotlih) r
+hg(ii)cl4(2-) (begziw) r
+[hg(ii)cl4](=)r
+hgbrr
+hgmebrr
+hg(ii)br2 (acnhgb) r
+hgbr2r
+hg(ii)br4(2-) (bopgoc11) r
+hgir
+hgmeir
+hgi2r
+hg(ii)s2i2 (hgitur) r
+hg(ii)i4(2-) (dufhob10) r
+hg(i)hgo (hgflac10) r
+hg(ii)ccl (clhgma) r
+hg(ii)pcl3 (mphgcl10) r
+hg(ii)cl4(2-) (deymup) r
+hg(ii)ni2 (eworen) r
+hg(ii)ccl (biyfiy) r
+hg(ii)cbr (biyfoe) r
+tl(iii)c2(+) (dmtlaz) r
+tl(iii)c3 (tmettl) r
+c5h5tlr
+tl(i)n3(+) (ducdio) r
+tl(iii)n6(3+) (bowkih) r
+tl(iii)n4c2(+) (luwwij) r
+tlbo2r
+tl(iii)c2o2 (mtlaca) r
+thallium tris-8-quinolinol r
+tloh.3(h2o)r
+tl(i)(h2o)4r
+tl(iii)(h2o)6r
+thallium(iii) tris-acetate r
+tl(iii)o8(-) (thacth) r
+thallium(iii)(edta) r
+tlfr
+[tl(iii)f(h2o)5](2+)r
+trans-tl(iii)f2(h2o)4(+)r
+tl(i)o6f3 (emapaj) r
+tl(i)s2 (mdtctl) r
+tl(i)s3(+) (sityav) r
+tl(iii)o3s3 (jivqek) r
+tl(iii)s4(-) (tubmim) r
+tl(iii)s6 (mscthl) r
+tlclr
+[tl(iii)cl(h2o)5](2+)r
+trans-tl(iii)cl2(h2o)4(+)r
+tl(iii)cl4(-) (encotl) r
+tl(iii)cl5(2-) (dakwui) r
+tlbrr
+[tl(iii)br(h2o)5](2+)r
+tl(iii)s4br(2-) (bihhuv) r
+trans-tl(iii)br2(h2o)4(+)r
+tl(iii)n2br3 (cejmot) r
+tl(iii)br4(-) (cafsux) r
+tl(iii)br5(2-) (baqwul) r
+tl(iii)br6(3-) (feqxii) r
+tlir
+[tl(iii)i(h2o)5](2+)r
+trans-tl(iii)i2(h2o)4(+)r
+tl(iii)i4(-) (bokhue) r
+tl2f2r
+pbhr
+pb(iv)c4 (vadrau) r
+pbme4r
+pb(cp)2r
+pb(ii)(cp)2n2 (todhoj01) r
+pbor
+pb(ii)o2(+) (ambopb) r
+pb(ii)o4 (abzopb) r
+pb(ii)o3n2 (lewpim) r
+pb(iv)o6c (nestag) r
+pbfr
+pbf2r
+pbsr
+pb(ch3)3(ch3s)r
+pb(+)f3.h2sr
+pb(ii)s2 (diswil) r
+pb(ii)n2s2 (xussuz) r
+pb(ii)s4 (iptcpb) r
+pb(ii)s4(2-) (kajmud) r
+pb(ii)o2n2 (iclmsx) r
+pbclr
+pbcl2r
+pb(iv)cl2.2(h2s)r
+pbcl4r
+pb(iv)cl5c(2-) (febgoi01) r
+pbser
+pbbrr
+pbbr2r
+pb(ii)br2o2 (brdmsp) r
+pbir
+pbi2r
+pb(ii)o6i2 (tojpir) r
+pb(iv)i6(2-) (follib) r
+pb2me6r
+pb(ii)(cp)f2 (valvot) r
+pb(ii)s3 (gigbih) r
+bih3r
+bime3r
+bih2-nh2r
+bi(iii)o6 (jujvuf) r
+bi(iii)o4n4(-) (hadrag) r
+bi(iii)o10(2-) (cavzuu) r
+me2bifr
+bi(v)c4f (ilikap) r
+bif2r
+bi(v)c2f3 (xulfuf) r
+bif3r
+bif4(-)r
+bif6(-)r
+bi(iii)n2s2(+) (femwup) r
+bi(iii)n3s3 (femwoj) r
+bi(iii)s4c (benxun) r
+bi(iii)s6(3+) (clbitu) r
+bi(iii)s6 (fexmaw) r
+me2biclr
+et2biclr
+bi(iii)n2ccl2 (ediged) r
+bi(iii)cl3 (fapyok) r
+bicl3r
+bi(iii)cl4(-) (fercbi10) r
+bicl4(-)r
+bicl6(-)r
+bi(iii)cl6(3-) (acayaf) r
+bi(iii)cn2br2 (bimhua) r
+bibr3r
+bi(iii)s4br3 (kigdin) r
+bi(iii)br6(3-) (dejluz) r
+bi(iii)cl2i2(-) (jajfeg) r
+bii3r
+bi(iii)n3i3 (bimcuv) r
+bi(iii)i4(-) (picibi) r
+bi(iii)i6(3-) (koqcau) r
+bi2f4r
+bi2f6r
+bi2cl4r
+bi2cl6r
+bi(iii)cl5(2-) (kamwok) r
+bi2br4r
+bi2br6r
+bi2i4r
+bi2i6r
+hydrogen, 2s(g)  1s(1)
+hydrogen, atom
+hydrogen
+lithium, cation
+lithium 2s(g)  2s(1)2p(0)
+lithium, 2p(u) 2s(0) 2p(1)
+lithium, atom
+lithium hydride
+lithium dimer
+beryllium, 1d(g) 2s(0)2p(2)
+beryllium, 1p(u) 2s(1)2p(1)
+beryllium, 1s(g) 2s(2)2p(0)
+beryllium, 3p(g) 2s(0)2p(2)
+beryllium, 3p(u) 2s(1)2p(1)
+beryllium, atom
+beryllium hydride, cation
+beryllium hydride
+beryllium dihydride
+lithium beryllium hydride
+beryllium, dimer
+boron, cation
+boron, 2d(g) - 2s(1)2p(2)
+boron, 2p(u) - 2s(2)2p(1)
+boron, 4p(g) - 2s(1)2p(2)
+boron, 4s(u) - 2s(0)2p(3)
+boron, atom
+borane(1)
+b(4-)
+borane(2)
+borane
+boron dimer
+diborane(4)
+diborane
+tetraborane(10)
+pentaborane(9)
+pentaborane(11)
+hexaborane(10)
+decaborane(14)
+carbon, atom
+methylidyne
+methylene, singlet
+methylene, triplet
+methyl, cation
+methane
+methyl lithium, complex
+methyl lithium
+acetylene, complex
+acetylene
+vinyl, cation
+vinyl
+ethylene, cation
+c2h4
+ethylene
+methylmethylene
+ethyl, cation
+ethyl radical
+c2h6
+c2h6rot
+ethane
+ethane (eclipsed)
+lithium acetylide
+lich=ch2
+ethyl lithium
+dimethyl beryllium, complex
+dimethylberyllium
+c2b4h6
+carbon, trimer
+cyclopropenyl, cation
+propynyl, cation
+allene
+cyclopropene
+propyne
+allyl, cation
+cyclopropyl, cation
+propenyl, cation
+allyl
+cyclopropane
+propene
+i-propyl radical
+propane
+isopropyl lithium
+trimethylborane
+carbon, tetramer
+diacetylene
+ch2=c=c=ch2
+vinylacetylene
+1,2-butadiene
+1,3-butadiene
+1-butyne
+2-butyne
+bicyclobutane
+cyclobutene
+methyl cyclopropene
+methylenecyclopropane
+2-butenyl, cation
+cyclobutyl, cation
+1-butene
+cis-2-butene
+cyclobutane
+isobutene
+trans-2-butene
+isobutyl, cation
+isobutyl
+n-butane
+butanee
+butaneg
+isobutane
+n-butyl lithium
+t-butyl lithium
+diethylberyllium
+(be(me)2)2, complex
+c4b2h6
+cyclopentadienyl, anion
+cyclopentadiene
+1,2-dimethyl cyclopropene
+1,4-pentadiene
+1,cis-3-pentadiene
+1,trans-3-pentadiene
+bicyclo(2.1.0)-pentane
+cyclopentene
+isoprene
+methylene cyclobutane
+spiropentane
+cyclopentyl, cation
+2-methyl-2-butene
+cis-2-pentene
+cis-dimethylcyclopropane
+cyclopentane
+trans-2-pentene
+neopentyl, anion
+isopentane
+n-pentane
+neopentane
+cyclopentadienylberyllium hydride
+benzene
+fulvene
+(e)-1,3,5-hexatriene
+(z)-1,3,5-hexatriene
+1,3-cyclohexadiene
+1,4-cyclohexadiene
+1,2-dimethylcyclobutene
+1,5-hexadiene
+1-methyl cyclopentene
+3-methyl cyclopentene
+4-methyl cyclopentene
+bicyclopropyl
+cyclohexene
+cyclohexyl, cation
+1-hexene
+2,3-dimethyl-1-butene
+2,3-dimethyl-2-butene
+3-methyl-2-pentene
+4-methyl-1-pentene
+cyclohexane
+2,2-dimethyl butane
+2,3-dimethyl butane
+2-methyl pentane
+3-methyl pentane
+n-hexane
+phenyl lithium
+triethylborane
+benzyl, cation
+tropylium, cation
+cycloheptatriene
+norbornadiene
+toluene
+1,2-dimethyl cyclopentene
+1-ethyl cyclopentene
+1-methyl cyclohexene
+norbornane
+1,1-dimethyl cyclopentane
+1,2-cis-dimethyl cyclopentane
+1,2-trans-dimethyl cyclopentane
+1,3-cis-dimethyl cyclopentane
+1-heptene
+ethyl cyclopentane
+methyl-cyclohexane
+2,2,3-trimethyl butane
+2,2-dimethyl pentane
+2,3-dimethyl pentane
+2,4-dimethyl pentane
+2-methyl hexane
+3,3-dimethyl pentane
+3-ethyl pentane
+3-methyl hexane
+n-heptane
+cubane
+cyclooctatetraene
+styrene
+ethylbenzene
+m-xylene
+o-xylene
+p-xylene
+1,5-cyclooctadiene
+4-vinyl cyclohexene
+1-octyne
+2,5-dimethyl 2,4-hexadiene
+2-octyne
+3,4-dimethyl-(e,e)-2,4-hexadiene
+3,4-dimethyl-(e,z)-2,4-hexadiene
+3,4-dimethyl-(z,z)-2,4-hexadiene
+3-octyne
+4-octyne
+bicyclo(2.2.2)-octane
+1-octene
+ethylcyclohexane
+2,2,3,3-tetramethyl butane
+2,2,3,3-tetramethylbutane
+2,2,3-trimethyl pentane
+2,2,4-trimethyl pentane
+2,2-dimethyl hexane
+2,3,3-trimethyl pentane
+2,3,4-trimethyl pentane
+2,3-dimethyl hexane
+2,4-dimethyl hexane
+2,5-dimethyl hexane
+2-methyl heptane
+3,3-dimethyl hexane
+3,4-dimethyl hexane
+3-ethyl hexane
+3-ethyl-2-methyl pentane
+3-ethyl-3-methyl pentane
+3-methyl heptane
+4-methyl heptane
+n-octane
+li(i)4(et)4 (ethyli)
+alpha-methyl styrene
+cyclopropyl benzene
+1,3,5-trimethyl cyclohexane
+cis-cis-trans-1,3,5-trimethyl cyclohexane
+3,3-diethylpentane
+n-nonane
+tri-isopropylborane
+tripropylborane
+naphthyl_rhf
+naphthyl_uhf
+azulene
+naphthalene
+naphthalene_uhf
+1,4-dicyclopropylbuta-1,3-diyne
+1-butynl benzene
+2a,4a,6a,6b-tetrahydrocyclopentapentalene
+bulvalene
+diisopropenyldiacetylene
+tricyclo[6.2.0.0]deca-1(8),2,6-triene
+1,2,6,7-cyclodecatetraene
+dispiro[2.2.2.2]deca-4,9-diene
+tetralin
+(1-methylpropyl) benzene
+(2-methylpropyl) benzene
+1,2,3,4-tetramethyl benzene
+1,2,3,4-tetramethylfulvene
+1,2,3,5-tetramethyl benzene
+1,2,4,5-tetramethylbenzene
+tert-butyl benzene
+tetrahydrotriquinacene
+1,2,3,4,5-pentamethyl-1,3-cyclopentadiene
+adamantane
+camphene
+perhydrotriquinacene
+1-methyl-4-(1-methylethyl)-cyclohexene
+4-methyl-1-(1-methylethyl)-cyclohexene
+cis-decalin
+spiro(4-5)decane
+trans-decalin
+(e)-2,2,5,5-tetramethyl-3-hexene
+(z)-2,2,5,5-tetramethyl-3-hexene
+1-decene
+butyl cyclohexane
+pentyl cyclopentane
+2,2,5,5-tetramethylhexane
+3,3,4,4-tetramethylhexane
+n-decane
+pentamethylbenzene
+1,1,4-trimethylcycloheptane
+hexyl cyclopentane
+pentyl cyclohexane
+undecane
+acenaphthylene
+biphenylene
+acenaphthene
+biphenyl
+hexamethylbenzene
+hexylcyclohexane
+n-duodecane
+tri-isobutylborane
+tri-s-butylborane
+tributylborane
+fluorene
+o-methyl biphenyl, complex
+o-methyl biphenyl, 90 degrees
+tri-t-butylmethane
+tridecane
+anthracene
+diphenylethyne
+phenanthrene
+9,10-dihydro-phenanthrene
+9-methyl-9h-fluorene
+octalene
+stilbene
+1,2,3,4-tetrahydrophenanthrene
+4,4'-dimethylbiphenyl
+bibenzyl
+1,4,5,8-tetramethynaphthalene
+1,2,3,4,5,6,7,8-octahydro-anthracene
+diadamantane
+1,3,5,7-tetramethyladamantane
+(e)-3,4-di-tert-butyl-3-hexene
+cyclotetradecane
+n-nonylcyclopentane
+octylcyclohexane
+3,3,4,4-tetraethylhexane
+octamethylhexane
+tetradecane
+4-methylphenanthrene
+1-methyldiadamantane
+3-methyladamantane
+4-methyldiadamantane
+6-(1,1-dimethylethyl)-2,3-dihydro-1,1-dimethyl-1h-indene
+n-nonylcyclohexane
+pentadecane
+fluoranthene
+pyrene
+2,7-dimethylphenanthrene
+4,5,9,10-tetrahydropyrene
+9,10-dimethylphenanthrene
+(2.2)metaparacyclophane
+[2.2]metacyclophane
+[2.2]paracyclophane
+1,2,3,6,7,8-hexahydropyrene
+tricyclo[8.2.2.2]-hexadecane
+1-hexadecene
+decylcyclohexane
+n-undecylcyclopentane
+n-dodecylcyclopentane
+undecylcyclohexane
+heptadecane
+p-terphenyl
+2,5-diphenyl-1,5-hexadiene
+3,4,5,6-tetramethylphenanthrene
+[3.3]paracyclophane
+1,1'-(1,1,2,2-tetramethyl-1,2-ethanediyl)bis-benzene
+dodecylcyclohexane
+n-tridecylcyclopentane
+1,1,2,2-tetra-t-butylethane
+octadecane
+triphenylborane
+tricyclohexylborane
+tri-n-hexylborane
+2,6-diphenyl-1,6-heptadiene
+n-tetradecylcyclopentane
+n-tridecylcyclohexane
+nonadecane
+9,10-dihydro-9,10[1',2']benzanthracene
+3,9-dimethylbenz[a]anthracene
+5,6-dimethyl chrysene
+9,10-dimethyl-1,2-benzanthracene
+1,3,5-tris(t-butyl) pentalene
+hexacyclopropylethane
+tetra-tert-butyltetrahedrane
+meso-3,4-dicyclohexyl-2,5-dimethylhexane
+tetradecylcyclohexane
+eicosane
+1,8-paracyclophane
+hexadecylcyclopentane
+pentadecylcyclohexane
+tri-n-heptylborane
+1,1'-diphenyl-1,1'-bicyclopentyl
+dl-3,4-di-1-cyclohexen-1-yl-2,2,5,5-tetramethyl hexane
+meso-3,4-di-1-cyclohexen-1-yl-2,2,5,5-tetramethyl hexane
+n-hexadecylcyclohexane
+p-quaterphenyl
+1,1'-diphenyl-1,1'-bicyclohexyl
+6,6'-paracyclophane
+tri-n-octylborane
+tetraphenylmethane
+9,9'-bi-9h-fluorene
+1,1,1,2-tetraphenylethane
+1,1,2,2-tetraphenylethane
+pentacyclo hexacosa nonane
+2,3-dimethyl-2,3-bis(4-t-butylphenyl)butane
+11-n-butyl docosane
+5-n-butyl docosane
+9,9'-dimethyl-9,9'-bifluorene
+1,1-diphenyl-1,1-bicyclooctyl
+11-decyl heneicosane
+2,4,5,7-tetramethyl-4,5-bis(4-t-butylphenyl) octane
+dotriacontane
+4,5-dipropyl-4,5-bis(4-t-butylphenyl) octane
+5,6-dibutyl-5,6-bis(4-tert-butylphenyl)decane
+nitrogen, cation
+nitrogen, atom
+amidogen
+ammonia
+ammonia - flat
+ammonium, cation
+linh2
+beh-nh2, separated
+bh3nh3
+cyanide
+hydrogen cyanide
+ch2-nh2, cation
+ch3-nh.
+ch3nh, anion
+ch3nh2
+ch3nh2rot
+methylamine
+lithium isocyanide
+acetonitrile
+methyl isocyanide
+ethyleneimine (azirane)
+dimethyl nitrogen, anion
+dimethylamine
+ethylamine
+n,n-dimethylamine diborane
+ch.c.cn
+acrylonitrile
+ethyl cyanide
+cyclopropylamine
+isopropylamine
+n-propylamine
+trimethylamine
+trimethyamine-borane adduct
+trimethylborane-ammonia adduct
+(e)-2-butenenitrile
+(z)-2-butenenitrile
+3-butenenitrile
+pyrrole
+butanenitrile
+isobutane nitrile
+pyrrolidine
+2-butylamine
+2-methyl-1-propylamine
+n-butylamine
+t-butylamine
+pyridine
+n-methyl pyrrole
+1,2,3,6-tetrahydropyridine
+2-cyanobutane
+butyl cyanide
+t-butylnitrile
+cyclopentylamine
+piperidine
+n-methyl-n-butylamine
+1-cyclopentenecarbonitrile
+2-cyclopentenecarbonitrile
+2-methyl pyridine
+3-methyl pyridine
+4-methyl pyridine
+aniline
+2,5-dimethyl-1h-pyrrole
+cyclopentanecarbonitrile
+2-methylpiperidine
+cyclohexamethylenimine
+cyclohexanamine
+n-methyl piperidine (eq), complex
+di-n-propylamine
+diiospropylamine
+triethylamine
+trimethylborane-trimethylamine
+phenyl cyanide
+1-cyclohexenecarbonitrile
+2,6-dimethylpyridine
+2-cyclohexenecarbonitrile
+benzylamine
+m-toluidine
+n-methylaniline
+o-toluidine
+p-toluidine
+cyclohexanecarbonitrile
+hexahydro-1h-pyrrolizine
+n-heptanenitrile
+isopropylbutylamine
+1-norbornylcyanide
+1-norbornylisocyanide
+5-ethyl-2-methyl-pyridine
+n,n-dimethyl aniline
+n-ethyl aniline
+3-azabicyclo[3.2.2]nonane
+n-heptyl cyanide
+n-(2-methylpropylidene)-butylamine
+2-methyl-n-(2-methylpropyl)-1-propanamine
+di-sec-butylamine
+dibutylamine
+n-(2-methylpropyl)-1-butanamine
+n-octylamine
+isoquinoline
+quinoline
+2,6-dimethylbenzonitrile
+(1a,2a,4a)-bicyclo[2.2.2]oct-5-ene-2-carbonitrile
+(1a,2b,4a)-bicyclo[2.2.2]oct-5-ene-2-carbonitrile
+1,2,3,4-tetrahydroquinoline
+5,6,7,8-tetrahydroquinoline
+n,n-dimethyl m-toluidine
+n,n-dimethyl p-toluidine
+n-ethyl m-toluidine
+cis-3,7a-h-cis-5,8-h-3,5-dimethylpyrrolizidine
+decahydro trans-quinoline
+2,2,6,6-tetramethyl piperidine
+2-methyl-quinoline
+4-methyl-quinoline
+6-methyl-quinoline
+8-methyl-quinoline
+2,4,6-trimethyl-benzonitrile
+2,4,6-trimethylphenyl isocyanide
+n,n-diethyl aniline
+n-nonyl cyanide
+2,6-dimethyl quinoline
+2,7-dimethyl quinoline
+1-adamantyl cyanide
+1-adamantyl isocyanide
+2-methyl-6-t-butylaniline
+n-undecanenitrile
+carbazole
+2-biphenylamine
+biphenylamine
+2-n-butyl-2-methylhexanenitrile
+6,7-benzoquinoline
+a-benzoquinoline
+acridine
+benzo[f]quinoline
+phenanthridine
+n-methylcarbazole
+1,2,3,4-tetrahydro-n-methylcarbazole
+9-ethyl-9h-carbazole
+tetradecanenitrile
+dioctylamine
+triphenylamine
+trioctylamine
+nitrogen
+diazene
+hydrazine
+01_nh3_dimer separated
+01_nh3_dimer
+bh3-nh3, dimer
+bh3-nh3, dimer (bad)
+diazomethane
+n=n-ch2-
+methylhydrazine
+cyanogen
+1,1-dimethylhydrazine
+1,2-dimethylhydrazine
+ethylenediamine
+1h-pyrazole
+imidazole
+1,2-propanediamine
+dicyanoacetylene
+fumaronitrile
+1,3-diazine
+pyrazine
+pyridazine
+succinonitrile
+2-methyl-1h-imidazole
+(dimethylamino) acetonitrile
+1,4,5,6-tetrahydropyrimidine
+piperazine
+2-aminopyridine
+3-aminopyridine
+4-aminopyridine
+dimethyl propanedinitrile
+2-ethyl-1h-imidazole
+diethylcyanamide
+butylmethyldiazene
+n,n-dimethyl-1,3-propanediamine
+2-cyanopyridine
+3-cyanopyridine
+4-cyanopyridine
+2,3-dimethyl pyrazine
+hexanedinitrile
+phenylhydrazine
+3(dimethylamino) propanenitrile
+tetramethyldiazetine
+triethylenediamine
+1,2-diisopropyldiazene
+dipropyldiazene
+1h-benzimidazole
+1h-indazole
+1-methyl-1-phenylhydrazine
+t-butylmalononitrile
+trimethyl pyrazine
+1-piperidineacetonitrile
+3,3,5,5-tetramethyl-1-pyrazoline
+m-dicyanobenzene
+o-dicyanobenzene
+p-dicyanobenzene
+phthalazine
+quinazoline
+quinoxaline
+n-pentylmalonodinitrile
+tetramethylbutanedinitrile
+tetramethylpyrazine
+1,4-dimethyl-2,3-diaza-bicyclo[2.2.2]oct-2-ene
+3,4,5,6-tetrahydro-3,3,6,6-tetramethylpyridazine
+di-n-butyldiazene
+di-tert-butyldiazene
+1,2-dibutylhydrazine
+3-quinolinamine
+5-quinolinamine
+6-quinolinamine
+8-quinolinamine
+2-(diethylamino)-pentanenitrile
+2,2-bipyridyl
+2,4-bipyridyl
+4,4'-bipyridine
+2,3-dimethyl quinoxaline
+alpha n,n-dimethylamino phenylacetonitrile
+ethyl(1,1-dimethylpropyl)malonodinitrile
+meso-2,3-diethyl-2,3-dimethylsuccinodinitrile
+methyl(1,1,2-trimethylpropyl)malonodinitrile
+phenazine
+phenazone
+cis-azobenzene
+diphenyl diazene
+4,4'-dimethyl-2,2'-bipyridine
+1,(1-piperidinyl) cyclohexanecarbonitrile
+li(i)(cp)n2 (sijnii)
+a-phenyl-1-piperidineacetonitrile
+li(i)n2c5 (fagcar)
+2,2'-biquinoline
+tetraisobutylsuccinonitrile
+azide
+hydrazoic acid
+borazole
+methyl azide
+1,3,5-triazine
+ethylenetricarbonitrile
+1,1,1-ethanetricarbonitrile
+trisdimethylaminoborane
+1,3,5-tricyanobenzene
+1,1,1-tricyano-2-phenyl ethane
+2,2',6',2'-terpyridine
+li(i)n3c (dankuy)
+1-h tetrazole
+2-h-tetrazole
+tetracyanoethylene
+1,3,5,7-tetraazaadamantane
+li(i)n4(+) (pikwah)
+melamine
+oxygen, atom
+hydroxyl radical
+hydroxide, anion
+water
+water_ref
+hydronium, cation
+lithium oxide (lio)
+lithium hydroxide
+lithium oxide (li2o)
+beryllium hydroxide
+beryllium oxide
+boron oxide
+hydroxyborane
+carbon monoxide
+hco, cation
+hco
+formaldehyde
+ch2oh, cation
+methoxy, radical
+methoxy, anion
+ch3oh
+ch3ohrot
+methanol
+lithium methoxide
+bh3co
+ketene
+acetaldehyde
+ethylene oxide
+ethoxy, anion
+dimethyl ether
+ethanol
+ethanol (anti)
+ethanol, complex
+propynal
+acrolein
+acetone
+propanal
+trimethylene oxide
+isopropanol
+methyl ethyl ether
+methyl ethyl ether, complex
+propanol
+acetyl acetylene
+furan
+2,3-dihydrofuran
+crotonaldehyde
+divinyl ether
+butanal
+isobutanal
+methyl ethyl ketone
+tetrahydrofuran
+diethyl ether (tt)
+diethyl ether gg
+diethyl ether
+t-butanol
+2,3-dihydro-5-methyl-furan
+2-ethylacrolein
+3,4-dihydro-2h-pyran
+3-penten-2-one
+cyclopentanone
+diethyl ketone
+tetrahydropyran
+t-butyl methyl ether
+phenoxy, anion
+phenol
+4-methyl-3-penten-2-one
+cyclohexanone
+methyl neopentyl ketone
+di-isopropyl ether
+benzaldehyde
+anisole
+m-cresol
+o-cresol
+p-cresol
+2-methyl-5-hexen-3-yn-2-ol
+2-norbornanone
+cis-2,3-epoxybicyclo[2.2.1]heptane
+norbornan-7-one
+1-methoxy cyclohexene
+bicyclo[2.2.1]heptan-7-ol
+cis-1,2-epoxycycloheptane
+cycloheptanone
+2,4-dimethyl 3-pentanone
+2-methyl cis-cyclohexanol
+3,3-dimethyl-2-pentanone
+4-heptanone
+heptanal
+t-butyl ethyl ketone
+n-heptanol
+t-butyl isopropyl ether
+benzofuran
+1,3-dihydro isobenzofuran
+1-phenylethenol
+2,3-dihydro-benzofuran
+acetophenone
+acetophenone (bug)
+acetophenone, ref
+2,3-dimethyl phenol
+2,4-dimethyl phenol
+2,5-dimethyl phenol
+2,6-dimethyl phenol
+2-ethyl phenol
+3,4-dimethyl phenol
+3,5-dimethyl phenol
+3-ethyl phenol
+4-ethyl phenol
+benzyl alcohol
+ethoxybenzene
+phenetole
+1-methylnorcamphor
+bicyclo[2.2.2]octanone
+bicyclo[3.2.1]octan-2-one
+bicyclo[3.2.1]octan-3-one
+bicyclo[3.2.1]octan-8-one
+cis-bicyclo[3.3.0]-octan-2-one
+trans-bicyclo[3.3.0]-octan-2-one
+3-oxabicyclo[3,2,2]nonane
+6-methyl-5-hepten-2-one
+bicyclo(2.2.2)octan-2-ol
+cis-1,2-epoxycyclooctane
+cyclooctanone
+2,2,4-trimethyl-3-pentanone
+2-octanone
+3,3,4-trimethyl pentan-2-one
+3-octanone
+4-octanone
+octanal
+1-octanol
+1-tert-butoxybutane
+2-(1,1-dimethylethoxy)-butane
+di-n-butyl ether
+di-sec-butyl ether
+sec-butyl-tert-butyl ether
+tert-butyl ether
+tert-butyl isobutyl ether
+3,4-dihydro-1h-2-benzopyran
+3,4-dihydro-2h-1-benzopyran
+benzyl methyl ketone
+2(-1-methylethyl)-phenol
+2,4,6-trimethyl phenol
+3(-1-methylethyl)-phenol
+4-(1methylethyl)-phenol
+2,6,6-trimethyl-2-cyclohexen-1-one
+bicycle[3.3.1]nonan-9-one -check -3-one
+cis octahydro-2h-inden-2-one
+trans octahydro-2h-inden-2-one
+cyclononanone
+2,6-dimethyl-4-heptanone
+2-nonanone
+3,3,4,4-tetramethyl-2-pentanone
+5-nonanone
+di-tert-butyl ketone
+1-nonanol
+amyl-t-butyl ether
+butyl 1,1-dimethylpropyl ether
+4-phenyl-3-buten-2-one
+2-adamantone
+2-isopropyl-4-methylphenol
+2-isopropyl-5-methylphenol
+2-isopropyl-6-methylphenol
+2-methyl-5-isopropylphenol
+3-isopropyl-2-methylphenol
+3-methyl-2-isopropylphenol
+3-methyl-5-isopropylphenol
+4-isopropyl-2-methylphenol
+4-isopropyl-3-methylphenol
+4-methyl-3-isopropylphenol
+m-tert-butylphenol
+o-sec-butylphenol
+o-tert-butylphenol
+p-sec-butylphenol
+p-tert-butyl phenol
+1-adamantol
+2-adamantol
+camphor
+octahydro-3a-methyl-cis-2h-inden-2-one
+octahydro-3a-methyl-trans-2h-inden-2-one
+beta-caran-3-ol
+cyclodecanone
+2,2,5,5-tetramethyl-3-hexanone
+decanol
+dipentyl ether
+2,4,5-trimethyl-acetophenone
+2,4,6-trimethyl-acetophenone
+2-tert-butyl-p-cresol
+3-methyl-2-phenylbutane-2-ol
+cycloundecanone
+2,2,6,6-tetramethyl-4-heptanone
+dipentyl ketone
+decyl methyl ether
+dibenzofuran
+m-hydroxybiphenyl
+o-hydroxybiphenyl
+p-hydroxybiphenyl
+isobutyl phenyl ketone
+2,6-diisopropylphenol
+benzophenone
+anthone
+1,1'-diadamantylketone
+nitric oxide, cation
+nitric oxide
+nco
+hydrogen isocyanate
+formamide
+acetaldoxime
+acetamide
+isoxazole
+oxalone
+acrylamine
+methoxyacetonitrile
+dimethylformamide
+n-methyl acetamide
+propanamide
+dimethylaminomethanol
+3-methyl isoxazole
+5-methyl isoxazole
+2-pyrrolidinone
+4,5-dihydro-2-methyl oxazole
+methacrylamide
+2-methyl propanamide
+butanamide
+isobutylamide
+n,n-diethyl-hydroxylamine
+2-pyridinol
+3-pyridinol
+4-pyridinol
+pyridine 1 oxide
+3,5-dimethyl isoxazole
+1-methyl-2-pyrrolidinone
+2-ethyl-4,5-dihydro-oxazole
+n,n-dimethylamino-2-propen-3-al
+1-(dimethylamino)-2-propanone
+2,2-dimethyl-propanamide
+n,n-dimethyl propanamide
+2-hydroxy-6-methylpyridine
+3-hydroxy-2-methylpyridine
+3-hydroxy-6-methylpyridine
+4-hydroxy-2-methylpyridine
+6-methyl-2(1h)-pyridinone
+m-amino phenol
+o-amino phenol
+p-amino phenol
+para-aminophenol
+para-aminophenol (90 degrees)
+trimethyl isoxazole
+caprolactam
+cyclohexanone oxime
+n,n-diethyl acetamide
+n,n-dimethylbutyramine
+benzoxazole
+isocyanatobenzene
+benzamide
+n,n-dimethylamino-2,4-pentadiene-5-al
+2-methoxy-3,3-dimethylbutanenitrile
+n,n-diethylaminoacetone
+n,n-dimethyl-tert-butylcarboxamide
+alpha-oxo benzeneacetonitrile
+1,3-dimethyl-2-nitroso-benzene
+n-methyl-n-phenyl formamide
+octanone-1-oxime
+octanone-2-oxime
+octanone-3-oxime
+octanone-4-oxime
+2(1h)-quinolinone
+3-phenyl isoxazole
+4-quinolinol
+5-phenyl isoxazole
+8-quinolinol
+a-cyanoacetophenone
+2,4,6-trimethylnitrosobenzene
+n,n-dimethyl benzamide
+n,n-dimethyamino-2,4,6-heptatriene-7-al
+2,2,6,6-tetramethyl-4-piperidinone
+2-methyl-4-hydroxyquinoline
+2-methyl-8-quinolinol
+3-methyl-5-phenyl isoxazole
+4-methyl-2-hydroxyquinoline
+5-methyl-3-phenyl isoxazole
+beta-cyanopropiophenone
+2,4,6-trimethylbenzonitrile, n-oxide
+2-(dimethylamino)-acetophenone
+n,n,4-trimethyl benzamide
+(e)-3-(methylamino)-1-phenyl-but-2-enone
+1-propanone, 2-(dimethylamino)-1-phenyl-
+2-propanamine, 2-methyl-n-(phenylmethylene)-, n-oxide
+1-adamantanecarboxamide
+n,n-dimethylnonamide
+phenoxazine
+2-(diethylamino)-1-phenylethanone
+9,10-dihydro-9-oxoacridine
+benzenamine, n-(phenylmethylene)-, n-oxide
+1-propanone, 2-(diethylamino)-1-phenyl-
+n,n-dimethyl-1-adamantylcarboxamide
+4-isopropylbenzylidene t-butylamine n-oxide
+nitrous oxide
+urea
+n-methyl urea
+dimethyl furazan
+isopropylurea
+5-amino-3,4-dimethylisoxazole
+(1-methylpropyl) urea
+n,n-diethylurea
+tetramethylurea
+4-amino-2(1h)-pyrimidinone
+06_pyridoxine_aminopyridine separated
+06_pyridoxine_aminopyridine
+epi_b3p, complex
+oxygen (singlet)
+oxygen (triplet)
+h2o2
+h2o2cis
+h2o2trans
+hydrogen peroxide
+02_water_dimer separated
+02_water_dimer
+water dimer structure 0 (non-planar open cs)
+water dimer structure 10 (planar bifurcated c2v)
+water dimer structure 2 (open ci)
+water dimer structure 3 (planar open cs)
+water dimer structure 4 (cyclic ci)
+water dimer structure 5 (cyclic c2)
+water dimer structure 6 (cyclic c2h)
+water dimer structure 7 (triply hydrogen bonded cs)
+water dimer structure 8 (non-planar bifurcated c2v)
+water dimer structure 9 (non-planar bifurcated c2v)
+h(+)(h2o)2
+lioh.h2o
+li(+)(h2o)2
+lithium peroxide
+lithium hydroxide dimer
+beryllium di-hydroxide
+bo2.
+boron oxide hydroxide
+hobo
+dihydroxyborane(1)
+libo2
+o-b-b-o
+carbon dioxide
+formate, anion
+formic acid
+trans glyoxal
+acetate, anion
+acetic acid
+methyl formate
+dimethyl peroxide
+ethylene glycol
+dimethoxyborane
+carbon suboxide
+2-oxo-propanal
+2-propenoic acid
+beta-propiolactone
+1,3-dioxalane
+ethyl formate
+methyl acetate
+methyl acetate, complex
+propionic acid
+1,3-propanediol
+2-methoxyethanol
+dimethoxymethane
+propylene glycol
+2-butenoic acid
+2-methyl-2-propenic acid
+diacetyl
+gamma butyrolactone
+methyl 2-propenoate
+1,1 dimethoxy ethene
+1,3 dioxan
+1,4-dioxane
+ethyl acetate
+1,2-dimethoxyethane
+1,4 butandiol
+diethyl peroxide
+dimethyl acetal
+acetylacetone
+acetylacetone ene-ol
+ethyl propionate
+isopropyl acetate
+1,5 pentandiol
+p-benzoquinone
+1,2-benzenediol
+hydroquinone
+resorcinol
+1,3-cyclohexanedione
+1,4-cyclohexanedione
+2,4-hexanedione
+2-oxepanone
+3-methyl-2,4-pentandione
+ethyl-(e)-2-butenoate
+1,1-dimethoxy-2-butene
+4-hydroxy-4-methylpentan-2-one
+5,5-dimethyl-1,3-dioxane
+cis-2,4-dimethyl-1,3-dioxane
+ethyl butanoate
+hexanoic acid
+methyl 2-methylbutanoate
+methyl 2,2-dimethyl-propanoate
+methyl 3-methylbutanoate
+methyl pentanoate
+t-butyl acetate
+trans 4,5-dimethyl-1,3-dioxane
+1,1-diethoxy ethane
+1,1-dimethoxy-butane
+1,2-diethoxy ethane
+1,6-hexanediol
+2,3-dimethyl-2,3-butanediol
+dihydoxyphenylborane
+3-(2-furanyl)-2-propenal
+benzoic acid
+phenyl formate
+tropolone
+3-methyl-1,2-benzenediol
+4-methyl 1,2-benzenediol
+ethyl 2-methylene-3-butenoate
+ethyl 2-pentynoate
+ethyl 3-pentynoate
+ethyl 4-pentynoate
+3,5-heptanedione
+3-ethyl-2,4-pentanedione
+5-methyl-2,4-hexanedione
+butyl 2-propenoate
+ethyl (z)-2-pentenoate
+ethyl (z)-3-pentenoate
+ethyl 4-pentenoate
+ethyl trans-2-pentenoate
+heptanolactone
+isopropyl 2-butenoate
+propyl (e)-2-butenoate
+(2a,4a,6b)-2,4,6-trimethyl-1,3-dioxane
+1,1-dimethoxycyclopentane
+1,1-dimethylpropyl acetate
+ethyl 2-methylbutanoate
+ethyl 3-methylbutanoate
+ethyl pentanoate
+methyl 3,3-dimethylbutanoate
+methyl hexanoate
+1,3-diethoxypropane
+1,7-heptanediol
+m-methylbenzoic acid
+methyl benzoate
+o-methylbenzoic acid
+p-methylbenzoic acid
+1,3-dioxolane-2-phenyl
+2,3-dimethylbenzoic acid
+2,4-dimethylbenzoic acid
+2,5-dimethylbenzoic acid
+2,6-dimethylbenzoic acid
+2-ethylbenzoic acid
+3,4-dimethylbenzoic acid
+3,5-dimethylbenzoic acid
+3-ethylbenzoic acid
+4-ethylbenzoic acid
+methyl 4-methylbenzoate
+1,2-naphthalenediol
+1,3-naphthalenediol
+1,4-naphthalenediol
+2,3-naphthalenediol
+1-phenyl-1,3-butanedione
+2,3,4-trimethylbenzoic acid
+2,3,5-trimethylbenzoic acid
+2,3,6-trimethylbenzoic acid
+2,4,5-trimethylbenzoic acid
+2,4,6-trimethylbenzoic acid
+2-isopropyl benzoic acid
+2-methyl-2-phenyl-1,3-dioxolane
+3,4,5-trimethylbenzoic acid
+3-isopropyl benzoic acid
+4-isopropyl benzoic acid
+2-isopropyl-6-methyl-pyrocatechol
+cyclohexyl butanoate
+ethyl octanoate
+1,10-decanediol
+1-naphthoic acid
+isonaphthoic acid
+2,3,4,5-tetramethylbenzoic acid
+2,3,4,6-tetramethylbenzoic acid
+2,3,5,6-tetramethylbenzoic acid
+p-tert-butyl benzoic acid
+oxacyclododecan-2-one
+ethyl nonanoate
+1,1-dibutoxypropane
+22_phenol_dimer separated
+22_phenol_dimer
+5,5-dimethyl-2-phenyl-1,3-dioxane
+pentamethylbenzoic acid
+2,2,6,6-tetramethyl-3,5-heptanedione
+ethyl decanoate
+xanthone
+phenyl benzoate
+9,10-anthroquinone
+9,10-phenanthroquinone
+anthroquinone, complex
+anthroquinone, 15 degrees
+nitrogen dioxide, cation
+nitrogen dioxide
+nitrous acid, cis
+nitrous acid, trans
+methyl nitrite
+nitromethane
+ethyl nitrite
+glycine
+methyl carbamate
+nitroethane
+3-amino-2-propenoic acid
+3-amino-2-propenoic acid zwitterion
+alanine
+beta-alanine
+isopropylnitrite
+n-methylglycine
+propyl nitrite
+urethane
+methylamine plus acetic acid
+methyl ammonium acetate zwitterion
+methyl cyanoacetate
+succinimide
+2-nitrobutane
+2-nitroisobutane
+4-aminobutanoic acid
+isobutyl nitrite
+n-butyl nitrite
+sec-butyl nitrite
+t-butyl nitrite
+diethanolamine
+n-methylmaleimide
+glutarimide
+n-methylsuccinimide
+proline
+5-aminovaleric acid
+n,n-dimethylglycine methyl ester
+tert-pentyl nitrite
+valine
+1,1-dimethoxy-trimethylamine
+niacin
+nitrobenzene
+ortho-nitroso-phenol
+ortho-nitroso-phenol (faulty)x
+ethyl 2-cyanopropionate
+ethyl n,n-dimethylglycinate
+hexanoic acid, 6-amino-
+isoleucine
+leucine
+methyl n,n-dimethylalaninate
+n,n-dimethylacetamide dimethyl acetal
+m-aminobenzoic acid
+o-aminobenzoic acid
+p-aminobenzoic acid
+p-nitrotoluene
+phenylnitromethane
+zw m-aminobenzoic acid
+zw para-amino benzoic acid
+methyl n,n-,a,a-tetramethylglycinate
+2,6-dimethylnitrobenzene
+2-amino-2-phenylacetic acid
+2-nitro-m-xylene
+n-phenylglycine
+8-aminocaprylic acid
+2-methyl-1h-isoindole-1,3(2h)-dione
+nitromesitylene
+phenylalanine
+2,2,6,6-tetramethyl-4-oxo-1-piperidinyloxy
+1-hydroxy-2,2,6,6-tetramethyl-4-piperidinone
+4-hydroxy-2,2,6,6-tetramethyl-1-piperidinyloxy
+1-hydroxy-2,2,6,6-tetramethyl-4-piperidinol
+1-nitroso-2-naphthalenol
+1-nitroso-4-naphthalenol
+2-nitroso-1-naphthalenol
+n,n-dimethyl 4-methoxybenzamide
+1-nitroadamantane
+2-nitroadamantane
+phenol, 2-[(phenylimino)methyl]-, n-oxide
+benzenamine, n-[(4-methoxyphenyl)methylene]-, n-oxide
+n-(3-phenoxy-2-hydroxypropyl)aniline
+oxalamide
+04_formamide_dimer separated
+04_formamide_dimer
+n-nitrodimethylamine
+acetyl-urea
+propanediamide
+pyrazine-1,4-dioxide
+uracil
+thymine
+m-nitroaniline
+p-nitroaniline
+lysine
+n,n-dimethyl-m-nitroaniline
+n,n-dimethyl-p-nitroaniline
+tryptophan
+imidodicarbonic diamide
+histidine
+argenine
+07_adenine_thymine_wc separated
+07_adenine_thymine_wc
+15_adenine_thymine_stack separated
+15_adenine_thymine_stack
+ozone
+lioh.2h2o
+li(+)(h2o)3
+be3o3
+orthoboric acid
+trihydroxyborane
+b2o3
+b2o3h2
+b3o3h3
+acetic acid plus water
+acetic acid hydrate
+1,3,5-trioxane
+methyl hydroxyacetate
+glycerol
+trimethoxyborane
+malaic anhydride
+acetic anhydride
+trimethoxymethane
+2,5,8-trioxanonane
+triethoxyborane
+m-salicylic acid
+o-salicylic acid
+p-salicylic acid
+2,3-butanediol, 2,3-dimethyl-, monoformate
+trimethoxymethyl benzene
+1-tert-butoxy-3-propoxy-2-propanol
+1-butoxy-3-tert-butyl-2-propanol
+benzoic acid, anhydride
+nitrate radical
+nitrate anion
+nitric acid
+methyl nitrate
+oxamic acid
+ethyl nitrate
+serine
+2-nitrofuran
+threonine
+m-nitrophenol
+o-nitrophenol
+p-nitrophenol
+tyrosine
+dinitrogen trioxide
+barbituric acid
+asparagine
+gly-gly
+glutamine
+ala-ala
+8-hydroxy-5-nitroquinoline
+pro-pro
+val-val
+ile-ile
+leu-leu
+1,3,5-triazine-2,4,6(1h,3h,5h)-trione
+1,3,5-trimethyl-s-triazine-2,4,6-trione
+2,4,6-trimethoxy-s-triazine
+li(+)(h2o)4
+tetrahydroxydiborane
+oxalic acid (t-t)
+oxalic acid
+oxalic acid (t,t)(twisted)
+03_formic_acid_dimer separated
+03_formic_acid_dimer
+dioxybismethanol
+1,4-dioxan-2,5-dione
+dimethyl oxalate
+1,3,5,7-tetroxane
+dimethyl malonate
+ethylmalonic acid
+methylene diacetate
+tetramethoxymethane
+1,1-diacetoxyethane
+dimethyl methylmalonate
+2,2-diacetoxypropane
+diethyl malonate
+dimethyl dimethylmalonate
+3,5,7,9-tetraoxyundecane
+12-crown-4
+5,8-dihydroxy-1,4-naphthalenedione
+dimethyl isophthalate
+dimethyl phthalate
+1-(tert-butyldioxy)-3-propoxy-2-propanol
+be(ii)o4 (acacbe02)
+benzal diacetate
+1-butoxy-1-tert-butyldioxy-2-propanol
+1,1-ethanediol, 2-phenyl-, diacetate
+benzyl diacetate
+be(ii)o4(2-) (yambod)
+1,4,9,10-anthracenetetrone
+1,4-dihydroxy-9,10-anthracenedione
+diphenyl oxalate
+dimethyl naphthalene-2,6-dicarboxylate
+li(i)2(cp)2o4 (danpox)
+p-diacetylbenzene diethyl ketal
+aspartic acid
+glutamic acid
+4-nitrocatechol
+p-nitrobenzoic acid
+dinitrogen tetroxide
+dinitromethane
+m-dinitrobenzene
+o-dinitrobenzene
+p-dinitrobenzene
+2,4-dinitrotoluene
+dinitrophenylmethane
+n,n'-bis(m-methoxyphenyl) terephthalamide
+n,n'-bis(o-methoxyphenyl) terephthalamide
+n,n'-bis(p-methoxyphenyl) terephthalamide
+methyldinitramine
+05_uracil_hb separated
+05_uracil_hb
+lihco3.2h2o
+tartronic acid
+1,3,5,7,9-pentaoxecane
+3,5,7,9,11-pentaoxa-tridecane
+15-crown-5
+lino3.2h2o
+dinitrogen pentoxide
+ser-ser
+thr-thr
+li(+)(h2o)6
+orthoboric acid, dimer
+b3o3(oh)3
+tri-acetyl borate
+trimethyl methanetricarboxylate
+triethyl methanetricarboxylate
+triethyl 1,1,1-ethanetricarboxylate
+li(i)o6(+) (colgep)
+li(i)o4 (fecwit)
+trinitromethane
+1,1,1-trinitroethane
+2,4,6-trinitrotoluene
+2-(diacetoxymethyl)-5-nitrofuran
+asp-asp
+2,4,6-trinitroanisole
+2,4,6-trinitrophenetole
+be(ii)o4(2-) (malbek)
+tetraethylpyromellitate
+tetrapropyl 1,2,4,5-benzene tetracarboxylate
+beryllium (edta)
+tetranitromethane
+glycerol trinitrate
+pentaerythritol tetranitrate
+hexanitroethane
+bis(2,2,2-trinitroethyl)-amine
+fluorine, 2p(u) 2s(2)2p(5)
+fluorine, 2s(g) 2s(1)2p(6)
+fluorine, atom
+fluoride, anion
+hydrogen fluoride
+lithium fluoride
+beryllium fluoride
+bf
+bh2f
+fluoromethylidyne
+fluoromethyl, cation
+fluoromethyl, radical
+fluoromethane, complex
+fluoromethane
+fluoroacetylene
+fluoroethylene
+ch3chf, cation
+fluoroethane
+2-fluoropropane
+fluorobenzene
+fluorocyclohexane
+1-fluorononane
+cyanogen fluoride
+fluorine oxide
+hypofluorous acid
+lithium hypofluorite
+lif.h2o
+fbo
+hcof
+acetyl fluoride
+nitrosyl fluoride
+fluorine dioxide
+fluorodihydroxyborane
+p-fluorobenzoic acid
+fluorine nitrite
+b3o3h2f
+fluorine nitrate
+fluorodinitromethane
+fluorodinitrophenylmethane
+li(+)(h2o)5.f
+fluorine
+lithium fluoride, dimer
+beryllium difluoride
+bhf2
+difluoroborane (1)
+difluoromethylene
+difluoromethyl, cation
+difluoromethane, cation
+difluoromethane
+difluoromethylborane
+methyldifluoroborane
+difluoroacetylene
+gem-difluoroethylene
+ch3cf2, cation
+1,1-difluoroethane
+f2bchch2
+1,2-difluorobenzene
+1,3-difluorobenzene
+1,4-difluorobenzene
+nf2.
+difluoro nitrogen, anion
+t-butyldifluoroamine
+n,n'-difluorobenzylamine
+cis-difluorodiazene
+trans-difluorodiazene
+difluorine oxide
+be(of)2
+f2bo
+difluorohydroxyborane (1)
+f2boh
+carbonyl fluoride
+methoxydifluoroborane
+b3o3hf2
+lithium fluoride, trimer
+lithium trifluoroberyllate
+boron trifluoride
+trifluoromethyl, cation
+trifluoromethyl
+trifluoromethyl, anion
+trifluoromethane, cation
+trifluoromethane
+trifluoroethylene
+cf3ch2, cation
+ch2f.cf2, cation
+cf3ch2.
+1,1,1-trifluoroethane
+(trifluoromethyl)-benzene
+trifluoromethylbenzene
+nitrogen trifluoride
+trifluoroacetonitrile
+trifluoromethylisocyanide
+trimethyamine-boron trifluoride
+(ch3)2o-bf3
+(ch3ch2)2o-bf3
+f3no
+trifluoroacetic acid
+b3o3f3
+be(ii)f4(2-) (kippee)
+fluoroboric acid anion
+tetrafluorodiborane
+carbon tetrafluoride
+tetrafluoroethylene
+1,2,4,5-tetrafluorobenzene
+1-fluoro-3-(trifluoro-methyl)benzene
+tetrafluorohydrazine
+n,n,n',n'-tetrafluoro-1,1-cyclohexanediamine
+n,n,n',n'-tetrafluoro-4-methyl-1,2-pentane
+1,1-bis(difluoroamine)heptane
+perfluoromethanol
+bis(fluoroxy)perfluoromethane
+pentafluorobenzene
+2,3,4,5,6-pentafluorotoluene
+pentafluoromethylamine
+pentafluoroguanidine
+pentafluorophenol
+hexafluoroethane
+perfluorobutadiene
+hexafluorobenzene
+hexafluorodimethylamine
+c2f6o, complex
+dimethyl perfluoroether
+perfluoroacetone
+hexafluoropentanedioic acid, dimethyl ester
+heptafluoromethane triamine
+perfluoropropane
+perfluorobut-2-ene
+perfluorocyclobutane
+octafluorotoluene
+octafluoromethanetetramine
+perfluorodimethoxymethane
+n-perfluorobutane
+decafluorocyclohexene
+undecafluoropiperidine
+tetrakis(difluoroamine)-n-1,1-trifluorodimethylamine
+dodecafluorocyclohexane
+bis-(n-perfluoropropyl ether)
+perfluorotriethylamine
+perfluoroheptane
+cis-perfluorobicyclo[4,3,0]nonane
+trans-perfluorobicyclo[4,3,0]nonane
+perfluoro 3-ethyl 2,4 dimethyl pent-2-en
+perfluoro cis decalin
+perfluoro-di(n-butyl) ether
+perfluoro-2,7-dimethyloctane
+perfluorotributylamine
+sodium, cation
+sodium, 2p(u) - 3s(0)3p(1)
+sodium, 2s(g)  3s(1)3p(0)
+sodium, 2s(g) - 3s(1)3p(0)
+sodium, atom
+sodium anion
+sodium hydride
+sodium lithium
+sodium cyanide
+sodium oxide
+sodium hydroxide
+lithium sodium oxide
+naoh.h2o
+na(+)(h2o)2
+nabo2
+na(+)-(ome2)2
+na(+)-(ome2)2_(pm6)
+naoh.2h2o
+na(+)(h2o)3
+na(+)(h2o)4
+nahco3.2h2o
+na(+)-15-crown-5
+na(+)-15-crown-5_(pm6)
+nano3.2h2o
+na(+)(h2o)6
+sodium fluoride
+sodium dimer, cation
+sodium, dimer
+sodium cyanide, dimer
+disodium oxide
+sodium hydroxide, dimer
+disodium fluoride, cation
+sodium fluoride, dimer
+magnesium, dication
+magnesium, cation
+magnesium, 1p(u) 3s(1)3p(1)
+magnesium, 1s(g) 3s(0)3p(2)
+magnesium, 1s(g) 3s(2)3p(0)
+magnesium, 3p(u) 3s(1)3p(1)
+magnesium, atom
+magnesium hydride (mgh)
+magnesium hydride (mgh2)
+methyl magnesium hydride
+mgh(cch)
+mgh(ch=ch2)
+dimethylmagnesium
+mg(ii)c2 (gimniz)
+bicyclopentadienyl magnesium
+amino magnesium hydride
+magnesium hydride cyanide
+diamino magnesium
+magnesium cyanide
+mg(ii)c2n2 (meenmg)
+mg(ii)n4c(+) (fizrem)
+mg(ii)n6(2+) (dotziv)
+magnesium oxide
+magnesium hydroxide
+magnesium hydride hydroxide
+magnesium cyanide hydroxide
+magnesium di-hydroxide
+mg(ii)c2o2 (dobxib)
+mg(ii)(cp)co2 (huxsau)
+mg(ii)o4(2+) (insmgc)
+magnesium di-acetylacetonate
+mgn3o2
+mg(ii)(h2o)4(oh)2
+mg(ii)(h2o)5.oh
+mg(ii)(h2o)6
+mg(ii)o6 (dacamg)
+mg(ii)o6 (felguy)
+mg(ii)(edta)(=)
+mg(ii)o6(-) (gapsev)
+mg(ii)o6 (davgai)
+mg(ii)o6 (besxon)
+magnesium fluoride
+magnesium difluoride
+magnesium hydride fluoride
+methyl magnesium fluoride
+magnesium, dimer
+aluminum, cation
+aluminium, 2p(u) - 3s(2)3p(1)
+aluminium, 2s(g) - 3s(1)3p(2)
+aluminium, 4p(g) - 3s(1)3p(2)
+aluminium, atom
+aluminum hydride
+trimethylaluminum
+al(iii)c4(-) (cuvmah)
+triethylaluminum
+aluminum nitride
+al(iii)c3n (linzox)
+al(iii)c3n (antmal)
+aluminum oxide, cation
+alo
+aluminum oxide, anion
+aluminum hydroxide, cation
+aluminum hydroxide
+h-al=o
+aluminum hydroxide, anion
+aluminum dioxide
+aluminum dioxide, anion
+aluminum oxide hydroxide
+al(iii)c3o(-) (aacmal)
+al(iii)(h2o)4(oh)2
+al(iii)(h2o)5.oh
+al(iii)(h2o)6
+aluminum (iii) edta
+aluminum trisoxalate
+aluminum trisoxalato h1
+aluminum trisoxalato h2
+aluminum trisoxalato h3
+aluminum fluoride, cation
+aluminum fluoride
+aluminum oxide fluoride
+aluminum difluoride, cation
+aluminum difluoride
+aluminum difluoride, anion
+aluminum difluoride oxide, anion
+aluminum trifluoride
+aluminum tetrafluoride, anion
+lithium tetrafluoroaluminate
+al(iii)f6(3-) (yaxxaw)
+sodium tetrafluoroaluminate
+dialuminum oxide, cation
+dialuminum oxide
+al2o2, cation
+aluminum oxide, dimer
+aluminum trifluoride, dimer
+silicon, dication
+silicon, cation
+silicon, 1d(g) 3s(2)3p(2)
+silicon, 1s(g) 3s(2)3p(2)
+silicon, 3d(u) 3s(1)3p(3)
+silicon, 3p(g) 3s(2)3p(2)
+silicon, 5s(u) 3s(1)3p(3)
+silicon, atom
+silicon, anion
+silicon, dianion
+sih
+silylene (singlet)
+silyl, cation
+silyl
+silyl, anion
+silane
+methylsilyl
+methylsilane
+vinylsilane
+dimethylsilyl
+dimethylsilane
+ethylsilane
+trimethylsilyl
+trimethylsilane
+diethylsilane
+tetramethylsilane
+1,1-dimethylsilacyclobutane
+triethylsilane
+sic4(-) (fogmet)
+tetraethylsilane
+sic4 (bawnui)
+sic3n(+) (caskiq)
+trimethylsilicon hydroxide
+silicon dioxide
+sih3o (bahtaf)
+si(oh)4
+sio4n (bojler)
+silicon fluoride
+fluorosilane
+sime4f, anion
+silicon difluoride
+difluorosilane
+siof2
+trifluorosilyl
+trifluorosilane
+sif3n2 (cewvef)
+sif3c (bazguf)
+silicon tetrafluoride
+silicon pentafluoride, anion
+sif6(2-) (jijkoc)
+disilane
+hexamethyldisilane
+hexamethyldisilazane
+hexamethyldisiloxane
+h6si2o7
+trisilane
+si(sime3)4 (gufmoj)
+phosphorus, cation
+phosphorus, 2d(g) 3s(1)3p(4)
+phosphorus, 2d(u) 3s(2)3p(3)
+phosphorus, 2p(u) 3s(2)3p(3)
+phosphorus, 2s(g) 3s(1)3p(4)
+phosphorus, 4p(g) 3s(1)3p(4)
+phosphorus, 4s(u) 3s(2)3p(3)
+phosphorus, atom
+phosphinidene
+phosphino
+phosphine cation
+phosphine
+ph4(+)
+carbon monophosphide
+methinophosphide
+methylphosphine
+phosphetethene
+dimethylphosphine
+ethylphosphine
+trimethylphosphine
+protonated trimethylphosphine
+diethylphosphine
+trimethylborane-trimethylphosphine
+triphenylphosphine
+phosphorus nitride
+hpn
+pnh
+pnh2 (singlet)
+trans-hpnh
+(ch3)2p=net
+trimethylphosphine-n-ethylimine
+hexamethylphosphorous triamide
+tris(diethylamino)phosphine
+phosphorus oxide
+hpo
+trimethylphosphine oxide
+triphenyl phosphine oxide
+phosphorus dioxide
+phosphorus trioxide, anion
+hpo3
+methylphosphonic acid
+ethylphosphonic acid
+trimethyl phosphite
+triethyl phosphite
+di-isopropyl ethylphosphonate
+tri-isopropyl phosphite
+methyl phosphate anion
+methyl phosphate
+ethylene phosphate anion
+(c2h4)po4h
+ethylene phosphate
+dimethyl phosphate anion
+dimethyl hydrogen phosphate
+methyl ethyl phosphate anion
+trimethyl phosphate
+triethyl phosphate
+tri-n-butyl phosphate
+triphenyl phosphate
+po(ocn)3
+(c2h4)(po4h2)-oh
+(c2h4)(po4h)-ome anion
+phosphorus monofluoride (triplet)
+ch2=p-f
+fpo
+phosphorus difluoride
+opf2
+methylphosphonodifluoride
+phosphorus trifluoride
+phosphorus trifluoride-borane
+trimethylphosphine-boron trifluoride
+phosphorus oxyfluoride
+phosphorus tetrafluoride
+phosphorus tetrafluoride, anion
+phosphorus pentafluoride
+phosphorus hexafluoride, anion
+phosphorus, dimer
+p2h4 (ref)
+p2h4 (wrong)
+p2h4
+pyrophosphoric acid
+methyl triphosphate anion
+methyl triphosphate
+phosphorus, tetramer
+phosphorus trioxide
+phosphorus pentoxide
+sulfur(+) 4p(g) 3s(1)3p(4)
+sulfur, cation
+sulfur 1d(g) 3s(2)3p(4)
+sulfur 1s(g) 3s(2)3p(4)
+sulfur, 3p(g) 3s(2)3p(4)
+sulfur, atom
+sulfur, anion
+hydrogen sulfide (hs)
+hydrogen sulfide, anion
+hydrogen sulfide (h2s)
+boron sulfide
+carbon sulfide
+thioformaldehyde
+methanethio radical
+thiomethanol
+thioketene, h2ccs
+c2h3s
+thiirane
+dimethyl thioether
+thioethanol
+(ch3)2s-bh3
+thietane
+1-propanthiol
+isopropanthiol
+methylethylthioether
+thiophene
+2,3-dihydrothiophene
+2,5-dihydrothiophene
+cis dimethylthiirane
+tetrahydrothiophene
+trans dimethylthiirane
+butanethiol
+diethyl thioether
+methylpropylthioether
+(ch3ch2)2s-bh3
+cyclopentanthiol
+thiacyclohexane
+thiophenol
+cyclohexanethiol
+2,3-dimethyl-2-butanethiol
+2-methyl-2-pentanethiol
+butyl ethyl sulfide
+methyl pentyl sulfide
+methyl phenyl sulfide
+toluenethiol
+3(tert-butyl)-1-propene
+1-heptanethiol
+benzyl methyl sulfide
+ethyl phenyl sulfide
+di-tert-butyl sulfide
+diisobutyl sulfide
+diphenyl sulfide
+sulfur nitride
+hydrogen isothiocyanate
+methyl isothiocyanate
+methyl thiocyanate
+ethanethioamide
+4-methylthiazole
+benzothiazole
+benzenecarbothioamide
+n,n-(dimethyl)thiobenzamide
+phenothiazine
+thiourea
+tetramethylthiourea
+4,6-bis(isopropylamino)-2-methylmercapto)-s-triazine
+sulfur monoxide (triplet)
+hos
+carbon oxysulfide
+ethyne sulfenic acid
+thiolacetic acid
+dimethyl sulfoxide
+s-ethylthioacetate
+diethyl sulfoxide
+benzenesulfenic acid
+dipropyl sulfoxide
+phenoxathiin
+diphenyl sulfoxide
+thioxanthone
+s-o_in_peptide
+s-o_in_peptide_strained
+bis-diethylamine sulfoxide
+sulfur dioxide
+s(oh)2
+dimethyl sulfone
+methylethyl sulfone
+2,5-dihydrothiophene sulfone
+divinyl sulfone
+diethyl sulfone
+methyl-i-propyl sulfone
+methyl n-butyl sulfone
+methyl-t-butyl sulfone
+di-n-propyl sulfone
+ethyl-t-butyl sulfone
+diethoxy ethylthiomethane
+benzyl methyl sulfone
+p-tolyl methyl sulfone
+di-i-butyl sulfone
+di-n-butyl sulfone
+di-tert-butyl sulfone
+diisobutyl sulfone
+(e)-1-methyl-4-(1-propenyl-sulfonyl)-benzene
+1-methyl-4-(1-methyl-ethenylsulfonyl) benzene
+2-butenyl p-tolyl sulfone
+2-methyl-2-propenyl p-tolyl sulfone
+3-butenyl p-tolyl sulfone
+diphenyl sulfone
+cysteine
+methionine
+sulfur trioxide
+hoso2(-)
+h2so3
+dimethyl sulfite
+(ch3o)(c2h5o)so
+diethyl sulfite
+dipropyl sulfite
+di-n-butyl sulfite
+li(i)o3n (fobhej)
+sulfuric acid
+lithium sulfate anion
+lithium sulfate
+dimethyl sulfate
+(ch3o)3so
+diethyl sulfate
+dipropyl sulfate
+di-n-butyl sulfate
+li(i)o4n (barvof)
+li(i)o4n (barviz)
+lihso4.2h2o
+sulfur fluoride
+so2f
+fluorosulfonic acid (hoso2f)
+sulfur difluoride
+thiocarbonyl difluoride
+thionyl fluoride
+sulfuryl fluoride
+sulfur trifluoride
+sof3
+s-ethyl trifluorothioacetic acid
+sulfur tetrafluoride
+sof4
+sulfur pentafluoride
+sulfur pentafluoride, anion
+sf5oh
+sulfur hexafluoride
+sodium sulfate, anion
+sodium sulfate
+magnesium sulfide
+magnesium hydride hydrosulfide
+magnesium hydrosulfide hydroxide
+aluminum sulfide
+ch3-s-sih3
+sic3s(-) (itiboc)
+phosphorus monosulfide
+phosphorus sulfide
+sulfur dimer
+hs2
+h2s2, complex
+hydrogen disulfide
+bs2
+s-b-b-s
+carbon disulfide
+ch3ssh
+(ch3)2s=s
+1,2-ethanedithiol
+2,3-dithiabutane
+ch3sch2sh
+ethanedithiol-1,2
+propane-1,3-dithiol
+(c2h5s)2
+1,4-butanedithiol
+3,6-dithiaoctane
+dipropyl disulfide
+ethyl tert-butyl disulfide
+isopropyl tert-butyl disulfide
+di-tert-butyl disulfide
+dibutyldisulfide
+diphenyl disulfide
+diisopropyldithiocarbamic acid
+dipropyldithiocarbamic acid
+s2(cn)2
+thiocyanogen
+bis-diethylamino disulfide
+1,3-dithiolan-2-one
+li(i)o2s2 (yubvum)
+cys-cys
+diphenyl disulfone
+fssf
+ssf2
+magnesium di-hydrosulfide
+mg(++)(h2o)4(h2s)2
+mg(ii)s2o4 (kiwseo)
+mg(ii)s2n2o2 (ehufui)
+sic2s2 (gumzuj)
+sio2s2n (ebupia)
+si2c4s2 (cadloi)
+sulfur, trimer (open chain)
+hs3
+hydrogen trisulfide
+2,3,4-trithiapentane
+1,3-dithiol-2-thione
+1,3-dithiolan-2-thione
+trimethylthioborane
+triethylthioborane
+1,3-benzodithiole-2-thione
+3h-1,2-benzodithiole-3-thione
+4,5-tetramethylene-1,3-dithiol-2-thione
+tri-n-propylthioborane
+triphenylthioborane
+sulfur tetramer
+sulfur, tetramer (open chain)
+hydrogen tetrasulfide
+sis4 (dancuq)
+sulfur, pentamer
+hydrogen pentasulfide
+sulfur, hexamer
+sis3c (msisul10)
+s8
+chlorine, cation 3p(u)  3s(1)3p(5)
+chlorine, cation
+chlorine, 2p(u) 3s(2)3p(5)
+chlorine, atom
+chloride, anion
+hydrogen chloride
+lithium chloride
+beryllium chloride
+boron chloride
+bh2cl
+chloromethylidyne
+chloromethylene
+methyl chloride
+ch3clh(+)
+chloroacetylene
+chloroethylene
+chloroethane
+dimethylchloroborane
+2-chloropropene
+1-chloropropane
+2-chloropropane
+1-chloro-2-methylpropane
+2-chloro-2-methylpropane
+1-chloropentane
+be(ii)(cp)cl (jefkio)
+chlorobenzene
+benzyl chloride
+1-chloro-4-ethylbenzene
+1-chloronaphthalene
+2-chloronaphthalene
+cyanogen chloride
+3-chloro-4-methylaniline
+li(i)n3cl (gajyar)
+chlorine oxide
+hypochlorous acid
+lithium hypochlorite
+licl.h2o
+bocl
+carbonyl chloride (cocl)
+acetyl chloride
+3-chlorophenol
+4-chlorophenol
+2-chlorobenzaldehyde
+benzoyl chloride
+nitrosyl chloride
+chlorine dioxide
+chloroacetic acid
+dimethoxychloroborane
+2-chlorobenzoic acid
+3-chlorobenzoic acid
+4-chlorobenzoic acid
+nitryl chloride
+o3cl
+b3o3h2cl
+o4cl(-)
+hoclo3
+li(i)o4cl (cejqir)
+li(+)(h2o)5.cl
+li(i)o6 (fivtek)
+chlorine fluoride
+hydrogen chloride fluoride, anion
+lithium chloride fluoride
+beryllium chloride fluoride
+fluorochloromethane
+ofcl
+carbonyl fluoride chloride
+fclo2(-)
+perchloryl fluoride
+clf2
+chlorodifluorborane
+difluorochloromethane
+nclf2
+chlorine trifluoride
+trifluorochloromethane
+chlorotrifluoroethene
+chlorine pentafluoride
+chloropentafluoroethane
+chloropentafluorobenzene
+1,1,2-trifluoro-2-chloroethyl dodecafluoroheptylether
+sodium chloride, cation
+sodium chloride
+disodium chloride, cation
+magnesium chloride
+magnesium hydride chloride
+magnesium chloride fluoride
+aluminum chloride, cation
+aluminum chloride
+aluminum chloride oxide
+aluminum chloride fluoride, cation
+alclf
+aluminum chloride difluoride
+silicon chloride
+chlorosilane
+chlorodimethylsilane
+chlorotrimethylsilane
+sic3cl (guhhas)
+sif4cl, anion
+phosphorus chloride
+phosphorus monoxide monochloride
+scl
+ch3scl
+c6h5scl
+socl
+hoso2cl
+so2clf
+sf5cl
+chlorine
+hydrogen dichloride, anion
+lithium chloride, dimer
+beryllium dichloride
+bhcl2
+dichloroborane (1)
+dichloromethylene
+chcl2(+)
+dichloromethane
+methyldichloroborane
+dichloroacetylene
+1,1-dichloroethylene
+cis-dichloroethylene
+trans-1,2-dichloroethylene
+1,1-dichloroethane
+trans-1,2-dichloroethane
+1,2-dichloropropane
+1,2-dichlorobenzene
+1,3-dichlorobenzene
+1,4-dichlorobenzene
+be(ii)cl2n2 (mecybc)
+be(ii)cl2n2 (valhas)
+chlorine monoxide
+carbonyl chloride
+methoxydichloroborane
+be(ii)cl2 (etbecl)
+cl2o2
+oxalyl chloride
+be(ii)cl2o2 (etbecl01)
+1,1-dichloro-1-nitro-propane
+b3o3hcl2
+chlorine heptoxide
+cl2o7
+1,1',2,2'-tetranitro-1,2-dichloroethane
+1,3-dichloro-1,1,3,3-tetranitropropane
+dichlorofluorborane
+fluorodichloromethane
+difluorodichloromethane
+1,2-dichloro 1,1,2,2-tetrafluoroethane
+sodium chloride, dimer
+magnesium dichloride
+mg(ii)o4cl2 (cexwux10)
+mg(ii)2(cp)2cl4o2 (lakleo)
+alcl2, cation
+aluminum dichloride
+aluminum dichloride, anion
+aluminum dichloride fluoride
+silicon dichloride
+dichlorosilane
+dichloromethylsilane
+dichlorodimethylsilane
+phosphorus dichloride
+pcl2(c2h5)
+opcl2
+methylphosphonodichloride
+ethylphosphonic dichloride
+sulfur dichloride
+thionyl chloride
+sulfuryl chloride
+clsscl
+cl3(-)
+lithium chloride, trimer
+boron trichloride
+trichloromethyl
+chloroform
+trichloroethylene
+1,1,1-trichloroethane
+1,2,2-trichloroethane
+1,2,3-trichlorobenzene
+1,2,4-trichlorobenzene
+1,3,5-trichlorobenzene
+be(ii)cl3n(-) (fasqum)
+b3n3cl3h3
+trichloroacetaldehyde
+b3o3cl3
+fluorotrichloromethane
+1,1',2-trichloro-1,2,2'-trifluoroethane
+aluminum trichloride
+al(iii)cl3n (cmamal01)
+trichlorosilyl
+trichlorosilane
+trichloromethylsilane
+phosphorus trichloride (+)
+phosphorus trichloride
+phosphorus oxychloride
+sulfur trichloride
+socl3
+phosphorus thiochloride
+b2cl4
+carbon tetrachloride
+tetrachloroethylene
+1,1,2,2-tetrachloroethane
+1,2,2,2-tetrachloroethane
+1,2,3,4-tetrachlorobenzene
+1,2,3,5-tetrachlorobenzene
+1,2,4,5-tetrachlorobenzene
+trichloroacetyl chloride
+2,3,5,6-tetrachloro-1,4-benzoquinone
+mg(ii)cl4(2-) (dupcog)
+magnesium dichloride, dimer
+al(iii)cl4(-) (calzuk)
+lialcl4
+al(iii)ccl3 (malcld)
+al(iii)cl2n2 (madalc10)
+silicon tetrachloride
+sicl4n2 (jepcow)
+si2cl6h2n (gilqex)
+phosphorus tetrachloride
+sulfur tetrachloride
+socl4
+pentachloroethane
+pentachlorobenzene
+pentachlorophenol
+silicon pentachloride, anion
+phosphorus pentachloride
+sulfur pentachloride
+be(ii)2cl6(2-) (equnuz)
+hexachloroethane
+hexachlorobenzene
+gamma hexachlorocyclohexane
+aluminum trichloride dimer
+hexachlorodisilane
+hexachloro-1,3,5,2,4,6-triazatriphosphorine
+sulfur hexachloride
+si2cl6c2 (fazkum)
+potassium, cation
+potassium 2s(g)  4s(1)4p(0)
+potassium, 2p(u) - 4s(0)4p(1)
+potassium, atom
+potassium hydride
+potassium cyanide
+potassium hydroxide
+koh.h2o
+k(+)(h2o)2
+kbo2
+k(+)(h2o)3
+k(+)(h2o)4
+k(+)(h2o)5
+khco3.2h2o
+kno3.2h2o
+k(+)(h2o)6
+k(i)(h2o)6(+) (gugnur)
+k(i)o6(+) (aqepiv)
+k(i)o6n (yakwox)
+k(i)o6n2(+) (gazgix)
+k(i)o7 (legxok)
+potassium fluoride
+k(+)(h2o)5.f
+potassium trifluoroberyllate
+khso4
+k(i)o5n3 (poztck)
+k(i)o6s (ruxvah)
+potassium chloride
+k(+)(h2o)5.cl
+potassium, dimer
+k-c
+potassium fluoride, dimer
+potassium sulfide
+potassium sulfate
+potassium chloride, dimer
+(khco3)4
+calcium, dication
+calcium, cation 2p(u) 4s(0)4p(1)
+calcium, cation
+calcium, 1d(g) 4s(0)4p(2)
+calcium, 1p(u) 4s(1)4p(1)
+calcium, 1s(g) 4s(0)4p(2)
+calcium, 1s(g) 4s(2)4p(0)
+calcium, 3p(g) 4s(0)4p(2)
+calcium, 3p(u) 4s(1)4p(1)
+calcium, atom
+calcium hydride
+ca(ii)n6(2+) (qakgal)
+ca(ii)(en)3
+calcium oxide
+calcium monohydroxide
+calcium hydroxide
+ca(ii)(cp)2o2 (teyyif)
+ca(ii)(cp)2o2 (sehpea)
+ca(ii)o2 (tasfoi)
+ca(++)(h2o)4.(oh)2
+ca(++)(h2o)5.oh
+ca(++)(h2o)6
+ca(ii)(h2o)6(2+) (bihniq)
+ca(ii)o6 (boltif)
+ca(ii)o7n2(2+) (cacrpb)
+calcium(ii) edta
+ca(ii)o6n2 (linyai)
+ca(ii)o8 (gebpae)
+calcium hydrogen trisoxalate
+ca(ii)o10 (dujjoh)
+calcium monofluoride
+ca(++)(h2o)5.f
+caf2_ref
+caf2_wrong
+calcium difluoride
+calcium sulfide
+ca(++).2(h2s)
+ca(ii)n6o (bukzuc)
+calcium monochloride
+calcium hydroxide fluoride
+ca(++)(h2o)5.cl
+calcium dichloride
+ca(ii)cl4o2(2-) (dilxol)
+ca(ii)2o12cl2(2+) (nadqep)
+zinc, dication
+zinc, cation
+zinc 1p(u) 3d(10)4s(1)4p(1)
+zinc 1s(g) 3d(10)4s(2)4p(0)
+zinc 3p(u) 3d(10)4s(1)4p(1)
+zinc, atom
+zinc hydride
+methyl zinc, cation
+ethyl zinc
+dimethyl zinc
+diethyl zinc
+zn(ii)c4(2-) (ltmezn)
+di-n-propyl zinc
+di-n-butyl zinc
+di-t-butyl zinc
+zn(ii)n4(2+) (fuzcuy)
+zn(ii)(en)3
+zn(ii)n6(2+) (cibkih)
+zn[(c6h9)(nh2)3]2(++)
+znn3o2
+zn(ii)o5 (acaczm01)
+zn(ii)(h2o)4(oh)2
+zn(ii)(h2o)5.oh
+zn(ii)(h2o)6
+zn(ii)o6(2+) (znaqbs)
+zn(ii)o6 (znaqac02)
+zinc (ii) edta
+zinc trifluoride, anion
+zn(ch2sime3)2
+zn[n(sime3)2]2
+zinc sulfide
+zn(ii)s2n2 (xustag)
+zn(ii)o3s2 (gayzip)
+[zn(ch3s)3](-)
+[zn(ch3s)4](=)
+zn(ii)s4o2 (tedvih)
+zn(ii)o3ncl (ceamzn)
+zinc dichloride, cation
+zinc dichloride
+zn(ii)n2cl2 (znacet)
+zn(ii)n2cl2 (cahgex)
+zn(ii)o2cl2 (ducneu)
+zn(ii)sncl2 (catszn)
+zn(ii)s2cl2 (clstuz)
+zn(ii)cl4(2-) (abdznc20)
+zn2[s2c-nme2]4
+gallium, trication
+gallium, dication
+gallium(+), 1p(u) - 4s(1)4p(1)
+gallium(+), 1s(g) - 4s(2)4p(0)
+gallium(+), 3p(u) - 4s(1)4p(1)
+gallium, cation
+gallium, 2p(u) - 4s(2)4p(1)
+gallium, 4p(g) - 4s(1)4p(2)
+gallium, atom
+gallium, anion
+gallium hydride
+trimethyl gallium
+triethylgallium
+ga(iii)c3 (dmgacp)
+ga(iii)(c6)(+) (cuttug)
+tributylgallium
+gallium oxide
+gallium hydroxide
+ga(iii)o2c2 (bezhap)
+ga(oh)3
+trimethoxy gallium
+ga(iii)o6 (acacga)
+ga(iii)(pc)3(3-)
+gallium (iii) edta
+ga(iii)(edta) (edtaga01)
+ga(iii)o6(3-) (cokfir)
+gallium fluoride
+ga(iii)c2f2(-) (cupquz)
+[ga(iii)f2.(me2n)](+)
+gallium trifluoride
+ga(iii)f6(3-) (buyfoq01)
+ga(ch3o)2(ch3s)
+[ga(iii)f2](+).h2s
+ga(iii)s6 (edtcga01)
+gallium chloride
+ga(iii)cncl2 (afajum)
+ga(iii)n2cl2 (abisot)
+gallium trichloride
+gallium trichloride - ammonia complex
+ga(iii)cl4(-) (amifil)
+gallium, dimer
+ga(iii)2n4c4 (dmpzga)
+ga(iii)2n2o2c4 (barneo)
+ga(iii)2o4c4 (dmgaox)
+ga2s
+gallium trichloride, dimer
+germanium, 1d(g) 4s(2)4p(2)
+germanium, 1s(g) 4s(2)4p(2)
+germanium, 3p(g) 4s(2)4p(2)
+germanium, 5s(u) 4s(1)4p(3)
+germanium, atom
+germane
+germanium carbide
+methylgermane
+germylacetylene
+dimethylgermane
+trimethylgermanium, cation
+trimethylgermanium
+trimethylgermane
+tetramethylgermanium
+t-butyltrimethylgermane
+tetraethylgermanium
+tetrapropylgermanium
+tetraphenylgermanium
+triphenyl phenylethynyl germanium
+tetrabenzyl germanium
+cyanogermane
+dimethylaminetrimethylgermane
+germylazide
+germanium oxide
+methoxytrimethylgermane
+ethoxytrimethylgermane
+dimethoxydimethylgermane
+trimethoxymethylgermane
+tetramethoxygermanium
+tetraethoxygermanium
+geo6(+) (acacge)
+germanium fluoride
+fluorogermane
+geno3f (gaqmeq)
+gen4f(-) (beglii)
+germanium difluoride
+gec2o2f2 (libzax)
+methyltrifluorogermane
+germanium tetrafluoride
+gef4n2 (humcoh)
+gef6(2-) (iwoqoa)
+gec3f2(-) (fexfuj)
+germanium sulfide
+gec2s2 (asowag)
+germanium chloride
+chlorogermane
+trimethylchlorogermane
+geo4cl(-) (cldxge)
+ges2o2cl(-) (cutkor)
+gecl2 (dioxgc)
+germanium dichloride
+dimethylgermanium dichloride
+gecl2s2 (cttger)
+gecl3(-) (fassuo)
+trichloromethylgermane
+geccl3 (bosbiu01)
+germanium tetrachloride, cation
+germanium tetrachloride
+germanium, dimer
+digermane
+hexamethyl digermane
+hexaethyl digermane
+hexaphenyldigermane
+bis(trimethylgermanium) oxide
+(c6h5)3ge-o-ge(c6h5)3
+ge2c4cl4 (cgechd10)
+trigermane
+trigermylamine
+ge3c3cl6 (fitgof)
+arsenic, dication
+arsenic, cation
+arsenic, 2d(g) - 4s(1)4p(4)
+arsenic, 2d(u) - 4s(2)4p(3)
+arsenic, 2p(g) - 4s(1)4p(4)
+arsenic, 2p(u) - 4s(2)4p(3)
+arsenic, 2s(g) - 4s(1)4p(4)
+arsenic, 4p(g) - 4s(1)4p(4)
+arsenic, 4s(u) 4s(2)4p(3)
+arsenic, atom
+arsine
+trimethylarsine
+as(v)c4(+) (masinc10)
+triethylarsine_dft
+triphenylarsine
+arsenic nitride
+ash2-nh2
+as(iii)c3 (cnmars)
+as(v)c3o (asoxca)
+as(oh)3
+trimethyl arsenite
+as(v)o3c (arsacp)
+triethyl arsenite
+tri-n-propyl arsenite
+as(v)o4(-) (dayqav)
+as(v)o5 (htoasp)
+arsenic trifluoride
+arsenic pentafluoride
+as(v)f6(-) (bonmog)
+arsenic sulfide
+dimethylarsenic chloride
+as(iii)n2cl (lewvis)
+methylarsenic dichloride
+arsenic trichloride
+as(iii)ncl3 (asctma)
+arsenic pentachloride
+arsenic, dimer
+asasc (arsmet)
+as(v)f4o2(2-) (pydfas)
+as(iii)2c4 (hirciu)
+as(v)(iii)c4s2 (dmsars)
+arsenic, trimer
+as(iii)s2c (marsta)
+arsenic, tetramer
+as(iii)o2c (asoxad)
+arsenic trioxide dimer
+as4o6
+as(iii)as2c (asmeth)
+selenium, cation 4p(g) - 4s(1)4p(4)
+selenium, cation
+selenium, 1d(g) 4s(2)4p(4)
+selenium, 1s(g) 4s(2)4p(4)
+selenium, 3p(g) 4s(2)4p(4)
+selenium, atom
+selenyl radical
+hydrogen selenide
+dimethylselenium
+selenophene
+tetrahydroselenophene
+diethylselenium
+seh-nh2
+selenium dioxide
+selenic acid (se(oh)6)
+selenium fluoride
+selenium tetrafluoride
+selenium hexafluoride
+silicon selenide
+thiocarbonyl selenide
+selenium dichloride
+secl6(=)
+zinc selenide
+germanium selenide, separated0
+germanium selenide
+arsenic selenide
+carbon diselenide
+(c6h5)-se-se-(c6h5)
+c6h5-ch2-se-se-ch2-c6h5
+clsesecl
+selenium, trimer
+se4cl16
+bromine, cation (br(+))
+bromine, cation, 3p(u) 4s(1)4p(5)
+bromine, 2p(u) 4s(2)4p(5)
+bromine, atom
+bromide, anion
+hydrogen bromide, cation
+hydrogen bromide
+lithium bromide
+beryllium bromide
+boron bromide
+bromomethane
+bromoacetylene
+bromoethylene
+bromoethane
+3-bromopropene
+1-bromopropane
+2-bromopropane
+bromobenzene
+1-bromonaphthalene
+2-bromonaphthalene
+1-bromo-dodecane
+1-bromo-hexadecane
+cyanogen bromide
+3-bromo-3-methyldiazirine
+li(i)n3br (jeprol)
+li(i)n3br (gajyev)
+(mecn)7.br(-)
+bromine oxide
+hypobromous acid
+acetyl bromide
+benzoyl bromide
+nitrosyl bromide
+li(i)o4br (cesjuf)
+li(+)(h2o)5.br
+bromine fluoride
+bromodifluoroborane
+bromodifluoromethane
+1-bromo-1,1-difluoroethane
+bromine trifluoride, d3h
+bromine trifluoride, c2v
+bromine trifluoride
+bromotrifluoromethane
+1-bromo-2,2,2-trifluoroethane
+bromine pentafluoride, d3h
+bromine pentafluoride, c4v
+bromine pentafluoride
+bromopentafluorobenzene
+sodium bromide
+magnesium bromide
+mg(ii)cbro2 (emgbre10)
+silicon bromide
+bromosilane
+trimethylbromosilane
+sic3br (brmsad)
+phosphorus bromide
+bromine chloride, cation
+bromine chloride
+bromochloromethane
+1-bromo-1-chloroethane
+5-chloro-8-bromo-8-hydroxyquinoline
+trichlorobromomethane
+potassium bromide
+k(+)(h2o)5.br
+calcium monobromide
+calcium hydroxide bromide
+ca(++)(h2o)5.br
+zn(ii)n4br(+) (daeazn)
+gallium bromide
+germanium bromide
+bromogermane
+trimethylbromogermane
+geo3br (buwcur)
+geo4br(-) (cutlae)
+gec2s2br (kadkop)
+as(iii)c2br (bropar)
+as(iii)brs2(+) (edtcas)
+et3sebr
+bromine, cation (br2(+))
+bromine
+lithium bromide, dimer
+beryllium dibromide
+dibromoborane (1)
+dibromomethane
+1,1-dibromoethane
+1,4-dibromobutane
+li(i)2br2n4 (sajvee01)
+carbonyl bromide
+be(ii)o2br2 (qqqdpy01)
+li(i)2br2o4 (decxeo01)
+dibromofluoroborane
+difluorodibromomethane
+1,2-dibromotetrafluoroethane
+sodium bromide, dimer
+magnesium dibromide
+mg(ii)o2br2 (mgbeet)
+mg(ii)o5br2 (gupjac)
+silicon dibromide
+dibromosilane
+sih2cbr (zuhpib)
+sulfur dibromide
+dibromine disulfide
+potassium bromide, dimer
+calcium dibromide
+ca(ii)n2o2br2 (tapkea)
+zinc dibromide
+zn(ii)n2br2 (cahgib)
+zn(ii)o2br2 (caryup)
+germanium dibromide
+as(v)c2br3 (dmeasb)
+selenium dibromide
+boron tribromide
+bromoform
+1,1,1-tribromoethane
+2,4,6-tribromoaniline
+aluminum tribromide
+tribromosilane
+phosphorus tribromide
+phosphorus oxybromide
+gallium tribromide
+tribromovinylgermane
+arsenic tribromide
+as(iii)cbr2 (fafwak)
+magnesium dibromide, dimer
+al(iii)br2n2 (brmaal)
+silicon tetrabromide
+zn(ii)br4(2-) (beynuo)
+ga(iii)br4(-) (agogae)
+ga(iii)2n2br4 (bawvea)
+germanium tetrabromide
+gen2br4 (bomqoj)
+hexabromoethane
+aluminum tribromide dimer
+ge2br6c (cojloc)
+sebr6(=)
+as(iii)br5(2-) (coddee)
+rubidium, cation
+rubidium 2s(g)  5s(1)5p(0)
+rubidium, 2p(u) - 5s(0)5p(1)
+rubidium, atom
+methyl rubidium
+rbbo2
+rb(+)(h2o)2.oh
+rb(+)(h2o)3
+rb(+)(h2o)4
+rb(+)(h2o)6
+rubidium fluoride
+rubidium chloride, cation
+rubidium chloride
+rb(+)(h2o)3.cl
+rb(+)(h2o)3.f
+rubidium bromide, cation
+rubidium bromide
+rb(+)(h2o)3.br
+rubidium, dimer
+rubidium fluoride, dimer
+rubidium sulfate
+rubidium chloride, dimer
+rubidium bromide, dimer
+strontium, dication
+strontium, cation
+strontium 1d(g) 5s(0)5p(2)
+strontium 1p(u) 5s(1)5p(1)
+strontium 1s(g) 5s(0)5p(2)
+strontium 1s(g) 5s(2)5p(0)
+strontium 3p(g) 5s(0)5p(2)
+strontium 3p(u) 5s(1)5p(1)
+strontium, atom
+dimethyl strontium
+sr(ii)(cp)2n2 (teyyeb)
+sr(ii)n4 (wagcir)
+sr(ii)n8(2+) (taqnaa)
+strontium oxide
+strontium di-hydroxide
+sr(ii)(h2o)6
+sr(ii)o6n2(2+) (sutziq)
+sr(ii)o8(2+) (poxkoc)
+sr(ii)o9(2+) (wazfuy)
+sr(ii)o8(2+) (nasyel)
+strontium fluoride
+sr(ii)(h2o)5.f
+strontium difluoride
+cis-sr(ii)(h2o)4.f2
+sr(ii)o8(2-) (rizhaj)
+strontium sulfide
+sro-so3
+sr(ii)o4s2 (yugmoc)a
+sr(ii)o6n2 (fuydae)
+strontium chloride
+sr(ii)(h2o)5.cl
+strontium dichloride, cation
+strontium dichloride
+cis-sr(ii)(h2o)4.cl2
+strontium monobromide
+sr(ii)(h2o)5.br
+strontium dibromide
+sr(ii)n5br2 (tanwag)
+cis-sr(ii)(h2o)4.br2
+cadmium(+), 2p(u) 5s(0)5p(1)
+cadmium(+), 2s(g) 5s(1)5p(0)
+cadmium, cation
+cadmium 1p(u) 4d(10)5s(1)5p(1)
+cadmium 1s(g) 4d(10)5s(2)5p(0)
+cadmium 3p(g) 4d(10)5s(0)5p(2)
+cadmium 3p(u) 4d(10)5s(1)5p(1)
+cadmium, atom
+methyl cadmium
+dimethyl cadmium, cation
+dimethyl cadmium
+diethyl cadmium
+cd(ii)n2c2 (lajmoy)
+cd(ii)(cn)3(-)
+cd(ii)(cn)4(=)
+cd(ii)(nh3)6
+cd(ii)(en)3
+cd(ii)(oh)2
+cd(ii)(h2o)6
+cd(ii)o4n2 (bunvub10)
+cd(ii)(edta)(=)
+methyl cadmium fluoride
+cadmium difluoride
+cd(ii)f4(=)
+cd[n(sime3)2]2
+cd(ch3s)2
+cd(ii)n6 (cdenic)
+[cd(ch3s)3](-)
+methyl cadmium chloride
+cadmium dichloride
+cd(ii)n2cl2 (cdpycl)
+cd(ii)s2cl2 (cturcd)
+cd(ii)s2n2cl2 (tchzcd)
+cd(ii)cl4(=)
+cd(ii)br.5(h2o)
+cadmium dibromide
+cd(ii)s2br2 (peksut)
+cd(ii)br4(=)
+[cd(ii)2(cn)7](3-)
+indium (+++)
+indium, dication
+indium, cation
+indium, 2p(u)  5s(2)5p(1)
+indium, 4p(g) - 5s(1)5p(2)
+indium, atom
+indium hydride
+in(iii)c2(+) (dminbr)
+in(iii)c3 (trmein)
+trimethyl indium
+in(iii)c4(-) (cmeind)
+in(iii)(nh3)6
+indium oxide
+indium hydroxide
+in(oh)3
+in(iii)(h2o)6
+in(iii)o6 (acacin)
+in(iii)(pc)3(3-)
+in(iii)n2o6 (bpacin)
+indium(iii)(edta)(-)
+in(iii)(ox)3(3-)
+indium fluoride
+in(iii)f2c2(-) (cuprio)
+indium trifluoride
+in(iii)f6(3-) (lorcie)
+indium(ii) sulfide
+inf2(ch3s)
+inf2(me2s)(+)
+indium chloride, cation
+indium chloride
+in(iii)s2n2cl (tupbah)
+in(iii)c2cl2(-) (aqifel)
+in(iii)cl2o2n2 (cakcas)
+indium trichloride
+in(iii)cl6(3-) (fuvcaa)
+indium selenide
+indium bromide
+in(iii)c2br2(-) (masmbi)
+indium tribromide
+in(iii)cbr3 (petnux)
+in(((i)clbr3(-) (bupnab)
+indium, dimer
+in(iii)c2n2 (amdmin)
+in2f6
+indium(i) sulfide
+diindium trichloride
+in2cl6
+in2br6
+tin, cation
+tin, 1d(g) 5s(2)5p(2)
+tin, 1s(g) 5s(2)5p(2)
+tin, 3d(u) 5s(1)5p(3)
+tin, 3p(g) 5s(2)5p(2)
+tin, 3s(u) 5s(1)5p(3)
+tin, 5s(u) 5s(1)5p(3)
+tin, atom
+tin hydride
+tin tetrahydride (stannane)
+dimethylstannane
+trimethyltin hydride
+diethyltin dihydride
+tetramethyltin
+ethyltrimethyltin
+propyltrimethyltin
+t-butyltrimethyltin
+tetraethyltin
+phenyltrimethylstannane
+tetraphenyltin
+triphenyl phenylethynyl tin
+dimethylaminetrimethyltin
+sn(et)3(net2)
+sn(iv)n4c (wayyok)
+sn(ii)n4 (vurfuj)
+sn(iv)(en)3
+tin oxide
+tin tetramethoxide
+sn(iv)o4c2 (acdmsn)
+sn(iv)(h2o)3.(oh)3
+sn(iv)(h2o)4(oh)2
+sn(iv)(h2o)6
+sn(iv)o8 (acetsn01)
+tin fluoride
+sn(iv)n4cf(+) (rocvag)
+tin difluoride
+dimethyltin difluoride
+tin tetrafluoride
+sn(iv)f6(2-) (jozxif)
+tin sulfide
+sn(ch3s)(me3)
+sn(iv)s2c2 (acelid)
+tin chloride
+trimethyltin chloride
+triethyltin chloride
+sn(iv)s4cl(-) (bthsna10)
+tin dichloride
+dimethyltin dichloride
+sn(iv)cl2c3(-) (bepfil)
+sn(iv)n4cl2 (wattiu)
+sn(iv)c2cl2o (adidum)
+sn(iv)o2c2cl2 (bcmesn)
+sn(iv)o4cl2 (acclti)
+sn(ii)scl2 (capwev)
+sn(iv)s4cl2 (cihdec)
+sn(ii)cl3(-) (bitxux)
+methyltin trichloride
+ethyltin trichloride
+tin tetrachloride
+sn(iv)cl4c2(2-) (arawar)
+sn(iv)o2cl4 (cimwie)
+sn(iv)cl6(2-) (amclsn10)
+geme3-snme3
+tin selenide
+tin bromide
+trimethyltin bromide
+tri-n-butyltin bromide
+tin dibromide
+dimethyltin dibromide
+sn(iv)s4br2 (carsna)
+sn(ii)br3(-) (bityae)
+tin tetrabromide
+sn(iv)br6(2-) (bujpur)
+hexamethylditin
+hexaphenyldistannane
+(c6h5)3sn-o-sn(c6h5)3
+sn2o4
+sn(iv)c3ocl (aceyiq)
+antimony, dication
+antimony, cation
+antimony, 2d(u) 5s(2)5p(3)
+antimony, 2p(u) 5s(2)5p(3)
+antimony, atom 5s(2)5p(3)
+antimony, atom
+stibine
+trimethyl stibine
+trimethylstibine
+sb(v)c4(+) (bohsia)
+triethylstibine
+triphenylstibine
+antimony nitride
+sb(iii)c3 (afutaw)
+antimony oxide
+[sb(v)me3.2(h2o)](2+)
+sb(iii)o3 (fepwus)
+sb(oh)6(-)
+antimony fluoride
+dimethyl antimony fluoride
+sb(v)c3f2 (trsbdf)
+antimony trifluoride
+sb(iii)f3 (ureaaf)
+sbf4(+)
+sb(iii)f4(-) (namteb)
+sb(v)f6(-) (coshat)
+sbf6(-)
+antimony chloride
+dimethyl antimony chloride
+diethyl antimony chloride
+antimony oxychloride
+sb(iii)s2cl (clssbp10)
+antimony dichloride
+antimony trichloride
+sb(iii)cl3 (anisbc)
+sbcl4(+)
+antimony pentachloride
+sb(iii)cl5(2-) (bpclsb)
+sb(v)cl5o (curduo)
+sb(v)cl6(-) (acclsb20)
+sbcl6(-)
+sb(iii)cbr2 (kutxus)
+antimony tribromide
+sb(iii)br3 (dejyew)
+sb(iii)cbr4(2-) (bimkir)
+sb(iii)br5(2-) (clpysb)
+sb(v)cbr5(-) (jinmic)
+sb(v)br6(-) (clbrpz)
+sbbr6(-)
+indium antimonide
+antimony, dimer
+sb2h4, complex
+sb2(d-c4h2o6)2(=)
+sb2f4
+sb2cl4
+sb2br4
+indium diantimonide
+antimony, tetramer
+tellurium, cation
+tellurium, 1d(g) 5s(2)5p(4)
+tellurium, 1s(g) 5s(2)5p(4)
+tellurium, 3p(g) 5s(2)5p(4)
+tellurium, atom
+hydrogen telluride
+te(iv)c3(+) (huhbiv)
+te(iv)c4 (pobwos)
+te(ii)n2 (cessau)
+tellurium oxide
+te(oh)6 ref
+te(oh)6_wrong
+te(vi)o6 (binfaf01)
+telluric acid (te(oh)6)
+tellurium fluoride
+tellurium difluoride
+te(vi)c2f4 (bijvum)
+te(iv)f5(-) (jijjob)
+te(vi)f5o(-) (gekzif)
+te(vi)f6o(-) (kupbay)
+te(vi)f7(-) (rolsoa)
+te(iv)c2f2 (vejwuc)
+aluminum telluride
+me-te-s-me
+-te-s-(ch2)3-
+tes2
+te(sh)2
+te(ii)s2 (racnep)
+te(ii)s4 (temxan10)
+tellurium dichloride
+te(iv)c2cl2 (dmtecl02)
+te(iv)c2br2 (bibboe)
+te(iv)o2cl3(-) (porsoe)
+te(iv)cl6(2-) (bexsec)
+zinc telluride
+arsenic telluride
+selenium telluride
+h2te-h2se, separated
+et3tebr
+te(iv)c2br2 (coqnol)
+te(iv)s4br2 (bawfio)
+te(iv)br6(2-) (cixrik)
+tebr6(=)
+tin telluride
+tellurium, dimer
+tellurium oxide dimer
+te2f10
+te4cl16
+iodine, cation
+iodine, 2p(u) - 5s(2)5p(5)
+iodine, 2s(g) - 5s(1)5p(6)
+iodine, atom
+iodide, anion
+hydrogen iodide
+lithium iodide
+beryllium iodide
+methyl iodide
+iodoethane
+3-iodo-1-propene
+e-1-iodo-1-propene
+z-1-iodo-1-propene
+1-iodopropane
+2-iodopropane
+1-butyl iodide
+tert-butyl iodide
+iodobenzene
+iodocyclohexane
+benzyl iodide
+m-iodotoluene
+o-iodotoluene
+p-iodotoluene
+1-iodonaphthalene
+2-iodonaphthalene
+cyanogen iodide
+li(i)n3i (jeprur)
+iodine oxide
+acetyl iodide
+iodomethyl methyl ether
+1-iodo-2-propanone
+3-iodo-2-butanone
+benzoyl iodide
+nitrosyl iodide
+2-iodobenzoic acid
+3-iodobenzoic acid
+4-iodobenzoic acid
+li(i)o4i (harcei)
+li(+)(h2o)5.i
+iodine fluoride
+trifluoroiodomethane
+1,1,1-trifluoro-2-iodoethane
+iodine pentafluoride
+pentafluoroiodobenzene
+iodine heptafluoride
+iodine heptafluoride_pw91
+sodium iodide, cation
+sodium iodide
+aluminum iodide
+al(iii)c3i(-) (maimal)
+iodosilane
+iodomethyl methyl sulfide
+iodine chloride
+iodine monochloride
+1,2-chloroiodoethane
+1-chloro-4-iodobutadiene
+potassium iodide
+k(+)(h2o)5.i
+k(i)o5ni (dughoc)
+calcium monoiodide
+ca(++)(h2o)5.i
+zn(ii)n4i(+) (znetam10)
+gallium iodide
+iodogermane
+geo2i (iacger)
+gec2s2i (kadkuv)
+as(v)ic2as(+) (farrar)
+iodine bromide
+1-bromo-4-iodobutadiene
+rubidium iodide
+rb(+)(h2o)3.i
+strontium iodide
+sr(ii)(h2o)5.i
+indium iodide
+in(iii)n2ibrin (cihpoy)
+tin iodide
+trimethyltin iodide
+sb(iii)c2i (doqwel)
+iodine, dimer
+lithium iodide, dimer
+beryllium diiodide
+diiodomethane
+diiodoacetylene
+e-1,2-diiodoethene
+z-1,2-diiodoethene
+1,2-diiodoethane
+1,2-diiodopropane
+1,3-diiodopropane
+1,2-diiodobutane
+1,4-diiodobutane
+1,2-diiodobenzene
+li(ii)2i2n4 (sajvaa)
+5,7-diiodo-8-hydroxyquinoline
+1,2 diiodotetrafluoroethane
+sodium iodide, dimer
+magnesium diiodide
+al(iii)c2i2(-) (csimal)
+silicon diiodide
+diiodosilane
+potassium iodide, dimer
+calcium diiodide
+ca(ii)n4i2 (taqqeh)
+ca(ii)n5i2 (tanqoo)
+zinc diiodide
+zn(ii)n2i2 (znpydi)
+zn(ii)o2i2 (acaqaw)
+germanium diiodide
+as(iii)ci2 (dimars)
+asc3i (zodjor)
+rubidium iodide, dimer
+strontium diiodide
+sr(ii)n5i2 (tanquu)
+sr(ii)n2o2i2 (taqpuw)
+cis-sr(ii)(h2o)4.i2
+sr(ii)o6i2 (fogrup)
+cd(ii)n3i2 (jaqruo)
+cd(ii)s2i2 (zzzawd01)
+in(iii)i2n2c (dacjia)
+tin diiodide
+dimethyltin diiodide
+sn(iv)s4i2 (carsnb)
+sb(iii)c2i2(-) (eleced)
+te(iv)c2i2 (didmte)
+te(ii)s2i2 (fobbaz)
+boron triiodide
+iodoform
+aluminum triiodide
+triiodosilane
+sisii3 (mefdeg)
+gallium triiodide
+geci3 (cudkiv)
+geci3 (bafnig)
+indium triiodide
+al(iii)i2n2 (dimaal)
+silicon tetraiodide
+sii2csi (qujset)
+als3i (famlek)
+ca2i4
+zn(ii)i4(2-) (bzdazp)
+ga(iii)2i4s2 (digzau)
+ga(iii)4i4s6 (cifmot)
+gei4 (jedxev)
+germanium tetraiodide
+ge2c4i4 (igechd10)
+cd(ii)i4(2-) (hibruf)
+in(iii)i4(-) (ahomit)
+sb(iii)i4(-) (picoia)
+sb2i4
+te(ii)i4(2-) (damfig)
+te(iv)ci4(-) (ijojas)
+aluminum triiodide dimer
+in2i6
+sbi6(-)
+te(iv)i6(2-) (cemfef10)
+te(iv)i6(2-) (izowav)
+cesium, cation
+cesium, 2p(u) - 6s(0)6p(1)
+cesium, 2s(g) - 6s(1)6p(0)
+cesium, atom
+cesium, anion
+methyl cesium
+cesium oxide (cso)
+cesium hydroxide
+csbo2
+cs(i)(c6)2o2(+) (wivrau)
+cesium nitrate
+cs(+)(h2o)4
+cs(+)(h2o)6
+cs(i)o6(+) (csthxd)
+cs(i)(cp)o6 (qextoc)
+cs(i)o6n2(+) (cscryp10)
+cs(0)o8 (dubcim)
+cesium fluoride
+cs(+)(h2o)3.f
+cesium tetrafluoroaluminate
+cesium sulfate, anion
+cesium chloride
+cesium chloride, anion
+cs(+)(h2o)3.cl
+cesium bromide
+cesium bromide, anion
+cs(+)(h2o)3.br
+cesium iodide
+cesium iodide, anion
+cs(+)(h2o)3.i
+cesium, dimer
+cesium, dimer, anion
+cesium oxide (cs2o)
+cesium hydroxide dimer
+cs2o2 (elokof)a
+cesium sulfate
+cesium bromide, dimer
+cesium iodide, dimer
+cs2i3 anion
+cs(i)o3 (qqqaws01)
+barium, dication
+barium(+), 2p(u) 5s(0)5p(1)
+barium, cation
+barium, 1d(g) 5s(0)5p(2)
+barium, 1p(u) 5s(1)5p(1)
+barium, 1s(g) 5s(0)5p(2)
+barium, 1s(g) 5s(2)5p(0)
+barium, 3p(g) 5s(0)5p(2)
+barium, 3p(u) 5s(1)5p(1)
+barium, atom
+ba(ii)(nh3)6
+ba(ii)n6(2+) (bindad10)
+ba(ii)n8(2+) (sarnaa)
+barium oxide
+barium di-hydroxide
+ba(ii)o4n4 (zutgaw)a
+ba(ii)o8(2+) (keffeg)
+ba(ii)o10(2+) (pxcdba)
+ba(ii)o11 (jawzow)
+barium monofluoride
+ba(ii)(h2o)5.f
+barium difluoride
+baf2.2(h2o)
+cis-ba(ii)(h2o)4.f2
+barium sulfide
+barium monochloride
+ba(ii)(h2o)5.cl
+barium dichloride
+bacl2.2(h2o)
+cis-ba(ii)(h2o)4.cl2
+barium dibromide
+babr2.2(h2o)
+ba(ii)n2o2br2
+cis-ba(ii)(h2o)4.br2
+barium monoiodide
+ba(ii)(h2o)5.i
+barium diiodide
+bai2.2(h2o)
+cis-ba(ii)(h2o)4.i2
+mercury, dication
+mercury, cation
+mercury, 1p(u) 4d(10)5s(1)5p(1)
+mercury, 1s(g) 4d(10)5s(2)5p(0)
+mercury, 3p(g) 4d(10)5s(0)5p(2)
+mercury, 3p(u) 4d(10)5s(1)5p(1)
+mercury, atom
+mercury hydride
+methylmercury
+dimethylmercury, cation
+dimethylmercury
+diethylmercury
+di-n-propylmercury
+diisopropylmercury
+diphenylmercury
+methylmercuric cyanide
+mercuric cyanide
+hg(ii)cn(+) (bavmug)
+hg(ii)c2 (begveo)
+hg(ii)n2 (hgacam)
+hg(ii)o2 (hgacet10)
+mercury fluoride
+mercury difluoride
+mercury sulfide
+hg(ii)s2n2 (enhgtc10)
+hg(ii)s2 (aqonoj)
+hg(ii)s4 (hgetcb10)
+hg(ii)s4 (hgthur)
+mercury chloride
+methylmercuric chloride
+ethylmercuric chloride
+n-propylmercuric chloride
+hg(ii)cl2 (bithiv10)
+mercury dichloride
+hg(ii)cl2s2 (ctschg)
+hg(ii)cl3(-) (dotlih)
+[hg(ii)cl4](=)
+mercury bromide
+methylmercuric bromide
+ethylmercuric bromide
+hg(ii)br2 (acnhgb)
+mercury dibromide
+hg(ii)br4(2-) (bopgoc11)
+methylmercuric iodide
+ethylmercuric iodide
+mercury diiodide
+hg(ii)s2i2 (hgitur)
+hg(ii)i4(2-) (dufhob10)
+mercury dimer, cation
+mercury, dimer
+hg(i)hgo (hgflac10)
+hg(ii)ccl (clhgma)
+hg(ii)cl4(2-) (deymup)
+hg(ii)ni2 (eworen)
+hg(ii)ccl (biyfiy)
+hg(ii)cbr (biyfoe)
+thallium (+++)
+thallium, dication
+thallium, cation
+thallium, 2d(g) 6s(1)6p(2)
+thallium, 2p(g) 6s(1)6p(2)
+thallium, 2p(u)  6s(2)6p(1)
+thallium, 4p(g) 6s(1)6p(2)
+thallium, atom
+tl(iii)c2(+) (dmtlaz)
+tl(iii)c3 (tmettl)
+thallium cyclopentadienyl (ref)
+thallium cyclopentadienyl (bad)
+thallium cyclopentadienyl
+tl(i)n3(+) (ducdio)
+tl(iii)n6(3+) (bowkih)
+tl(iii)n4c2(+) (luwwij)
+tl(iii)c2o2 (mtlaca)
+thallium tris-8-quinolinol
+tloh.3(h2o)
+tl(i)(h2o)4
+tl(iii)(h2o)6
+thallium(iii) tris-acetate
+tl(iii)o8(-) (thacth)
+thallium(iii)(edta)
+thallium fluoride
+[tl(iii)f(h2o)5](2+)
+trans-tl(iii)f2(h2o)4(+)
+tl(i)s2 (mdtctl)
+tl(i)s3(+) (sityav)
+tl(iii)o3s3 (jivqek)
+tl(iii)s4(-) (tubmim)
+tl(iii)s6 (mscthl)
+thallium chloride, cation
+thallium chloride
+[tl(iii)cl(h2o)5](2+)
+trans-tl(iii)cl2(h2o)4(+)
+tl(iii)cl4(-) (encotl)
+tl(iii)cl5(2-) (dakwui)
+thallium bromide, cation
+thallium bromide
+[tl(iii)br(h2o)5](2+)
+tl(iii)s4br(2-) (bihhuv)
+trans-tl(iii)br2(h2o)4(+)
+tl(iii)n2br3 (cejmot)
+tl(iii)br4(-) (cafsux)
+tl(iii)br5(2-) (baqwul)
+tl(iii)br6(3-) (feqxii)
+thallium iodide
+[tl(iii)i(h2o)5](2+)
+trans-tl(iii)i2(h2o)4(+)
+tl(iii)i4(-) (bokhue)
+thallium chloride dimer
+lead, 2d(g) 6s(1)6p(2)
+lead, 2p(g) 6s(1)6p(2)
+lead, 4p(g) 6s(1)6p(2)
+lead, cation
+lead, 1d(g) 6s(2)6p(2)
+lead, 1s(g) 6s(2)6p(2)
+lead, 3p(g) 6s(2)6p(2)
+lead, atom
+lead, anion
+lead hydride
+lead tetrahydride (plumbane)
+lithium plumbide
+trimethyllead, cation
+trimethyllead
+pb(iv)c4 (vadrau)
+tetramethyllead
+t-butyltrimethyllead
+tetraethyllead
+bicyclopentadienyllead (plumbocene)
+pb(ii)(cp)2n2 (todhoj01)
+lead oxide
+lead dioxide
+pb(ii)o2(+) (ambopb)
+pb(ii)o4 (abzopb)
+pb(ii)o3n2 (lewpim)
+pb(iv)o6c (nestag)
+lead fluoride
+lead difluoride
+lead sulfide
+pb(ch3)3(ch3s)
+pb(+)f3.h2s
+pb(ii)s2 (diswil)
+pb(ii)n2s2 (xussuz)
+pb(ii)s4 (iptcpb)
+pb(ii)s4(2-) (kajmud)
+pb(ii)o2n2 (iclmsx)
+lead chloride, cation
+lead chloride
+trimethyllead chloride
+lead dichloride, cation
+lead dichloride
+pb(iv)cl2.2(h2s)
+pb(iv)cl5c(2-) (febgoi01)
+lead selenide
+lead bromide
+lead dibromide
+pb(ii)br2o2 (brdmsp)
+lead telluride
+lead iodide
+lead diiodide
+pb(ii)o6i2 (tojpir)
+pb(iv)i6(2-) (follib)
+lead, dimer
+hexamethyldiplumbane
+pb(ii)s3 (gigbih)
+bismuth, dication
+bismuth, cation
+bismuth, 2d(u) - 6s(2)6p(3)
+bismuth, 2p(u) - 6s(2)6p(3)
+bismuth, 4s(u) - 6s(2)6p(1)
+bismuth, atom
+bismuth trihydride
+lithium bismuthide
+trimethylbismuth
+c5h5bi (bismin)
+triethylbismuth
+triphenylbismuth
+bih2-nh2
+bi(iii)o6 (jujvuf)
+bi(iii)o4n4(-) (hadrag)
+bismuth fluoride
+dimethyl bismuth fluoride
+bi(v)c4f (ilikap)
+bismuth difluoride
+bi(v)c2f3 (xulfuf)
+bismuth trifluoride
+bif4(-)
+bif6(-)
+bi(iii)n2s2(+) (femwup)
+bi(iii)n3s3 (femwoj)
+bi(iii)s4c (benxun)
+bi(iii)s6(3+) (clbitu)
+bi(iii)s6 (fexmaw)
+bismuth chloride
+dimethyl bismuth chloride
+diethyl bismuth chloride
+bi(iii)n2ccl2 (ediged)
+bismuth trichloride
+bi(iii)cl4(-) (fercbi10)
+bicl4(-)
+bicl6(-)
+bi(iii)cl6(3-) (acayaf)
+bismuth selenide
+bi(iii)cn2br2 (bimhua)
+bismuth tribromide
+bi(iii)s4br3 (kigdin)
+bi(iii)br6(3-) (dejluz)
+bi(iii)cl2i2(-) (jajfeg)
+bii3, complex
+bismuth triiodide
+bi(iii)n3i3 (bimcuv)
+bi(iii)i4(-) (picibi)
+bi(iii)i6(3-) (koqcau)
+bismuth, dimer
+bi2f4
+bi2f6
+bi2cl4
+bi2cl6
+bi(iii)cl5(2-) (kamwok)
+bi2br4, complex
+bi2br4
+bi2br6
+bi2i4
+bi2i6

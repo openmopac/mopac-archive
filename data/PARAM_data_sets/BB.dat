@@ -1,0 +1,209 @@
+*
+*  Optimize a single element
+*
+s et=../everything.txt  params=../PM7.txt         ref=../norm;../erra;../leve 
+(B)(all) 
+end  
+core-core_B - B heat
+core-core_B - B slope
+core-core_B - O heat
+core-core_B - O slope
+bhr
+bh2r
+b2r
+b2h4c2vr
+b2h6r
+b4h10r
+b5h9r
+b5h11r
+b6h10r
+b10h14r
+c2b4h6r
+me3br
+bh2nh2r
+bh3nh3r
+bh3-nh3, dimer r
+borazoler
+bor
+bh3cor
+bo2r
+obbor
+boric acid r
+b2o3r
+b2o3h2r
+b3o3h3r
+bo3me3r
+b(oh)4, anion r
+(c2h4)bo4h2, anion r
+orthoboric acid, dimer r
+tri-acetyl borate r
+bfr
+bh2fr
+bfh2o2r
+bhf2r
+c6h5bf2r
+bf2nh2r
+bf2or
+bf2ohr
+bf3r
+bf3oh, anion r
+fluoroboric acid anion r
+b2f4r
+nabo2r
+b5h11sir
+sif3-bf2r
+bf3ph3r
+pf3bh3r
+bhsr
+ch3bsr
+bh2clr
+b2h5clr
+bclf2r
+bhcl2r
+bcl3r
+b2cl4r
+b4cl4r
+kbo2r
+kbf4r
+ni(ii)ofn4(+) (enfbni) r
+bbr3r
+rbbo2r
+sr(ii)n6f3 (udiraa) r
+bi3r
+csobo1r
+tlbo2r
+pb(ii)(cp)f2 (valvot) r
+boron, cation
+boron, 2d(g) - 2s(1)2p(2)
+boron, 2p(u) - 2s(2)2p(1)
+boron, 4p(g) - 2s(1)2p(2)
+boron, 4s(u) - 2s(0)2p(3)
+boron, atom
+borane(1)
+b(4-)
+borane(2)
+borane
+b-li(+), separated
+b-be(+), complex
+b-be(+), 1.9 angstroms
+b-be(+), 2.0 angstroms
+boron dimer
+diborane(4)
+diborane
+tetraborane(10)
+pentaborane(9)
+pentaborane(11)
+hexaborane(10)
+decaborane(14)
+c2b4h6
+trimethylborane
+c4b2h6
+triethylborane
+tri-isopropylborane
+tripropylborane
+tri-isobutylborane
+tri-s-butylborane
+tributylborane
+triphenylborane
+tricyclohexylborane
+tri-n-hexylborane
+tri-n-heptylborane
+tri-n-octylborane
+bh3nh3
+n,n-dimethylamine diborane
+trimethyamine-borane adduct
+trimethylborane-ammonia adduct
+trimethylborane-trimethylamine
+bh3-nh3, dimer
+bh3-nh3, dimer (bad)
+borazole
+trisdimethylaminoborane
+boron oxide
+hydroxyborane
+bh3co
+bo2.
+boron oxide hydroxide
+hobo
+dihydroxyborane(1)
+libo2
+o-b-b-o
+dimethoxyborane
+dihydoxyphenylborane
+orthoboric acid
+trihydroxyborane
+b2o3
+b2o3h2
+b3o3h3
+trimethoxyborane
+triethoxyborane
+tetrahydroxydiborane
+orthoboric acid, dimer
+b3o3(oh)3
+tri-acetyl borate
+bf
+bh2f
+fbo
+fluorodihydroxyborane
+b3o3h2f
+bhf2
+difluoroborane (1)
+difluoromethylborane
+methyldifluoroborane
+f2bchch2
+f2bo
+difluorohydroxyborane (1)
+f2boh
+methoxydifluoroborane
+b3o3hf2
+boron trifluoride
+trimethyamine-boron trifluoride
+(ch3)2o-bf3
+(ch3ch2)2o-bf3
+b3o3f3
+fluoroboric acid anion
+tetrafluorodiborane
+nabo2
+trimethylborane-trimethylphosphine
+phosphorus trifluoride-borane
+trimethylphosphine-boron trifluoride
+boron sulfide
+(ch3)2s-bh3
+(ch3ch2)2s-bh3
+bs2
+s-b-b-s
+trimethylthioborane
+triethylthioborane
+tri-n-propylthioborane
+triphenylthioborane
+boron chloride
+bh2cl
+dimethylchloroborane
+bocl
+dimethoxychloroborane
+b3o3h2cl
+chlorodifluorborane
+bhcl2
+dichloroborane (1)
+methyldichloroborane
+methoxydichloroborane
+b3o3hcl2
+dichlorofluorborane
+boron trichloride
+b3n3cl3h3
+b3o3cl3
+b2cl4
+ar-bh3, separated
+ar-bh3, 2.0 angstroms
+ar-bh3, 2.5 angstroms
+kbo2
+boron bromide
+bromodifluoroborane
+dibromoborane (1)
+dibromofluoroborane
+boron tribromide
+kr-bh3, separated
+kr-bh3, 2.0 angstroms
+kr-bh3, 2.5 angstroms
+rbbo2
+boron triiodide
+csbo2

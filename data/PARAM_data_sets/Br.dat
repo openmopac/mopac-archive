@@ -1,0 +1,170 @@
+*
+*  Optimize a single element
+*
+cycles=50 PM7   PARAMS=../PM7.txt  ref=../norm;../erra;../leve 
+(Br)(all) 
+end  
+01 Chloromethane formaldehyde separated
+01 Chloromethane formaldehyde 
+02 Bromomethane formaldehyde separated
+02 Bromomethane formaldehyde 
+03 Iodomethane formaldehyde separated
+03 Iodomethane formaldehyde 
+04 Trifluorochloromethane formaldehyde separated
+04 Trifluorochloromethane formaldehyde 
+05 Trifluorobromomethane formaldehyde separated
+05 Trifluorobromomethane formaldehyde 
+06 Trifluoroiodomethane formaldehyde separated
+06 Trifluoroiodomethane formaldehyde
+07 Chlorobenzene acetone separated
+07 Chlorobenzene acetone 
+08 Bromobenzene acetone separated
+08 Bromobenzene acetone 
+09 Iodobenzene acetone separated
+09 Iodobenzene acetone 
+10 Chlorobenzene trimethylamine separated
+10 Chlorobenzene trimethylamine 
+11 Bromobenzene trimethylamine separated
+11 Bromobenzene trimethylamine 
+12 Iodobenzene trimethylamine separated
+12 Iodobenzene trimethylamine 
+BrO4(-) (really wild guess)
+* H4Br4 (good)
+* H4Br4 (bad)
+sic3br (brmsad)
+Ag(I)Br2(-)_(BTCMAN) r
+Sb-Sb_(DIYCUJ) r
+18-crown-6-dibromo-lead(II) (RUMQEV) r
+18-Crown-6-dibromo-mercury(ii) (POLKEG) r
+Rh2C12Br2
+hbrr
+hebrr
+librr
+ch3brr
+c2hbrr
+brcnr
+li(i)n3br (jeprol) r
+li(i)n3br (gajyev) r
+brhccor
+ch3cobrr
+brnor
+li(i)o4br (cesjuf) r
+li(+)(h2o)5.brr
+brfr
+brfo3r
+brf3r
+cbrf3r
+brf5r
+nebrr
+nabrr
+mgbrr
+mg(ii)o2br(+) (basliq) r
+mg(ii)cbro2 (emgbre10) r
+mgetbro2et4r
+albrr
+sif3brr
+sic3br (brmsad) r
+brsf5r
+brf2psr
+brclr
+ch2clbrr
+arbrr
+kbrr
+k(+)(h2o)5.br r
+br2r
+ch2br2r
+cobr2r
+c4o2br2r
+sobr2r
+bbr3r
+albr3r
+albr3nh3r
+pobr3r
+psbr3r
+scbr3r
+cbr4r
+c2br4r
+al(iii)br2n2 (brmaal) r
+sc(iii)br6r
+c4h4brir
+bromine, cation (br(+))
+bromine, cation, 3p(u) 4s(1)4p(5)
+bromine, 2p(u) 4s(2)4p(5)
+bromine, atom
+bromide, anion
+hydrogen bromide, cation
+hydrogen bromide
+lithium bromide
+beryllium bromide
+boron bromide
+bromomethane
+bromoacetylene
+bromoethylene
+bromoethane
+3-bromopropene
+1-bromopropane
+2-bromopropane
+bromobenzene
+1-bromonaphthalene
+2-bromonaphthalene
+1-bromo-dodecane
+1-bromo-hexadecane
+cyanogen bromide
+3-bromo-3-methyldiazirine
+li(i)n3br (jeprol)
+li(i)n3br (gajyev)
+(mecn)7.br(-)
+bromine oxide
+hypobromous acid
+acetyl bromide
+benzoyl bromide
+nitrosyl bromide
+li(i)o4br (cesjuf)
+li(+)(h2o)5.br
+bromine fluoride
+bromodifluoroborane
+bromodifluoromethane
+1-bromo-1,1-difluoroethane
+bromine trifluoride, d3h
+bromine trifluoride, c2v
+bromine trifluoride
+bromotrifluoromethane
+1-bromo-2,2,2-trifluoroethane
+bromine pentafluoride, d3h
+bromine pentafluoride, c4v
+bromine pentafluoride
+bromopentafluorobenzene
+sodium bromide
+magnesium bromide
+mg(ii)cbro2 (emgbre10)
+silicon bromide
+bromosilane
+trimethylbromosilane
+phosphorus bromide
+bromine chloride, cation
+bromine chloride
+bromochloromethane
+1-bromo-1-chloroethane
+5-chloro-8-bromo-8-hydroxyquinoline
+trichlorobromomethane
+bromine, cation (br2(+))
+bromine
+dibromomethane
+1,1-dibromoethane
+1,4-dibromobutane
+carbonyl bromide
+dibromofluoroborane
+difluorodibromomethane
+1,2-dibromotetrafluoroethane
+bromoform
+1,1,1-tribromoethane
+2,4,6-tribromoaniline
+phosphorus tribromide
+phosphorus oxybromide
+hexabromoethane
+trimethyltin bromide
+tri-n-butyltin bromide
+tin dibromide
+dimethyltin dibromide
+iodine bromide
+1-bromo-4-iodobutadiene

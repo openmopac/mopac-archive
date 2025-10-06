@@ -1,0 +1,9 @@
+*
+*  Optimize a single element
+*
+ cycles=50 params=../PM7.txt PM7 ref=../norm;../erra;../leve;../soli
+xfac_Rb F 
+alpb_Rb F 2 9
+end  
+RbF(s) r
+RbF(s)

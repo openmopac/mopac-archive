@@ -1,0 +1,77 @@
+*
+*  Optimize t
+*
+ cycles=50  par ams=../PM7.txt PM7 ref=../norm;../erra;../leve;../soli    
+end
+oxygen, atom
+hydroxyl radical
+hydroxide, anion
+water
+water_ref
+hydronium, cation
+carbon monoxide
+hco, cation
+hco
+formaldehyde
+ch2oh, cation
+methoxy, radical
+methoxy, anion
+ch3oh
+ch3ohrot
+methanol
+ketene
+acetaldehyde
+ethylene oxide
+ethoxy, anion
+dimethyl ether
+ethanol
+ethanol (anti)
+ethanol, complex
+propynal
+acrolein
+acetone
+propanal
+trimethylene oxide
+isopropanol
+methyl ethyl ether
+methyl ethyl ether, complex
+propanol
+acetyl acetylene
+furan
+2,3-dihydrofuran
+crotonaldehyde
+divinyl ether
+butanal
+isobutanal
+methyl ethyl ketone
+tetrahydrofuran
+diethyl ether (tt)
+diethyl ether gg
+diethyl ether
+oxygen (singlet)
+oxygen (triplet)
+h2o2
+h2o2cis
+h2o2trans
+hydrogen peroxide
+water dimer structure 0 (non-planar open cs)
+water dimer structure 1 (non-planar open cs)
+water dimer structure 10 (planar bifurcated c2v)
+water dimer structure 2 (open ci)
+water dimer structure 3 (planar open cs)
+water dimer structure 4 (cyclic ci)
+water dimer structure 5 (cyclic c2)
+water dimer structure 6 (cyclic c2h)
+water dimer structure 7 (triply hydrogen bonded cs)
+water dimer structure 8 (non-planar bifurcated c2v)
+water dimer structure 9 (non-planar bifurcated c2v)
+h(+)(h2o)2
+carbon dioxide
+formate, anion
+formic acid
+trans glyoxal
+acetate, anion
+acetic acid
+methyl formate
+dimethyl peroxide
+ethylene glycol

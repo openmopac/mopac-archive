@@ -1,0 +1,9 @@
+*
+*  Optimize a single element
+*
+cycles=50 params=../PM7.txt PM7 ref=../norm;../erra;../leve;../soli 
+ ALPB_Ge Ge
+ XFAC_Ge Ge
+end
+Germanium (Ge) (ICSD 636535) cubic r.mop
+Germanium (Ge) (ICSD 636535) cubic 

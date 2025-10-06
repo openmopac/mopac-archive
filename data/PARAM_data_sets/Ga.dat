@@ -1,0 +1,119 @@
+ cycles=50 params=PM7.txt PM7 ref=../norm;../erra;../leve 
+(Ga)(all)
+end
+core-core_Ga - H near
+core-core_Ga - H far
+core-core_Ga - O near
+core-core_Ga - O far
+core-core_Ga - F near
+core-core_Ga - F far
+core-core_Ga - Cl near
+core-core_Ga - Cl far
+core-core_Ga - Ga near
+core-core_Ga - Ga near slope
+core-core_Ga - Br near
+core-core_Ga - Br far
+core-core_Ga - I near
+core-core_Ga - I far
+gahr
+ga(me)3r
+ga(et)3r
+ga(iii)c3 (dmgacp) r
+ga(iii)(c6)(+) (cuttug) r
+ga(iii)o2c2 (bezhap) r
+ga(oh)3r
+ga(ome)3r
+ga(iii)o6 (acacga) r
+ga(iii)(pc)3(3-)r
+gallium (iii) edta r
+ga(iii)(edta) (edtaga01) r
+ga(iii)o6(3-) (cokfir) r
+gafr
+ga(iii)c2f2(-) (cupquz) r
+[ga(iii)f2.(me2n)](+)r
+gaf3r
+ga(iii)f6(3-) (buyfoq01) r
+ga(ch3o)2(ch3s)r
+[ga(iii)f2](+).h2sr
+ga(iii)s6 (edtcga01) r
+gaclr
+game3cl_ani_r
+game2cl2_ani_r
+ga(iii)cncl2 (afajum) r
+ga(iii)n2cl2 (abisot) r
+gacl3r
+gamecl3_ani_r
+gacl3nh3r
+ga(iii)cl4(-) (amifil) r
+gacl4_ani_r
+ga(iii)2n4c4 (dmpzga) r
+ga2or
+ga(iii)2n2o2c4 (barneo) r
+ga(iii)2o4c4 (dmgaox)r
+ga2cl2h4r
+ga2cl6r
+gabrr
+gabr3nh3r
+ga(iii)br4(-) (agogae) r
+ga(iii)2n2br4 (bawvea) r
+ga2br6r
+inh3-gah3r
+gair
+gah3-hir
+gai3r
+ga(iii)2i4s2 (digzau) r
+ga(iii)4i4s6 (cifmot) r
+gallium, trication
+gallium, dication
+gallium(+), 1p(u) - 4s(1)4p(1)
+gallium(+), 1s(g) - 4s(2)4p(0)
+gallium(+), 3p(u) - 4s(1)4p(1)
+gallium, cation
+gallium, 2p(u) - 4s(2)4p(1)
+gallium, 4p(g) - 4s(1)4p(2)
+gallium, atom
+gallium, anion
+gallium hydride
+trimethyl gallium
+triethylgallium
+ga(iii)c3 (dmgacp)
+ga(iii)(c6)(+) (cuttug)
+tributylgallium
+gallium oxide
+gallium hydroxide
+ga(iii)o2c2 (bezhap)
+ga(oh)3
+trimethoxy gallium
+ga(iii)o6 (acacga)
+ga(iii)(pc)3(3-)
+gallium (iii) edta
+ga(iii)(edta) (edtaga01)
+ga(iii)o6(3-) (cokfir)
+gallium fluoride
+ga(iii)c2f2(-) (cupquz)
+[ga(iii)f2.(me2n)](+)
+gallium trifluoride
+ga(iii)f6(3-) (buyfoq01)
+ga(ch3o)2(ch3s)
+[ga(iii)f2](+).h2s
+ga(iii)s6 (edtcga01)
+gallium chloride
+ga(iii)cncl2 (afajum)
+ga(iii)n2cl2 (abisot)
+gallium trichloride
+gallium trichloride - ammonia complex
+ga(iii)cl4(-) (amifil)
+gallium, dimer
+ga(iii)2n4c4 (dmpzga)
+ga(iii)2n2o2c4 (barneo)
+ga(iii)2o4c4 (dmgaox)
+ga2s
+gallium trichloride, dimer
+gallium bromide
+gallium tribromide
+ga(iii)br4(-) (agogae)
+ga(iii)2n2br4 (bawvea)
+gallium iodide
+gallium triiodide
+ga(iii)2i4s2 (digzau)
+ga(iii)4i4s6 (cifmot)

@@ -1,0 +1,9 @@
+*
+*  Optimize a single element
+*
+cycles=50 params=../PM7.txt PM7 ref=../norm;../erra;../leve;../soli 
+ ALPB_K Mo
+ XFAC_K Mo 
+end
+core-core_K - Mo near
+core-core_K - Mo far

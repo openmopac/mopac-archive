@@ -1,0 +1,9 @@
+*
+*  Optimize a single element
+*
+params=../PM7.txt PM7 ref=../norm;../erra;../leve;../soli
+Alpb_Nb Nb
+Xfac_Nb Nb
+end  
+Niobium (Nb) (ICSD 76416) bcc.mop
+Niobium (Nb) (ICSD 76416) bcc r

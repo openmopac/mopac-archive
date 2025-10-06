@@ -1,0 +1,9 @@
+*
+*  Optimize a single element
+*
+params=../PM7.txt PM7 ref=../norm;../erra;../leve;../soli
+alpb_Ba S
+xfac_Ba S
+end  
+Barium sulfide (BaS) (ICSD 1210822) r.mop
+Barium sulfide (BaS) (ICSD 1210822) 

@@ -1,0 +1,134 @@
+*
+*  Optimize a single element
+*
+cycles=50 PM7 params=../PM7.txt ref=../norm;../erra;../leve;../soli
+(In)(all) 
+end  
+core-core_In - C near
+core-core_In - C far
+core-core_In - N near
+core-core_In - N far
+core-core_In - O near
+core-core_In - O far
+core-core_In - F near
+core-core_In - F far
+core-core_In - P near
+core-core_In - P far
+core-core_In - Cl near
+core-core_In - Cl far
+core-core_In - As near
+core-core_In - As far
+core-core_In - Br near
+core-core_In - Br far
+core-core_In - In near
+core-core_In - In near slope
+core-core_In - Te near
+core-core_In - Te far
+core-core_In - I near
+core-core_In - I far
+* InF6(3-) (good)
+* InF6(3-) (bad)
+inhr
+in(iii)c2(+) (dminbr) r
+in(iii)c3 (trmein) r
+inme3r
+in(iii)c4(-) (cmeind) r
+in(iii)(nh3)6r
+in(oh)3r
+in(iii)(h2o)6r
+in(iii)o6 (acacin) r
+in(iii)(pc)3(3-)r
+in(iii)n2o6 (bpacin) r
+indium(iii)(edta)(-) r
+in(iii)(ox)3(3-)r
+infr
+in(iii)f2c2(-) (cuprio) r
+inf3r
+in(iii)f6(3-) (lorcie) r
+in(iii)c3p (fobfae) r
+inf2(ch3s)r
+inf2(me2s)(+)r
+inclr
+in(iii)s2n2cl (tupbah) r
+in(iii)c2cl2(-) (aqifel) r
+in(iii)cl2o2n2 (cakcas) r
+incl3r
+in(iii)o2cl3 (vukkob) r
+in(iii)cl6(3-) (fuvcaa) r
+inh3-gah3r
+inser
+inbrr
+in(iii)c2br2(-) (masmbi) r
+inbr3r
+in(iii)cbr3 (petnux) r
+in(((i)clbr3(-) (bupnab) r
+in(iii)c2n2 (amdmin) r
+in2or
+in2f6r
+in2cl6r
+in2ser
+in2br6r
+insbh4r
+in2ter
+inir
+in(iii)n2ibrin (cihpoy) r
+in(iii)i2n2c (dacjia) r
+ini3r
+in(iii)i4(-) (ahomit) r
+in2i6r
+indium (+++)
+indium, dication
+indium, cation
+indium, 2p(u)  5s(2)5p(1)
+indium, 4p(g) - 5s(1)5p(2)
+indium, atom
+indium hydride
+in(iii)c2(+) (dminbr)
+in(iii)c3 (trmein)
+trimethyl indium
+in(iii)c4(-) (cmeind)
+in(iii)(nh3)6
+indium oxide
+indium hydroxide
+in(oh)3
+in(iii)(h2o)6
+in(iii)o6 (acacin)
+in(iii)(pc)3(3-)
+in(iii)n2o6 (bpacin)
+indium(iii)(edta)(-)
+in(iii)(ox)3(3-)
+indium fluoride
+in(iii)f2c2(-) (cuprio)
+indium trifluoride
+in(iii)f6(3-) (lorcie)
+indium(ii) sulfide
+inf2(ch3s)
+inf2(me2s)(+)
+indium chloride, cation
+indium chloride
+in(iii)s2n2cl (tupbah)
+in(iii)c2cl2(-) (aqifel)
+in(iii)cl2o2n2 (cakcas)
+indium trichloride
+in(iii)cl6(3-) (fuvcaa)
+indium selenide
+indium bromide
+in(iii)c2br2(-) (masmbi)
+indium tribromide
+in(iii)cbr3 (petnux)
+in(((i)clbr3(-) (bupnab)
+indium, dimer
+in(iii)c2n2 (amdmin)
+in2f6
+indium(i) sulfide
+diindium trichloride
+in2cl6
+in2br6
+indium antimonide
+indium diantimonide
+indium iodide
+in(iii)n2ibrin (cihpoy)
+in(iii)i2n2c (dacjia)
+indium triiodide
+in(iii)i4(-) (ahomit)
+in2i6

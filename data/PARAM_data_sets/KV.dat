@@ -1,0 +1,8 @@
+*
+*  Optimize a single element
+*
+params=../PM7.txt PM7 ref=../norm;../erra;../leve;../soli
+Alpb_K V   
+Xfac_K V   
+end  
+Potassium oxovanadium(IV) phosphate(V) (KVPO5) r

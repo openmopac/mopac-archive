@@ -1,0 +1,11 @@
+*
+*  Optimize a single element
+*
+cycles=50 params=../PM7.txt PM7 ref=../norm;../erra;../leve;../soli
+Alpb_Mo F
+Xfac_Mo F
+end  
+Molybdenum(vi) hexafluoride (MoF6) (ICSD 36219).mop
+Molybdenum(vi) hexafluoride (MoF6) (ICSD 36219) r
+Molybdenum(iii) trifluoride (MoF3) r.mop
+Molybdenum(iii) trifluoride (MoF3) 
