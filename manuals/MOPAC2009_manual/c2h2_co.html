@@ -1,0 +1,66 @@
+<html>
+<head>
+<meta http-equiv="Content-Language" content="en-us">
+<meta name="GENERATOR" content="Microsoft FrontPage 5.0">
+<meta name="ProgId" content="FrontPage.Editor.Document">
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<title>Locating transition states: C2H2 + CO</title>
+</head>
+<body>
+<h1>Addition of CO to C<sub>2</sub>H<sub>2</sub></h1>
+<p>The method used is AM1, although other methods could, of course, be used.&nbsp;
+The calculations described here do not depend on the method used.</p>
+<h4 align="center">Description of Reactants:<img border="0" src="c2h2_c1.gif" width="123" height="91" align="right"></h4>
+<p>&nbsp;Acetylene and CO form distinct species separated by a
+large distance.<br>
+&nbsp;The C - C distance is 1.195Angstroms, and the C-O distance is 1.171 Angstroms.<font face="Symbol">
+D</font>H<sub>f</sub> C<sub>2</sub>H<sub>2</sub>: +54.78 Kcal/mol;
+<font face="Symbol">D</font>H<sub>f</sub> CO: -5.70 Kcal/mol;
+<font face="Symbol">&nbsp;D</font>H<sub>f</sub> C<sub>2</sub>H<sub>2</sub> + CO:&nbsp;
++48.49 Kcal/mol.</p>
+<p>&nbsp;</p>
+<h4 align="center">Description of Transition State:<img border="0" src="c2h2_c2.gif" width="88" height="110" align="right"></h4>
+<p>The C -- O distance has increased only slightly&nbsp; to 1.181 Angstroms, <br>
+the C=C distance is 1.319 A, and the C -- C distances are 1.405 and 1.983 Angstroms.
+<font face="Symbol">D</font>H<sub>f</sub>:&nbsp; +79.66 Kcal/mol</p>
+<p align="center">&nbsp;</p>
+<h4 align="center">Description of Products:<img border="0" src="c2h2_c3.gif" width="125" height="116" align="right"></h4>
+<p>In -[CH=CH-CO]-, point group C2v, the C=C distance is 1.349A, C-C distance is
+1.437 Angstroms and the C-O distance is 1.214 A. <font face="Symbol">D</font>H<sub>f</sub>
+C<sub>3</sub>H<sub>2</sub>O: +49.55 Kcal/mol<br>
+&nbsp;</p>
+<p>&nbsp;</p>
+<p align="left">Use of a <a href="grid_calc.html">GRID </a>to generate the
+transition state:<img border="0" src="c2h2_c4.gif" width="173" height="173" align="right"></p>
+<p align="left">The obvious way to find the transition state
+is to generate the potential energy surface map in which one direction
+represented
+the C<sub>1</sub> -- CO distance and the other represented theC<sub>1</sub> --
+CO distance.&nbsp; In this map, the C - C distances are varied from 1.4 to 2.4
+A.&nbsp;&nbsp; The resulting map does, indeed, contain a good approximation to
+the transition state, indicated by the small grey ball in the picture.&nbsp; The
+spikes in the graphic were caused by hysteresis; these can be eliminated by
+adding <a href="smooth.html"><TT>SMOOTH</TT></a> to the keywords, as shown in the second
+PES figure.&nbsp; At all times, the system is planar, and at large and very
+small C -- C distances, it is C2v.&nbsp; At intermediate distances, the C=O is
+in almost a straight line with the shorter C -- C bond.&nbsp; When the two C --
+C bonds are equal in length, the C=O is tilted either to one side or the other.&nbsp;
+If it is tilted one way and the C -- C bonds become unequal, the system will
+become either the lowest energy conformer, or it will become the higher energy
+conformer. Distortion out-of-plane involves an increase in energy, and returning
+to C2v also involves an increase in energy.&nbsp; Therefore there is a barrier
+between the two conformers.&nbsp; This reaches an extreme in the region of the
+yellow spikes near the center of the picture.&nbsp;<img border="0" src="c2h2_c5.gif" width="201" height="166" align="right"> The reason for the
+complicated, and obviously incorrect structure, is that the map is asked to
+represent two contradictory quantities: the lowest energy structure for a given
+pair of C -- C distances, and the conformer nearest to the previous point.&nbsp;
+If the latter requirement were removed, then the PES would, indeed be smooth,
+but with a sharp ridge in the region where the two C -- C distances are equal.&nbsp;
+This would be the point at which the C=O &quot;flips&quot; from one side to the other.</p>
+<p align="left">The files used in these calculation can be found in the
+<a href="C2H2+CO.zip">ZIP</a> file.</p>
+<p align="left">&nbsp;</p>
+<p align="center">&nbsp;</p>
+<p align="center">&nbsp;</p>
+</body>
+</html>

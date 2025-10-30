@@ -1,0 +1,161 @@
+<HTML>
+<HEAD>
+<TITLE>Preconditioning Proteins) </TITLE>
+                                                                                                                    </HEAD>
+<BODY LINK="#0000ff" VLINK="#800080" BGCOLOR="#ffffff">
+<h1 align="center">
+Preconditioning Proteins </h1>
+<h2 align="left">
+Introduction</h2>
+<p align="left">
+The <a href="mozyme.html">MOZYME</a> function provides a very powerful tool for the study of proteins, in 
+particular globular proteins.&nbsp; Only systems that can be described with a 
+closed shell wavefunction can be modeled.&nbsp; In addition to proteins composed 
+only from the standard 20 residues, more complicated proteins, such as 
+bacteriorhodopsin, myoglobin, 
+cytochrome-P450, and hemoglobin can also be modeled.&nbsp; Organometallic 
+enzymes, particularly those involving the heme system, are normally regarded as 
+open shell, but their structures can apparently be represented with good 
+accuracy using the PM6 RHF method.&nbsp; No problems should occur 
+with even quite large systems: structures of systems of almost 10,000 atoms have 
+been optimized in a few CPU weeks.&nbsp; However, problems are likely to 
+occur in systems with significantly more than 10,000 atoms. </p>
+<p align="left">
+The most difficult operation in calculating protein structures involves 
+preparing the data set.&nbsp; None of the common sources of reference data for 
+protein geometries are suitable for use as a data set.&nbsp; This includes, in 
+particular, the <a href="http://www.rcsb.org/pdb/home/home.do">Protein Data Bank</a> 
+(the PDB). While all the proteins used in developing the MOZYME function were 
+obtained from the PDB, in every case extensive work had to be done in preparing 
+a data set that could be run using MOZYME.&nbsp; Common deficiencies or features 
+that make the raw PDB files unsuitable are:</p>
+<ul>
+  <li>
+<p align="left">
+For most PDB entries, hydrogen atoms are missing.&nbsp; </li>
+<li>
+<p align="left">
+There might be positional disorder (groups of atoms can occupy two possible 
+conformations, and the PDB file records both)</li>
+<li>
+<p align="left">
+There might be structural disorder (different residues in the same position in 
+the sequence, e.g. ILE and LEU might both be present a fraction of the time in a 
+given position.)</li>
+<li>
+<p align="left">
+Residues might be missing.&nbsp; (These are usually only those residues on the 
+surface of a protein that are not involved in activity, and are not tightly 
+bound.)</li>
+<li>
+<p align="left">
+Exotic atoms might be present, e.g. Hg, Sm, or La.</li>
+</ul>
+<p align="left">
+All these features and faults must be addressed before a MOZYME run can be 
+started.</p>
+<h2 align="left">
+Recommended Sequence for Preconditioning a Protein Data Set</h2>
+<p align="left">
+1.
+Before starting, get a copy of the data set representing the protein of 
+interest; the PDB is an excellent source for such data files. </p>
+<p align="left">
+2.
+The first operation is to resolve positional and structural disorder.&nbsp; Most 
+GUIs that can handle PDB files will be able to do this when the data set is read 
+in.&nbsp; Look at the data set.&nbsp; If there are gaps in the residue sequence, 
+find out whether these represent genuine gaps or represent missing data.&nbsp; 
+Normally, gaps are not very important, and can safely be ignored. The rare case 
+is when there are one or more residues missing inside the protein - this 
+normally would require the missing residues to be replaced.</p>
+<p align="left">
+3.
+If necessary, add hydrogen atoms.&nbsp; Even if the protein already has hydrogen 
+atoms, quite often several of them are missing.&nbsp; During this operation, 
+several problems can occur. The commonest complications are:</p>
+<ul>
+  <li>
+<p align="left">
+Too many or too few hydrogen atoms are added to a heavy atom resulting in an 
+ionized site.&nbsp; Ensure that all atoms are formally neutral, this includes 
+all the carboxylate and primary amine groups.&nbsp; All carboxylate groups 
+should be neutral, e.g. -COOH, not -COO(-), as should all primary amines, e.g. 
+-NH<sub>2</sub>, not -NH<sub>3</sub>(+) .&nbsp; </li>
+<li>
+<p align="left">
+Too many or too few hydrogen atoms are added to a heavy atom resulting in the 
+wrong saturation.&nbsp; Thus if a phenyl group has excess hydrogen atoms, it 
+might be converted to a cyclohexane.</li>
+<li>
+<p align="left">
+Check hetero groups carefully.&nbsp; Thus heme should have the correct porphyrin 
+ring structure, and small hetero groups, such as carbon monoxide and molecular 
+oxygen, should not have &quot;extra&quot; hydrogen atoms.</li>
+</ul>
+<p align="left">
+4.
+Prepare a MOPAC data set; use Cartesian coordinates.&nbsp; In the first 
+run, use keywords <a href="zero_scf.html">0SCF</a> and <a href="reseq.html">RESEQUENCE</a>.&nbsp; This will re-arrange the 
+atoms into the standard PDB sequence.&nbsp; All hydrogen atoms that were added 
+will be moved to be with the heavy atoms of the residue. Using a GUI, look at 
+the resulting structure.&nbsp; There should be no unknown residues.&nbsp; If 
+there are, and you're sure that they are correct, use keyword 
+<a href="xeno.html">XENO</a> to allow the 
+unknown residue to be related to one of the 20 standard residues. This step is 
+not essential, but if it's done then potential problems associated with the 
+unusual residue can be more rapidly located., if it's not done, the unknown residue will be indicated as UNK</p>
+<p align="left">
+5.
+Use the output to prepare a new data set.&nbsp; Run this set using keywords 
+<a href="charges.html">CHARGES</a>. If a message of the type:</p>
+<p align="left">
+For atom 2401 number of bonds: 6: 1451 2402 2441 2442 2443 2478</p>
+<p align="left">
+is printed, the data set will need to be modified to remove one or more bonds.&nbsp; 
+In this example, atom 2401, an iron atom in a heme ring, forms four bonds to the 
+nitrogen atoms of the porphyrin ring, and two bonds to ligands above and below 
+the ring.&nbsp; If these two bonds are removed, the job should be able to 
+continue.&nbsp; The bonds can be removed with the keyword:</p>
+<p align="left">
+<a href="CVB.html">CVB(2401:-1451,2401:-2478) </a> </p>
+<p align="left">
+Once the extra bonds are removed, a list of all charged 
+sites found will be printed at the end of the output.&nbsp; Ideally, this list should be empty, but in practice most data 
+sets at this point contain charged sites.&nbsp; Using the GUI, carefully look at 
+the various sites, and work out what needs to be changed.&nbsp; Be aware that MOZYME will break bonds as necessary to ensure that each atom only bonds to a 
+maximum of four other atoms.&nbsp; This can result in apparent charges, thus H<sub>2</sub>SO<sub>4</sub> 
+would involve S<sup>2+</sup>, two hydroxyl groups, and two O<sup>-</sup> ions. 
+Likewise, SF<sub>6</sub> would be represented as [SF<sub>4</sub>]<sup>2+</sup> + 
+2F<sup>-</sup>.&nbsp; Make any corrections necessary. If corrections are made, 
+consider re-running RESEQUENCE. </p>
+<p align="left">
+6. Prepare a new data set.&nbsp; Change all optimization flags from 1 to 0.&nbsp; 
+Run this set using CUTOFF=6, GNORM=30, and OPT-H.&nbsp; That will optimize the positions of 
+all the hydrogen atoms.</p>
+<p align="left">
+7. After the job has run, use the .arc file to make a new data set.&nbsp; Run 
+this new set with keywords 0SCF and PDBOUT.&nbsp; Examine the resulting file to 
+see if any hydrogen atoms have migrated to form salt bridges.&nbsp; If they 
+have, examine the bridge to see if it is chemically sensible.</p>
+<p align="left">
+8. If everything is still okay, edit the data set to change all optimization 
+flags from 0 to 1, and re-run with keywords CUTOFF=6 GNORM=30 T=7d plus a CVB 
+keyword, if necessary. </p>
+<p align="left">
+9. If desired, add all the PDB preamble (everything in the PDB file from 
+&quot;HEADER&quot; to the line before the first atom) to the data set as comments.&nbsp; 
+Put an asterisk at the start of each comment to indicate that it is a comment.&nbsp; 
+If desired, add the keyword&nbsp; <TT>
+START_RES(<i>text</i>)</TT>.&nbsp; If the preamble, and <TT>
+START_RES(<i>text</i>)</TT> if necessary, is added, then when PDBOUT is used, 
+the resulting file will be almost indistinguishable from a regular PDB file. </p>
+<p align="left">
+10. Once the job finishes, edit the ARC file to make a new data set with keywords 
+CUTOFF=9 GNORM=10 T=7d plus the CVB is necessary, and re-run.</p>
+<p align="left">
+11. Edit the ARC file to make a preconditioned starting MOPAC data set.&nbsp; 
+This can be used for following a reaction path, finding a transition state, etc.&nbsp; </p>
+
+</BODY>
+</HTML>

@@ -1,0 +1,37 @@
+<HTML>
+<HEAD>
+<TITLE>GEO-OK </TITLE>
+                                                                                                                  </HEAD>
+<BODY LINK="#0000ff" VLINK="#800080" BGCOLOR="#ffffff">
+<H2>
+<TT>GEO-CHECK</TT> </H2>
+<P>Normally, a calculation would run without any problems.&nbsp; In some jobs,
+the results might initially appear to be correct, but on further examination,
+certain subtle faults could be detected.&nbsp; These faults can automatically be
+found by adding <TT>GEO-CHECK, </TT>in which case the job would be stopped if
+such errors were detected. The types of errors that could be detected are:</P>
+<P><b>Dynamic Jahn-Teller Effect</b><br>
+In order for C.I. calculations to be valid, the SCF energy levels used in the C.I. calculation must be different from those which are not used in the C.I. In other words, a degenerate manifold must not be partly included in a C.I.
+An example would be methane, if a C.I. were set up involving two M.O.s.&nbsp;
+The M.O.s are three fold degenerate, therefore such a C.I. would be invalid,
+although the effect of the C.I. would be very small.&nbsp; A more important
+example is found in the octahedral transition metal complexes in which dynamic
+Jahn-Teller effects can occur, e.g. [Ti<sup>III</sup>F<sub>6</sub>]<sup>3-</sup>,
+a d<sup>1</sup> system, in which the single &quot;d&quot; electron is shared equally by
+the three t<sub>2g</sub> molecular orbitals. If the C.I. involves some, but not
+all, components of the degenerate set of M.O.s, then the system will Jahn-Teller
+distort, and the octahedral symmetry of the wave-function will be lost.&nbsp; To
+detect such a condition, add <TT>GEO-CHECK</TT>.&nbsp; This is the most
+important use of this keyword.</P>
+<P>If a transition state is being calculated in internal coordinates and all the
+coordinates are flagged for optimization, sometimes the internal coordinate
+gradients can all be very small and the Cartesian coordinate gradients be large.&nbsp;
+This is a very rare condition.&nbsp; If it occurs, there will be a warning
+message printed.&nbsp; To kill such a job, add <TT>GEO-CHECK.</TT></P>
+<P>If the geometry is specified in internal coordinates and large rings exist
+and the <A HREF="bfgs.html"><TT><FONT COLOR="#0000ff"><U>BFGS</U></FONT></TT></A>
+optimizer used, the optimization might be slowed down and the geometry might not
+be optimized correctly.&nbsp; To avoid wasting CPU time, <TT>GEO-CHECK</TT>
+should be specified.</P>
+</BODY>
+</HTML>

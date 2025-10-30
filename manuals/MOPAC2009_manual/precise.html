@@ -1,0 +1,14 @@
+<HTML>
+<HEAD>
+<TITLE>PRECISE </TITLE>
+                                                                                                                    </HEAD>
+<BODY LINK="#0000ff" VLINK="#800080" BGCOLOR="#ffffff">
+<h1 align="center">
+<TT>PRECISE</TT> </h1>
+<P>The criteria for terminating all optimizations, electronic and geometric, are to be increased by a factor, normally 100. This can be used where more precise results are wanted. If the results are going to be used in a <TT>
+<a href="force.html">FORCE</a></TT> calculation, where the geometry needs to be known quite precisely, then <TT>PRECISE</TT> is recommended; for small systems the extra cost in CPU time is minimal. <TT>PRECISE</TT> is not recommended for experienced users; instead, <TT>
+<a href="gnorm.html">GNORM=<I>n</I>.<I>nn</I></a></TT> and <TT>
+<a href="scfcrt.html">SCFCRT=<I>n</I>.<I>nn</I></a></TT> or <TT>
+<a href="relscf.html">RELSCF=<I>n</I>.<I>nn</I></a><I> </I></TT> are suggested. <TT>PRECISE</TT> should only rarely be necessary in a <TT>FORCE</TT> calculation: all it does is remove quartic contamination, which only affects the trivial modes significantly, and is very expensive in CPU time.</P>
+</BODY>
+</HTML>

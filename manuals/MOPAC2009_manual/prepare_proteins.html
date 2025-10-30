@@ -1,0 +1,284 @@
+<HTML>
+<HEAD>
+<TITLE>Examples of calculations involving Proteins</TITLE>
+</HEAD>
+<body bgcolor=white>
+<!--Navigation Panel-->
+<h1 align="center">Examples of calculations involving Proteins</h1>
+<H2 align="left"><u>Preparing a raw data dataset</u></H2>
+<p align="left">One of the best resources for starting protein structures is the
+<a href="http://www.rcsb.org/pdb/home/home.do">Protein Data Bank</a>. The PDB 
+contains structures for a huge number of proteins, and is being continuously 
+updated.&nbsp; Not all structures are of high accuracy, for example older X-ray 
+structures often have unrealistic interatomic distances, however in such cases 
+the tertiary structures are still good enough for all routine work.&nbsp; NMR 
+structures should be avoided - whenever NMR geometries are optimized, the RMS 
+difference between the optimized and NMR structure is much larger than the X-ray 
+equivalent.</p>
+<h3 align="left">Choice of PDB structure</h3>
+<p align="left">Before starting work on proteins, careful thought should be 
+given to deciding what it is that is to be done.&nbsp; If the objective is to 
+compare the predicted structure with the X-ray structure, then almost any X-ray 
+structure would do.&nbsp; If the objective is to model a reaction or a docked 
+substrate, then a lot of human effort can be saved by selecting a structure that 
+includes an inhibitor.&nbsp; First of all, the inhibitor shows where the 
+substrate should be and its approximate orientation.&nbsp; When the geometry is 
+optimized, the inhibitor can then be converted into the desired substrate, and 
+the geometry re-optimized to give either the reactants, transition state, or 
+products. </p>
+<p align="left">If there are several entries in the PDB that meet the desired 
+criteria, then select the one that is most complete. Download the PDB source 
+file, and edit it to make a MOPAC data set. MOPAC data sets can use internal or 
+Cartesian coordinates, or a mixture of the two types.&nbsp; In protein 
+work, use Cartesian coordinates for all atoms except when a reaction path is 
+involved, in which case a single atom (the moving atom) would normally be in 
+internal coordinates.&nbsp; </p>
+<h3 align="left">Preconditioning</h3>
+<p align="left">Most PDB entries lack hydrogen atoms, and many have positional 
+or structural disorder.&nbsp; Fortunately, when the focus of the work is to 
+model the active site, structural disorder is almost always unimportant - the 
+difference between a Leu and an Ile far from the active site never affects the mechanism.&nbsp; Likewise, 
+positional disorder is also unimportant.&nbsp; For positional disorder to exist, 
+the energies of the two conformers must be similar, so obviously either one can 
+be chosen.&nbsp; </p>
+<p align="left">Use a third-party program to add hydrogen atoms.&nbsp; Ideally, 
+that program would add hydrogen atoms correctly, but every program thus far examined has 
+limitations.&nbsp; Most programs look at a residue, and decide whether to ionize 
+it without consideration of the environment.&nbsp; So if the sequence -Glu-Glu-Glu- 
+were to occur, all three residues would be ionized; this can result in 
+unrealistic charges.&nbsp; To see why, consider a dicarboxylic acid, e.g., 
+succinic acid. The first pKa might be low, but the second is inevitably high, 
+indicative of the fact that the di-ion is unstable.&nbsp; A useful strategy to 
+avoid unrealistic states of ionization is to first neutralize all charges.&nbsp; 
+This is not as drastic as it sounds - during the geometry optimization, protons 
+can migrate from acid to base residues to form salt bridges.&nbsp; If a specific 
+proton does not migrate, the data set can be edited so that the proton is moved. 
+After re-optimizing the geometry, the decision can be made regarding the 
+preferred state based on the total heat of formation.&nbsp; </p>
+<p align="left">Once the hydrogen atoms have been added, run a calculation 
+using the  keywords&nbsp; <TT> <a href="charges.html">CHARGES</TT></a> and <TT>
+<a href="residues.html">RESIDUES</TT></a>.&nbsp; In the output, check for the 
+message &quot;Residues where the number of hydrogen atoms is not equal to that 
+expected.&quot;&nbsp; If the message exists, carefully examine the residues indicated.&nbsp; 
+If any residues are ionized, edit the data set to remove the ionization.&nbsp; 
+Any residues that are not recognized are the result of either a mistake, in which case 
+correct it, or are a hetero group - a non-standard residue.&nbsp; If that 
+is the case, use <a href="xeno.html"><TT>XENO</TT></a> to allow it to be recognized.&nbsp; 
+It is not necessary that all residues be&nbsp; recognized in order for the calculation to run, 
+but when they are all properly identified, the probability of errors in the data 
+set is reduced.&nbsp; Also check any hetero groups, such as heme or retinal, to 
+verify that the hydrogenation is correct.</p>
+<h3 align="left">Preliminary geometry optimization - Hydrogen atoms only</h3>
+<p align="left">Before optimizing the entire structure, a useful operation is to 
+optimize the positions of the hydrogen atoms.&nbsp; This is done using
+<a href="nooptx.html"><TT>NOOPT</TT></a> and <a href="optx.html"><TT>OPT-H</TT></a>. 
+As this is only a rough calculation, there is no need for high precision, so two 
+additional keywords can be used here, <a href="cutoff.html"><TT>CUTOFF=6</TT></a>, and
+<a href="gnorm.html"><TT>GNORM=5</TT></a>.&nbsp; These keywords will reduce the 
+CPU effort by over 50%.&nbsp; Once the geometry is optimized, check the 
+ionization states.&nbsp; The &quot;salt rules&quot; should be obeyed: for every ionized 
+residue, there should be a counterion near to it.&nbsp; Less strict, but still 
+important, every possible hydrogen bond should exist. The one exception to the 
+salt rules is that all Arg should be ionized.&nbsp; If any Arg are not ionized, 
+ionize them &quot;by hand&quot; and if there are potential counterions nearby, ionize them 
+to balance the charge.&nbsp; If there are no counterions, put a net charge on 
+the system. When you're satisfied that the geometry is good, save a copy of the 
+data set.&nbsp; This represents a clean starting point based on the PDB 
+structure. In the following discussion, we'll refer to this structure as PDB.mop</p>
+<p align="left">Another useful operation to do at this point is to re-sequence 
+the atoms into the standard PDB format.&nbsp; This is done with keyword
+<a href="reseq.html"><TT>RESEQ</TT></a>.&nbsp; After re-sequencing all atoms, 
+particularly the hydrogen atoms, in the same residue are together.&nbsp; </p>
+<h2 align="left"><u>Global optimization</u></h2>
+<p align="left">First, if you haven't already done so, save a copy of the 
+structure from the previous step.&nbsp; Things will go wrong naturally, so 
+you'll want a fall-back position to re-start from when disaster occurs.&nbsp; 
+For even average sized proteins, global optimization can take CPU days, so 
+anything that can increase the efficiency of this process is worthwhile.&nbsp; 
+The following sequence has been found to be efficient:</p>
+<p align="left">(A) Using keywords <TT>CUTOFF=6 GNORM=10 OPT</TT>, perform a rough 
+geometry optimization.&nbsp; During this process, the energy will drop rapidly 
+at the start, then the rate of decrease will taper off. edit the resulting .arc 
+file to make a new data set.<br>
+(B) Using keywords <TT>CUTOFF=9 GNORM=5</TT>, perform a more precise 
+optimization.&nbsp; The energy will continue to drop, but not as fast as in the 
+previous step.&nbsp; Again edit the resulting .arc file to make a new data set.<br>
+(C) Run the new data set with <TT>1SCF CUTOFF=9 RESIDUES</TT>, and carefully examine the 
+output and .arc file to make sure that everything is correct.&nbsp; Pay 
+particular attention to the active site and to important hetero groups such as 
+HEME.</p>
+<h3 align="left">Constrained optimization - biased to X-ray structure</h3>
+<p align="left">Although X-ray structures are good, they can be improved by 
+performing a constrained optimization.&nbsp; Most of the time, PM6&nbsp; bond 
+lengths and angles are more accurate than X-ray structures, and in all cases 
+X-ray tertiary structures are more accurate than those predicted by PM6.&nbsp; 
+By combining the two approaches, structures of unprecedented accuracy can be 
+obtained.&nbsp;&nbsp; The procedure is similar to a global optimization, but 
+instead of the optimization being unconstrained, a penalty function is added 
+that limits the deviation from the X-ray structure.&nbsp; This penalty is very 
+small for bond lengths and angles, but is large for tertiary structures.&nbsp; 
+Setting up the calculation is similar to setting up a global optimization but 
+with the extra keyword <a href="geo_ref.html"><TT>GEO_REF=&lt;text&gt;</TT></a>.&nbsp; 
+If the name of the constrained optimization data set is &quot;opt.mop&quot;, and the X-ray 
+data set is &quot;pdb.mop&quot;, in folder &quot;M:\PDB files&quot; then the keyword used 
+in opt.mop would be <TT>
+GEO_REF=M:\PDB files\pdb.mop</TT>.</p>
+<h3 align="left" dir="ltr">Constrained optimization - Lock individual bond 
+lengths and angles</h3>
+<p align="left" dir="ltr">Because protein geometries are normally defined in 
+Cartesian coordinates, how can individual bond-lengths or angles be locked so 
+that their values cannot be modified during the optimization?&nbsp; The answer 
+is to define individual atoms using internal coordinates.&nbsp; Suppose, for 
+example, that hydrogen atom 3000 needs to be defined as being 1.1
+<font face="Times New Roman">Å from oxygen atom 2999.&nbsp; Then using a 
+graphics package, locate H3000 and O2999, and two other atoms that could be used 
+in defining the angle and dihedral in an internal coordinate connectivity.&nbsp; 
+Suitable atoms might be the atom O2999 is connected to (e.g. C2967) and the next 
+atom (e.g. N2960).&nbsp; Of course any atoms could be used provided their 
+atom-number is lower than the atom being defined, i.e. here lower than 3000.&nbsp; 
+Once the four atoms (here H3000, O2999, C2967, and N2960) are identified, work 
+out the angle and dihedral.&nbsp; Use these data in constructing the internal 
+coordinate definition for H3000.&nbsp;&nbsp; If the H3000-O2999-C2967 angle was 
+120°, and the H3000-O2999-C2967-N2960 torsion was 180°, then the position of the 
+hydrogen atom with a fixed O-H distance would be:</font></p>
+<p align="left" dir="ltr"><font face="Times New Roman">H 1.1 0 120 1 180 1 2999 
+2976 2960</font></p>
+<p align="left" dir="ltr"><font face="Times New Roman">If the angle needed to be 
+fixed, then the line would be:</font></p>
+<p align="left" dir="ltr"><font face="Times New Roman">H 1.1 1 120 0 180 1 2999 
+2976 2960</font></p>
+<p align="left" dir="ltr"><font face="Times New Roman">and so on.&nbsp; There is 
+no restriction on the number of internal coordinates that can be used.&nbsp; 
+Indeed, entire hetero groups can be defined as being rigid, but free to move 
+within a cavity.&nbsp; In such a case, the first atom in the hetero group would 
+be defined in either unconstrained internal or Cartesian coordinates, the next 
+atom would be in internal coordinates and have its bond-length fixed, the next 
+atom would be internal coordinates and have a frozen bond length and angle, and 
+all the remaining atoms in the hetero group would be in internal coordinates and 
+have all coordinates frozen.</font></p>
+<h4 align="left" dir="ltr"><font face="Times New Roman">The atoms to be used in 
+the connectivity occur after the atom whose bond length or angle is to be locked</font></h4>
+<p align="left" dir="ltr"><font face="Times New Roman">Quite often, the geometry 
+does not allow a bond-length or angle to be defined, because the atoms that 
+would be used in the connectivity are defined after the atom of interest.&nbsp; 
+Fortunately, there is an easy way to solve this problem: the order of occurrence 
+of Cartesian atoms is not important, so simply move the atoms to be used in the 
+connectivity to before the atom whose bond length or angle is to be defined.&nbsp; 
+Alternatively, move the atom whose bond length or angle is to be defined to the 
+end of the data set.</font></p>
+<h2 align="left" dir="ltr"><u><font face="Times New Roman">Location of 
+Transition States</font></u></h2>
+<p align="left" dir="ltr">Location of transition states is a complicated process 
+due to the great size of the systems involved.&nbsp; As with global 
+optimization, great care must be exercised in ensuring that the calculations are 
+going correctly.&nbsp; Many steps are involved, and as a result, the whole 
+process requires a lot of human as well as CPU time.&nbsp; Therefore, before 
+starting on a project to locate a transition state, carefully consider: it the 
+result worth the effort.&nbsp; Do not start unless you are willing to expend a 
+lot of effort, and be aware that success is not always achieved.&nbsp; Having 
+said this, if you are still committed to locating transition states in chemical 
+reactions, the main steps are as follows:</p>
+<ul>
+  <li dir="ltr">
+<p align="left" dir="ltr"><a href="#Prepare_data_set">Prepare a data set that represents the reactants and 
+products.</a></p>
+  </li>
+  <li dir="ltr">
+<p align="left" dir="ltr">Examine the data sets to ensure that they are what you 
+want.</p>
+  </li>
+  <li dir="ltr">
+<p align="left" dir="ltr">Using the <a href="geo_ref.html"><TT>GEO_REF</TT></a> option, 
+move the reactant geometry in the direction of the product geometry, and <i>vice 
+versa.</i></p>
+  </li>
+  <li dir="ltr">
+<p align="left" dir="ltr">Once the distance between the reactant and product 
+geometries is small enough, less than 10 <font face="Times New Roman">Å, say, 
+then the two geometries are averaged. The result is a good approximation to the 
+transition state.</font></p>
+  </li>
+  <li dir="ltr">
+<p align="left" dir="ltr"><font face="Times New Roman">Refine the geometry of 
+the transition state, while temporarily ignoring the rest of the system.</font></p>
+  </li>
+  <li dir="ltr">
+<p align="left" dir="ltr"><font face="Times New Roman">Optimize the geometry of 
+the rest of the system while ignoring the transition state</font></p>
+  </li>
+  <li dir="ltr">
+<p align="left" dir="ltr"><font face="Times New Roman">These last two steps are 
+run a few time to refine the transition state.</font></p>
+  </li>
+  <li dir="ltr">
+<p align="left" dir="ltr"><font face="Times New Roman">Carry out a
+<a href="FORCE.html"><TT>FORCETS</TT></a> calculation to verify that the system is in 
+fact a transition state.</font></p>
+  </li>
+  <li dir="ltr">
+<p align="left" dir="ltr">Generate the full reaction path using the
+<a href="irc.html"><TT>IRC</TT></a>.</p>
+  </li>
+</ul>
+<h3 align="left" dir="ltr"><a name="Prepare_data_set">Prepare a data set that represents the reactants and 
+products</a></h3>
+<p align="left" dir="ltr">Before any work is started on modeling 
+enzyme-catalyzed reactions, the reaction to be investigated should be written 
+out in the normal diagrammatic form.&nbsp; For example, during the aspartate 
+protease catalyzed hydrolysis of a peptide bond, two or three distinct steps are 
+involved, with the net result that a water molecule adds across the peptide bond 
+to give rise to a carboxylic acid and an amine.&nbsp; This is, of necessity, a 
+complicated process, so for convenience the mechanism is best expressed as the 
+sum of a few distinct steps.</p>
+<p align="left" dir="ltr">A good starting point is the
+<a href="http://www.rcsb.org/pdb/home/home.do">Protein Data Bank</a>.&nbsp; 
+Positioning the reactants and products is difficult, fortunately there is a 
+simple procedure that can be used to make both reactants and products.&nbsp; 
+Enzymes can be rendered inactive by the addition of an inhibitor.&nbsp; This is 
+normally a small molecule that has the approximate shape of a transition-state 
+geometry, but is in fact a ground-state system.&nbsp; Many inhibitors are 
+phosphorus V compounds, which mimic the enhanced valence of carbon in a 
+transition state, for example <span hasbox="2">
+IVA-VAL-VAL-LEU(P)-(O)PHE-ALA-ALA-OME in PDB entry 1QRP.&nbsp; 1QRP is an 
+aspartate protease inactivated by a synthetic phosphate inhibitor.&nbsp; At 
+first sight, this system might not appear to be a suitable model for a protease 
+reaction, but by replacing the phosphate group with a peptide linkage and a 
+water molecule, the system becomes more like the reactant ground state of a 
+hydrolysis reaction.&nbsp; During the early stages of modeling hydrolysis, the 
+nature of the groups attached to the peptide linkage are not critical, so these 
+can be replaced with a small, innocuous, group such as methyl.&nbsp; The 
+substrate is thus converted from&nbsp; IVA-VAL-VAL-LEU(P)-(O)PHE-ALA-ALA-OME to 
+N-methyl acetamide plus water.&nbsp;&nbsp;&nbsp; If the geometry of this system 
+is optimized, the result is the reactant geometry.&nbsp; By adding the water 
+molecule to the peptide bond, the tetrahedral intermediate can be made, and 
+geometry optimization of this structure gives rise to the product geometry.</span></p>
+<h3 align="left" dir="ltr">Examine the data sets to ensure that they are what you 
+want.</h3>
+<h3 align="left" dir="ltr">Using the <a href="geo_ref.html"><TT>GEO_REF</TT></a> option, 
+move the reactant geometry in the direction of the product geometry, and <i>vice 
+versa.</i></h3>
+<h3 align="left" dir="ltr">Once the distance between the reactant and product 
+geometries is small enough, less than 10 <font face="Times New Roman">Å, say, 
+then the two geometries are averaged. The result is a good approximation to the 
+transition state.</font></h3>
+<h3 align="left" dir="ltr"><font face="Times New Roman">Refine the geometry of 
+the transition state, while temporarily ignoring the rest of the system.</font></h3>
+<h3 align="left" dir="ltr"><font face="Times New Roman">Optimize the geometry of 
+the rest of the system while ignoring the transition state</font></h3>
+<h3 align="left" dir="ltr"><font face="Times New Roman">These last two steps are 
+run a few time to refine the transition state.</font></h3>
+<h3 align="left" dir="ltr"><font face="Times New Roman">Carry out a
+<a href="FORCE.html"><TT>FORCETS</TT></a> calculation to verify that the system is in 
+fact a transition state.</font></h3>
+<h3 align="left" dir="ltr">Generate the full reaction path using the
+<a href="irc.html"><TT>IRC</TT></a>.</h3>
+<h3 align="left" dir="ltr">&nbsp;</h3>
+<p align="left" dir="ltr">&nbsp;</p>
+<p align="left" dir="ltr">&nbsp;</p>
+<p align="left" dir="ltr">&nbsp;</p>
+<p align="left" dir="ltr">&nbsp;</p>
+<p align="left">&nbsp;</p>
+<p align="left">&nbsp;</p>
+<p align="left">&nbsp;</p>
+<P>
+&nbsp;</BODY></HTML>

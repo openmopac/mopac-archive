@@ -1,0 +1,15 @@
+<HTML>
+<HEAD>
+<TITLE>lbfgs</TITLE>
+</HEAD>
+<BODY LINK="#0000ff" VLINK="#800080" BGCOLOR="#ffffff">
+
+<TT><H2 align="center">LBFGS </H2>
+</TT><P>Optimize the geometry using the L-BFGS-B function minimizer. This is based on the BFGS optimizer, but it does not store the inverse Hessian, instead it is calculated as needed. Because of this, the L-BFGS-B method uses very little storage, and is therefore suitable for optimizing very large systems. It is not as efficient as the other optimizers, but for large systems, it is often the only method that can be used. </P>
+
+<P>The L-BFGS optimizer is the default if 2000 or more variables are to be 
+optimized.&nbsp; For such large systems, L-BFGS is more efficient than EF.&nbsp; 
+If L-BFGS is not wanted, add keyword <a href="ef.html">EF</a></P>
+
+</BODY>
+</HTML>

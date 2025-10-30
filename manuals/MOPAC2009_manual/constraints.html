@@ -1,0 +1,45 @@
+<HTML>
+<HEAD>
+<TITLE> Constraints</TITLE>
+</HEAD>
+<body bgcolor=white>
+<h2><A NAME="SECTION00743100000000000000">
+ Constraints</A> on geometric parameters in Z-matrices</h2>
+<DL COMPACT>
+<DT>1.
+<DD>Interatomic distances must be greater than zero.  Zero &#197;ngstroms
+is  acceptable  only  if  the  parameter  is symmetry-related to
+    another atom, and is the dependent function.
+<P>
+<DT>2.
+<DD>Angles must be in the  range  0.0  to  180.0,  inclusive.   This
+    constraint  is for the benefit of the user only; negative angles
+    are the result of errors in the construction  of  the  geometry,
+    and  angles  greater  than  180  degrees are fruitful sources of
+    errors in the dihedrals.
+<P>
+<DT>3.
+<DD>Dihedral angles must be definable.  If atom <I>i</I> makes a  dihedral with
+    atoms <I>j</I>, <I>k</I>, and <I>l</I>, and the three atoms <I>j</I>, <I>k</I>, and <I>l</I> are in a
+    straight line, then the dihedral has no definable angle.  During the
+    calculation this constraint is checked continuously, and if atoms <I>j</I>, <I>k</I>,
+    and <I>l</I> lie within 0.02 &#197;ngstroms of a straight  line, an attempt will
+    be made to re-number the connectivity.  If this fails, the calculation will
+    output an error message and then stop. The exceptions to this constraint
+    are:
+<DL COMPACT>
+<DT>(a)
+<DD>if the angle is 0 or 180 degrees, in which case the dihedral
+is not used.
+<P>
+<DT>(b)
+<DD>if atoms <I>j</I>, <I>k</I>, and <I>l</I> lie in an  exactly  straight  line
+    (usually  the result of a symmetry constraint), as in acetylene,
+    acetonitrile, but-2-yne, etc.
+</DL></DL>
+<P>
+If the exceptions are used, care must be taken to  ensure  that  the
+program  does  not  violate these constraints during any optimizations or
+during any calculations of derivatives--see also <TT><a href="force.html">FORCE</a></TT>.
+</BODY>
+</HTML>

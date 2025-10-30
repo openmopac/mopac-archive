@@ -1,0 +1,15 @@
+<HTML>
+<HEAD>
+<TITLE>Geometry</TITLE>
+                                                                                                                                                                   </HEAD>
+<BODY LINK="#0000ff" VLINK="#800080" BGCOLOR="#ffffff">
+<h1 align="center"><A NAME="SECTION002300200000000000000">Geometry</A> </h1>
+<P>By default, geometries are optimized using Baker's EF routine&nbsp;[<A HREF="references.html#ef-ts">7</A>]. If this is not desired, then the Broyden&nbsp;[<A HREF="references.html#bfgs1">19</A>]-Fletcher&nbsp;[<A HREF="references.html#bfgs2">20</A>]-Goldfarb&nbsp;[<A HREF="references.html#bfgs3">21</A>]-Shanno&nbsp;[<A HREF="references.html#bfgs4">22</A>] method can be used. This replaces the older Davidon&nbsp;[<A HREF="references.html#dfp1">124</A>]-Fletcher&nbsp;[<A HREF="references.html#dfp2">125</A>]-Powell&nbsp;[<A HREF="references.html#dfp3">126</A>] method. The Powell line search in both the BFGS and DFP methods has been upgraded with Thiel's FSTMIN technique&nbsp;[<A HREF="references.html#fstmin">44</A>]. </P>
+<P>The energy minimum for intersystem crossing can be calculated using the method of Anglada and Bofill&nbsp;[<A HREF="references.html#cross">28</A>]. </P>
+<P>Reaction paths can be followed, but sometimes (unavoidable) numerical instability causes difficulty&nbsp;[<A HREF="references.html#boyd">127</A>]. </P>
+<P>Various methods can be used to locate transition states. In the region of a transition state, TS&nbsp;[<A HREF="references.html#ef-ts">7</A>] is the best method to use. Other options are NLLSQ&nbsp;[<A HREF="references.html#nllsq">8</A>] and SIGMA&nbsp;[<A HREF="references.html#sigma1">9</A>,<A HREF="references.html#sigma2">10</A>]. </P>
+<P>However, getting to this region can often be difficult. One effective strategy is to use the reaction path option. A more costly method is the <TT>SADDLE</TT> technique&nbsp;[<A HREF="references.html#saddle">18</A>]. Once the transition state is located, the geometry must be refined </P>
+<P>All systems can be characterized by determining the number of imaginary vibrations using FORCE&nbsp;[<A HREF="references.html#pulayf">73</A>]. Ground state systems should have none, and transition states should have exactly one imaginary frequency. The normal modes can then be used to calculate heat capacities and entropies and other thermodynamic quantities&nbsp;[<A HREF="references.html#thermo">50</A>]. </P>
+<P>Molecular dynamics can be followed via DRC&nbsp;[<A HREF="references.html#drc">29</A>]. </P>
+                                                </BODY>
+</HTML>

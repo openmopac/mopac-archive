@@ -1,0 +1,70 @@
+<HTML>
+<HEAD>
+<TITLE>METAL </TITLE>
+</HEAD>
+<body bgcolor=white>
+<h1 align="center">
+<TT>METAL=(a[,b[,c[...]]])</TT>
+</h1>
+<p align="left">
+In a MOZYME calculation, some elements might need to be defined as not having 
+any covalent bonds when building the Lewis structure.&nbsp; This can be in order 
+to generate a sensible Lewis structure for the user or, in rare instances, to 
+generate an acceptable Lewis structure for MOZYME.</p>
+<p align="left">
+Consider ferrocene.&nbsp; In ferrocene, iron has 8 valence electrons, so if it is 
+allowed to bond to the carbon atoms, it would form 8 covalent sigma bonds.&nbsp; 
+In such a system, iron would thus be Fe(VIII).&nbsp; In a zinc finger, if Zn 
+bonds to the four ligands, it would have a formal charge of -2.&nbsp; Such 
+unusual oxidation states or charges might be of concern to users, however in 
+most cases they would not affect the MOZYME calculation.&nbsp; </p>
+<p align="left">
+Individual elements and individual atoms can be re-defined as not forming any 
+covalent bonds by use of METAL.&nbsp; In building Lewis structures, all elements 
+of Groups I and II are considered as being fully ionic.&nbsp; If they need to be 
+considered as covalent, use <TT> <a href="cvb.html">
+CVB</TT></a> to define bonds.</p>
+<p align="left">
+Individual elements are specified by their chemical symbol, individual atoms are 
+specified by the atom-number of the real atom.&nbsp; (Real atoms numbers exclude 
+any dummy atoms)</p>
+<p align="left">
+<b>Examples</b></p>
+<table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111">
+  <tr>
+    <td>METAL=(Fe)&nbsp;&nbsp;&nbsp;&nbsp; </td>
+    <td>&nbsp;</td>
+    <td>Re-define all iron atoms are being 100% ionic</td>
+  </tr>
+  <tr>
+    <td>METAL=(Fe,Zn)</td>
+    <td>&nbsp;</td>
+    <td>Re-define all iron and zinc atoms are being 100% ionic</td>
+  </tr>
+  <tr>
+    <td>METAL=(3423)</td>
+    <td>&nbsp;</td>
+    <td>Re-define atom 3423 as being 100% ionic</td>
+  </tr>
+  <tr>
+    <td>METAL=(Zn,6222)</td>
+    <td>&nbsp;</td>
+    <td>Re-define all zinc atoms and atom 6222 as being 100% ionic</td>
+  </tr>
+  <tr>
+    <td>METAL=(22,54)</td>
+    <td>&nbsp;</td>
+    <td>Re-define atoms 22 and 55 as being 100% ionic</td>
+  </tr>
+</table>
+<p>Related key-words:&nbsp; <TT><a href="lewis.html">LEWIS</a>, <a href="cvb.html">
+CVB</a>, <a href="vdwm.html">VDWM</a>,
+<a href="charge.html">CHARGE</a>, <a href="charges.html">CHARGES</a>, and <a href="mozyme.html">MOZYME</a></TT><br>
+See also: <a href="Lewis_structures.html">Lewis Structures</a>,
+<a href="mozyme_introduction.html">MOZYME introduction</a><DL dir="ltr">
+<div align="left">
+  <dt dir="ltr">&nbsp;</dt>
+</div>
+
+</BODY>
+</HTML>

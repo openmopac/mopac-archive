@@ -1,0 +1,212 @@
+<HTML>
+<HEAD>
+<TITLE>XENO </TITLE>
+<H2 align="center">
+<TT>XENO</TT> </H2>
+<P>By default, MOZYME only recognizes the standard twenty amino-acid residues, but some proteins contain residues which have extra molecular fragments attached. In order to allow these unusual species to be recognized, the keyword <TT>XENO</TT> is provided.&nbsp; 
+If an unknown residue is detected, then a message of the type: &quot;Unknown residue: 19 atom 296 C:40 N: 5 O: 6 S: 2 see keyword 'XENO'&quot; will be printed.<TT><P>XENO</TT>, from the Greek <i><font face="Symbol"> <!-- MATH: $\xi\acute{\epsilon}\nu o\varsigma$ -->
+xenos</font></i>, xenos, for 'stranger', defines the unusual species in terms of the extra atoms which are added to the normal residue. The format of <TT>XENO</TT> is: </P>
+<TT><P>XENO=(<I>n<SUB>C</I></SUB>,<I>n<SUB>N</I></SUB>,<I>n<SUB>O</I></SUB>,<I>n<SUB>S</I></SUB>,<I>name</I>[;<I>n<SUB>C</I></SUB>,<I>n<SUB>N</I></SUB>,<I>n<SUB>O</I></SUB>,<I>n<SUB>S</I></SUB>,<I>name</I>][;<I>n<SUB>C</I></SUB>,<I>n<SUB>N</I></SUB>,<I>n<SUB>O</I></SUB>,<I>n<SUB>S</I></SUB>,<I>name</I>]...)</TT> 
+e.g.
+<TT>XENO=(38,3,4,2,HEM;4,3,2,0,RES)</TT></P>
+<P>Up to ten fragments can be defined. To specify a fragment, the number of extra carbon, nitrogen, oxygen, and sulfur atoms in the fragment is used. A <I>name</I> should be selected which describes the fragment.&nbsp; 
+If <i>name</i> has exactly three letters, then the residue name will be replaced 
+by <i>name</i>.</P>
+<P>As an example, consider the extra fragment in bacteriorhodopsin, on Lys216: </P>
+<P align="center">-COCHRNH-;&nbsp;&nbsp; R = CH<sub>2</sub>CH<sub>2</sub>CH<sub>2</sub>CH<sub>2</sub>N=CHCH=CMeCH=CHCH=CMeCH=CHC<sub>9</sub>H<sub>15</sub><!-- MATH: $\chem  -COCHRNH- ;  R = \chem{CH_2CH_2CH_2CH_2N\!\!=\!\!CHCH\!\!=\!\!CMeCH\!\!=\!\!CHCH\!\!=\!\!CMeCH\!\!=\!\!CHC_9H_{15}}$ --></P>
+<P>Not counting hydrogens, the empirical formula for a lysine fragment is <!-- MATH: $\chem C_6N_2O$ -->
+C<sub>6</sub>N<sub>2</sub>O (See below and <a href="residues.html">Table of Residues</a> ). For residue 216, the empirical formula is <!-- MATH: $\chem C_{26}N_2O$ -->
+C<sub>26</sub>N<sub>2</sub>O, so the extra fragment, the Schiff base, accounts for <!-- MATH: $\chem C_{20}$ -->
+C<sub>20</sub>. Therefore, the number of extra atoms is, in the order C, N, O, S, '20,0,0,0'. To specify the retinal fragment, the keyword would be <TT>XENO=(20,0,0,0,RETINAL)</TT>.&nbsp;&nbsp; 
+In the output or PDB file generated, residue 216 would be identified as LYS.&nbsp; 
+If <TT>XENO=(20,0,0,0,RET)</TT> were used, residue 216 would be identified as 
+RET.</P>
+<P>Quite often the side-chain cannot be related to any of the 20 standard amino 
+acids.&nbsp; In that case, the simplest option is to define the un-modified 
+residue as being glycine (GLY).&nbsp; If that is done, then the
+<TT>XENO</TT>&nbsp; keyword could be constructed by subtracting two carbon 
+atoms, one nitrogen and one oxygen atom.&nbsp; Thus if the message was&nbsp; &quot;Unknown residue: 19 atom 296 C:40 N: 5 O: 6 S: 2 see keyword 'XENO'&quot;, 
+the keyword would be <TT>XENO=(38,4,5,2,HEME)</TT>.&nbsp; If the side-chain can 
+be related to a standard amino acid, then the appropriate number of atoms should 
+be deleted.&nbsp; The following table gives the patterns for the various 
+standard amino acids. </P>
+<P align="center">Number of atoms in each residue for use in working out the 
+XENO keyword</P>
+<div align="center">
+  <center>
+  <table border="1" cellpadding="0" cellspacing="0" height="21" fpstyle="1,011111100" style="border-left-style: none; border-right-style: none; border-top: 1.5pt solid green; border-bottom: 1.5pt solid green">
+    <tr>
+      <td height="21" style="border-left-style: none; border-right-style: none; border-top-style: none; border-bottom: .75pt solid green" align="left">
+      Amino acid</td>
+      <td height="21" align="center" style="border-left-style: none; border-right-style: none; border-top-style: none; border-bottom: .75pt solid green">&nbsp;Number<br>
+      C</td>
+      <td height="21" align="center" style="border-left-style: none; border-right-style: none; border-top-style: none; border-bottom: .75pt solid green">&nbsp;Number<br>
+&nbsp;N&nbsp;&nbsp;&nbsp; </td>
+      <td height="21" align="center" style="border-left-style: none; border-right-style: none; border-top-style: none; border-bottom: .75pt solid green">&nbsp;Number<br>
+      O</td>
+      <td height="21" align="center" style="border-left-style: none; border-right-style: none; border-top-style: none; border-bottom: .75pt solid green">&nbsp;Number<br>
+      S</td>
+      <td height="21" style="border-left-style: none; border-right-style: none; border-top-style: none; border-bottom: .75pt solid green">&nbsp;</td>
+      <td height="21" style="border-left-style: none; border-right-style: none; border-top-style: none; border-bottom: .75pt solid green">
+      Amino acid</td>
+      <td height="21" align="center" style="border-left-style: none; border-right-style: none; border-top-style: none; border-bottom: .75pt solid green">&nbsp;Number<br>
+      C</td>
+      <td height="21" align="center" style="border-left-style: none; border-right-style: none; border-top-style: none; border-bottom: .75pt solid green">&nbsp;Number<br>
+&nbsp;N&nbsp;&nbsp;&nbsp; </td>
+      <td height="21" align="center" style="border-left-style: none; border-right-style: none; border-top-style: none; border-bottom: .75pt solid green">&nbsp;Number<br>
+      O</td>
+      <td height="21" align="center" style="border-left-style: none; border-right-style: none; border-top-style: none; border-bottom: .75pt solid green">&nbsp;Number<br>
+      S</td>
+    </tr>
+    <tr>
+      <td height="21" style="border-style: none" align="left">Glycine</td>
+      <td height="21" align="center" style="border-style: none">2 </td>
+      <td height="21" align="center" style="border-style: none">1</td>
+      <td height="21" align="center" style="border-style: none">1</td>
+      <td height="21" align="center" style="border-style: none">0</td>
+      <td height="21" style="border-style: none">&nbsp;</td>
+      <td height="21" style="border-style: none">Glutamic acid</td>
+      <td height="21" align="center" style="border-style: none">5</td>
+      <td height="21" align="center" style="border-style: none">1</td>
+      <td height="21" align="center" style="border-style: none">3</td>
+      <td height="21" align="center" style="border-style: none">0</td>
+    </tr>
+    <tr>
+      <td height="21" style="border-style: none" align="left">Alanine</td>
+      <td height="21" align="center" style="border-style: none">3</td>
+      <td height="21" align="center" style="border-style: none">1</td>
+      <td height="21" align="center" style="border-style: none">1</td>
+      <td height="21" align="center" style="border-style: none">0</td>
+      <td height="21" style="border-style: none">&nbsp;</td>
+      <td height="21" style="border-style: none">Glutamine</td>
+      <td height="21" align="center" style="border-style: none">5</td>
+      <td height="21" align="center" style="border-style: none">2</td>
+      <td height="21" align="center" style="border-style: none">2</td>
+      <td height="21" align="center" style="border-style: none">0</td>
+    </tr>
+    <tr>
+      <td height="21" style="border-style: none" valign="middle" align="left">
+      Valine</td>
+      <td height="21" align="center" style="border-style: none">5</td>
+      <td height="21" align="center" style="border-style: none">1</td>
+      <td height="21" align="center" style="border-style: none">1</td>
+      <td height="21" align="center" style="border-style: none">0</td>
+      <td height="21" style="border-style: none">&nbsp;</td>
+      <td height="21" style="border-style: none">Arginine</td>
+      <td height="21" align="center" style="border-style: none">6 </td>
+      <td height="21" align="center" style="border-style: none">4 </td>
+      <td height="21" align="center" style="border-style: none">1</td>
+      <td height="21" align="center" style="border-style: none">0</td>
+    </tr>
+    <tr>
+      <td height="21" style="border-style: none" align="left">Leucine</td>
+      <td height="21" align="center" style="border-style: none">6 </td>
+      <td height="21" align="center" style="border-style: none">1</td>
+      <td height="21" align="center" style="border-style: none">1</td>
+      <td height="21" align="center" style="border-style: none">0</td>
+      <td height="21" style="border-style: none">&nbsp;</td>
+      <td height="21" style="border-style: none">Histidine</td>
+      <td height="21" align="center" style="border-style: none">6 </td>
+      <td height="21" align="center" style="border-style: none">3 </td>
+      <td height="21" align="center" style="border-style: none">1 </td>
+      <td height="21" align="center" style="border-style: none">0</td>
+    </tr>
+    <tr>
+      <td height="21" style="border-style: none" align="left">Isoleucine</td>
+      <td height="21" align="center" style="border-style: none">6</td>
+      <td height="21" align="center" style="border-style: none">1</td>
+      <td height="21" align="center" style="border-style: none">1</td>
+      <td height="21" align="center" style="border-style: none">0</td>
+      <td height="21" style="border-style: none">&nbsp;</td>
+      <td height="21" style="border-style: none">Phenylalanine</td>
+      <td height="21" align="center" style="border-style: none">9 </td>
+      <td height="21" align="center" style="border-style: none">1</td>
+      <td height="21" align="center" style="border-style: none">1</td>
+      <td height="21" align="center" style="border-style: none">0</td>
+    </tr>
+    <tr>
+      <td height="21" style="border-style: none" align="left">Serine</td>
+      <td height="21" align="center" style="border-style: none">3</td>
+      <td height="21" align="center" style="border-style: none">1</td>
+      <td height="21" align="center" style="border-style: none">2</td>
+      <td height="21" align="center" style="border-style: none">0</td>
+      <td height="21" style="border-style: none">&nbsp;</td>
+      <td height="21" style="border-style: none">Cysteine</td>
+      <td height="21" align="center" style="border-style: none">3 </td>
+      <td height="21" align="center" style="border-style: none">1</td>
+      <td height="21" align="center" style="border-style: none">1</td>
+      <td height="21" align="center" style="border-style: none">1</td>
+    </tr>
+    <tr>
+      <td height="21" style="border-style: none" align="left">Threonine</td>
+      <td height="21" align="center" style="border-style: none">4</td>
+      <td height="21" align="center" style="border-style: none">1 </td>
+      <td height="21" align="center" style="border-style: none">2 </td>
+      <td height="21" align="center" style="border-style: none">0</td>
+      <td height="21" style="border-style: none">&nbsp;</td>
+      <td height="21" style="border-style: none">Tryptophan</td>
+      <td height="21" align="center" style="border-style: none">11</td>
+      <td height="21" align="center" style="border-style: none">2</td>
+      <td height="21" align="center" style="border-style: none">1</td>
+      <td height="21" align="center" style="border-style: none">0</td>
+    </tr>
+    <tr>
+      <td height="21" style="border-style: none" align="left">Aspartic acid</td>
+      <td height="21" align="center" style="border-style: none">4</td>
+      <td height="21" align="center" style="border-style: none">1</td>
+      <td height="21" align="center" style="border-style: none">3</td>
+      <td height="21" align="center" style="border-style: none">0</td>
+      <td height="21" style="border-style: none">&nbsp;</td>
+      <td height="21" style="border-style: none">Tyrosine</td>
+      <td height="21" align="center" style="border-style: none">9 </td>
+      <td height="21" align="center" style="border-style: none">1</td>
+      <td height="21" align="center" style="border-style: none">1</td>
+      <td height="21" align="center" style="border-style: none">0</td>
+    </tr>
+    <tr>
+      <td height="21" style="border-style: none" align="left">Asparagine</td>
+      <td height="21" align="center" style="border-style: none">4</td>
+      <td height="21" align="center" style="border-style: none">2</td>
+      <td height="21" align="center" style="border-style: none">1</td>
+      <td height="21" align="center" style="border-style: none">0</td>
+      <td height="21" style="border-style: none">&nbsp;</td>
+      <td height="21" style="border-style: none">Methionine</td>
+      <td height="21" align="center" style="border-style: none">5</td>
+      <td height="21" align="center" style="border-style: none">1</td>
+      <td height="21" align="center" style="border-style: none">1</td>
+      <td height="21" align="center" style="border-style: none">1</td>
+    </tr>
+    <tr>
+      <td height="21" style="border-style: none" align="left">Lysine</td>
+      <td height="21" align="center" style="border-style: none">6 </td>
+      <td height="21" align="center" style="border-style: none">2</td>
+      <td height="21" align="center" style="border-style: none">1</td>
+      <td height="21" align="center" style="border-style: none">0</td>
+      <td height="21" style="border-style: none">&nbsp;</td>
+      <td height="21" style="border-style: none">Proline</td>
+      <td height="21" align="center" style="border-style: none">5</td>
+      <td height="21" align="center" style="border-style: none">1</td>
+      <td height="21" align="center" style="border-style: none">1</td>
+      <td height="21" align="center" style="border-style: none">0</td>
+    </tr>
+  </table>
+  </center>
+</div>
+<P>Only the number of extra atoms for the elements C, N, O, and S need be 
+specified, because these are the elements used in identifying the residues. 
+Residues with other atoms will not be recognized.</P>
+<P>If atoms are missing from a particular residue, the &quot;missing&quot; atoms can be 
+defined using negative numbers.&nbsp; Thus, if a residue should be lysine, but 
+the terminal amino group is missing, then it can be replaced using 
+XENO(0,-1,0,0,Lysine).&nbsp; However, if, as a result of missing atoms, the 
+residue corresponds to a known residue, then the residue will be incorrectly 
+recognized as a known residue.&nbsp; For example, if the residue should be 
+lysine, but the group&nbsp; -CH<sub>2</sub>-CH<sub>2</sub>-CH<sub>2</sub>-NH<sub>2</sub>, 
+is missing, so that the residue is -NH-CH(CH3)-CO, the keyword 
+XENO(-3,-1,0,0,Lysine) will not replace it, because the damaged residue 
+corresponds to alanine, and would be recognized as such.&nbsp; This error is 
+uncorrectable!</P>
+<P>In the output, all the atoms of the residue are labeled with the three letter abbreviation of the amino-acid. Ideally, the atoms of the extra fragment would be labeled differently, but it is not easy to algorithmically 'recognize' the fragment. Instead, the unusual residue is indicated in the residue sequence by an asterisk (*), and a one-line description given immediately before the sequence is printed. </P>
+<P>If <TT>XENO</TT> is <EM>not</EM> used, the calculation will still work, but the label for the modified fragment will be <TT>UNK</TT>, instead of the more descriptive label which would result from using <TT>XENO</TT>. </P>
+
+</HTML>

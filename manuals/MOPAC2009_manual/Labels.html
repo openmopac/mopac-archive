@@ -1,0 +1,46 @@
+<HTML>
+<HEAD>
+<TITLE>Atom Labels</TITLE>
+                                                                                                                    </HEAD>
+<BODY LINK="#0000ff" VLINK="#800080" BGCOLOR="#ffffff">
+<H2>Description of Atom Labels</H2>
+<p>The most simple definition of an atom is to use either its chemical symbol or 
+its atomic number, thus:</p>
+<p>Mg 1.23 1 1.23 1 1.23 1&nbsp; or<br>
+12&nbsp; 1.23 1 1.23 1 1.23 1</p>
+<p>If <a href="Isotope_specification.html">isotopes</a> are used, then the 
+atomic number option cannot be used.</p>
+<p>In addition to the symbol or atomic number, a label can be added to an atom.&nbsp; 
+The format of the label is: &quot;(<i>text</i>)&quot; (without the quotation marks), that 
+is, &quot;open curved bracket, <i>text</i>, closed curved bracket&quot; The 
+label should be immediately after the chemical symbol or after the isotopic 
+mass, if present.</p>
+<p><i>text</i> can be up to38 characters long, but much shorter descriptions 
+should normally be used, otherwise the layout of the output becomes very messy.&nbsp;
+<i>text</i> can be any description that does not involve any of the symbols &quot;)&quot;, 
+or &quot;+&quot;, or &quot;-&quot; if&nbsp; <a href="mozyme.html"><TT>MOZYME</TT></a> is used.</p>
+<p>Examples of atom labels:</p>
+<p>Mg(At center of porphyrin ring) 1.23 1 1.23 1 1.23 1 <br>
+&nbsp;C( 17 PHE* 2) 1.19 1 4.59 1 -0.18 1<br>
+&nbsp;C14.0( 17 PHE* 2) 1.19 1 4.59 1 -0.18 1</p>
+<p>If <a href="residues.html"><TT>RESIDUES</TT></a> is present, the resulting ARC file 
+will include labels on each atom.</p>
+<h3>Atom Charges</h3>
+<p>Charges on individual charges for use in MOZYME can be specified by the 
+symbols &quot;+&quot; and &quot;-&quot; in the atom labels. When the symbol &quot;+&quot; 
+is present, the atom is given a unit positive charge, when &quot;-&quot; is present, the 
+atom is given a unit negative charge.&nbsp; Avoid using these keywords unless 
+necessary.&nbsp; Thus if the ethyl group, C<sub>2</sub>H<sub>5</sub>, is run 
+with <a href="charge.html"><TT>CHARGE=1</TT></a>, then the CH<sub>2</sub> carbon will 
+automatically be given a positive charge, if <TT>CHARGE=-1</TT> is present, the it will 
+be given a negative charge.</p>
+
+
+<p>See also <TT><a href="setpi.html">SETPI</a></TT> to explicitly assign<font face="Symbol"> 
+p</font> bonds, also <a href="CVB.html"><TT>CVB</TT></a> to explicitly make or 
+break bonds.</p>
+
+
+<p>&nbsp;</p>
+</BODY>
+</HTML>

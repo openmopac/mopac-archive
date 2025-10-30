@@ -1,0 +1,14 @@
+<HTML>
+<HEAD>
+<TITLE>SLOG=n.nn </TITLE>
+</HEAD>
+<body bgcolor=white>
+<h1 align="center"><A <TT>SLOG=<I>n</I>.<I>nn</I></TT> </A>
+&nbsp;</h1>
+<P>
+The line-search mechanism in the <a href="bfgs.html">BFGS</a> geometry optimization is replaced with
+a constant step size.  This prevents large steps that could waste time or even
+cause a failure to achieve an SCF.  If <TT>SLOG</TT> is used, the step is 0.25 of the
+default step, otherwise if <TT>SLOG=<I>n</I>.<I>nn</I></TT> is used, the step is <I>n</I>.<I>nn</I>.
+</BODY>
+</HTML>

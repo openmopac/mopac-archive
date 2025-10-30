@@ -1,0 +1,35 @@
+<HTML>
+<HEAD>
+<TITLE>CISDT </TITLE>
+</HEAD>
+<body bgcolor=white>
+<h1 align="center">
+<TT>CISDT</TT>
+</h1>
+In configuration interaction calculations, the ground state and all microstates
+resulting from single, double, and triple electron excitations are used if
+<TT>CISDT</TT> is specified.  (Read <TT>CISDT</TT> as Configuration Interaction
+Singles, Doubles, and Triples.)
+<p>The number of states considered in a CISDT C.I. involving <i>n</i>
+doubly-occupied M.O.s and <i>m</i> empty M.O.s is:</p>
+<p>No. of States = 1 + 2.<i>n.m</i>&nbsp; + (<i>n.m</i>)<sup>2</sup> + (<i>n</i>(<i>n</i>-1).<i>m</i>(<i>m</i>-1))/2
++ (<i>n</i><sup>2</sup>(<i>n</i>-1).<i>m</i><sup>2</sup>(<i>m</i>-1))/2 + (<i>n</i>(<i>n</i>-1)(<i>n</i>-2).<i>m</i>(<i>m</i>-1)(<i>m</i>-2))/18</p>
+<p>This represents: </p>
+<p>Ground state <br>
++ (one <font face="Symbol">a</font> electron excited + one <font face="Symbol">b</font>
+electron excited) <br>
++ (one <font face="Symbol">a</font> electron and one <font face="Symbol">b</font>
+electron excited) <br>
++ (two <font face="Symbol">a</font> electrons excited + two <font face="Symbol">
+b</font> electrons excited) <br>
++ (one <font face="Symbol">a</font> electron and two <font face="Symbol">b</font>
+electrons excited + two <font face="Symbol">a</font> electrons and one
+<font face="Symbol">b</font> electron excited) <br>
++ (three <font face="Symbol">a</font> electrons excited + three
+<font face="Symbol">b</font> electrons excited) </p>
+<p>The first term represents the ground state, the second term represents number
+of one-electron excitations, the third and fourth terms represent the number of
+two-electron excitations, and the fifth and sixth terms represent the number of
+three-electron excitations.</p>
+</BODY>
+</HTML>

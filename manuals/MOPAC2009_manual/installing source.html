@@ -1,0 +1,91 @@
+<HTML>
+<HEAD>
+<TITLE> Installing MOPAC2007 instructions </TITLE>
+</HEAD>
+<body bgcolor=white>
+<BR>
+<h1>Installing and compiling MOPAC2009 instructions
+</h1>
+<p>The distribution of MOPAC2009 source is restricted to sites that have signed 
+an End User License Agreement.&nbsp; After the EULA has been received at SCC, 
+source will be sent electronically to the site. Please indicate which of the two 
+platforms, WINDOWS or Linux, that you want to compile MOPAC2007 on.</p>
+<p>All the files are in seven folders:
+</p>
+ <div align="left">
+   <table border="0" cellpadding="0" cellspacing="0" bordercolor="#111111" style="border-collapse: collapse" width="614">
+     <tr>
+       <td width="69">&nbsp;</td>
+       <td width="151"><b>Folder</b></td>
+       <td width="504"><b>Contents</b></td>
+     </tr>
+     <tr>
+       <td width="69">&nbsp;</td>
+       <td width="151">MOPAC</td>
+       <td width="504">mopac.f90, to_screen.f90, jdate.f90, a Makefile, and CVF 
+       build files for MOPAC2007&nbsp; </td>
+     </tr>
+     <tr>
+       <td width="69">&nbsp;</td>
+       <td width="151">Subroutines</td>
+       <td width="504">CVF build files for compiling all the subroutines</td>
+     </tr>
+     <tr>
+       <td width="69">&nbsp;</td>
+       <td width="151">src_subroutines</td>
+       <td width="504">Source code for all the subroutines</td>
+     </tr>
+     <tr>
+       <td width="69">&nbsp;</td>
+       <td width="151">Modules</td>
+       <td width="504">CVF build files for compiling all the modules</td>
+     </tr>
+     <tr>
+       <td width="69">&nbsp;</td>
+       <td width="151">src_modules</td>
+       <td width="504">Source code for all the modules (These files end in 
+       &quot;_C.f90&quot;)</td>
+     </tr>
+     <tr>
+       <td width="69">&nbsp;</td>
+       <td width="151">Interfaces</td>
+       <td width="504">CVF build files for compiling all the interfaces</td>
+     </tr>
+     <tr>
+       <td width="69">&nbsp;</td>
+       <td width="151">src_interfaces</td>
+       <td width="504">Source code for all the interfaces(These files end in 
+       &quot;_I.f90&quot;)</td>
+     </tr>
+   </table>
+</div>
+<p>&nbsp;</p>
+<h2>WINDOWS</h2>
+<p>The development compiler used at SCC is Compaq Visual Fortran, and the following 
+instructions assume that CVF is being used.&nbsp; If you are using a different 
+compiler, then use the instructions as a guide.</p>
+ <p>The dependencies are as follows:</p>
+<ul>
+  <li>MOPAC depends on Subroutines, Modules and Interfaces.</li>
+  <li>Subroutines depends on Modules and Interfaces.</li>
+  <li>Interfaces depends on Modules</li>
+  <li>Modules does not depend on anything.</li>
+</ul>
+<p>To compile, open the CVF window, and compile using build =&gt; build 
+MOPAC2009.exe.&nbsp; This will put the Release executable in M:/utility.&nbsp; 
+If you want it to go somewhere else, change the entry in Project =&gt; settings =&gt; 
+Link =&gt; Output file name.</p>
+<p>&nbsp;</p>
+<h2>Linux</h2>
+<p>First, copy all the files in directories src_subroutines, src_modules, and 
+src_interfaces into the directory MOPAC.&nbsp; The original directory structure 
+was intended for use on a WINDOWS platform, and the use of separate directories 
+was convenient there.&nbsp; On Linux platforms, the Makefile utility does not 
+need separate directories for each group of source files.</p>
+<p>Read over the Makefile, and make any changes necessary.&nbsp; The most 
+probable change would be to replace the FORTRAN compiler, &quot;g95&quot; with a different 
+compiler.</p>
+<p>When the command, &quot;make MOPAC2009.out&quot; is issued from within the directory 
+MOPAC, the Makefile&nbsp; will build MOPAC2009.out.&nbsp; </p>
+</BODY>
+</HTML>

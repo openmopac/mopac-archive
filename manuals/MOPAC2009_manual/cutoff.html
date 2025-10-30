@@ -1,0 +1,56 @@
+<HTML>
+<HEAD>
+<TITLE>GRAPH </TITLE>
+</HEAD>
+<body bgcolor=white>
+<h1 align="center">
+<TT>CUTOFF=<i>n.nn</i></TT>
+</h1>
+<a href="mozyme.html"><TT>MOZYME</TT></a> calculations run faster when some NDDO interactions are ignored.&nbsp; By 
+default, all NDDO interactions are included between atoms separated by 12 &#197;ngstroms 
+or less, and all polarization functions between atoms separated by 30 &#197;ngstroms 
+or less.&nbsp; For rough work, such as optimizing a structure that is far from a 
+minimum, if <TT>CUTOFF=<i>n.nn</i></TT> is used, then only point charge interactions beyond 
+<i>n.nn</i> &#197;ngstroms 
+are used.&nbsp; A suitable value for<i> n.nn</i> is 6.0.&nbsp; This will give a 
+large increase in speed.<p>If <TT>CUTOFF=6</TT> is used, then <TT>
+<a href="gnorm.html">GNORM=20</a></TT> is recommended.&nbsp; 
+Once the geometry is optimized using <TT>GNORM=20</TT>, 
+the <TT>CUTOFF</TT> should be increased (9 is a good value for general use) or removed, and <TT>GNORM</TT> reduced to, 
+e.g., <TT>GNORM=10</TT>.</p>
+<p>For the rare occasions when finer control is needed, use <TT>CUTOF1</TT> and <TT>CUTOF2</TT>.</p>
+<H2><A NAME="SECTION007334000000000000000">
+<TT>CUTOF1=<I>n</I>.<I>nn</I></TT> </A>
+</H2>
+<P>
+In  <TT>MOZYME</TT> calculations, 
+<a href="../../MOPAC_Manual/manual%20(old)/node518.html#cutoffs">the cutoff distance for polarization
+functions</a> is set by <TT>CUTOF1=<I>n</I>.<I>nn</I></TT>.  Beyond that
+distance, electrostatic interactions are considered only as point
+charges. At distances less than that given by <TT>CUTOF1</TT>,
+electrostatic interactions are represented by a point-charge and three
+polarization functions.  Default: For systems of less than 30 atoms,
+<TT>CUTOF1</TT> is 1000 &#197;ngstroms; for systems of 30 or more atoms,
+<TT>CUTOF1</TT> is 30 &#197;ngstroms. <H2><A NAME="SECTION007335000000000000000">
+<TT>CUTOF2=<I>n</I>.<I>nn</I></TT> </A>
+</H2>
+<p>In  <TT>MOZYME</TT> calculations, 
+<a href="../../MOPAC_Manual/manual%20(old)/node518.html#cutoffs">the cutoff distance for two-electron
+two center and one-electron two center integrals</a> is set by
+<TT>CUTOF2=<I>n</I>.<I>nn</I></TT>.  Below that distance, the interaction between two
+atoms is represented by the exact NDDO approximation.  Above that
+distance, one-electron integrals that depend on the overlap are
+ignored, and two-electron integrals are simplified.  Instead of using
+all 100 two-electron integrals between two heavy atoms, only seven are
+used.  These represent the terms &lt;<i>ss</i>|<i>ss</i>&gt;, &lt;<i>ss</i>|<i>sx</i>&gt;, 
+&lt;<i>ss</i>|<i>sy</i>&gt;, &lt;<i>ss</i>|<i>sz</i>&gt;, &lt;<i>sx</i>|<i>ss</i>&gt;, 
+&lt;<i>sy</i>|<i>ss</i>&gt;, and &lt;<i>sz</i>|<i>ss</i>&gt;.&nbsp;
+At still greater distances, beyond <TT>CUTOF1</TT>, only
+the 
+<!-- MATH: $<\!ss|ss\!>$ -->
+&lt;<i>ss</i>|<i>ss</i>&gt;
+term is used.  Default: For systems of less than 30
+atoms, <TT>CUTOF2</TT> is 1000 &#197;ngstroms; for systems of 30 or more
+atoms, <TT>CUTOF2</TT> is 12 &#197;ngstroms. </p>
+</BODY>
+</HTML>

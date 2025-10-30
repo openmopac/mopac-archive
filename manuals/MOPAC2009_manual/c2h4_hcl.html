@@ -1,0 +1,66 @@
+<html>
+<head>
+<meta http-equiv="Content-Language" content="en-us">
+<meta name="GENERATOR" content="Microsoft FrontPage 5.0">
+<meta name="ProgId" content="FrontPage.Editor.Document">
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<title>Locating transition states: C2H4 + HCl</title>
+</head>
+<body>
+<h1>Addition of HCl to C<sub>2</sub>H<sub>4</sub></h1>
+<p>The method used is AM1, although other methods could, of course, be used.&nbsp;
+The calculations described here do not depend on the method used.</p>
+<h4 align="center">Description of Reactants:<img border="0" src="c2h4_h2.gif" width="198" height="93" align="right"></h4>
+<p>&nbsp;Ethylene and hydrogen chloride form distinct species separated by a
+large distance.<br>
+&nbsp;The H-Cl distance is 1.283 Angstroms.&nbsp; <font face="Symbol">D</font>H<sub>f</sub>
+C<sub>2</sub>H<sub>4</sub>: +16.45 Kcal/mol; <font face="Symbol">D</font>H<sub>f</sub>
+HCl: -24.61 Kcal/mol;<font face="Symbol"> D</font>H<sub>f</sub> C<sub>2</sub>H<sub>4</sub>
++ HCl: -8.19 Kcal/mol</p>
+<p>&nbsp;</p>
+<h4 align="center">Description of Transition State:<img border="0" src="c2h4_h3.gif" width="102" height="97" align="right"></h4>
+<p>The H -- Cl distance has increased to 1.630 Angstroms, <br>
+the H -- C distance is 1.424 A, and the Cl -- C distance is 2.268 Angstroms.
+<font face="Symbol">D</font>H<sub>f</sub>: +34.84 Kcal/mol.</p>
+<p>&nbsp;</p>
+<h4 align="center">Description of Products:<img border="0" src="c2h4_h1.gif" width="83" height="75" align="right"></h4>
+<p>In Chloroethylene, the C-H distance is 1.117 Angstroms, the C-Cl distance is
+1.758 A, <br>
+and the H -- Cl distance is 2.932A.&nbsp; <font face="Symbol">D</font>H<sub>f</sub>
+C<sub>2</sub>H<sub>5</sub>Cl: -26.19 Kcal/mol.</p>
+<p align="left">Use of a <a href="grid_calc.html">GRID </a>to generate the
+transition state:</p>
+<p align="left">
+<img border="0" src="c2h4_h5.gif" width="178" height="134" align="right">An obvious, and incorrect, way to find the transition state
+would be to generate the potential energy surface map in which one direction
+represented the C -- H stretch and the other represented the C -- Cl stretch.&nbsp;
+In this map, the C - H distance is varied from 1.1 to 1.7 A, and the C - Cl
+distance is varied from 2.0 to 2.6 Angstroms.&nbsp; The resulting map shows an obviously incorrect structure in the region of the transition
+state, in that the ridge is quite sharp..&nbsp; Examination of the geometries in the region of the transition state
+showed that two distinct types of structure: (a) a product-like structure in
+which the H -- Cl distance was large, and (b) a reactant-like structure, in
+which the H -- Cl distance was small.&nbsp; At no point was the H -- Cl distance
+similar to that in the transition state.&nbsp;&nbsp;&nbsp; The conclusion to be
+drawn was that the map did not include geometries related to the transition
+state, despite the fact that geometries intermediate between reactants and
+transition state, and geometries intermediate between transition state and
+product were generated.</p>
+<p align="left">However, by using these intermediate geometries, one from each
+side of the transition state, a <TT><A HREF="saddle.html"><U><FONT COLOR="#0000ff">SADDLE</FONT></U></A></TT>
+calculation can be run, to generate a good approximation to the transition
+state.&nbsp; This can then be further refined using <A HREF="ts.html"><TT><FONT COLOR="#0000ff"><U>TS</U></FONT></TT></A>,
+and finally the transition state could be characterized using <A HREF="force.html"><TT><FONT COLOR="#0000ff"><U>FORCE</U></FONT></TT></A>.</p>
+<p align="left">Here, the starting points for the SADDLE calculation were
+obtained from the output from the GRID or map calculation.&nbsp; If such a
+calculation had not been done, the SADDLE calculation could have been started
+using the reactants and products only.&nbsp; The difference would have been that
+the SADDLE calculation would have taken longer to run.</p>
+<p align="left">Note that in the Markovnikov reaction, the first step is
+addition of Cl(.) to C<sub>2</sub>H<sub>4</sub>, followed by addition of HCl to
+the resulting C<sub>2</sub>H<sub>4</sub>Cl.&nbsp; This gives rise to the
+product, CH<sub>3</sub>CH<sub>2</sub>Cl + Cl(.).</p>
+<p align="left">The files used in these calculation can be found in the
+<a href="C2H4+HCl.zip">ZIP</a> file.</p>
+<p align="center">&nbsp;</p>
+</body>
+</html>

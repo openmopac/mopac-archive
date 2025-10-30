@@ -1,0 +1,69 @@
+*REMARK
+*REMARK  MOZYME Examples: Read in a PDB file, and do one SCF calculation
+*REMARK
+*REMARK  PDB files are normally recognized automatically by the presence
+*REMARK  of strings such as "ATOM" or "HETERO"  If a PDB file is not
+*REMARK  recognized, then use keyword "PDB".
+*REMARK
+*REMARK This example uses two keywords:
+*REMARK
+*REMARK  1SCF:       Read in the data set, and do a single SCF calculation.            
+*REMARK  MOZYME:     Use the MOZYME function.         
+*REMARK
+*REMARK   For more information on each keyword, see:
+*REMARK                   
+*REMARK  1SCF:         HTTP://OpenMOPAC.net/Manual/one_scf.html
+*REMARK  MOZYME:       HTTP://OpenMOPAC.net/Manual/MOZYME.html
+*REMARK
+1scf mozyme
+ Read in a PDB file, and do one SCF calculation
+
+ATOM      1  N   CYS A   1       0.000   0.000   0.000  1.00  0.00      PROT    1
+ATOM      2  CA  CYS A   1       1.480   0.000   0.000  1.00  0.00      PROT    2
+ATOM      3  C   CYS A   1       2.002   1.459   0.000  1.00  0.00      PROT    3
+ATOM      4  O   CYS A   1       3.001   1.763   0.630  1.00  0.00      PROT    4
+ATOM      5  CB  CYS A   1       2.131  -0.722  -1.184  1.00  0.00      PROT    5
+ATOM      6  SG  CYS A   1       1.536  -2.438  -1.118  1.00  0.00      PROT    6
+ATOM      7  HA  CYS A   1       1.851  -0.446   0.969  1.00  0.00      PROT    7
+ATOM      8 1HB  CYS A   1       3.237  -0.680  -1.105  1.00  0.00      PROT    8
+ATOM      9 2HB  CYS A   1       1.865  -0.251  -2.149  1.00  0.00      PROT    9
+ATOM     10  HG  CYS A   1       2.246  -2.959  -2.141  1.00  0.00      PROT   10
+ATOM     11 1HT  CYS A   1      -0.383  -0.115  -0.935  1.00  0.00      PROT   11
+ATOM     12 2HT  CYS A   1      -0.366  -0.758   0.571  1.00  0.00      PROT   12
+ATOM     13  N   PHE A   2       1.360   2.377  -0.840  1.00  0.00      PROT   13
+ATOM     14  CA  PHE A   2       1.832   3.778  -0.862  1.00  0.00      PROT   14
+ATOM     15  C   PHE A   2       0.706   4.688  -0.329  1.00  0.00      PROT   15
+ATOM     16  O   PHE A   2      -0.476   4.396  -0.381  1.00  0.00      PROT   16
+ATOM     17  CB  PHE A   2       2.180   4.210  -2.304  1.00  0.00      PROT   17
+ATOM     18  CG  PHE A   2       3.501   3.626  -2.727  1.00  0.00      PROT   18
+ATOM     19  CD1 PHE A   2       4.697   4.288  -2.407  1.00  0.00      PROT   19
+ATOM     20  CE1 PHE A   2       5.923   3.739  -2.788  1.00  0.00      PROT   20
+ATOM     21  CZ  PHE A   2       5.966   2.531  -3.492  1.00  0.00      PROT   21
+ATOM     22  CE2 PHE A   2       4.776   1.872  -3.814  1.00  0.00      PROT   22
+ATOM     23  CD2 PHE A   2       3.546   2.415  -3.433  1.00  0.00      PROT   23
+ATOM     24  HA  PHE A   2       2.754   3.859  -0.210  1.00  0.00      PROT   24
+ATOM     25 1HB  PHE A   2       2.208   5.318  -2.377  1.00  0.00      PROT   25
+ATOM     26 2HB  PHE A   2       1.373   3.901  -3.001  1.00  0.00      PROT   26
+ATOM     27  HD1 PHE A   2       4.673   5.228  -1.860  1.00  0.00      PROT   27
+ATOM     28  HE1 PHE A   2       6.849   4.254  -2.535  1.00  0.00      PROT   28
+ATOM     29  HD2 PHE A   2       2.622   1.897  -3.680  1.00  0.00      PROT   29
+ATOM     30  HE2 PHE A   2       4.808   0.933  -4.363  1.00  0.00      PROT   30
+ATOM     31  HZ  PHE A   2       6.923   2.106  -3.786  1.00  0.00      PROT   31
+ATOM     32  HT  PHE A   2       0.377   2.242  -1.098  1.00  0.00      PROT   32
+ATOM     33  N   GLU A   3       1.138   5.869   0.289  1.00  0.00      PROT   33
+ATOM     34  CA  GLU A   3       0.137   6.882   0.686  1.00  0.00      PROT   34
+ATOM     35  C   GLU A   3      -0.048   7.934  -0.426  1.00  0.00      PROT   35
+ATOM     36  O   GLU A   3       0.711   8.021  -1.360  1.00  0.00      PROT   36
+ATOM     37  CB  GLU A   3       0.570   7.596   1.979  1.00  0.00      PROT   37
+ATOM     38  CG  GLU A   3       0.618   6.633   3.167  1.00  0.00      PROT   38
+ATOM     39  CD  GLU A   3       1.134   7.276   4.418  1.00  0.00      PROT   39
+ATOM     40  OE1 GLU A   3       2.074   8.247   4.137  1.00  0.00      PROT   40
+ATOM     41  OE2 GLU A   3       0.849   7.043   5.568  1.00  0.00      PROT   41
+ATOM     42  HA  GLU A   3      -0.852   6.356   0.844  1.00  0.00      PROT   42
+ATOM     43 1HB  GLU A   3      -0.129   8.429   2.201  1.00  0.00      PROT   43
+ATOM     44 2HB  GLU A   3       1.568   8.072   1.848  1.00  0.00      PROT   44
+ATOM     45 1HG  GLU A   3       1.266   5.754   2.927  1.00  0.00      PROT   45
+ATOM     46 2HG  GLU A   3      -0.386   6.196   3.371  1.00  0.00      PROT   46
+ATOM     47  HE1 GLU A   3       2.447   8.665   4.960  1.00  0.00      PROT   47
+ATOM     48  HT  GLU A   3       2.079   6.227   0.127  1.00  0.00      PROT   48
+ATOM     49  HA  GLU A   3      -0.922   8.591  -0.304  1.00  0.00      PROT   49

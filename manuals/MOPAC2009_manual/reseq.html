@@ -1,0 +1,35 @@
+<HTML>
+<HEAD>
+<TITLE>RESEQ </TITLE>
+
+</HEAD>
+<body bgcolor=white>
+<H2 align="center">
+<TT>RESEQ</TT> 
+</H2>
+According to the PDB format, atoms in a protein are specified starting with
+the nitrogen of the -NH<SUB>2</SUB> end and ending with the atoms at the -COOH end.
+<TT>RESEQ</TT> will re-arrange the atoms into the standard PDB sequence.  
+<TT>RESEQ</TT> is useful particularly after adding hydrogen atoms.  Because
+<TT>RESEQ</TT> changes the order of the atoms, further work is not
+possible, and the calculation is stopped, after the new geometry is printed.
+<p>Care should be exercised in using  
+<TT>RESEQ</TT>&nbsp; in that there is the possibility of atoms being re-arranged 
+in unexpected ways.&nbsp; Consider phenylalanine, for example.&nbsp; In it, the 
+sequence of atoms is uniquely defined except for C<sub><font face="Symbol">d</font>1</sub> 
+and C<sub><font face="Symbol">d</font>2</sub>.&nbsp; This means that either one 
+of these atoms might be chosen at random to be C<sub><font face="Symbol">d</font>1</sub>, 
+and the choice might be different from that used in the starting data set.&nbsp; 
+The effect of this is that any attempt to calculate the RMS difference between 
+two structures, one of which has been re-sequenced, is likely to give a nonsense 
+result, even if hydrogen atoms are ignored in the RMS calculation.&nbsp;&nbsp;
+</p>
+<p>Also, if the protein has gaps where residues are missing, <TT>RESEQ</TT> might put the 
+fragments into the wrong order, particularly if the residues in the protein have 
+been re-arranged as the result of earlier operations.&nbsp; To ensure that the 
+order of fragments is correct, use <TT><a href="CVB.html">CVB</a></TT> to make dummy bonds that bridge the gaps. 
+Suitable atoms are the N terminus of one residue and the carboxyl of the other 
+residue.</p>
+<p>&nbsp;</p>
+</BODY>
+</HTML>

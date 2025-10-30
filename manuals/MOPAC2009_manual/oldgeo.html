@@ -1,0 +1,19 @@
+<HTML>
+<HEAD>
+<TITLE>OLDGEO </TITLE>
+</HEAD>
+<body bgcolor=white>
+<h1 align="center">
+<TT>OLDGEO</TT>
+</h1>
+        If multiple geometries are to be run, and the  final  geometry  from
+   one  calculation  is  to  be  used  to start the next calculation, <TT>OLDGEO</TT>
+   should be specified.  Example:  If MNDO, AM1, and PM3 calculation,  were
+   to  be done on one system, for which only a rough geometry was available,
+   then after the MNDO calculation, the AM1 calculation could be done  using
+   the  optimized  MNDO  geometry  as  the  starting geometry, by specifying
+   <TT>OLDGEO</TT>.  After the AM1 calculation was done, then a PM3 calculation
+could also be done, starting with the old AM1 geometry, by again specifying
+<TT>OLDGEO</TT>.
+</BODY>
+</HTML>

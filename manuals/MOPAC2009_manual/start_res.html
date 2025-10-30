@@ -1,0 +1,38 @@
+<HTML>
+<HEAD>
+<TITLE>START_RES(text) </TITLE>
+                                                                                                                    </HEAD>
+<BODY LINK="#0000ff" VLINK="#800080" BGCOLOR="#ffffff">
+<h1 align="center">
+<TT>START_RES(<I>text</I>)</TT> </h1>
+<p>Some PDB files represent two or more proteins, for example there are four 
+proteins in one hemoglobin.&nbsp; At the end of each such protein there is a TER 
+entry, indicating the termination of the protein.&nbsp; In other proteins, some 
+residues are missing.&nbsp; Missing residues are indicated in the PDB file by a 
+discontinuity in the residue number. When writing PDB formats using
+<a href="pdbout.html"><TT>PDBOUT</TT></a>, information on 
+the various proteins and on missing residues can be indicated by the <TT>
+START_RES(<i>text</i>)</TT> 
+keyword.&nbsp; The format of the keyword is as follows:</p>
+<p> <TT>START_RES[=](n<sub>1</sub>[ ,-][n<sub>2</sub>[ ,-][n<sub>3</sub>[ ,-]...]])</TT></p>
+<p>n<sub>n</sub> is the number of the first residue in a section of contiguous 
+residues in the PDB file.&nbsp; If two contiguous sections are separated by 
+missing residues, then the two n<sub>n</sub> are separated by a minus sign.&nbsp; 
+If the two contiguous sections are on different proteins, then the two n<sub>n</sub> 
+are separated by a single space.&nbsp; </p>
+<p>Thus if a PDB file consists of two proteins, A and B, and A has residues 30 
+31 32 33 34 38 39 40, and B has residues 44 45 46 49 50 51 55 56 57, then the 
+keyword would be:</p>
+<p>&nbsp;<TT>START_RES(30-38 44-49-55) or START_RES=(30-38 44-49-55) </TT></p>
+<p>In the PDB file written by MOPAC, a &quot;TER&quot; line would be added after the last 
+atom of protein A, residue 8 (residue 38 in the output), and before the first 
+atom of protein B, residue 9 (residue 44 in the output) .</p>
+<p>If the PDB file consists of one protein only, and there is a gap in the 
+residue sequence, for example suppose the residue numbers were: 1, 2, 3, 4, 5, 6, 7, 9, 
+10, 11, then the <TT>START_RES</TT> keyword would have two entries, e.g.,&nbsp;&nbsp; <TT>START_RES</TT>(1-9), 
+the first entry being the residue number of the first contiguous section.</p>
+<p>See also
+<TT><FONT COLOR="#0000ff"><a href="chains.html"><U>CHAINS(<I>text</I>)</U></a></FONT></TT> 
+to define chain-letters.</p>
+<P></BODY>
+</HTML>

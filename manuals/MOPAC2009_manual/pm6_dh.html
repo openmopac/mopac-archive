@@ -1,0 +1,80 @@
+<HTML>
+<HEAD>
+<TITLE>PM6-DH </TITLE>
+</HEAD>
+<body bgcolor=white>
+<h1 align="center">
+<TT>PM6-DH[(n,m,k:l)]</TT>
+</h1>
+<p align="left">
+<font size="4" face="Times New Roman">Use the PM6-DH procedure of: Jan Rezac, Jindrich Fanfrl&#305;k, Dennis 
+Salahub, and Pavel Hobza,
+&quot;Semiempirical Quantum Chemical PM6 Method Augmented by Dispersion and H-Bonding 
+Correction Terms Reliably Describes Various Types of Noncovalent Complexes&quot;,
+&nbsp;J. Chem. Theory Comput. May 2009. See:
+<a href="http://pubs.acs.org/doi/abs/10.1021/ct9000922">
+http://pubs.acs.org/doi/abs/10.1021/ct9000922</a> and
+<a href="pm6_dh_abstract.html">Abstract</a>.</font></p>
+<p ALIGN="LEFT"><font face="Times New Roman" size="4">The PM6-DH procedure corrects 
+binding errors in the PM6 method.&nbsp; It can be used with geometry 
+optimization or with a single point (</font><font face="Helvetica" size="4"><a href="one_scf.html"><TT><font face="Times New Roman">1SCF</font></TT></a></font><font face="Times New Roman" size="4">) 
+calculation.&nbsp; Normally, two or three calculations would be needed to get 
+the binding energy.&nbsp; </font></p>
+<p ALIGN="LEFT"><font face="Times New Roman" size="4">Without the optional 
+arguments, PM6-DH will apply to all atoms.&nbsp; With optional arguments, PM6-DH 
+will apply only to the interaction of one part of the system with a second part.&nbsp; 
+The optional argument defines atoms used in one of the parts.&nbsp; Atom numbers 
+are specified by numbers separated by commas, and ranges of the type 645-670 or 
+645:670.&nbsp; To specify atoms 600, 610, 611, 612, and 630 the keyword would be 
+PM6-DH(600,610:612,630) or PM6-DH(600,630,610-612)</font></p>
+<p ALIGN="LEFT"><font face="Times New Roman" size="4">Consider the dimer of 
+formic acid: 
+The binding energy  would be the </font>
+<font face="Symbol" size="4">D</font><font face="Times New Roman" size="4">H<sub>f</sub> 
+of the formic acid dimer minus  the </font><font face="Symbol" size="4">D</font><font face="Times New Roman" size="4">H<sub>f</sub> 
+of two well-separated formic acid molecules.&nbsp; Here, two calculations are needed.&nbsp; 
+For this work, the accurate geometries from the
+<a href="http://www.begdb.com/index.php?action=e8079cb0e8955e6ebb16ccb9928789b6&id=4&state=show&order=ASC&by=name_m&method=">
+S22 database</a> are used.</font><p ALIGN="LEFT">
+<font face="Times New Roman" size="4">First calculation:</font><PRE>PM6-DH(1:5) 1scf
+
+
+  C   -1.888896000 1  -0.179692000 1   0.000000000 1
+  O   -1.493280000 1   1.073689000 1   0.000000000 1
+  O   -1.170435000 1  -1.166590000 1   0.000000000 1
+  H   -2.979488000 1  -0.258829000 1   0.000000000 1
+  H   -0.498833000 1   1.107195000 1   0.000000000 1
+  C    1.888896000 1   0.179692000 1   0.000000000 1
+  O    1.493280000 1  -1.073689000 1   0.000000000 1
+  O    1.170435000 1   1.166590000 1   0.000000000 1
+  H    2.979488000 1   0.258829000 1   0.000000000 1
+  H    0.498833000 1  -1.107195000 1   0.000000000 1
+
+</PRE>
+<p ALIGN="LEFT"><font face="Times New Roman" size="4">Second calculation:</font></p><PRE> PM6-DH(1:5) 1scf
+
+
+  C   -1.888896000 1  -0.179692000 1  99.000000000 1
+  O   -1.493280000 1   1.073689000 1  99.000000000 1
+  O   -1.170435000 1  -1.166590000 1  99.000000000 1
+  H   -2.979488000 1  -0.258829000 1  99.000000000 1
+  H   -0.498833000 1   1.107195000 1  99.000000000 1
+  C    1.888896000 1   0.179692000 1   0.000000000 1
+  O    1.493280000 1  -1.073689000 1   0.000000000 1
+  O    1.170435000 1   1.166590000 1   0.000000000 1
+  H    2.979488000 1   0.258829000 1   0.000000000 1
+  H    0.498833000 1  -1.107195000 1   0.000000000 1
+
+</PRE>
+<p ALIGN="LEFT"><font face="Times New Roman" size="4">Consider a substrate 
+docked in an enzyme.&nbsp; The binding energy would be the </font>
+<font face="Symbol" size="4">D</font><font face="Times New Roman" size="4">H<sub>f</sub> 
+of the docked assembly minus the </font><font face="Symbol" size="4">D</font><font face="Times New Roman" size="4">H<sub>f</sub> 
+of the isolated substrate minus the </font><font face="Symbol" size="4">D</font><font face="Times New Roman" size="4">H<sub>f</sub> 
+of the isolated enzyme.&nbsp; As <i>in vivo </i>enzymes exist in aqueous media, 
+solvation will be necessary.</font></p>
+<p ALIGN="LEFT">&nbsp;</p>
+<p ALIGN="LEFT">&nbsp;</p>
+<p ALIGN="LEFT">&nbsp;</p>
+</BODY>
+</HTML>

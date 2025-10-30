@@ -1,0 +1,41 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<!--Converted with LaTeX2HTML 98.1 release (February 19th, 1998)
+originally by Nikos Drakos (nikos@cbl.leeds.ac.uk), CBLU, University of Leeds
+* revised and updated by:  Marcus Hennecke, Ross Moore, Herb Swan
+* with significant contributions from:
+  Jens Lippmann, Marek Rouchal, Martin Wilck and others -->
+<HTML>
+<HEAD>
+<TITLE>PDBOUT </TITLE>
+<META NAME="description" CONTENT="PDBOUT ">
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1">
+
+<LINK REL="next" HREF="../../MOPAC_Manual/manual%20(old)/node259.html">
+<LINK REL="previous" HREF="../../MOPAC_Manual/manual%20(old)/node257.html">
+<LINK REL="up" HREF="../../MOPAC_Manual/manual%20(old)/node109.html">
+<LINK REL="next" HREF="../../MOPAC_Manual/manual%20(old)/node259.html">
+</HEAD>
+<body bgcolor=white>
+<!--Navigation Panel-->
+<H2 align="center">
+<TT>PDBOUT</TT> 
+</H2>
+To be used only with proteins, <TT>PDBOUT</TT> will cause the geometry to be 
+printed in PDB format. Although the format printed is designed to match that 
+used in the Brookhaven Protein Data Bank, the agreement is not exact.<p>If the 
+data set includes comments (lines that start with an asterisk (*), see
+<a href="example_of_data.html">example</a>), these will be printed in the PDB format.&nbsp; This 
+is very useful in preserving the integrity of the PDB file.</p>
+<p>If residues are missing, or if multiple proteins are present, keyword <TT>
+<a href="start_res.html">START_RES(<i>text</i>)</a></TT> should be used to 
+indicate this. By default, each chain, or section of chain, will be given a 
+different letter, starting with &quot;A&quot;.&nbsp; This can cause problems, particularly 
+if a chain has a gap in it: by default, MOPAC would give the two chain sections 
+different letters.&nbsp; Chain letters can be explicitly assigned by using
+<TT><a href="chains.html">CHAIN(text)</a>.&nbsp; </TT></p>
+<p>If hydrogen atoms have been added, these can be put in their correct place in 
+the PDB file by using <a href="reseq.html"><TT>RESEQ</TT></a>.</p>
+<p>If either&nbsp; <TT><a href="zero_scf.html">0SCF</a></TT> or <a href="reseq.html"><TT>RESEQ</TT></a>. is present, the PDB file 
+written will not contain any non-PDB text, i.e. it will only contain PDB data.</p>
+</BODY>
+</HTML>

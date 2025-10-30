@@ -1,0 +1,83 @@
+Dear Nick,
+
+
+
+Please download 
+
+
+
+http://openmopac.net/makpol.zip
+
+
+
+The instructions for using the program are in makpol.cmd
+
+Please keep me informed of your progress with Makpol, and don't hesitate to ask for help.  If you can improve it, great.
+
+
+
+I'm very excited at the thought of MOPAC being able to "read" a cif file.  Just now I use the following procedure:
+
+
+
+1. Use Mercury to make a 2 by 2 by 2 lattice of unit cells in PDB format.
+
+2. Use a GUI to identify an atom I like (an atom that's easy to locate in each unit cell).
+
+3. Make that atom atom 1.
+
+4. Identify the equivalent three atoms in unit cells (0,0,1), (0,1,0), and (1,0,0).
+
+5. Re-name these atoms "Tv"
+
+6. Make up a MOPAC-style data set using this structure. Call this make_test.dat
+
+7. Add "MERS=(1,1,1)" to the keyword line.
+
+8. Run Makpol using "makpol test" (note: "make_" and ".dat" are missing)
+
+9. Look at the resuling MOPAC data set.  If any Tv is less than ~7 A, increase the corresponding value in mers.  Thus in the .cmd, there are the lines:
+
+ECHO :  Tv   -0.879  1   0.000  1   5.066  1  
+ECHO :  Tv    0.000  1   6.982  1   0.000  1  
+ECHO :  Tv    7.617  1   0.000  1   0.000  1  
+
+
+
+The first Tv is ~5.1 A, so in order to increase it, the corresponding value in MERS must be increased to 2, e.g. MERS=(2,X,X)
+
+The second Tv is 6.982, so its value in MERS must be increased (MERS=(X,2,X))
+
+The third Tv is big enough for an organic system like aspartic acid, so its MERS is MERS=(X,X,1).
+
+
+
+Makpol is re-run with the new values of MERS, and the resulting data set can be used in MOPAC2007 directly.
+
+
+
+Although I've used makpol for 10+ years, it has not been distributed.  So my brief instructions here might be unclear.  If that's the case, please let me know, and I'll try to clarify them.  A secondary objective is to set up a set of instructions for general use.
+
+
+
+Best wishes,
+
+
+
+Jimmy Stewart
+
+
+
+
+-------------- Original message from "Nick Day" <ned24@cam.ac.uk>: -------------- 
+
+
+> Dear Dr. Stewart, 
+> 
+> At the ACS you mentioned a tool that would help us generate MOPAC input 
+> for crystal structures. Is this in a form that could be sent to us for 
+> testing? 
+> 
+> Many thanks, 
+> Nick 
+> 

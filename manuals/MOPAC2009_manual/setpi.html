@@ -1,0 +1,52 @@
+<HTML>
+<HEAD>
+<TITLE>SETPI </TITLE>
+</HEAD>
+<body bgcolor=white>
+<h1 align="center">
+<TT>SETPI</TT>
+</h1>
+        In some instances, the default <a href="Lewis_structures.html">Lewis 
+structure</a> used in a <a href="mozyme.html"><TT>MOZYME</TT></a> calculation is not 
+correct.&nbsp; The correct structure can be selected by explicitly supplying one 
+or more <font face="Symbol">p</font> bonds.&nbsp; To do this, add keyword <TT>SETPI</TT>.&nbsp; 
+After the data set, add&nbsp; the atom-pairs that define one or more
+<font face="Symbol">p</font> bonds.&nbsp; For example, a hexagon of carbon atoms 
+with four hydrogen atoms and two oxygen atoms in the 1 and 4 positions, i.e. C<sub>6</sub>H<sub>4</sub>O<sub>2</sub>, 
+can either be  the neutral molecule <i>para</i>-benzoquinone or the di-anion 
+of hydroquinone.&nbsp; The default Lewis structure is the neutral system.&nbsp; 
+If the di-anion is wanted, then the three aromatic <font face="Symbol">p</font> 
+bonds need to be explicitly defined, thus:<PRE>Mozyme setpi charge=-2 
+  Di-anion of hydroquinone
+
+  C     0.00000000  0    0.0000000  0    0.0000000  0                      
+  C     1.42891759  1    0.0000000  0    0.0000000  0     1     0     0    
+  C     1.39123760  1  121.7152363  1    0.0000000  0     2     1     0    
+  C     1.42884933  1  121.6862338  1    0.0522686  1     3     2     1    
+  C     1.42731168  1  116.6123504  1   -0.0326433  1     4     3     2    
+  C     1.39298952  1  121.7002715  1    0.0291866  1     5     4     3    
+  O     1.28854675  1  121.6283321  1  179.9905509  1     1     2     3    
+  O     1.28863750  1  121.5839611  1  179.9914815  1     4     3     2    
+  H     1.07825816  1  117.6731944  1 -179.9642741  1     2     1     3    
+  H     1.07822008  1  120.6215632  1 -179.9762574  1     3     2     1    
+  H     1.07805743  1  117.7610380  1 -179.9848142  1     5     4     3    
+  H     1.07809519  1  120.5409971  1  179.9757231  1     6     5     4   
+   
+2 3
+1 6
+4 5</PRE>
+<p>There is no need to supply all the <font face="Symbol">p</font> bonds, only 
+those necessary to resolve any ambiguities.&nbsp; Other examples of the need 
+for <TT>SETPI</TT> include:</p>
+
+<p>Distinguishing the anion of p-hydroxy N-methyl pyridine from its quinone type 
+tautomer.<br>
+Ensuring that&nbsp; <i>meso</i>-tetra(<i>para</i>-N-methylpyridinato)-porphyrin 
+has the correct charge.</p>
+
+
+<p>See also <a href="CVB.html"><TT>CVB</TT></a> to explicitly make or break bonds, and 
+<a href="Labels.html">atom labels</a> to explicitly assign charges.</p>
+
+
+</BODY></HTML>

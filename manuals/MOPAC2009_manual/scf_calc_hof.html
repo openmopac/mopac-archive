@@ -1,0 +1,324 @@
+<HTML>
+<HEAD>
+<TITLE>Calculation of heat of formation</TITLE>
+                                                                                                                 </HEAD>
+<BODY LINK="#0000ff" VLINK="#800080" BGCOLOR="#ffffff">
+<H2><A NAME="SECTION001257000000000000000">Calculation of heat of formation</A> </H2>
+<P>The heat of formation is defined as: </P>
+<P align="center"><font face="Symbol">D</font>H<i><sub>f</sub></i> = E<i><sub>elect</sub></i>
++ E<i><sub>nuc</sub></i> - E<i><sub>isol</sub></i> + E<i><sub>atom</sub></i></P>
+<P><DIV ALIGN="CENTER">
+                     </DIV>
+<P>where <I>E<SUB>elect</I></SUB> is the electronic energy, <I>E<SUB>nuc</I></SUB> is the nuclear-nuclear repulsion energy, -<I>E<SUB>isol</I></SUB> is the energy required to strip all the valence electrons off all the atoms in the system, and <I>E<SUB>atom</I></SUB> is the total heat of atomization of all the atoms in the system. </P>
+<p>(For a single atom, there is no nuclear term, therefore:</p>
+<P align="center"><font face="Symbol">D</font>H<i><sub>f</sub></i> = E<i><sub>elect</sub></i>&nbsp;
+- E<i><sub>isol</sub></i> + E<i><sub>atom</sub></i></P>
+<p align="center">&nbsp;</p>
+<p>But E<i><sub>elect</sub></i> = E<i><sub>isol</sub></i> for an isolated atom,
+therefore </p>
+<P align="center"><font face="Symbol">D</font>H<i><sub>f</sub></i> =&nbsp; E<i><sub>atom</sub></i></P>
+<p align="center">&nbsp;</p>
+<p>where E<i><sub>atom</sub></i> is the experimental heat of formation of the
+isolated atom from the element in its standard state. For example, in nitrogen
+this is half the heat required to break a N<sub>2</sub> molecule into its
+separated atoms. Isolated nitrogen atoms have the configuration 1s<sup>2</sup>
+2s<sup>2</sup> 2p<sup>3</sup>, and the state <a href="Energies_of_isolated_atoms.html#confs">4S<sub>u</sub></a>,
+i.e. quartet S. Experimentally, this energy is 113 kcal/mol.&nbsp; This means
+that all semiempirical methods predict the heats of formation of isolated atoms
+with a zero error, except in those few instances when the predicted ground state
+is incorrect.)</p>
+<I><P>E<SUB>elect</I></SUB> is calculated from                                           <IMG SRC="img1011.gif" ALIGN="MIDDLE" WIDTH=73 HEIGHT=36 ALT="$frac{1}{2}{bf P(H + F)}$">, or </P>
+<P><DIV ALIGN="CENTER">
+                     <IMG SRC="img1012.gif" WIDTH=221 HEIGHT=52 ALT="begin{displaymath}E_{elect} = frac{1}{2}sum_{lambda=1}^6sum_{sigma=1}^6P_{lambdasigma}(H_{lambdasigma} + F_{lambdasigma}).end{displaymath}"></DIV>
+<P>Using the data we have already derived, we can calculate <I>E<SUB>elect</I></SUB> as:<br>
+&nbsp;<div align="center">
+  <center>
+<TABLE CELLSPACING=0 BORDER=0 style="border-collapse: collapse" bordercolor="#111111" cellpadding="0">
+<TR><TD VALIGN="MIDDLE" >
+<P ALIGN="RIGHT"><I>E<SUB>elect</SUB></I></TD>
+<TD VALIGN="MIDDLE" >
+<P ALIGN="CENTER">=</TD>
+<TD VALIGN="MIDDLE" >
+<P>3(+1.0000)(-51.7124 + -5.4823)</TD>
+</TR>
+<TR><TD VALIGN="MIDDLE">
+<P ALIGN="RIGHT">&nbsp;</TD>
+<TD VALIGN="MIDDLE" >
+<P>&nbsp;</TD>
+<TD VALIGN="MIDDLE" width="217">
+<P>+ 6(+0.6667)( -3.2457 + -6.4652)</TD>
+</TR>
+<TR><TD VALIGN="MIDDLE" >
+<P ALIGN="RIGHT">&nbsp;</TD>
+<TD VALIGN="MIDDLE" >
+<P>&nbsp;</TD>
+<TD VALIGN="MIDDLE" >
+<P>+ 3(-0.3333)( -0.6992 + -0.3611)</TD>
+</TR>
+</TABLE>
+  </center>
+</div>
+<P>or </P>
+<P><DIV ALIGN="CENTER">
+                     <IMG SRC="img1013.gif" WIDTH=143 HEIGHT=30 ALT="begin{displaymath}E_{elect} = -210.0898 {rm eV}.end{displaymath}"></DIV>
+<I><P>E<SUB>nuc</I></SUB> is a relatively straightforward calculation, and is equal to 130.2902eV. The total energy of the system is thus -79.7996 eV. </P>
+<P>We are now ready to calculate the                            <font face="Symbol">D</font>H<sub>f&nbsp;
+</sub>. As the total energy and <I>E<SUB>isol</I></SUB> are in eV, we must first convert them into kcal/mol: </P>
+<P><DIV ALIGN="CENTER">
+                     <IMG SRC="img1015.gif" WIDTH=378 HEIGHT=32 ALT="begin{displaymath}Delta H_f = 23.061( -79.7996 + 71.4377) + 6(52.1020){rm kcal/mol}end{displaymath}"></DIV>
+<P>or </P>
+<P align="center"><font face="Symbol">D</font>H<sub>f&nbsp;
+</sub>&nbsp;= 119.780 kcal/mol. </P>
+<P align="left">It is convenient to combine <I>E<SUB>isol</I></SUB> and <I>E<SUB>atom</I></SUB> together, to simplify this calculation. In order to convert any total energy                                       (<I>E<SUB>elect</I></SUB> + <I>E<SUB>nuc</I></SUB>)into a                            <font face="Symbol">D</font>H<sub>f
+</sub>, the following operation must be performed: </P>
+<P><DIV ALIGN="CENTER">
+                     <IMG SRC="img1018.gif" WIDTH=279 HEIGHT=42 ALT="begin{displaymath}Delta H_f = 23.061(E_{elect} + E_{nuc} -sum_i E_{(isol-atom)} )end{displaymath}"></DIV>
+<P>in which the index <I>i</I> is over all atoms in the system. </P>
+<font SIZE="2"></font>
+<P>Users of MOPAC may wish to verify this calculation for a system of their own choice. To facilitate this, the data in the Table&nbsp;may prove useful. </P>
+<P><BR>
+<DIV ALIGN="CENTER"><DIV ALIGN="CENTER">&nbsp;</P>
+<STRONG><P>Table:</STRONG> Values of                                 <I>E</I><SUB>(<I>isol</I>-<I>atom</I>)</SUB> </P>
+<TABLE BORDER CELLSPACING=1 CELLPADDING=3>
+<TR><TD VALIGN="MIDDLE">
+<P>Element</TD>
+<TD VALIGN="MIDDLE" COLSPAN=4>
+<P ALIGN="CENTER">                                <I>E</I><SUB>(<I>isol</I>-<I>atom</I>)</SUB> (eV/atom)</TD>
+</TR>
+<TR><TD VALIGN="MIDDLE">
+<P>&nbsp;</TD>
+<TD VALIGN="MIDDLE">
+<P ALIGN="CENTER">MINDO/3</TD>
+<TD VALIGN="MIDDLE">
+<P ALIGN="CENTER">MNDO</TD>
+<TD VALIGN="MIDDLE">
+<P ALIGN="CENTER">AM1</TD>
+<TD VALIGN="MIDDLE">
+<P ALIGN="CENTER">PM3</TD>
+</TR>
+<TR><TD VALIGN="MIDDLE">
+<P>Hydrogen</TD>
+<TD VALIGN="MIDDLE">
+<P ALIGN="RIGHT">-14.764312</TD>
+<TD VALIGN="MIDDLE">
+<P ALIGN="RIGHT">-14.165588</TD>
+<TD VALIGN="MIDDLE">
+<P ALIGN="RIGHT">-13.655739</TD>
+<TD VALIGN="MIDDLE">
+<P ALIGN="RIGHT">-15.332633</TD>
+</TR>
+<TR><TD VALIGN="MIDDLE">
+<P>Lithium</TD>
+<TD VALIGN="MIDDLE">
+<P ALIGN="RIGHT">&nbsp;</TD>
+<TD VALIGN="MIDDLE">
+<P ALIGN="RIGHT">-6.793583</TD>
+<TD VALIGN="MIDDLE">
+<P ALIGN="RIGHT">&nbsp;</TD>
+<TD VALIGN="MIDDLE">
+<P ALIGN="RIGHT">&nbsp;</TD>
+</TR>
+<TR><TD VALIGN="MIDDLE">
+<P>Beryllium</TD>
+<TD VALIGN="MIDDLE">
+<P ALIGN="RIGHT">&nbsp;</TD>
+<TD VALIGN="MIDDLE">
+<P ALIGN="RIGHT">-27.541992</TD>
+<TD VALIGN="MIDDLE">
+<P ALIGN="RIGHT">&nbsp;</TD>
+<TD VALIGN="MIDDLE">
+<P ALIGN="RIGHT">&nbsp;</TD>
+</TR>
+<TR><TD VALIGN="MIDDLE">
+<P>Boron</TD>
+<TD VALIGN="MIDDLE">
+<P ALIGN="RIGHT">-67.584394</TD>
+<TD VALIGN="MIDDLE">
+<P ALIGN="RIGHT">-70.200344</TD>
+<TD VALIGN="MIDDLE">
+<P ALIGN="RIGHT">-69.601659</TD>
+<TD VALIGN="MIDDLE">
+<P ALIGN="RIGHT">&nbsp;</TD>
+</TR>
+<TR><TD VALIGN="MIDDLE">
+<P>Carbon</TD>
+<TD VALIGN="MIDDLE">
+<P ALIGN="RIGHT">-126.880346</TD>
+<TD VALIGN="MIDDLE">
+<P ALIGN="RIGHT">-127.910952</TD>
+<TD VALIGN="MIDDLE">
+<P ALIGN="RIGHT">-128.226140</TD>
+<TD VALIGN="MIDDLE">
+<P ALIGN="RIGHT">-118.640263</TD>
+</TR>
+<TR><TD VALIGN="MIDDLE">
+<P>Nitrogen</TD>
+<TD VALIGN="MIDDLE">
+<P ALIGN="RIGHT">-192.410048</TD>
+<TD VALIGN="MIDDLE">
+<P ALIGN="RIGHT">-207.466249</TD>
+<TD VALIGN="MIDDLE">
+<P ALIGN="RIGHT">-207.307791</TD>
+<TD VALIGN="MIDDLE">
+<P ALIGN="RIGHT">-162.513823</TD>
+</TR>
+<TR><TD VALIGN="MIDDLE">
+<P>Oxygen</TD>
+<TD VALIGN="MIDDLE">
+<P ALIGN="RIGHT">-309.652672</TD>
+<TD VALIGN="MIDDLE">
+<P ALIGN="RIGHT">-320.451178</TD>
+<TD VALIGN="MIDDLE">
+<P ALIGN="RIGHT">-318.682192</TD>
+<TD VALIGN="MIDDLE">
+<P ALIGN="RIGHT">-291.924879</TD>
+</TR>
+<TR><TD VALIGN="MIDDLE">
+<P>Fluorine</TD>
+<TD VALIGN="MIDDLE">
+<P ALIGN="RIGHT">-475.817831</TD>
+<TD VALIGN="MIDDLE">
+<P ALIGN="RIGHT">-477.502913</TD>
+<TD VALIGN="MIDDLE">
+<P ALIGN="RIGHT">-483.109715</TD>
+<TD VALIGN="MIDDLE">
+<P ALIGN="RIGHT">-438.336301</TD>
+</TR>
+<TR><TD VALIGN="MIDDLE">
+<P>Aluminum</TD>
+<TD VALIGN="MIDDLE">
+<P ALIGN="RIGHT">&nbsp;</TD>
+<TD VALIGN="MIDDLE">
+<P ALIGN="RIGHT">-47.931017</TD>
+<TD VALIGN="MIDDLE">
+<P ALIGN="RIGHT">&nbsp;</TD>
+<TD VALIGN="MIDDLE">
+<P ALIGN="RIGHT">-50.311708</TD>
+</TR>
+<TR><TD VALIGN="MIDDLE">
+<P>Silicon</TD>
+<TD VALIGN="MIDDLE">
+<P ALIGN="RIGHT">-95.576505</TD>
+<TD VALIGN="MIDDLE">
+<P ALIGN="RIGHT">-87.539565</TD>
+<TD VALIGN="MIDDLE">
+<P ALIGN="RIGHT">-83.701885</TD>
+<TD VALIGN="MIDDLE">
+<P ALIGN="RIGHT">-72.488357</TD>
+</TR>
+<TR><TD VALIGN="MIDDLE">
+<P>Phosphorus</TD>
+<TD VALIGN="MIDDLE">
+<P ALIGN="RIGHT">-154.270388</TD>
+<TD VALIGN="MIDDLE">
+<P ALIGN="RIGHT">-156.236921</TD>
+<TD VALIGN="MIDDLE">
+<P ALIGN="RIGHT">-124.436836</TD>
+<TD VALIGN="MIDDLE">
+<P ALIGN="RIGHT">-121.236135</TD>
+</TR>
+<TR><TD VALIGN="MIDDLE">
+<P>Sulfur</TD>
+<TD VALIGN="MIDDLE">
+<P ALIGN="RIGHT">-231.996798</TD>
+<TD VALIGN="MIDDLE">
+<P ALIGN="RIGHT">-228.891710</TD>
+<TD VALIGN="MIDDLE">
+<P ALIGN="RIGHT">&nbsp;</TD>
+<TD VALIGN="MIDDLE">
+<P ALIGN="RIGHT">-186.333060</TD>
+</TR>
+<TR><TD VALIGN="MIDDLE">
+<P>Chlorine</TD>
+<TD VALIGN="MIDDLE">
+<P ALIGN="RIGHT">-347.185366</TD>
+<TD VALIGN="MIDDLE">
+<P ALIGN="RIGHT">-354.374768</TD>
+<TD VALIGN="MIDDLE">
+<P ALIGN="RIGHT">-373.455532</TD>
+<TD VALIGN="MIDDLE">
+<P ALIGN="RIGHT">-316.452049</TD>
+</TR>
+<TR><TD VALIGN="MIDDLE">
+<P>Zinc</TD>
+<TD VALIGN="MIDDLE">
+<P ALIGN="RIGHT">&nbsp;</TD>
+<TD VALIGN="MIDDLE">
+<P ALIGN="RIGHT">-31.231065</TD>
+<TD VALIGN="MIDDLE">
+<P ALIGN="RIGHT">&nbsp;</TD>
+<TD VALIGN="MIDDLE">
+<P ALIGN="RIGHT">&nbsp;</TD>
+</TR>
+<TR><TD VALIGN="MIDDLE">
+<P>Germanium</TD>
+<TD VALIGN="MIDDLE">
+<P ALIGN="RIGHT">&nbsp;</TD>
+<TD VALIGN="MIDDLE">
+<P ALIGN="RIGHT">-80.129955</TD>
+<TD VALIGN="MIDDLE">
+<P ALIGN="RIGHT">&nbsp;</TD>
+<TD VALIGN="MIDDLE">
+<P ALIGN="RIGHT">&nbsp;</TD>
+</TR>
+<TR><TD VALIGN="MIDDLE">
+<P>Bromine</TD>
+<TD VALIGN="MIDDLE">
+<P ALIGN="RIGHT">&nbsp;</TD>
+<TD VALIGN="MIDDLE">
+<P ALIGN="RIGHT">-347.840783</TD>
+<TD VALIGN="MIDDLE">
+<P ALIGN="RIGHT">-353.473742</TD>
+<TD VALIGN="MIDDLE">
+<P ALIGN="RIGHT">-353.699430</TD>
+</TR>
+<TR><TD VALIGN="MIDDLE">
+<P>Tin</TD>
+<TD VALIGN="MIDDLE">
+<P ALIGN="RIGHT">&nbsp;</TD>
+<TD VALIGN="MIDDLE">
+<P ALIGN="RIGHT">-95.454929</TD>
+<TD VALIGN="MIDDLE">
+<P ALIGN="RIGHT">&nbsp;</TD>
+<TD VALIGN="MIDDLE">
+<P ALIGN="RIGHT">&nbsp;</TD>
+</TR>
+<TR><TD VALIGN="MIDDLE">
+<P>Iodine</TD>
+<TD VALIGN="MIDDLE">
+<P ALIGN="RIGHT">&nbsp;</TD>
+<TD VALIGN="MIDDLE">
+<P ALIGN="RIGHT">-341.704860</TD>
+<TD VALIGN="MIDDLE">
+<P ALIGN="RIGHT">-347.970786</TD>
+<TD VALIGN="MIDDLE">
+<P ALIGN="RIGHT">-289.422586</TD>
+</TR>
+<TR><TD VALIGN="MIDDLE">
+<P>Mercury</TD>
+<TD VALIGN="MIDDLE">
+<P ALIGN="RIGHT">&nbsp;</TD>
+<TD VALIGN="MIDDLE">
+<P ALIGN="RIGHT">-29.456154</TD>
+<TD VALIGN="MIDDLE">
+<P ALIGN="RIGHT">&nbsp;</TD>
+<TD VALIGN="MIDDLE">
+<P ALIGN="RIGHT">&nbsp;</TD>
+</TR>
+<TR><TD VALIGN="MIDDLE">
+<P>Lead</TD>
+<TD VALIGN="MIDDLE">
+<P ALIGN="RIGHT">&nbsp;</TD>
+<TD VALIGN="MIDDLE">
+<P ALIGN="RIGHT">-107.856099</TD>
+<TD VALIGN="MIDDLE">
+<P ALIGN="RIGHT">&nbsp;</TD>
+<TD VALIGN="MIDDLE">
+<P ALIGN="RIGHT">&nbsp;</TD>
+</TR>
+</TABLE>
+<P></DIV></DIV></P>
+<P>These numbers may be used in conjunction with the semiempirical electronic and nuclear energies to calculate the heat of formation.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  <BR>
+</P>
+                                                </BODY>
+</HTML>

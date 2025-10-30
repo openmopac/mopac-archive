@@ -1,0 +1,89 @@
+<HTML>
+<HEAD>
+<TITLE>Crystal Data Set</TITLE>
+<script language="Javascript" src="http://openmopac.net/manual/mouseover.js"></script><style type="text/css">
+#types, #inp
+{position:absolute; left: 30;  visibility:hidden; color: blue;}</style>
+
+<h1>How to set up a data-set for a Solid-State Calculation </h1>
+
+<p>&nbsp;</p>
+
+<p>For examples of data-sets for solids, please see: <a href="../all.html">
+SOLIDS</a></p>
+
+<p>A solid-state data set can be identified by the presence of three &quot;Tv&quot; atoms 
+at the end of the geometry.&nbsp; A working definition would be as follows:</p>
+
+<h3>Unit cell</h3>
+
+<p>The geometry used represents a
+<a href="http://en.wikipedia.org/wiki/Crystal_structure", target="_parent">unit cell</a> that can 
+be translated in three dimensions to form an infinite crystal.&nbsp; This means 
+that the unit cell is a volume defined by three sets of two planes. No 
+space-group symmetry can be used.&nbsp; The unit cell used must be large enough 
+to hold a sphere of radius 4 Angstroms.&nbsp; This is not a problem when the
+<a href="http://en.wikipedia.org/wiki/Primitive_cell", target="_parent">primitive unit cell</a> is 
+large, but if it is small then two or more primitive unit cells must be put 
+together to make a unit cell that is large enough to hold the sphere. Thus in 
+rock salt, halite, the primitive unit cell is a cube of size 5.64 Angstroms.&nbsp; 
+In order to hold a sphere of diameter 8 Angstroms, eight primitive unit cells 
+would need to be used. This would give rise to a unit cell of edge 11.28 
+Angstroms.</p>
+
+<p>The unit cell should be defined in Cartesian coordinates, with atom 1 at the 
+origin, that is, at coordinates (0.0, 0.0, 0.0).</p>
+
+<h3>Translation vectors</h3>
+
+<p>The translation vectors are represented in a unique way.&nbsp; At first, it 
+might appear unnecessarily complicated, but in practice it is quite easy to use.</p>
+
+<p>An atom in the unit cell is selected. The choice of atom is not important 
+computationally, but can help in visualizing the structure later on.&nbsp; For 
+example, if 1-Chloronaphthalene were being calculated, the chlorine atom would 
+be an obvious choice, as it is easily located in the solid. This atom is put at 
+the start of the geometry, that is, it is defined as atom 1. Its coordinates are&nbsp;&nbsp; 
+</p>
+
+<p>Let the unit cell used be defined as lattice point (0,0,0), then the three 
+translation vectors are defined by lattice points (1,0,0), (0,1,0), and (0,0,1).&nbsp; 
+Each translation vector will move atom 1 to the corresponding position in the 
+adjacent unit cell.&nbsp; These positions are defined using the symbols &quot;Tv&quot;.&nbsp; 
+That is, the position of each Tv is defined as being where atom 1 would be if it 
+were translated through one unit cell.</p>
+
+<h3>How to build a solid-state data set</h3>
+
+<p>A good starting point is to begin with a
+<a href="http://www.iucr.org/iucr-top/cif/", target="_parent">cif</a> file and use
+<a href="http://www.ccdc.cam.ac.uk/products/mercury/", target="_parent">MERCURY</a> to generate a 
+starting geometry. Open the cif file with MERCURY, and set up a 2 by 2 by 2 set 
+of lattice points by using &quot;Calculate&quot; =&gt; &quot;Packing/Slicing&quot; =&gt; &quot;Pack&quot; then 
+change the &quot;1.0&quot; to &quot;2.0&quot; for &quot;a&quot;, &quot;b&quot;, and &quot;c&quot;. Save the resulting structure as 
+an &quot;ent&quot; file.</p>
+
+<p>Open the &quot;ent&quot; file in a graphics package, e.g., CAChe, and identify the atom 
+to be used as atom 1.&nbsp; Re-arrange the atoms so that the atom selected is 
+atom 1.</p>
+
+<p>Identify the three atoms that atom 1 would become it it were translated 
+through one lattice point in each of the three directions.&nbsp; Rename these 
+atoms &quot;Tv&quot;.</p>
+
+<p>Delete all atoms that are not in lattice point (0,0,0).&nbsp; This might be 
+tedious.</p>
+
+<p>Save the file as Cartesian coordinates.</p>
+
+<p>Edit the Cartesian coordinates to add optimization flags.</p>
+
+<p>The lattice parameters a, b, and c, <font face="Symbol">a</font>,
+<font face="Symbol">b</font>, and <font face="Symbol">g</font>,&nbsp; are not 
+used directly, but are used by MERCURY in generating the lattice points.</p>
+
+<p>Add keywords, title and comment, and run the data set using MOPAC.</p>
+
+</HEAD><BODY LINK="#0000ff" VLINK="#800080" BGCOLOR="#ffffff">
+</BODY>
+</HTML>

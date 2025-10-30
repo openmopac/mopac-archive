@@ -1,0 +1,73 @@
+<HTML>
+<HEAD>
+<TITLE>SITES </TITLE>
+
+</HEAD>
+<body bgcolor=white>
+<H2 align="center">
+<TT>&nbsp;SITE=(text)</TT> 
+</H2>
+<p>Quite often, after hydrogen atoms have been added to a protein, the 
+ionization state of various sites is not what is wanted.&nbsp; The ionization 
+state of various sites in a protein can be explicitly defined by <TT>SITE=(<i>text</i>)</TT>.&nbsp; 
+The <i>text</i> in this case can be one or more of the entries in the table below.&nbsp; 
+Entries should be separated by a comma or by a semicolon.&nbsp; </p>
+<p>To neutralize all sites in a protein, use <TT>SITE=(COOH,NH2,ARG,HIS)</TT>.&nbsp; To 
+ionize all sites, use <TT>SITE=(COO,NH3,ARG(+),His(+)). </TT>No specific 
+tautomer is defined - if it's not the one wanted, make the change outside MOPAC.&nbsp; 
+Because atoms are added or removed, the job cannot continue.&nbsp; Edit the 
+resulting &lt;file&gt;.out, &lt;file&gt;.arc, or &lt;file&gt;.pdb to make a new data set..</p>
+<div align="center">
+  <center>
+  <table border="0" cellpadding="0" cellspacing="0" style="border-top:1.5pt solid green; border-bottom:1.5pt solid green; border-left-style:none; border-right-style:none" fpstyle="1,011111100">
+    <tr>
+      <td style="border-left-style: none; border-right-style: none; border-top-style: none; border-bottom: .75pt solid green">Text</td>
+      <td style="border-left-style: none; border-right-style: none; border-top-style: none; border-bottom: .75pt solid green">&nbsp;</td>
+      <td style="border-left-style: none; border-right-style: none; border-top-style: none; border-bottom: .75pt solid green">Effect</td>
+    </tr>
+    <tr>
+      <td style="border-style: none" valign="top">COOH</td>
+      <td style="border-style: none" valign="top">&nbsp;</td>
+      <td style="border-style: none" valign="top">Add a hydrogen atom to -COO groups</td>
+    </tr>
+    <tr>
+      <td style="border-style: none" valign="top">COO</td>
+      <td style="border-style: none" valign="top">&nbsp;</td>
+      <td style="border-style: none" valign="top">Remove the hydrogen atom from -COOH groups</td>
+    </tr>
+    <tr>
+      <td style="border-style: none" valign="top">NH3</td>
+      <td style="border-style: none" valign="top">&nbsp;</td>
+      <td style="border-style: none" valign="top">
+      <p align="left">Add a hydrogen atom to -NH<sub>2</sub> groups</td>
+    </tr>
+    <tr>
+      <td style="border-style: none" valign="top">NH2</td>
+      <td style="border-style: none" valign="top">&nbsp;</td>
+      <td style="border-style: none" valign="top">Remove a hydrogen atom from -NH<sub>3</sub> groups</td>
+    </tr>
+    <tr>
+      <td style="border-style: none" valign="top">Arg(+)</td>
+      <td style="border-style: none" valign="top">&nbsp;</td>
+      <td style="border-style: none" valign="top">Add a hydrogen atom to -Arg-</td>
+    </tr>
+    <tr>
+      <td style="border-style: none" valign="top">Arg</td>
+      <td style="border-style: none" valign="top">&nbsp;</td>
+      <td style="border-style: none" valign="top">Remove a hydrogen atom from -Arg(+)-</td>
+    </tr>
+    <tr>
+      <td style="border-style: none" valign="top">His(+)</td>
+      <td style="border-style: none" valign="top">&nbsp;</td>
+      <td style="border-style: none" valign="top">Add a hydrogen atom to -His-</td>
+    </tr>
+    <tr>
+      <td style="border-style: none" valign="top">His</td>
+      <td style="border-style: none" valign="top">&nbsp;</td>
+      <td style="border-style: none" valign="top">Remove a hydrogen atom from -His(+)-</td>
+    </tr>
+  </table>
+  </center>
+</div>
+</BODY>
+</HTML>

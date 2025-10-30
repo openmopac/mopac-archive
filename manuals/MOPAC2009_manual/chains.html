@@ -1,0 +1,26 @@
+<HTML>
+<HEAD>
+<TITLE>START_RES(text) </TITLE>
+                                                                                                                    </HEAD>
+<BODY LINK="#0000ff" VLINK="#800080" BGCOLOR="#ffffff">
+<h1 align="center">
+<TT>CHAINS=(<I>text</I>)</TT> </h1>
+<p> <TT>CHAINS</TT> is used with <TT><a href="pdbout.html">PDBOUT</a></TT>.</p>
+
+<p>Protein chains are normally labeled A, then B, then C, etc.&nbsp; If this 
+sequence is correct, then keyword <TT>CHAINS</TT> is not needed.&nbsp; If a different 
+sequence is to be used, put that sequence in place of <i>text</i> in <TT>CHAINS=(<i>text</i>).</TT></p>
+
+<p>For example, in PDB entry 2V66, the chains are B, C, D, and E, not A, B, C, 
+D; for this system, the keyword would be: <TT>CHAINS=(BCDE).</TT></p>
+
+<p> <TT>CHAINS</TT> is also useful if there is a break in the reported sequence.&nbsp; 
+Thus if a protein consists of one chain with three breaks where residues are 
+missing, then, in order for the PDB file to have the correct chain-letters, 
+keyword <TT>CHAINS=(AAAA)</TT> would be necessary</p>
+
+<p> See also <a href="start_res.html"><TT>START_RES(text)</TT></a> to define residue 
+numbers.</p>
+
+</BODY>
+</HTML>

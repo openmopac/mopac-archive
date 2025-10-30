@@ -1,0 +1,48 @@
+<HTML>
+<HEAD>
+<TITLE>CVB(text) </TITLE>
+</HEAD>
+<body bgcolor=white>
+<!--Navigation Panel-->
+<H2 align="center"><A NAME="SECTION007338000000000000000">
+<TT>CVB(<I>text</I>)</TT></A></H2>
+Sometimes in a <a href="mozyme.html"><TT>MOZYME</TT></a> calculation, a Lewis structure cannot be constructed from 
+the topology of the system supplied.&nbsp;&nbsp; When that happens, a warning message will be printed and 
+the run stopped.&nbsp; Unwanted bonds can be removed using <TT>CVB</TT>.&nbsp; The format 
+is:<p><TT>CVB(n1:-n2[;n3:-n4[;n5:-n6....]]])</TT> </p>
+<p>where the bonds to be removed are n1-n2, n3-n4, n5-n6, etc. Thus if bonds 
+were to be removed between atoms 4 and 5, and between atoms 665 and 670, then
+<TT>CVB(4:-5;665:-670)</TT> would be used.&nbsp; If bonds are needed, then don't use the minus sign.&nbsp; Thus if bonds were 
+needed between atoms 4 and 5, and between atoms 665 and 670, then
+<TT>CVB(4:5,665:670)</TT> would be used. <TT>CVB</TT> is also useful when <TT><a href="pdbout.html">PDBOUT</a></TT> is present. A topology sometimes has an 
+unwanted bond between two chains.&nbsp; This prevents some of the residues being 
+identified.&nbsp; To correct this fault, remove the unwanted bond using <TT>CVB</TT>. &nbsp;If there are a several 
+unwanted bonds, and these bonds involve a specific element, then consider the 
+alternative of using&nbsp; <TT>
+<a href="vdw.html">VDWM</a></TT>. to change the Van der Waals radius for that 
+element.</p>
+<P>
+Note that <TT>CVB</TT> is used <EM>only</EM> in the generation of a starting Lewis
+structure or in generating a PDB file. The presence of unrealistic bonds in this structure will not
+normally give rise to an incorrect SCF. 
+
+
+<p>See also <TT><a href="setpi.html">SETPI</a></TT> to explicitly assign<font face="Symbol"> 
+p</font> bonds, and 
+<a href="Labels.html">atom labels</a> to explicitly assign charges.</p>
+
+
+<P>
+Related keywords:<p align="left">See also <TT><a href="lewis.html">LEWIS</a>, <a href="charges.html">CHARGES</a>, <a href="metal.html">METAL</a>, <a href="vdwm.html">VDWM</a>,
+<a href="charge.html">CHARGE</a>, and <a href="mozyme.html">MOZYME</a></TT><br>
+See also: <a href="Lewis_structures.html">Lewis Structures</a>,
+<a href="mozyme_introduction.html">MOZYME introduction</a></p>
+<p align="left">&nbsp;</p>
+<DL dir="ltr">
+<div align="left">
+  <dt dir="ltr">&nbsp;</dt>
+</div>
+
+</dl>
+<P>
+&nbsp;</BODY></HTML>

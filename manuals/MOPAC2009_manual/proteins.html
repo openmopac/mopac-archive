@@ -1,0 +1,50 @@
+<HTML>
+<HEAD>
+<TITLE>Preparing Protein Data Sets</TITLE>
+                                                                                                                                                      </HEAD>
+<BODY LINK="#0000ff" VLINK="#800080" BGCOLOR="#ffffff">
+<H1 align="center">&nbsp;</H1>
+<H1 align="center">Preparing protein data sets </H1>
+<h2>Protein specific features</h2>
+<p>Constructing data-sets for polypeptides, proteins and protein-like molecules 
+is difficult.&nbsp; Most of the sources of protein structures, such as the
+<a href="http://www.pdb.org/pdb/home/home.do", target="_parent">Protein Data Bank</a>, do not include 
+hydrogen atoms, or, if they are present, there are errors in where they are put.&nbsp; 
+These errors usually result in sites being ionized when they should be neutral, 
+and <i>vice versa</i>.&nbsp; If hydrogen atoms are not present, add them using 
+any of the readily available utilities.</p>
+<p>Before a meaningful calculation on a protein can be done, some checks need to be run to 
+ensure that the system is chemically sensible.&nbsp; These checks are:</p>
+<ul>
+  <li>Ensure that the ionized sites, if any, are correct.</li>
+  <li>Ensure that the total ionization is in the range -3 to +3.</li>
+  <li>Ensure that the system is not a radical (unless it should be a radical)</li>
+</ul>
+<p>The sequence for running these checks is as follows:</p>
+<ol>
+  <li>Add keyword <a href="mozyme.html"><TT>MOZYME</TT></a> and 
+  <a href="charge.html"><TT>CHARGE=500</TT></a>, and run the data set.&nbsp; It will run 
+  for a very short time, then quit.&nbsp; Look at the end of the output file. It 
+  will say that the charge is incorrect, obviously, but more important, it will 
+  also say which sites are charged.&nbsp; Using a GUI, look at each of these 
+  sites in turn, and check that they should or should not be charged.&nbsp; Make 
+  whatever changes are necessary. </li>
+  <li>Make sure that the net charge is in the range -3 to +3.&nbsp; Edit the 
+  keyword CHARGE=n to use the correct net charge.</li>
+  <li>If the system is a protein, a useful next step is to re-sequence the atoms 
+  to put them into the standard PDB format.&nbsp; To do this, run the data set 
+  with keyword <a href="reseq.html"><TT>RESEQ</TT></a>.&nbsp; This will also identify all the 20 common amino acid 
+  residues.&nbsp; If any residues are not correct, edit the data set to correct 
+  them.&nbsp; If you are using an unusual residue, its formula can be added 
+  using keyword <a href="xeno.html"><TT>XENO</TT></a>.</li>
+  <li>Before optimizing everything, first optimize the positions of all hydrogen 
+  atoms.&nbsp; To do this, set all optimization flags to zero, and do an 
+  optimization using <a href="opth.html"><TT>OPT-H</TT>.</a></li>
+  <li>To optimize the entire geometry, use Cartesian coordinates.&nbsp; The 
+  MOZYME technique is very efficient for geometry optimization.&nbsp; Once the 
+  geometry has been optimized, a single-point calculation can be done using 
+  conventional methods, if desired.&nbsp; This can be used to verify that MOZYME 
+  gave the correct heat of formation.</li>
+</ol>
+</BODY>
+</HTML>

@@ -1,0 +1,136 @@
+<HTML>
+<HEAD>
+<TITLE>PM6-DH2 </TITLE>
+</HEAD>
+<body bgcolor=white>
+<h1 align="center">
+<TT>PM6-DH2[(n,m,k:l)]</TT>
+</h1>
+<p class="MsoBodyText"><span lang="CS" style="font-size: 14.0pt">Use the PM6-DH2 
+procedure of: M. Korth, M. Pitonák, J. Rezác, and P. Hobza, &quot;<i>A Transferable 
+H-bonding Correction For Semiempirical Quantum-Chemical Methods</i>&quot;, &nbsp;J. Chem. 
+Theory Comp. <b>2010, </b><i>6, </i>344–352 and J. Rezác, J. Fanfrlik, D. 
+Salahub and P. Hobza, &quot; <i>Semiempirical Quantum Chemical PM6 Method Augmented 
+by Dispersion and H-Bonding Correction Terms Reliably Describes Various Types of 
+Noncovalent Complexes &quot; </i>J. Chem. Theory Comp. <b>2009</b>, 5, 1749-1760. 
+See:&nbsp;</span><font size="4" face="Times New Roman">
+<a href="pm6_dh2_abstract.html">Abstract</a>.</font></p>
+<p class="MsoBodyText"><font face="Times New Roman" size="4">The PM6-DH2 method 
+was parameterized to reproduce interaction energies for geometries obtained from 
+high-level quantum mechanical calculations, see <a href="PM6_dh2_accuracy.html">
+accuracy</a>. While it is possible to use it for 
+geometry optimization, please be aware of the following limitation and that the 
+method should be used with extra care. Users are recommended to optimize the 
+geometry with the PM6 or PM6-D methods and calculate the final energy or interaction 
+energy using PM6-DH2.</font></p>
+<p class="MsoBodyText"><font face="Times New Roman" size="4"><b>
+<font color="#FF0000">KNOWN LIMITATION OF PM6-DH2:</font> </b><i>&nbsp; The 
+gradients obtained by the current implementation of the -H correction do not 
+include the term containing the derivative of atomic charges with change of the 
+coordinates. The structure obtained by minimization using this gradient is not 
+the exact minimum of PM6-DH2 energy. This error is negligible in the case of 
+weaker H-bonds, but in case of a strongly bound formic acid dimer, the error is 
+0.30 kcal/mol. This error can be avoided by using </i>
+<a href="noanci.html"><TT>NOANCI</TT></a>,<i> but then the calculations will then 
+take much longer. </i></font></p>
+<p ALIGN="LEFT"><font face="Times New Roman" size="4">The PM6-DH2 procedure corrects 
+binding errors in the PM6 method.&nbsp; It can be used with geometry 
+optimization or with a single point (</font><font face="Helvetica" size="4"><a href="one_scf.html"><TT><font face="Times New Roman">1SCF</font></TT></a></font><font face="Times New Roman" size="4">) 
+calculation.&nbsp; Normally, two or three calculations would be needed to get 
+the binding energy.&nbsp; </font></p>
+<h4 ALIGN="LEFT"><font face="Times New Roman" size="4">Proposed strategy for 
+calculating binding energy</font></h4>
+<p ALIGN="LEFT">(<font size="4">A) Optimize the geometry of the two species (call these R<sub>1</sub> 
+and R<sub>2</sub>) separately using PM6, i.e., not using PM6-DH2. <br>
+(B) Optimize the geometry of the adduct R<sub>1</sub> non-covalently bound to R<sub>2</sub>, 
+using PM6.<br>
+(C) Calculate the heats of formation (<font face="Symbol">D</font>H<sub>f</sub>) 
+of each of the three systems, R<sub>1</sub>, R<sub>2, </sub>
+and R<sub>1</sub> - R<sub>2</sub>,&nbsp; using 1SCF and PM6-DH2.</font></p>
+<p ALIGN="LEFT"><font size="4">The binding or intermolecular interaction energy is then given 
+by <font face="Symbol">D</font>H<sub>f</sub>(R<sub>1</sub> - R<sub>2</sub>) -
+<font face="Symbol">D</font>H<sub>f</sub>(R<sub>1</sub>) -&nbsp;<font face="Symbol">D</font>H<sub>f</sub>(R<sub>2</sub>)&nbsp; 
+Ignore the quantities: &quot;DH Dispersion 
+contribution&quot; and &quot;DH H-bond contribution,&quot;&nbsp; these are only of use if 
+you want to know the component contributions.</p>
+</font></span>
+<p ALIGN="LEFT"><font size="4">The rational for this strategy is as follows:&nbsp; Geometry 
+optimization using PM6-DH2 has small errors.&nbsp; These errors cannot easily be 
+corrected (they can be corrected by using <TT>NOANCI</TT>, 
+but the jobs would then take a long time), however by using PM6 a 
+well-defined stationary point can be easily obtained.&nbsp; By optimizing the 
+various structures separately, the energy penalty that would result from the 
+geometry change when the species form the noncovalent complex is avoided.&nbsp; 
+The binding energy is thus the energy released when the two species form the 
+complex in the gas phase; it is not the energy of interaction of R<sub>1</sub> 
+with R<sub>2</sub>.</font></p>
+<h3 ALIGN="LEFT"><font size="4">Notes</font></h3>
+<p ALIGN="LEFT"><font size="4">Frozen geometries were used during the 
+development of PM6-DH2.&nbsp; By contrast, in the proposed strategy, fully 
+optimized geometries are used.&nbsp; No inconsistency is involved - by sketching 
+a simple Born cycle, it becomes apparent that any errors arising from optimizing 
+the PM6-DH2 parameters using frozen geometries and using those same parameters 
+when calculating the binding energy using the above strategy would be very 
+small; they would contribute only second order perturbation effects, and would 
+be completely negligible.&nbsp; </font></p>
+<p ALIGN="LEFT"><font face="Times New Roman" size="4">Without the optional 
+arguments, PM6-DH2 will apply to all atoms.&nbsp; With optional arguments, PM6-DH2 
+will apply only to the interaction of one part of the system with a second part.&nbsp; 
+The optional argument defines atoms used in one of the parts.&nbsp; Atom numbers 
+are specified by numbers separated by commas, and ranges of the type 645-670 or 
+645:670.&nbsp; To specify atoms 600, 610, 611, 612, and 630 the keyword would be 
+PM6-DH2(600,610:612,630) or PM6-DH2(600,630,610-612)</font></p>
+<p ALIGN="LEFT"><font face="Times New Roman" size="4">If only the dispersion 
+contribution is wanted, replace PM6-DH2 with PM6-D2.&nbsp; If only the 
+hydrogen-bonding term is wanted, replace PM6-DH2 with PM6-H2.</font></p>
+<p ALIGN="LEFT"><font face="Times New Roman" size="4">Consider the dimer of 
+formic acid: 
+The binding energy  would be the </font>
+<font face="Symbol" size="4">D</font><font face="Times New Roman" size="4">H<sub>f</sub> 
+of the formic acid dimer minus  the </font><font face="Symbol" size="4">D</font><font face="Times New Roman" size="4">H<sub>f</sub> 
+of two well-separated formic acid molecules.&nbsp; Here, two calculations are needed.&nbsp; 
+For this work, the accurate geometries from the <a href="http://www.begdb.com/">S22 database</a> are used.</font><p ALIGN="LEFT">
+<font face="Times New Roman" size="4">First calculation:</font><PRE>PM6-DH2(1:5) 1scf
+
+
+  C   -1.888896000 1  -0.179692000 1   0.000000000 1
+  O   -1.493280000 1   1.073689000 1   0.000000000 1
+  O   -1.170435000 1  -1.166590000 1   0.000000000 1
+  H   -2.979488000 1  -0.258829000 1   0.000000000 1
+  H   -0.498833000 1   1.107195000 1   0.000000000 1
+  C    1.888896000 1   0.179692000 1   0.000000000 1
+  O    1.493280000 1  -1.073689000 1   0.000000000 1
+  O    1.170435000 1   1.166590000 1   0.000000000 1
+  H    2.979488000 1   0.258829000 1   0.000000000 1
+  H    0.498833000 1  -1.107195000 1   0.000000000 1
+
+</PRE>
+<p ALIGN="LEFT"><font face="Times New Roman" size="4">Second calculation:</font></p><PRE> PM6-DH2(1:5) 1scf
+
+
+  C   -1.888896000 1  -0.179692000 1  99.000000000 1
+  O   -1.493280000 1   1.073689000 1  99.000000000 1
+  O   -1.170435000 1  -1.166590000 1  99.000000000 1
+  H   -2.979488000 1  -0.258829000 1  99.000000000 1
+  H   -0.498833000 1   1.107195000 1  99.000000000 1
+  C    1.888896000 1   0.179692000 1   0.000000000 1
+  O    1.493280000 1  -1.073689000 1   0.000000000 1
+  O    1.170435000 1   1.166590000 1   0.000000000 1
+  H    2.979488000 1   0.258829000 1   0.000000000 1
+  H    0.498833000 1  -1.107195000 1   0.000000000 1
+
+</PRE>
+<p ALIGN="LEFT"><font face="Times New Roman" size="4">Consider a substrate 
+docked in an enzyme.&nbsp; The binding energy would be the </font>
+<font face="Symbol" size="4">D</font><font face="Times New Roman" size="4">H<sub>f</sub> 
+of the docked assembly minus the </font><font face="Symbol" size="4">D</font><font face="Times New Roman" size="4">H<sub>f</sub> 
+of the isolated substrate minus the </font><font face="Symbol" size="4">D</font><font face="Times New Roman" size="4">H<sub>f</sub> 
+of the isolated enzyme.&nbsp; As <i>in vivo </i>enzymes exist in aqueous media, 
+solvation will be necessary.</font></p>
+<p ALIGN="LEFT"><font face="Times New Roman" size="4"><br>
+&nbsp;</font></p>
+<p ALIGN="LEFT">&nbsp;</p>
+<p ALIGN="LEFT">&nbsp;</p>
+<p ALIGN="LEFT">&nbsp;</p>
+</BODY>
+</HTML>

@@ -1,0 +1,70 @@
+<HTML>
+<HEAD>
+<TITLE>GEO_REF=<i>text </i></TITLE>
+                                                                                                                    </HEAD>
+<BODY LINK="#0000ff" VLINK="#800080" BGCOLOR="#ffffff">
+<h1 align="center">
+<TT>GEO_REF=&quot;<i>text</i>&quot;</TT> </h1>
+<p><TT>GEO_REF</TT> has two uses - to improve X-ray geometries and to help locate a 
+transition state.</p>
+<h3>Improving X-ray geometries</h3>
+<p>The accuracy of native structures, X-ray and NMR, can be increased by 
+performing a limited geometry optimization, starting with the conditioned native 
+structure.</p>
+<p>The optimized geometry is a hybrid of the PM6 geometry, assuming that PM6 is 
+used, and the native geometry.&nbsp; The hybrid heat of formation, <i>H</i>', is 
+given as:</p>
+<p align="center">H' = <font face="Symbol">D</font>H<sub>f</sub>(PM6) + <i>c</i><font face="Symbol">S</font>(X<sub>i</sub> 
+- X<sub>i</sub>(0))<sup>2</sup></p>
+<p align="left">That is, at each geometry, a restraining potential is added to 
+the PM6 heat of formation. The proportionality constant &quot;<i>c</i>&quot; is 3 
+kcal/mol/<font SIZE="2">Å<sup>2</sup></font>.</p>
+<p>The effect of the restraining potential is to reduce PM6 errors in the 
+secondary, tertiary, and quaternary structures.&nbsp; It has very little effect 
+on the primary structure, e.g., bond lengths and angles.&nbsp;  </p>
+<p>The effect of the restraining potential can be illustrated using crambin, 
+1CBN.&nbsp; The difference in heat of formation of crambin, after 
+preconditioning (optimizing the positions of the hydrogen atoms), and after 
+complete geometry optimization, is ~360 kcal mol<sup>-1</sup>. The RMS change in 
+geometry is about 0.7 <font face="Times New Roman">Ångstroms.&nbsp; If the 
+geometry is optimized using GEO_REF, then the heat of formation drops by </font>
+~310 kcal mol<sup>-1</sup>, and the RMS geometry change is ~0.1<font face="Times New Roman"> 
+Ångstroms.&nbsp; That is, by allowing the X-ray geometry to change by 0.1 
+Ångstroms, about 86% of the strain energy in the X-ray structure is removed.&nbsp; 
+Put another way, the resulting geometry is seven times more accurate, in terms of 
+chemistry, than the X-ray structure. </font></p>
+
+<p><font face="Times New Roman">&quot;text&quot; is the complete path to the reference 
+X-ray geometry.&nbsp; A Windows example would be <TT>GEO_REF=&quot;M:\data_sets\CRAMBIN_1CBN_X-ray.mop</TT>&quot;, 
+a Linux, Unix, and Mac example would be <TT>GEO_REF=&quot;/Users/jstewart/data_sets/CRAMBIN_1CBN_X-ray.mop</TT>&quot;&nbsp; 
+To change the proportionality constant from 3, put the new value after the 
+reference data set, e.g., if a value of 10 is wanted, use: <TT>GEO_REF=&quot;M:\data_sets\CRAMBIN_1CBN_X-ray.mop&quot;10 </TT>or <TT>GEO_REF=&quot;/Users/jstewart/data_sets/CRAMBIN_1CBN_X-ray.mop&quot;10</TT></font></p>
+
+<h3>Locating transition states</h3>
+
+<p><TT>GEO_REF</TT> can also be used for moving a reactant or product geometry in the 
+direction of the transition state.&nbsp; Consider two data sets, reactant.mop 
+and product.mop in folder M:\, in which the heat of formation of the optimized 
+product geometry is lower than that of the optimized reactant geometry.&nbsp; 
+The product geometry geometry can be moved in the direction of the transition 
+state by using keyword <TT>GEO_REF=&quot;M:\reactant.mop&quot;</TT>&nbsp; 
+The .arc file can then be edited to give a new data set, product_on_slope.mop.&nbsp; 
+The reactant geometry can then be moved in the direction of this new geometry by 
+using keyword <TT>GEO_REF=&quot;M:\product_on_slope.mop&quot;</TT>&nbsp; 
+Again, edit the .arc file to give reactant_on_slope.mop.&nbsp; Why was the 
+product moved first?&nbsp; Because by moving it towards the reactant geometry, 
+its heat of formation would rise in proportion to the distance to the reactant 
+geometry. When the reactant geometry is moved towards the product geometry on 
+the slope, the distance from the starting reactant geometry to the product 
+geometry on the slope is less, so the rise in energy would be less.</p>
+
+<p>If keyword TS is present in a GEO_REF calculation, the optimization is not 
+run.&nbsp; Instead, the two geometries are averaged, and the result written to a 
+new file &lt;file&gt;.new.</p>
+
+<p>For the current exercise, a good approximation to the transition state can 
+then be generated from the data set reactant_on_slope.mop by using keywords TS 
+and <TT>GEO_REF=&quot;M:\product_on_slope.mop&quot;</TT></p>
+
+</BODY>
+</HTML>

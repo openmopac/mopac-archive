@@ -1,0 +1,23 @@
+<HTML>
+<HEAD>
+<TITLE>MINI </TITLE>
+</HEAD>
+<body bgcolor=white>
+<h1 align="center">
+<TT>MINI</TT>
+</h1>
+When very large molecules such as enzymes are modeled, the output can become 
+very large.&nbsp; To reduce this, use <TT>MINI</TT>.&nbsp; When <TT>MINI</TT> is present, 
+only atoms whose coordinates are flagged with a &quot;1&quot; will be printed.&nbsp; 
+Because the flag &quot;1&quot; is used in deciding which atoms to print, the old 
+optimization flag &quot;1&quot; should be replaced by a &quot;2&quot;.&nbsp; For example, if a 
+transition state optimization calculation is run, then the atoms involved would 
+be flagged with optimization symbol &quot;2&quot;, and all the nearby atoms flagged with a 
+&quot;1&quot;.&nbsp; More distant atoms would be flagged with &quot;0&quot;.<p>When this system is 
+run, only atoms flagged with &quot;1&quot; or &quot;2&quot; will be printed, and only atoms flagged 
+with a &quot;2&quot; will be moved during the transition state optimization.</p>
+<p> <TT>MINI</TT> is useful in following reaction paths, <a href="irc.html"><TT>IRC</TT></a>, 
+and <a href="DRC.html"><TT>DRC</TT></a> trajectories.</p>
+<p>This is a new keyword.&nbsp; Please send a note of any anomalous behavior.</p>
+</BODY>
+</HTML>
