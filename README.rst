@@ -10,11 +10,11 @@ The first set of major releases were open-source software distributed through th
 Chemistry Program Exchange (QCPE) as QCPE program #455 for MOPAC through MOPAC6 and #688 for MOPAC7:
 
 1. MOPAC (1983)
-2. MOPAC3 (1985)
-3. MOPAC4 (1987)
-4. MOPAC5 (1989)
-5. MOPAC6 (1990)
-6. MOPAC7 (1993)
+2. MOPAC 3 (1985)
+3. MOPAC 4 (1987)
+4. MOPAC 5 (1989)
+5. MOPAC 6 (1990)
+6. MOPAC 7 (1993)
 
 The early work on MOPAC began when Dr. Stewart moved to UT Austin in 1980 to work as a visiting scholar in the
 group of Michael Dewar, and it continued when he moved to the Frank J. Seiler Research Laboratory at the Air
@@ -22,8 +22,8 @@ Force Academy in Colorado Springs from 1984 to 1991. In 1991, Dr. Stewart starte
 Computational Chemistry, and began consulting for Fujitsu, and new versions of MOPAC after MOPAC7 were released
 as commercial software distributed by Fujitsu:
 
-7. MOPAC93 (1993)
-8. MOPAC97 (1997)
+7. MOPAC 93 (1993)
+8. MOPAC 97 (1997)
 9. MOPAC 2000 (2000)
 10. MOPAC 2002 (2002)
 
@@ -40,8 +40,8 @@ into a more modern open-source version (7.1) before continuing its commercial de
 
 In addition to these versions of MOPAC, other groups forked their own versions of MOPAC to continue
 its development in other directions. Fujitsu released one more MOPAC version (MOPAC 2006) after Dr. Stewart left
-and continues to sell commercial versions of MOPAC as a component of SCIGRESS
-[https://www.fqs.pl/en/chemistry/products/scigress]. When Dr. Stewart left the Dewar group, the rest of the Dewar
+and continues to sell commercial versions of MOPAC as the MO-G simulation engine of SCIGRESS
+[https://www.fqs.pl/en/chemistry/products/scigress] with the proprietary PM5 model. When Dr. Stewart left the Dewar group, the rest of the Dewar
 group continued to develop their own version of MOPAC called AMPAC, later commercially distributed by SemiChem
 [http://www.semichem.com]. Two notable forks of AMPAC exist: vector computer support was added by Timothy
 Clark's group in the mid-1980's and released commercially as VAMP (Vectorized AMPAC), and implicit solvent
